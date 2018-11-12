@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, Shubhangi Goyal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Innovative Blogs</title>
+	<link rel="stylesheet" href="src/css/TypeB.css">
+	<link rel="stylesheet" href="src/css/blog.css">
+	<link rel="stylesheet" href="src/css/slideshow.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="src/img/csi.png">
+	<style>
+		.headerMenu	a {
+			color: rgb(225,80,80);
+		}
+	</style>
+	<script src="src/js/smoothScroll.js"></script>
+</head>
+
+<body>
+<div class="headerr">
+	<div class="headerLeftCol">
+		<a href="#top"><img src="src/img/csi.jpg" style="max-width:100px; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="About.html"><i class="fas fa-users"></i> About</a>
+			<a><i class="fas fa-bold"></i> Blog</a>
+			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="NGOs.html"><i class="far fa-handshake"></i> Our Partners</a>
+		</div>
+	</div>
+</div>
+
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #e15050"></div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+				document.getElementById("logo").style.maxWidth = "50px";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "100px";
+				document.getElementById("c").style.display = "block";
+			}
+			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+				document.getElementById("blogleft").style.top = "50px";
+				document.getElementById("pages").style.marginTop = "50px";
+			}
+			else	{
+				document.getElementById("blogleft").style.top = "100px";
+				document.getElementById("pages").style.marginTop = "10px";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(225,80,80,0.95);">
+	<div onclick="closeNav()" class="smallScreenHeader" style="background-color: #e15050"><span style="float:right">&#9932; BLOGS</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+	<div id="blogSmall">
+		<a style="margin-left:-10px;text-decoration:underline;font-size:120%;margin-bottom:-5px">BLOGS</a>
+		<a href="#water" onclick="closeNav()">Ulta Chhata</a>
+		<a href="#organicManure" onclick="closeNav()">Organic Manure</a>
+		<a href="#Rainergy" onclick="closeNav()">RAINERGY</a>
+		<a href="Blog-2.html#innovation">Smallest Satellite</a>
+		<a href="Blog-2.html#environment">Edible Bags</a>
+		<a href="Blog-2.html#DESKIT">DESKIT</a>
+	</div>
+	<div style="bottom:25px;left:20px;width:50%;position:absolute;color:white;font-size:25px">
+		<a href="index.html"><i class="fas fa-home"></i><span style="font-size:50%"> HOME</span></a>
+	</div>
+	<div style="bottom:25px;right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+
+<div onclick="openNav()" class="smallScreenHeader" style="background-color: #e15050"><span style="float:right">&#9776; BLOGS</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div id="blogleft">
+	<ul id="topics">
+		<li class="cur"><a href="#water">ULTA CHHATA</a></li>
+		<li class="cur"><a href="#organicManure">ORGANIC MANURE</a></li>
+		<li class="cur"><a href="#Rainergy">RAINERGY</a></li>
+	</ul>
+	<ul id="pages">
+		<a href="#"><li id="selected">1</li></a><a href="Blog-2.html"><li>2</li></a>
+	</ul>
+</div>
+
+<div id="onSmal"><ul id="onSmalPages"><a href="Blog-2.html"><li>2</li></a><a href="#"><li id="sel">1</li></a></ul></div>
+
+<div id="blogright">
+	<div id="grid">
+		<div class="card" id="water">
+			<h2>ULTA CHHATA HARVESTER</h2>
+			<h5>Water Harvesting, June 28, 2017</h5>
+			<img src="src/img/innovations/ultaChhata.png" id="smal" style="float:left;">
+			<p>ThinkPhi’s flagship product called Ulta Chaata converts rain water into potable drinking water during monsoons, and produces energy with the help of solar panels in the dry seasons.
+			<br>
+			One unit of Ulta Chaata can collect 8-10 lakh quintal of water annually and capture energy with maximum peak power of 1.5 Kw. It is currently being used at over 50 locations across the country.
+			<br>
+			Ulta Chaata, Hindi for inverted umbrella, is a device that looks exactly like it is named. During monsoons, Ulta Chaata’s concave canopy captures rain water, which then trickles down to reach a filter. The water is filtered using active carbon filtration – a method that uses a bed of activated carbon to remove impurities. The filter reduces the turbidity of water flowing through it, thereby making it potable.</p>
+			<h4>“According to WHO, water below 5 Nephelometric Turbidity Unit (NTU) is potable water,” says Samit.</h4>
+			<p>A cluster of 15 Chaatas are connected to a Phi box with another fine filtration layer to remove bacteria, after which the water becomes usable.
+			</p>
+			The Chaatas cost between Rs. 4.5 and 5 lakh and are warrantied for 10 years. But according to ThinkPhi, the amount of water and energy generated helps users get their returns in about a year.</p>
+			<h4>“For people to believe in such a system we didn’t want to come up with another purification device that sits in your backyard and no one sees it. We wanted to make it look good to instil a sense of curiosity among people. That’s why aesthetics was an important part for us and Ulta Chaata looks like a well-designed piece,” says Samit</h4>
+			<p>The Phi box has sensors for the Chaata clusters to interact with the company and the users. The first one is to detect whenever the filter is about to clog due to dust and dirt and needs cleaning. It sends a message to ThinkPhi informing which device needs servicing.
+			<br>
+			The second sensor is meant to calculate the amount of energy and water collected. This further helps bring about behavioural change among people by showing them inspiring numbers. The other sensors measure water purity and also inform the company in case the lights on any of the Chaatas are out. Additionally, users can interact with ThinkPhi about using an app on their phones to register complaints, ask questions in case of any problems, etc.
+			<br>
+			Ulta Chaata is being used on campuses of large organizations in Bombay and Pune. The company is gearing up to set up devices in Gujarat and Bangalore too.</p>
+		</div>
+
+		<div class="card" id="organicManure">
+			<h2>TEMPLE FLOWERS INTO ORGANIC MANURE</h2>
+			<h5>Environment, Nov 27, 2017</h5>
+			<img src="src/img/innovations/organicManure.png" id="smal" style="float:right">
+			<p>Yash Bhatt and Arjun Thakkar, from the city-based Silver Oak Engineering College, have developed a machine that can process flowers and leaves into organic manure in 15 days.</p>
+			<p>The duo has kickstarted a pilot project, in association with the Ahmedabad Municipal Corporation, to collect over 300 kg of organic waste from temples and churn it into 100 kg of manure every day. Yash Bhatt revealed how a lecture they attended at the Gujarat Technological University (GTU) Innovation Council helped them think innovatively</p>
+			<p>It was during the discussions there that they realized that disposal of flowers, leaves and coconut offerings was a major problem because of religious sentiments attached to them.</p>
+			<h4>“We used several compressing machines available but later developed our own machine,” he said.</h4>
+			<p>The project was funded by the GTU innovation council with a grant of Rs 95,000.</p>
+			<p>He added how they sent a proposal to the Ahmedabad Municipal Corporation for carrying out the project and were happy to find support from the authorities including the mayor, Bijal Patel.</p>
+			<p>They are now running a pilot in the following wards – Bodakdev, Thatlej, Ghatlodia, Naranpura and Navrangpura. They have partnered with 22 temples and have provided them with individual bins to collect the flowers, coconuts and leaves.</p>
+			<p>The duo has started selling the fertilizer at Rs 60 per kg. They are also considering involving Sakhi mandals for the sale of the products.</p>
+			<p>Once the project extends to the entire city, they plan to make incense sticks and rose water, and turn coconuts into cocopits, and sell them under a registered brand name.</p>
+			<h4>Who would’ve thought that a simple innovation could help new fruits and flowers bloom through waste flowers?</h4>
+		</div>
+
+		<div class="card" id="Rainergy">
+			<h2>ELECTRICITY FROM RAIN</h2>
+			<h5>Innovation, Jan 11, 2017</h5>
+			<img src="src/img/innovations/Rainergy.png" style="width:25%;float:left;">
+			<p>The idea for Rainergy (as Jamalova has named her device) came to the 9th grade student after her father wondered aloud, “If you can make energy from wind, why not from rain?” Prodded into thinking about the answer to this question, she paired up with her friend, Zahra Gasimzade, to build a device that could harvest energy from rainwater.</p>
+			<p>The duo were assisted by their physics tutors during their four months of designing and calculations, with the government of Azerbaijan providing the seed money.</p>
+			<p>Simply put, Rainergy is a 9-meter-high device with four main parts: a rainwater collector, a water tank, an electric generator and a battery. Once the tank fills up with the help of the collector, the rainwater is allowed to flow through the generator at high speed. The electricity generated by this process is stored in the battery and can be used for household purposes.</p>
+			<p>Unsurprisingly, Jamalova’s innovation has attracted interest from countries that receive heavy rainfall and have several underprivileged communities that lack access to electricity, such as Philippines, India, Malaysia and Indonesia.</p>
+			<h4>In India especially, it garnered much appreciation when it was first presented at the Global Summit of Entrepreneurship in November 2017. In fact, Jamalova also received a special mention in Ivanka Trump’s speech on the occasion.</h4>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color:#e15050;">
+	<div class="footerMenu animate">
+		<h4 style="font-weight:bold"><i class="fas fa-link" style="color:#e15050"></i> Quick Links</h4>
+		<a href="index.html"><h4>HOME</h4></a>
+		<a href="About.html"><h4>ABOUT</h4></a>
+		<a><h4>BLOG</h4></a>
+		<a href="Gallery.html"><h4>GALLERY</h4></a>
+		<a href="NGOs.html"><h4>OUR PARTNERS</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h4 style="font-weight:bold">Centre for Social Innovation</h4>
+		<h4><i class="fas fa-home" style="color:#e15050"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt" style="color:#e15050"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope" style="color:#e15050"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link" style="color:#e15050"></i>Sociovation</a></h4>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, SHUBHANGI GOYAL">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Get Involved</title>
+	<link rel="stylesheet" href="src/css/getInvolved.css">
+	<link rel="stylesheet" href="src/css/TypeB.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Handlee">
+	<link rel="icon" href="src/img/csi.png">
+	<style>
+		.headerMenu	i {
+			font-size: 125%;
+		}
+		.headerMenu	a {
+			width: 16.6%;
+			color:#2883b8;
+			padding: 1.2vw 0;
+		}
+	</style>
+</head>
+
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color:#2883b8"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="About.html"><i class="fas fa-users"></i> About</a>
+			<a href="Blog.html"><i class="fas fa-bold"></i> Blog</a>
+			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="NGOs.html"><i class="far fa-handshake"></i> Our Partners</a>
+			<a class="activeLink"><i class="fas fa-hands-helping"></i> Get Involved</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(40,131,184,0.9)">
+<div class="smallScreenHeader" style="background-color:#2883b8"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="About.html"><i class="fas fa-users"></i> About</a>
+			<ul style="margin-left:-5vw;margin-top:-2vw;list-style-type:none;font-size:90%">
+				<li><a href="About.html#na">Our field of work</a>
+					<ul>
+						<li><a href="About.html#na">Child Education</a></li>
+						<li><a href="About.html#na">Women Empowerment</a></li>
+						<li><a href="About.html#na">Sanitation</a></li>
+					</ul>
+				</li>
+				<li><a href="About.html#mission">Vision and Mission</a></li>
+				<li><a href="About.html#we">Who are we ?</a>
+					<ul>
+						<li><a href="team.html">Meet Our Team</a></li>
+						<li><a href="index.html#Contac">Pay us a visit</a></li>
+					</ul>
+				</li>
+			</ul>
+		<a href="Blog.html"><i class="fas fa-bold"></i> Blog</a>
+		<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="NGOs.html"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="#" onclick="closeNav()"><i class="fas fa-hands-helping"></i> Get Involved</a>
+	</div>
+	<div style="bottom:25px;right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color:#2883b8"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('src/img/bg/bg11.jpg')"id="top"><p>Get Involved</p></div>
+<div class="row animate">
+	<div class="leftcolum">
+		<div class="card">
+			<h3>Please fill out this form. Your request shall be responded as soon as possible.</h3>
+			<div class="formcontainer">
+				<form target="_blank" method ="post" action="src/php/Requests.php"  onSubmit="return checkForm(this)">
+					<div class="formrow">
+						<div class="formcol-25">
+							<label for="nameTag">Name <span style="color:red;font-weight:bold">*</span></label>
+						</div>
+						<div class="formcol-75">
+							<input type="name" id="nameTag" name="name" placeholder="Your name (compulsory)" maxlength="30" required>
+						</div>
+					</div>
+
+					<div class="formrow">
+						<div class="formcol-25">
+							<label for="emailTag">E-Mail <span style="color:red;font-weight:bold">*</span></label>
+						</div>
+						<div class="formcol-75">
+							<input type="email" id="emailTag" name="mail" placeholder="Your e-mail address (compulsory)" maxlength="50" required>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="formcol-25">
+							<label for="phoneTag">Phone <span style="color:red;font-weight:bold">*</span></label>
+						</div>
+						<div class="formcol-75">
+							<input id="phoneTag" type="tel" name="phone" placeholder="Your phone number (compulsory)" required>
+						</div>
+					</div>
+
+					<div class="formrow">
+						<div class="formcol-25">
+							<label for="messageTag">Message</label>
+						</div>
+						<div class="formcol-75">
+							<textarea id="messageTag" name="message" placeholder="Your message (optional)" style="height:200px" maxlength="500"></textarea>
+						</div>
+					</div>
+					<div class="formrow">
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+	function checkPhone(str) {
+		var re = /^[6-9][0-9]{9}$/;
+		return re.test(str);
+	}
+	function checkForm(form)	{
+		if(!checkPhone(form.phone.value)) {
+			alert("Error: Please enter the correct 10 digit phone number");
+			form.phone.focus();
+			return false;
+		}
+		return true;
+	}
+</script>
+
+	<div class="rightcolum">
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#009;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#900;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+		<div class="card">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<img src="src/img/FB_IMG_15130634986706148.jpg" style="width:100%">
+					<div class="text">Diwali</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="src/img/happy-children-876541_960_720.jpg" style="width:100%">
+					<div class="text">Class</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="src/img/IMG_20171212_132221.jpg" style="width:100%">
+					<div class="text">Books</div>
+				</div>
+			</div>
+			<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+					var i;
+					var slides = document.getElementsByClassName("mySlides");
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";  
+					}
+					slideIndex++;
+					if (slideIndex > slides.length) {slideIndex = 1}    
+					slides[slideIndex-1].style.display = "block";  
+					setTimeout(showSlides, 2000);
+				}
+			</script>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color:#2883b8">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="About.html#top"><h4>Profile and Working</h4></a>
+		<a href="About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="About.html#na"><h4>Fields of work</h4></a>
+		<a href="team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color:#2883b8"></i> Quick Links</h3>
+		<a href="index.html"><h4>HOME</h4></a>
+		<a href="About.html"><h4>ABOUT</h4></a>
+		<a href="Blog.html"><h4>BLOG</h4></a>
+		<a href="Gallery.html"><h4>GALLERY</h4></a>
+		<a href="NGOs.html"><h4>OUR PARTNERS</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color:#2883b8"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color:#2883b8"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color:#2883b8"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color:#2883b8"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+</body>
+</html>

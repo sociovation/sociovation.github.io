@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, SHUBHANGI GOYAL">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sociovation</title>
+	<link rel="stylesheet" href="src/css/Home.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="src/img/csi.png">
+	<script src="src/js/jquery.min.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
+	<script src="src/js/smoothScroll.js"></script>
+</head>
+
+
+<body>
+<div id="top" class="header">
+	<div class="headerRightCol">
+		<div class="headerMenu">
+		<img src="src/img/csi.jpg" style="max-width:7.6vw; float: left;padding-right: 2vw">
+			<a><i class="fas fa-home"></i> Home</a>
+			<a href="About.html"><i class="fas fa-users"></i> About Us</a>
+			<a href="Blog.html" target="_blank"><i class="fas fa-bold"></i> Blog</a>
+			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="NGOs.html"><i class="far fa-handshake"></i> Our Partners</a>
+		</div>
+	</div>
+</div>
+
+<div id="navbarr">
+	<div class="abc">
+	<a href="#top" class="z"><img id="im" src="src/img/csi.jpg" style="max-width:4vw"></a>
+	<a href="#soc" style="padding:1.4vw">The Project</a>
+	<a href="#Working" style="padding:1.4vw">Our Work</a>
+	<a href="#Team" style="padding:1.4vw">Our Team</a>
+	<a href="#Contac" style="padding:1.4vw">Contact Us</a>
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("navbarr").style.top = "5px";
+				document.getElementById("myBtn").style.display = "block";
+			}
+			else {
+				document.getElementById("navbarr").style.top = "-20vw";
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+	</script>
+	</div>
+</div>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #153060"></div>
+	</div>
+</div>
+
+<div id="myNav" class="overlaMenu">
+<div class="smallScreenHeader"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="#" style="font-size:125%; font-weight:bold;"><i class="fas fa-home"></i> Home</a>
+		<a href="About.html" style="font-size:125%; font-weight:bold;"><i class="fas fa-users"></i> About</a>
+			<ul style="margin-left:-5vw; margin-top:-2vw; list-style-type: none;">
+				<li><a href="About.html/#na">Our field of work</a>
+					<ul style="margin-left:-5vw; margin-top:-2vw; list-style-type: none;">
+						<li><a href="About.html/#na">Child Education</a></li>
+						<li><a href="About.html/#na">Women Empowerment</a></li>
+						<li><a href="About.html/#na">Sanitation</a></li>
+					</ul>
+				</li>
+				<li><a href="About.html#mission">Vision and Mission</a></li>
+				<li><a href="About.html#we">Who are we ?</a>
+					<ul style="margin-left:-5vw; margin-top:-2vw; list-style-type: none;">
+						<li><a href="team.html">Meet Our Team</a></li>
+						<li><a href="#Contac" onclick="closeNav()">Pay us a visit</a></li>
+					</ul>
+				</li>
+			</ul>
+		<a href="Blog.html" style="font-size:125%; font-weight:bold;"><i class="fas fa-bold"></i> Blog</a>
+		<a href="Gallery.html" style="font-size:125%; font-weight:bold;"><i class="far fa-images"></i> Gallery</a>
+		<a href="NGOs.html" style="font-size:125%; font-weight:bold;"><i class="far fa-handshake"></i> Our Partners</a>
+	</div>
+	<div style="bottom:25px;right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+
+<div id="slider">
+	<ul id="slideWrap">
+		<li>
+			<img src="src/img/Slide1.jpg" class="slider_img">
+			<div class="faisalsfix-centre animate a" style="animation-name:faisalsZoom2"><h1>Sociovation</h1></div>
+			<div class="faisalsfix-bottomright animate2 a"><p style="background-color:rgba(0,0,0,0.5);">A part of <strong>Centre for Social Innovation</strong></p></div>
+		</li>
+		<li>
+			<img src="src/img/Slide2.png" class="slider_img">
+			<div class="faisalsfix-bottomright animate2 a" style="animation-delay:6s"><p style="color:#333;background-color:rgba(255,255,255,0.5);">Working for the rights of women, making them strong and independent</p></div>
+		</li>
+		<li>
+			<img src="src/img/Slide3.png" class="slider_img">
+			<div class="faisalsfix-bottomright animate2 a" style="animation-delay:11s"><p style="color:#333;background-color:rgba(255,255,255,0.5);">A large enthusiastic and energetic team working towards the benefits of the needy</p></div>
+		</li>
+		<li>
+			<img src="src/img/Slide4.png" class="slider_img">
+			<div class="faisalsfix-bottomright animate2 a" style="animation-delay:16s"><p style="color:#333;background-color:rgba(255,255,255,0.5);">Learning from the learnt, experiencing from the experienced.</p></div>
+		</li>
+	</ul>
+</div>
+<script src="src/js/sliderJS.js"></script>
+
+<button id="myBtn" class="animate" onclick="topFunction()">TOP</button>
+<script type="text/javascript">
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="intro animate" id="soc">
+	<p id="headd">About Sociovation</p>
+	<hr class="underScore">
+	<p style="text-align:justify;"><strong>Sociovation</strong> is a youth based organization which is working on various problems faced by people in today’s world using creative and innovative ways. It works to help underprivileged children, challenges faced by women, children education and raft of other issues.</p>
+	<p>We work among various sectors along with many people, projects and organizations like LECIN, Sulabh International, Project WHY and many more.</p>
+	<p>We believe in creation, development, innovation, adoption and integration of new concepts and practices to bring changes in various fields.</p>
+	<button id="myBtn2" onclick="javascript:location.href='About.html#top'">Know more</button>
+</div>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div id="Working" class="homeHead animate" style="background-image:url('src/img/bg/bg2.png')">
+	<h1><span class="x">How We Work</span><span class="y">Our Work</span></h1>
+<div class="homeContent">
+	<p>We work to bring changes in the society through <strong> innovative methods</strong> and <strong>innovative minds.</strong> We want to provide a platform for those who have eagerness to learn new things. We try to make today’s generation more independent and responsible such that they can tackle the challenges of life.</p>
+</div>
+	<div class="horizontal homeContent" style="margin:0;background-color:#fff">
+		<a class="tablink" onclick="openPage('children', this)">Children</a>
+		<a class="tablink" onclick="openPage('women', this)" id="defaultOpen">Women</a>
+		<a class="tablink" onclick="openPage('environment', this)">Environment</a>
+
+		<div id="children" class="tabcontent">
+		  <h3>Child Education</h3>
+		<img src="src/img/children2.jpg" style="float: right;">
+		<div class="paddedText">
+		  <p><strong>“Every child is different and it’s the fundamental right of every child to get education”</strong>-believing on the same ideology, the centre for social innovation chooses <strong>“CHILD EDUCATION AND DEVELOPMENT”</strong> as one of the major area to work upon.  We are trying to create a platform for all the children who belong to underprivileged sections of society and have a desire to learn but are unable to get the resources needed to learn. We are trying to educate them and to bring a smile on their face.</p>
+		</div>
+		</div>
+
+		<div id="women" class="tabcontent">
+		  <h3>Women Empowerment</h3>
+		<img src="src/img/women2.jpg" style="float: left;">
+		  <p> The <strong>empowered woman</strong> is powerful beyond measures and beautiful beyond description. We have a mission to provide resource poor women with knowledge and skills so that they can excel as professionals and earn a <strong>“livelihood with dignity and respect”</strong>. We wish to open gates for them into jobs and markets that are presently closed for them.<br>We want to create a safe and respectful working environment for them.</p>
+		</div>
+
+		<div id="environment" class="tabcontent">
+		  <h3>Cleanliness and Environment</h3>
+		<img src="src/img/plant2.jpg" style="float: right;">
+		  <p>The centre for social innovation tries to put forth before society its views and style of working. We keep our homes clean and throw the garbage, spit betel, pee or even defecate whenever we get a chance. Workshops and visits are done to different places like Sulabh international museum of toilets and many others. <strong>Tree plantation</strong> drives are done by the centre in order to make our contribution towards keeping India clean and green.</p>
+		</div>
+
+		<script src="src/js/Tablinks.js"></script>
+	</div>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+<div id="Team" class="homeHead animate" style="background-image:url('src/img/bg/bg3.png')">
+	<h1>Our <span class="x">Wonderful</span> Team</h1>
+	<div class="homeContent">
+		<p>A team of creative and enthusiastic students united from different fields, working together to fulfill a common dream of a well formed society. Though the core-team has twelve members, we have more students from our college and even more people volunteering in our various programs.</p>
+		<img src="src/img/team/teamLand.png" alt="Team Picture" style="width: 100%" class="x">
+		<img src="src/img/team/teamPort.png" alt="Team Picture" style="width: 100%" class="y">
+		<a href="team.html"><span style="float:right;color:white;background-color:#aaa;padding: 0 1vw;margin: 1vw 1.5vw -2vw; cursor: pointer;">Know more about us</span></a>
+	</div>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+<div id="Contac" class="homeHead animate" style="background-image:url('src/img/bg/bg4.png')">
+	<h1>Contact Us</h1>
+	<div class="homeContent">
+		<div class="container2">
+			<div class="row2">
+				<div class="column2 card" style="margin-bottom: 50px; padding: 0">
+					<div class="map-responsive">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+					</div>
+				</div>
+				<div class="column2 contactt">
+					<p><strong><i class="fa fa-phone"></i> CALL OR <i class="fab fa-whatsapp"></i> WHATSAPP US</strong></p>
+					<p style="padding-left: 30px;">Shubhangi<span id="fullName"> Goyal</span><span style="float: right;"><a href="tel:9760620788" style="text-decoration: none;"> +91 976 062 0788</a></span><br>
+					Faisal<span id="fullName"> Akhtar</span><span style="float: right;"><a href="tel:7701864626" style="text-decoration: none;"> +91 956 015 4374</a></span><br>
+					Aashit<span id="fullName"> Kumar</span><span style="float: right;"><a href="tel:9717583595" style="text-decoration: none;"> +91 971 758 3595</a></span></p>
+
+					<p><i class="fa fa-location-arrow"></i> <strong>HERE WE ARE</strong></p>
+					<p style="padding-left: 30px"><a href="https://www.google.co.in/maps/place/Ramanujan+College/@28.5405647,77.2460904,15z/data=!4m5!3m4!1s0x0:0x469bcb8c1b03b6f6!8m2!3d28.5389436!4d77.2553601" target="_blank" style="text-decoration: none;">Centre for Social Innovation<br>Ramanujan College, Kalkaji<br>New Delhi</a></p>
+
+					<p><i class="fas fa-envelope"></i> <strong>SEND US A MAIL</strong></p>
+					<p style="padding-left: 30px;"><a href="mailto:sociovation@gmail.com" target="_blank" style="text-decoration: none;">sociovation@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-------------------------------------------------------------------------------------------------------------------->
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+</body>
+</html>

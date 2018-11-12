@@ -1,0 +1,144 @@
+.z	{
+	padding: 50px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px)	{
+	.z	{
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 768px)	{
+	.z	{
+		padding: 10px;
+	}
+	.onSmallerScreens	{
+		display: none;
+	}
+}
+
+ul#filterOptions{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table; 
+}
+
+ul#filterOptions li{
+	float:left;
+}
+
+ul#filterOptions li span{
+	display: block;
+	padding:0 10px;
+}
+
+ul#filterOptions li a{
+	padding:0;
+}
+
+ul#filterOptions li.cur a:hover{
+	color:#f00;
+}
+
+ul#filterOptions li a:hover{
+	text-decoration:none;  
+}
+
+#filterOptions	{
+	cursor: default;
+}
+
+.cur	{
+	cursor: pointer;
+}
+
+.box p,li	{
+	font-size: 125%;
+}
+
+@media screen and (max-width: 768px)	{
+	.box p,li	{
+		font-size: 100%;
+	}
+}
+.box img{
+	max-width:100%
+}
+
+.linear{
+	transition:all 200ms linear;   
+	-webkit-transition:all 200ms linear;   
+	-moz-transition:all 200ms linear;   
+	-ms-transition:all 200ms linear;   
+	-o-transition:all 200ms linear;   
+}
+
+.thumb-img	{
+	position:relative;  
+	overflow:hidden;
+	margin: 20px
+}
+
+.thumb-img img{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;  
+}
+
+.thumb-img:hover img, .link-attr:hover .thumb-img > img{
+	-webkit-transform: scale(1.05,1.1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1.05,1.1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;   
+}
+
+.thumb-img:hover img{
+	opacity:0.8;
+}
+
+.folio-caption{
+	position:absolute;
+	bottom:-60px;
+	left:0;
+	background:rgba(255,0,0,0.8);
+	width:100%;
+	max-height:50px;
+}
+
+.folio-caption p{
+	color:#fff;
+	padding:15px;
+	margin:0;
+	text-align:center;
+}
+
+.folio-caption i{
+	position:absolute;
+	top:-10px;
+	left:50%;
+	font-size:30px;
+	line-height:10px;
+	margin-left:-10px;
+	color:rgba(255,0,0,0.8);
+}
+
+i.scroll {
+	color: #fff;
+	position: absolute;
+	top:-15px;
+	left:50%;
+	margin-left:-30px;
+}
+
+i.scroll:hover {
+	color:#fff;
+}

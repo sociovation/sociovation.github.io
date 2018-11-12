@@ -1,0 +1,525 @@
+html	{
+	scroll-behavior: smooth;
+}
+body	{
+	margin:0;
+	background-color:rgba(250,250,250,0.8);
+	color:grey;
+	font-family:"Raleway";
+	text-align: justify;
+}
+
+*{box-sizing: border-box;}
+
+.headerr {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	background-color:white;
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+}
+/*Left Column*/
+.headerLeftCol a {
+	-ms-flex: 30%; /* IE10 */
+	flex: 30%;
+	padding: 1vw 5vw 0 0;
+}
+/*Right Column A and B*/
+.headerRightCol {
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	padding: 0 5vw 0 30vw;
+}
+
+.headerMenu	{
+	font-family:"Raleway",sans-serif;
+	position: relative;
+	width: 100%;
+	z-index:1;
+	display: block;
+	top: 4vw;
+}
+.headerMenu a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: small;
+	width:20%;
+	font-weight: bold;
+/*padding values :top, right, bottom, left*/
+	padding: 1.4vw 0;
+}
+.activeLink, .headerMenu a:hover	{
+	color: black;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.smallScreenHeader	{
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+	display: none;
+}
+
+.smallScreenHeader img	{
+	max-width: 7.5vw;
+	margin-bottom: -10px
+}
+
+.overlaMenu {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlaMenu-content a {
+	position: relative;
+	top: 1%;
+	width: 80%;
+	font-size: 125%;
+	text-align: left;
+	left: 30px;
+	font-family: "Handlee", sans-serif;
+}
+
+.overlaMenu-content li	{
+	list-style-type: none;
+	margin-left: -10px;
+}
+
+.overlaMenu-content li a	{
+	font-size: 100%;
+}
+
+.overlaMenu a {
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlaMenu a:hover, .overlaMenu a:focus {
+	color: #f1f1f1;
+}
+
+	@media screen and (max-height: 450px) {
+		.overlaMenu {
+			overflow-y: auto;
+		}
+		.overlaMenu a {
+			font-size: 20px
+		}
+		.smallScreenHeader	{
+			font-size: small;
+		}
+	}
+	@media screen and (max-width: 700px) {
+		.headerr {
+			display: none;
+		}
+		.smallScreenHeader	{
+			display: block;
+		}
+	}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 1;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	transition: 0.5s ease
+}
+
+#myBtn:hover {
+	background-color:white;
+	color:#154360
+}
+
+.headr {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.progress-containr {
+	width: 100%;
+	height: 5px;
+	background: #ccc;
+}
+
+.progress-br {
+	height: 5px;
+	background: #4caf50;
+	width: 0%;
+}
+
+#firstLetter	{
+	font-size: 125%;
+	padding-left: 50px;
+}
+
+	@media screen and (max-width: 700px) {
+		.header {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.headerRightCol {
+			padding: 0 2vw 0 10vw;
+		}
+		.headerMenu	{
+			top: 20px;
+		}
+	}
+/************************************************		HeaderText		**************************************************/
+.headerText	{
+	font-family: "Handlee";
+	font-size: 100px;
+	text-align:center;
+	color:white;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+/*padding values :top, right, bottom, left*/
+	padding: 1vw;
+	margin-top: 105px;
+	}
+	@media screen and (max-width: 700px) {
+		.headerText {
+			padding: 0;
+			margin-top: 5px;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.headerText	{
+			font-size: 80px;
+			padding: 10vw 5vw 5vw;
+			margin-top: 60px;
+		}
+	}
+	@media screen and (max-width: 1200px) {
+		.headerText	{
+			margin-top: 5px;
+		}
+	}
+
+.animate {
+	-webkit-animation: faisalsZoomButton 1s;
+	animation: faisalsZoomButton 1s
+}
+
+@-webkit-keyframes faisalsZoomButton {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes faisalsZoomButton {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}
+
+/************************************************		The Rest Page		**************************************************/
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.leftcolum {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolum {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.posts {
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0.4vw 0.8vw 0 rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.aboutContent	{
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 0 0.4vw 0.8vw 0 rgba(0, 0, 0, 0.2);
+	padding: 50px 250px 50px 150px;
+	font-size: 110%;
+	overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ourFields {
+	height: 0%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	left: 25%;
+	overflow-y: hidden;
+	transition: 0.5s;
+	background-color: rgb(15,105,43);
+}
+
+.ourFields-content {
+	position: relative;
+	top: 20%;
+	text-align: justify;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	padding: 50px;
+}
+
+.ourFields-content h3 {
+	text-align: center;
+}
+
+.ourFields a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.ourFields a:hover, .ourFields a:focus {
+	color: #f1f1f1;
+}
+
+.ourFields .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+.fieldNames	{
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(15,105,43);
+	border-radius: 200px;
+	padding: 50px 5px;
+	margin: 20px;
+	float: left;
+	width: 25%;
+}
+
+.fieldNames:hover	{
+	background-color: rgba(15,105,43,0.8);
+	font-size: 105%;
+	transition: 0.5s;
+}
+
+	@media screen and (max-height: 1200px) {
+		.ourFields-content 	{
+			top: 10%;
+			padding: 20px;
+		}
+	}
+
+	@media screen and (max-height: 700px) {
+		.ourFields {
+			width: 100%;
+			overflow-y: auto;
+		}
+		.ourFields a {
+			font-size: 20px
+		}
+		.ourFields-content {
+			height: 100%;
+		}
+		.ourFields .closebtn {
+			font-size: 40px;
+			top: 15px;
+			right: 35px;
+		}
+		.fieldNames	{
+			width: 75%
+		}
+	}
+
+.faisalsVideo {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.faisalsVideo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Footer */
+.footer {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.footerMap	{
+	-ms-flex: 30%;
+	flex: 30%;
+	padding: 0.5vw;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.map-responsive	{
+	overflow:hidden;
+	padding-bottom:50%;
+	position:relative;
+	height: 0;
+}
+.map-responsive iframe	{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.footerMenu	{
+	-ms-flex: 15%;
+	flex: 15%;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 15px;
+}
+
+.footerMenu a	{
+	text-decoration: none;
+	color: #999
+}
+
+.footerFB	{
+	-ms-flex: 30%;
+	flex: 30%;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #555;
+}
+
+.footerFB a	{
+	text-decoration: none;
+	color: #555;
+}
+
+.footerFB i	{
+	color: #070;
+	margin-right: 10px
+}
+
+#copyRight	{
+	font-size: small;
+	margin: 0;
+	color: grey;
+	font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+	.leftcolum, .rightcolum {
+		width: 100%;
+		padding: 0;
+	}
+	.aboutContent	{
+		padding: 50px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.leftcolumn, .rightcolumn {   
+		width: 100%;
+		padding: 0;
+	}
+	.aboutContent	{
+		padding: 20px;
+	}
+	.footer	{
+		display: block;
+	}
+	.footerMap	{
+		width: 100%;
+		padding:1vw;
+	}
+	.footerMenu	{
+		width: 100%;
+		margin: 15px 0;
+	}
+	.footerFB	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#copyRight	{
+		font-size: xx-small;
+	}
+}

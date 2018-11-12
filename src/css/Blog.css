@@ -1,0 +1,187 @@
+/* Right column */
+#blogright h2 {
+	text-align:left;
+}
+
+#blogright {
+	margin-top: 100px;
+	float: right;
+	width: 75%;
+	height: auto;
+	padding: 20px;
+}
+
+/* Left column */
+#blogleft {
+	color: #fff;
+	background: rgba(225,80,80,0.9);
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	padding: 50px;
+	top:100px;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+	#blogleft {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#blogleft {
+		font-size: 0;
+		color: transparent;
+		background-color: transparent;
+	}
+	#blogright {
+		width: 100%;
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#blogright {
+		padding: 20px 0;
+	}
+}
+
+#onSmal {
+	display: none;
+	transition: 0.5s;
+}
+
+#onSmal a	{
+	float: right;
+	color: #e15050;
+	text-decoration: none;
+}
+
+#onSmal ul li {
+	border-radius: 50%;
+	margin-right: 10px;
+	padding: 12.5px 20px;
+	list-style: none;
+	display: table;
+	font-size: 125%;
+	transition: 1s ease;
+}
+
+ul#onSmalPages li#sel	{
+	color: white;
+	background-color: #e15050;
+}
+
+@media screen and (max-width: 700px) {
+	#onSmal {
+		display: inline;
+	}
+}
+
+ul#topics, ul#pages {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table; 
+	font-size: 125%;
+	transition: 1s ease;
+}
+
+ul#topics a,
+ul#pages a	{
+	color: inherit;
+	text-decoration: none;
+}
+
+ul#pages li	{
+	float:left;
+	margin-top: 100px;
+	margin-right: 10px;
+	padding: 12.5px 20px;
+}
+
+ul#pages li#selected	{
+	color: #333;
+	border-radius: 50%;
+	background-color: #eee;
+}
+
+.cur {
+	padding: 50px 0;
+}
+
+ul#topics li.cur a:hover	{
+	color:#00a;
+	cursor: pointer;
+}
+
+ul#pages li:hover	{
+	color:#333;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #eee;
+}
+
+.x	{
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.x 	{
+		display: inline;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		background-color: rgba(0,0,0,0.9);
+		z-index: 1;
+	}
+	.x p	{
+		font-family: "Handlee", sans-serif;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		font-size: 150%;
+		top: 50%;
+	}
+}
+
+.footer	{
+	float: right;
+	width: 75%
+}
+
+#smal	{
+	width: 50%;
+}
+
+#blogSmall	{
+	width: 80%;
+	top:75px;
+	left:20px;
+	position:absolute;
+	color:white;
+}
+
+#blogSmall a	{
+	padding-top: 25px;
+	font-family: "Handlee", sans-serif;
+}
+
+.overlaMenu-content	{
+	height: 50%;
+}
+	@media screen and (max-width: 700px) {
+		.footer	{
+			width: 100%
+		}
+		#smal	{
+			width: 100%
+		}
+		ul#pages li#selected	{
+			font-size: 0;
+			padding: 0;
+		}
+	}

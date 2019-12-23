@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i>Madhya Pradesh</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a>Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="employment">EMPLOYMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="health">HEALTH</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all","health,"environment","education","women"]'>
+			<div class="thumb-img">
+				<a href="http://aayaamgroup.org " target="_blank"><img src="../../src/img/NGOicons/Madhya/1.png" alt="AAYAM GROUP "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AAYAM GROUP</p>
+				</div>
+			</div>
+			<h3>AAYAM GROUP</h3>
+			<h4>ABOUT</h4>
+			<p>To empower women by building in them a capacity to earn for their financial and social well being.
+			Spark the awareness among the people towards environment and energy scenario.
+			Capacity building of socio-economically weak people, handicaps and minorities.
+			Building up of sustainable models of community health and rural development through people’s participation
+			To work towards the development of Science and Technology and Water conservation problems.
+			To help provide free coaching, education  and monetary assistance to meritorious but poor students.
+			To organize seminars, workshops and competitions on the topics of social, environmental and educational subjects.
+			To organize welfare and self-employment training programs for physically handicapped and blind persons.
+			To plan, prepare and implement projects for the upliftment and development of SC, ST, OBC, minorities and women.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://arushi-india.org" target="_blank"><img src="../../src/img/NGOicons/Madhya/2.png" alt=" ARUSHI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> ARUSHI</p>
+				</div>
+			</div>
+			<h3> ARUSHI</h3>
+			<h4>ABOUT</h4>
+			<p>Arushi is a Bhopal-based not-for-profit organization working with and for people with disabilities and issues related to them. The basic objective of our work is to generate opportunities and develop capacities in people with disabilities.
+			Goals:
+			Inculcating self-confidence in persons with disabilities (PWDs) through awareness- building, education and training.
+			Linking PWDs with various developmental schemes.
+			Creating a forum to express their concerns and advocate their rights.
+			Disseminating information on various aspects of rehabilitation.
+			Developing a cadre of trained professionals to work with PWDs for their integration into the mainstream.
+			Creating awareness in the society to foster a positive attitude towards PWDs.
+			Developing instructional material for students with visual impairment on alternative formats such as audio, Braille and digital talking books.
+			Undertaking research-based activities to complement its objectives.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education","environment"]'>
+			<div class="thumb-img">
+				<a href="https://www.vigyashree.com" target="_blank"><img src="../../src/img/NGOicons/Madhya/3.png" alt=". Aryakar Vigyashree Mathshree"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aryakar Vigyashree Mathshree</p>
+				</div>
+			</div>
+			<h3>Aryakar Vigyashree Mathshree</h3>
+			<h4>ABOUT</h4>
+			<p>Vigya Shree Shiksha Avam Samaj Kalyan Samiti, Bhopal is a secular charitable, non government, non profit voluntary organization, working in the field of education and public welfare in the backward district of its area operation.
+			Society operation covers watershed Management, Agriculture training & extension, environment protection & enrichment. Health education & medical facilities, care for aged rehabilitation of orphans/ destitute/ handicapped/ street/ and poor children literacy and propagation of science & scientific tamper in common man’s life.
+			This organisation is providing technical computer education to the youth to cuts the unemployment problem from the society. In this respect the organisation is planning to establish training programme in rural areas along with urban cities work for the upliftment of labour child is at priority.
+			</p>
+			<h4>Mission</h4>
+			<p>The organisation has the motto of changing the world through education on order to bring about positive change in the society.</p>
+		</div>
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://wateraidindia.in" target="_blank"><img src="../../src/img/NGOicons/Madhya/4.png" alt="WaterAid"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>WaterAid</p>
+				</div>
+			</div>
+			<h3>WaterAid</h3>
+			<h4>ABOUT</h4>
+			<p>Our mission is to transform the lives of the poorest and most marginalised people by improving access to safe water, sanitation and hygiene
+			Our impact
+			Our programs serve a wide range of communities, from those living in remote rural villages to small towns to slums in major cities including New Delhi, Hyderabad and Bhopal
+			</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://arogya.name" target="_blank"><img src="../../src/img/NGOicons/Madhya/5.png" alt="Arogya"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Arogya</p>
+				</div>
+			</div>
+			<h3>Arogya</h3>
+			<h4>AbOUT</h4>
+			<p>Arogya is a voluntary organisation working for social, political and economic development in Centeral India . Established in 1995, Arogya, as its name suggests, is distinguished primarily by its evolving orientation. It has taken up many kinds of issues and taken up many kinds of issues and undertaken a variety of projects with several, sometimes divergent approaches.
+
+			The unity that underlines this diversity has been provided by Arogya' pro-people and pro-empowerment orientation, continuous effort to respond to people's voices and changing circumstances, and the priority given to concrete experience over conceived theory or received dogma. Over its more than two decades, Arogya has been characterised by creative efforts and experimental, open-ended attitudes. Diverse adventures and turbulent events, therefore, have filled these years. 
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health","education"]'>
+			<div class="thumb-img">
+				<a href="http://rdsssilwani.org/rdss/" target="_blank"><img src="../../src/img/NGOicons/Madhya/6.png" alt="RDSS – SILWANI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>RDSS – SILWANI</p>
+				</div>
+			</div>
+			<h3>RDSS – SILWANI</h3>
+			<h4>ABOUT</h4>
+			<p>RDSS stands with a vision to assist the rural communities to sustain themselves, and improve their socio-economic status by providing quality education, medical care, skill development and improving livelihoods. In the process of development, priority is given for Tribal leadership and attempt is made to bring the tribal population into the
+			Our History: 
+			Education of the Children was the first activity started. Later it was intensified with Boarding houses which take care of character formation of children and quality education and leadership training. After the registration of the Institution, an integrated approach was adapted with three major sectors of development: health care services, quality education, and agriculture cum natural resource management. Presently, there are 4 branches where Boarding houses were established for quality education and rural masses are assisted in 140 remote villages for socio-economic development. It is a joint venture of the diocese of Sagar and CMI St. Paul Province Bhopal.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://ngonaman.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/7.png" alt="NAMAN SEVA SAMITI "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>NAMAN SEVA SAMITI</p>
+				</div>
+			</div>
+			<h3>ANAMAN SEVA SAMITI </h3>
+			<h4>ABOUT</h4>
+			<p>Started in 1999 and registered under Madhya Pradesh State Society Registration Act 1973, Naman Seva Samiti has successfully transformed marginalized communities in Madhya Pradesh to be independent and self-reliant. Working with communities for more than a decade now, Naman Seva Samiti mission is collaborative and sustainable community development. Naman Seva Samiti is focusing on inclusion of poor and marginalised communities. While a cooperative credit and savings bank, a spice processing and packaging unit and organic farms are the tangible resources, a more enduring outcome has been the number of poorest of the poor who have now experienced pleasure and dignity through these set ups</p>
+		</div>
+		<div class="box" data-groups='["all", "women","health"]'>
+			<div class="thumb-img">
+				<a href="http://sanidhya.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/8.png" alt="SANIDHYA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SANIDHYA</p>
+				</div>
+			</div>
+			<h3>SANIDHYA</h3>
+			<h4>Mission</h4>
+			<p>To work for women and child development & fight against HIV AIDS. Especially work to make all females independent so that they can live life with a dignity and freedom.
+			</p>
+			<h4>Vision</h4>
+			<p>Healthy World without poverty and injustice, in which every woman, man, girl and boy enjoys the right to live life with dignity.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href=" https://sahyogmitra.webs.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/9.png" alt="SAHYOGMITRA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SAHYOGMITRA</p>
+				</div>
+			</div>
+			<h3>SAHYOGMITRA</h3>
+			<h4>ABOUT</h4>
+			<p>SAHYOGMITRA WELFARE SOCIETY is a national level non-political, non-religious, non - government organization registered under Madhya Pradesh Society Registeration Act 1973.
+			We are registered to function on all India basis. Our prime goal is to provide a better and a happier life for all. We run many campaigns and activities across India to improve the quality for the people.
+			</p>
+			<h4>Mission</h4>
+			<p>Our mission is to work on the grassroots level to enable the society across the country to engage proactively in the change process  and adopting the highest standard of society and thereby emerging as a leading knowledge and technology driven , innovation and scalable national development organization from India</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://tewasamudayik.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/10.png" alt="Samuadayik Vikas Parishad "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Samuadayik Vikas Parishad</p>
+				</div>
+			</div>
+			<h3>Samuadayik Vikas Parishad</h3>
+			<h4>ABOUT</h4>
+			<p>Samuadayik Vikas Parishad is a registered society committed for social service. The foundation of the society rests with senior people who have been included in the society, right from the inception of society. The society is contributing for the social cause of restructuring the social activities of the state of Madhya Pradesh.
+			In this modern world of science and technology the development of any country primarily depends on the contribution of its Human Resource specially in the field of technology. Madhya Pradesh has a special status in our country from the view of population and resources. People associated with the field of science and technologies are contributing for the development 
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health","women","education"]'>
+			<div class="thumb-img">
+				<a href="http://rawsindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/11.png" alt=" Rising Aryavarta Welfare Society  "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Rising Aryavarta Welfare Society</p>
+				</div>
+			</div>
+			<h3>Rising Aryavarta Welfare Society</h3>
+			<h4>Vision</h4>
+			<p>To transform underdeveloped and developing society into developed form.</p>
+			<h4>Mission</h4>
+			<p>To create a culture of Safety and Resilience.
+			To develop an environment of Humanity.
+			To create a culture of Safety, Health and Eco friendly Environment.
+			To build up a persona of responsible citizen amongst Indians.
+			To empower people and communities in situations of illiteracy, poverty and disease.
+			To achieve large scale positive changes through economic and social programmes that enable men and women to realise their potential.
+			To develop network with government, private, NGOs and national and International Institutions</p>
+		</div>
+		
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.sridisha.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/13.png" alt=" DISHA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> DISHA</p>
+				</div>
+			</div>
+			<h3> DISHA</h3>
+			<h4>ABOUT</h4>
+			<p>SRIDISHA is the region's leading NGO working for providing comprehensive health care services for prevention, treatment and rehabilitation of persons having Alcohol and drug addiction problems.
+			We beleive in CURING addiction and finding a permanent solution for the problem.
+			We believe in providing services of the highest quality and in achieving superior levels of patient satisfaction through the combined efforts of our outstanding team.
+			It is all part of our service-oriented mission</p>
+		</div>
+		<div class="box" data-groups='["all", "health","women","education"]'>
+			<div class="thumb-img">
+				<a href=" http://ssdsevasamiti.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/14.png" alt="SWARGIYA SUSHILA DEVI SEVA SAMITI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SWARGIYA SUSHILA DEVI SEVA SAMITI</p>
+				</div>
+			</div>
+			<h3>SWARGIYA SUSHILA DEVI SEVA SAMITI</h3>
+			<h4>ABOUT</h4>
+			<p>SSDSS is the objective of Skill Development is to create a workforce which is empowered with the necessary and continuously upgraded knowledge w.r.t. their implementation and Health and Education ,Poverty & Social Justice ,Training Programmes and self dependency ,Youth Empowerment, Women’s Empowerment website.
+			It aims to increase the productivity and employability of workforce (including wage and self-employed) both in the organized and the unorganized sectors. It seeks to increase participation of youth, women, disabled and other disadvantaged sections and to synergize efforts of various sectors as well as reform to enhanced capability in order to adapt, to changing technologies and labour according to the market demands.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","employment"]'>
+			<div class="thumb-img">
+				<a href="http://swamiambrish.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/15.png" alt="Swami Ambrish Chetanya Sewa Samiti, (SACSS)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Swami Ambrish Chetanya Sewa Samiti, (SACSS)</p>
+				</div>
+			</div>
+			<h3>Swami Ambrish Chetanya Sewa Samiti, (SACSS)</h3>
+			<h4>ABOUT</h4>
+			<p>Swami Ambrish Chetanya Sewa Samiti, (SACSS) was formed in the year 2011, 8th November by a group of socially conscious people as a new pedagogical landmark in the realm of Indian vocational training. Today, it stands tall as one of India’s largest vocational centers with updated training methodologies and effective course modules. Furthermore, it plays a pivotal role in building sustainable industry-ready quality capacity across urban, suburban, rural, underdeveloped and hill areas not only of India. We facilitate development of corporate workforce across all cadres.
+			By offering tailor made training programs in both English and Hindi & reliable performance measurement we add value & growth to our clients business.  
+			SACSS, an NSDC partnered has expansive presence, made-to-order training prospect and curriculum proficiency to cater to IT and non IT sectors as well as the sectors of Electronics, Travel & Tourism, Retail, Hospitality, Agriculture, and Healthcare, Manufacturing and Designing and more. Education, Telecom, Apparel, Automobile, Health, Engineering, Rural Development, Industry and Commerce and more.
+			</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://samarthan.info/" target="_blank"><img src="../../src/img/NGOicons/Madhya/16.png" alt=" SAMARTHAN"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> SAMARTHAN</p>
+				</div>
+			</div>
+			<h3> SAMARTHAN</h3>
+			<h4>Vision</h4>
+			<p>Every citizen contributes meaningfully in shaping democratic State and enjoys benefits based on the principles of equality and equity.</p>
+			<h4>Mission</h4>
+			<p>Promote and support participatory governance for equity and inclusion in development processes by capacity building, generating evidences and advocating the perspective of the most marginalized for enriched democracy.</p>
+		</div>
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://vikalpindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/17.png" alt="VIKALP SANSTHAN"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>VIKALP SANSTHAN</p>
+				</div>
+			</div>
+			<h3>VIKALP SANSTHAN</h3>
+			<h4>Vision</h4>
+			<p>To create a violence-free society based on equity, peace and justice, where all people enjoy
+			Physical and mental freedom for all
+			Freedom from gender violence
+			Equal opportunity
+			Freedom from discrimination
+			</p>
+			<h4>Mission</h4>
+			<p>To empower youth to end gender-based violence and discrimination through creating alternative and creative ways for them to voice their opinions, integrating them in the process of social development and creating a future which is just and equal for all.</p>
+		</div>
+		
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href=" http://mpvss.in/" target="_blank"><img src="../../src/img/NGOicons/Madhya/18.png" alt="MADHYA PRADESH VIkLANG SAHAYATA SANSTHAN"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>MADHYA PRADESH VIkLANG SAHAYATA SANSTHAN</p>
+				</div>
+			</div>
+			<h3>MADHYA PRADESH VIkLANG SAHAYATA SANSTHAN</h3>
+			<h4>ABOUT</h4>
+			<p>MPVSS, started in 1997, is an NGO working towards provision of education, therapeutic welfare, vocational training and other necessary services to persons with disabilities for the last 17 years in the districts of Ujjain, Shajapur, Rajgarh and Agar in the state of Madhya Pradesh.
+			</p>
+			<h4>Vision</h4>
+			<p>To create an inclusive society in which persons with disabilities will enjoy equal rights, opportunities and participation.</p>
+			<h4>Mission</h4>
+			<p>To create a conducive atmosphere for their holistic development and mainstreaming them with the society.
+			The Samiti has been providing different types of services to several hundreds of children and adults with intellectual and developmental disabilities and also other disabilities through its various programs. At the same time Samiti has been making continuous efforts to sensitize the society towards persons with disabilities which is showing positive results now in the areas where it is working.</p>
+		</div>
+			<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://humanwelfareindia.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/19.png" alt="HUMAN WELFARE SOCIETY"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>HUMAN WELFARE SOCIETY</p>
+				</div>
+			</div>
+			<h3>HUMAN WELFARE SOCIETY</h3>
+			<h4>ABOUT</h4>
+			<p>Human Welfare Society(HWS) is a non-Government organization established by the devoted social workers in the year 1987 with a noble mission to undertake actions for the Welfare of the Society. Our Society is working from 30 years on the objectives of Social Services. Today HWS is functioning on 14 objectives pointed towards common goal of improving the quality of life by organizing multiples Welfare programmes. We follow a need based and response oriented programme planning and management approach to ensure the better implementation of its programmes.
+			</p>
+			<h4>Vision</h4>
+			<p>To create a society where there is a prosperity and peace with better quality of living. Human Welfare Society has put in place a path-breaking action plan to create educational, health and housing facilities to improve the lot of millions of poor people in the country under Human Welfare Foundation as “Vision 2016-17”.</p>
+			<h4>Mission</h4>
+			<p>To promote the socio economic development by imparting multidisciplinary programmes particularly to the vulnerable section of the community. Our Mission is to help the needy peoples and the surrounding areas with the economy by raising funds to help families in foreclosure, and in essence help lift people back onto its feet.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://spsguna.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/20.png" alt="SONALI PUBLIC SHIKSHA SAMITI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SONALI PUBLIC SHIKSHA SAMITI</p>
+				</div>
+			</div>
+			<h3>SONALI PUBLIC SHIKSHA SAMITI</h3>
+			<h4>ABOUT</h4>
+			<p>The essence of our effort is to see that every child has an equal opportunity, not to become equal, but to become different to realize whatever unique potential of body, mind and spirit he or she possesses !
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.cidindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/21.png" alt="CENTER FOR INTREGATED DEVELOPMENT"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>CENTER FOR INTREGATED DEVELOPMENT</p>
+				</div>
+			</div>
+			<h3>CENTER FOR INTREGATED DEVELOPMENT</h3>
+			<h4>ABOUT</h4>
+			<p>CID from its inception is standing with its core value, commitment towards weaker sections of the society especially children, women, tribal and Dalits in particular and deprived section of the society in general. During its long journey, CID had achieved a place of reputed and responsible organization in the region particularly on the issues of child rights, women rights and empowerment, tribal rights (Sahariya Tribal) through its consistent efforts on key aspects affecting their lives. CID efforts and achievements on Sahariya tribal rights through it programme Freedom from Hunger and Fear is recognized by various segment of the society.
+      		CID is well recognized for its work on protection of child rights through its continuous efforts made on Child labour Eradication, Education, Health, Nutrition Support and children & community groups to defend child rights along with emergency response to children in distress need of care & protection.
+     		CID has been directing its efforts to address other issues apprehension to community like Health, Sanitation and Environment, HIV/AIDS protection, BCC for child health and survival, village planning, female infanticide and violence against women. With sole objective of organizing & empowering community to achieve their legitimate rights, community organization had been developed and empowered through training and capacity building programmes and building alliances at Local, Regional, State & National level. SAJAG (Sahariya Jan Gath Bandhan) & other community based organizations have played an important role to bring changes at different levels. In our journey of goal realization, CID has been supported by like minded people, organizations & community based structure. CID set targets and strive to achieve them through consistence efforts by implementing our programmes with committed team and volunteers.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","education","health"]'>
+			<div class="thumb-img">
+				<a href=" http://ehsaasindia.org/.com" target="_blank"><img src="../../src/img/NGOicons/Madhya/22.png" alt="Ehsaas"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ehsaas</p>
+				</div>
+			</div>
+			<h3>Ehsaas</h3>
+			<h4>ABOUT</h4>
+			<p>Ehsaas is a non-profitable society run in Gwalior for special children with cerebral palsy, autism and slow learning types of disabilities. 
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://unislcf.cfsites.org" target="_blank"><img src="../../src/img/NGOicons/Madhya/28.png" alt="FAMILY PLANNING ASSOCIATION OF INDIA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>FAMILY PLANNING ASSOCIATION OF INDIA</p>
+				</div>
+			</div>
+			<h3>FAMILY PLANNING ASSOCIATION OF INDIA</h3>
+			<h4>Vision</h4>
+			<p>FPA India envisions all people empowered to enjoy their sexual and reproductive health choices and rights in India, free from stigma and discrimination</p>
+			<h4>Mission</h4>
+			<p>To advocate for gender equality and empowerment for all including the poor and vulnerable people, ensure information, education, and services; powered by knowledge, innovation, and technology, towards sustainable development. </p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://fpaindia.org/" target="_blank"><img src="../../src/img/NGOicons/Tamil/23.png" alt="READS Rural Education And Development Society "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>READS Rural Education And Development Society </p>
+				</div>
+			</div>
+			<h3>READS Rural Education And Development Society </h3>
+			<h4>ABOUT</h4>
+			<p>READS Rural Education And Development Society is a registered voluntary organization involved in the Education,Health,Skill training,MR residential Special school,Micro Financial lending to SHG members and rural development activities in Thiruvannamalai district 7 young professional and like-minded people joined together and started this organization since 1992. It is registered under Tamil Nadu societies Registration Act. It is mainly focusing on ‘empowerment of the people in remote rural villages of Thiruvannamalai Dt the poorest of the development.’ It believes in people’s ability to respond their own situations by creating awareness on their needs and the resources available to satisfy the needs through collective efforts.</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="https://aadharfoundation.weebly.com " target="_blank"><img src="../../src/img/NGOicons/Madhya/24.png" alt="AADHAR FOUNDATION"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AADHAR FOUNDATION</p>
+				</div>
+			</div>
+			<h3>AADHAR FOUNDATION</h3>
+			<h4>ABOUT</h4>
+			<p>Movement for Rights & Entitlements of Women, Child &        Differently Abled
+			"Rehabilitation and Development Center for Disabled Children"
+			“Community Based Rehabilitation Services”
+			“Special Education and Training Services ”
+			 “Counseling,  Guidance  and  Advocacy  Services”
+			 “Early Identification & Intervention Services”
+			 “Pre-Vocational & Vocational Training Services”
+			 For   Special  Children  /  Persons  with  Disabilities  as  Mentally / Intellectually Challenged, Down Syndrome, Cerebral  Palsy, Autistic,  Hyper Active, Learning  Impaired / Slow   Learner,  Speech, Language &   Hearing Impaired, Deaf-Dumb, Visually Impaired, Blind, Physically Challenged, Multiple Disabled & Mentally
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","employment"]'>
+			<div class="thumb-img">
+				<a href=" http://sewatrust.org.in/" target="_blank"><img src="../../src/img/NGOicons/Madhya/25.png" alt="Social Engineering and Welfare Action Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Social Engineering and Welfare Action Trust</p>
+				</div>
+			</div>
+			<h3>Social Engineering and Welfare Action Trust</h3>
+			<h4>ABOUT</h4>
+			<p>Social Engineering and Welfare Action Trust was established on 12th of December, 2007 by a group of scholar, activist and social scientist. The aim was to develop social engineers who can change the nation in a positive direction. The trust is committed to work for sustainable and allround development of marginalized and socially deprived population. It works directly with the helps of trained social engineers at the grassroots, in a spirit of enably communities to build upon their skills, initiatives, resources and entitlements rather than delivering services or solutions to them.
+			We are committed to actively work for the Gram Swaraj to achieve sustainable development of the less privileged and marginalized sections of the community through appropriate strategies in primary educations, community organization, income generation, health, hygiene, rural micro-credit and empowerment activities. We believe in espousing and supporting all such causes that help the marginalized and deprived people.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.molecularwelfaresociety.org.in/ " target="_blank"><img src="../../src/img/NGOicons/Madhya/26.png" alt="MOLECULAR WELFARE SOCIETY"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>MOLECULAR WELFARE SOCIETY</p>
+				</div>
+			</div>
+			<h3>MOLECULAR WELFARE SOCIETY</h3>
+			<h4>Mission</h4>
+			<p>Molecular Welfare Society is a Non-profitable, Non-political and Non-Governmental organization established by a group of committed social workers and volunteers in 1996 under M.P. Society Registration Act 1973 (sub para 44). Molecular continues making efforts for the betterment of marginalized, deprived,ignored section of society by giving them a platform through it creative. Program and activities. It believe in the dignity of people and developing their capacity to over come their problems.Molecular Welfare Society works in Gwalior, Indore, Reewa, Dewas, Sheopur, Shivpuri Districts in Madhya Pradesh State</p>
+		</div>
+		
+		<div class="box" data-groups='["all","education","women"]'>
+			<div class="thumb-img">
+				<a href="https://www.sambhavindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/27.png" alt="SAMBHAV SOCIAL SERVICE ORGANIZATION"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SAMBHAV SOCIAL SERVICE ORGANIZATION</p>
+				</div>
+			</div>
+			<h3>SAMBHAV SOCIAL SERVICE ORGANIZATION</h3>
+			<h4>ABOUT</h4>
+			<p>Sambhav Social Service Organization is a voluntary agency working in the areas of rural and    urban development, child education and   women empowerment through advocacy, direct program interventions and capacity building of the community to access the benefits of the State Programs. It has been actively involved in the organizing Sahariya Tribal communities to assert their rights of equality, Health, food and secured livelihood and a respectful place in the society.
+			Goal:
+			“Equality, Opportunity and Justice for All”
+			 Mission Statement:
+			"Building equitable, democratic and environmentally sustainable society."
+			</p>
+			<h4>Vision</h4>
+			<p>"Striving for sustainable development processes and improvement in the quality of life of vulnerable people like Tribal, women and children through their organization and capacity building efforts.”</p>
+			<h4>Mission</h4>
+			<p>"Building equitable, democratic and environmentally sustainable society."</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "health","education","environment","women"]'>
+			<div class="thumb-img">
+				<a href=" http://ssssamitibhind.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/28.png" alt="Shabri Samaj Sewa Samiti"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Shabri Samaj Sewa Samiti</p>
+				</div>
+			</div>
+			<h3>Shabri Samaj Sewa Samiti</h3>
+			<h4>ABOUT</h4>
+			<p>Shabri Samaj Sewa Samiti is the official Social Service Organization for the Madhya Pradesh and is registered under the Societies Registration Act 1962 of (Reg. No. 4015). Reg. Date- 16-10-1996 It is a non-profit, registered, charitable society in Madhya Pradesh. the organization consist the group of committed social workers, Management Experts, Professors, Trainers HRD professional and Retd. Govt. Officials and Entrepreneurs and other well-meaning citizens, who have pledged to help, develop support and facilitate the Urban and rural community in the area of Poverty eradication and Livelihood development, Education, Health, Agriculture, Environment, Youth Development and Social Reform through various activities and practices in several districts of Madhya Pradesh. The organization is receiving funds from the states and central government and other funding agencies for its rural / tribal poverty reduction, training programmes, women empowerment programmes etc.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","employment"]'>
+			<div class="thumb-img">
+				<a href="https://www.sakgvs.org/ " target="_blank"><img src="../../src/img/NGOicons/Madhya/29.png" alt="SAKGVS "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SAKGVS </p>
+				</div>
+			</div>
+			<h3>SAKGVS </h3>
+			<h4>Mission and Vision</h4>
+			<p>The mission & vision of the SAKGVS to create awareness in every aspect and provides basic education, food and employment through entrepreneurship for every common men in the society.</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://asrango.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/30.png" alt="ASRA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ASRA</p>
+				</div>
+			</div>
+			<h3>ASRA</h3>
+			<h4>ABOUT</h4>
+			<p>ASRA aims to provide people from the world over the opportunity to work in evaluated and credible NGOs in India. Programs are selected that best match the skills, area of interest, expertise, and time availability of the individual, with a view to strengthen and add value to the ongoing work of in India’s social development sector. Joining Hands’ vision is to influence positive social change</p>
+			<h4>Vision </h4>
+			<p>" To empower the communities towards sustaining the development process leading to their total well being " </p>
+			<h4>Mission</h4>
+			<p>" To foster integrated community development program through multi preventive & corrective programs and peoples participation "</p>
+		</div>
+		<div class="box" data-groups='["all","women"]'>
+			<div class="thumb-img">
+				<a href="https://jansahasindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/31.png" alt=" JAN SAHAS"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> JAN SAHAS</p>
+				</div>
+			</div>
+			<h3> JAN SAHAS</h3>
+			<h4>ABOUT</h4>
+			<p>
+			Jan Sahas is committed to promote the development and protect the rights of socially excluded communities with the special focus on girls and women through eradication of all forms of bondage including manual scavenging and caste based prostitution; empowerment of adolescent girls and women to end violence and gender justice, skill development for dignified livelihoods and social entrepreneurship; legal aid for access to justice and reform in criminal justice system; support in education; food and nutrition security; land and agriculture development; develop barefoot lawyers to build victim or survivors as leader and empowerment of communities though capacity and organization building.
+			</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://playindiaplay.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/32.png" alt="PLAY INDIA PLAY"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>PLAY INDIA PLAY</p>
+				</div>
+			</div>
+			<h3>PLAY INDIA PLAY</h3>
+			<h4>ABOUT</h4>
+			<p>1. To introduce "Right to Play"in the constitution of India as one of the fundamental rights.
+			2.Endeavour to ensure that each and every citizen of India gets the opportunity to play for wholesome (all round) development. Especially, no Child is denied the opportunity to play.
+			3.Advocating for legal and policy reform in line with the principles and standards of the Right to Play and other relevant international and regional instruments.
+			4. Implement article 31 of United Nation Organization (U.N.O.) in India.
+			5. To provide platform for 'Play' to all across socio-economic, cultural, sex, color and religion segments of India especially for children.
+			6. To improve the understanding of importance of play to improve the quality of life.
+			7. Improving the understanding regarding the play (physical activity) & its inherent benefits to human race.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.ubswe.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/43.png" alt="Uday Bhav Scoiety for Women Empowerment "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Uday Bhav Scoiety for Women Empowerment</p>
+				</div>
+			</div>
+			<h3>Uday Bhav Scoiety for Women Empowerment</h3>
+			<h4>ABOUT</h4>
+			<p>UBSWE (Uday Bhav Scoiety for Women Empowerment) is an organization working on women empowerment with a holistic approach which includes the necessary activities required from creating awareness to the practice of gained awareness in a life of woman.
+			We partner with local projects in and aorund Gwalior city that primarily support women and girls, acting as a platform to end lack of awarness in daily and normal life routines and obviously in education. We are trying to improve wellbeing across families and communities. In practice, this means helping school children, health workers and others in need to get the training and skills required to raise themselves, their families and their communities out of poverty and helplessness for good. Our project's focus is on women and children education, health and self-employment, but we are trying to grow big so that we can offer assistance to anyone regardless of race, or religion.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://ssysks.org/ " target="_blank"><img src="../../src/img/NGOicons/Madhya/34.png" alt="SUMAN SHIKSHA VEVAM  SAMAJ KALYAN SAMITI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SUMAN SHIKSHA VEVAM  SAMAJ KALYAN SAMITI</p>
+				</div>
+			</div>
+			<h3>SUMAN SHIKSHA VEVAM  SAMAJ KALYAN SAMITI</h3>
+			<h4>ABOUT</h4>
+			<p>Organization which concluded “effort” is a non-profitable, Non-governmental organization established by a group of committed social workers and volunteers and professionals in 1989 under section Madhya Pradesh Society Registrikaran Adhiniyam 1973 wide sub para 44. organization making efforts for the betterment of marginalized, deprived, vulnerable ignored section of society by giving them a platform thorough its creative Programs and activities. It believes in the dignity of people and developing their capacity to overcome their problems. </p>
+		</div>
+		<div class="box" data-groups='["all", "health","education","environment"]'>
+			<div class="thumb-img">
+				<a href="https://bhagyashrisevasansthan.wordpress.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/45.png" alt="Bhagyashri  Seva  Sansthan Rupauli"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bhagyashri  Seva  Sansthan Rupauli</p>
+				</div>
+			</div>
+			<h3>Bhagyashri  Seva  Sansthan Rupauli</h3>
+			<h4>ABOUT</h4>
+			<p>Bhagyashri  Seva  Sansthan Rupauli  is a registered NGO that currently operates in the state of Madhya Pradesh, with the Head Office in Rewa MadhyaPradesh, we have several branch offices in MadhyaPradesh State. As our aim suggests,  we consider it a privilege to be able to do “ Siksha ,Sewa,Sahyog ,Jankalyan and Utthan ”, to serve our fellow human –beings with the utmost dedication and compassion. We believe that every life has equal value and an equal right to live with dignity. We have been, and are currently working on many different projects, viz.. – HIV-AIDS (TI); Financial Literacy; JLG & SHG formation; Skill Development; Training & Consultancy; Education , Anti Tobacco Program, TB control, Water & Sanitation etc.</p>
+		</div>
+		<div class="box" data-groups='["all","education","women","environment", "health"]'>
+			<div class="thumb-img">
+				<a href="http://dayssociety.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/36.png" alt="DAYS SOCIETY"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>DAYS SOCIETY</p>
+				</div>
+			</div>
+			<h3>DAYS SOCIETY</h3>
+			<h4>ABOUT</h4>
+			<p>The Society is a social organization driven by human religion, Society, Water, Environment, Agriculture, Rural Development, Child Protection, Women's Empowerment, Beti Bachao Beti Padhao, Health, Art Culture, self-employment training and social work.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women","health"]'>
+			<div class="thumb-img">
+				<a href="http://skgsmpindia.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/37.png" alt="SHRI KRISNA GRAMOUTHAN SAMITI"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SHRI KRISNA GRAMOUTHAN SAMITI</p>
+				</div>
+			</div>
+			<h3>SHRI KRISNA GRAMOUTHAN SAMITI</h3>
+			<h4>Vision</h4>
+			<p>To create opportunities for the marginalized and the under privileged groups for their socio-economic development to mainstreams without discrimination of cast, creed, language, race and religion. & to take part in developmental processties.
+			</p>
+			<h4>Mission</h4>
+			<p>Through building local level institutions, capacities of poor and needy youth, women, dalits, tribes and small and marginal farmers with special reference to Education, health & natural resource management.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health","women"]'>
+			<div class="thumb-img">
+				<a href="http://jsvjks.com/" target="_blank"><img src="../../src/img/NGOicons/Madhya/38.png" alt="Jan Sansadhan Vikas Avom Jeev Kalyan Samiti "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Jan Sansadhan Vikas Avom Jeev Kalyan Samiti</p>
+				</div>
+			</div>
+			<h3>Jan Sansadhan Vikas Avom Jeev Kalyan Samiti</h3>
+			<h4>ABOUT</h4>
+			<p>"Jan Sansadhan Vikas Avom Jeev Kalyan Samiti" is a registered social Organization. It is registered with the Asistant registrar of firms and society, Jabalpur (MP) zone under the “ Madhya Pradesh Society Registrikaran Adhiniyam 1973 ( Serial 44 of 1973) dated 17th April 2008 under registration number 04/16/01/10298/08.
+			As on August 15, 2018 we have registered more than 44 Thousand volunteers with our project. We are working on our “Swarnim Bharat Nirman Project” for last 10 or more years and have prepared the model to get results according to our vision. Now the project is to be launched shortly Nation Wide.</p>
+
+			<h4>Vision</h4>
+			<p>To build our great country  India “BHARAT” more and most prospers, Capable in all aspects, having planned projects for the solution of major problems just like the unemployment, poverty, illiteracy, Health Problems, addiction, water conservation, plantation, Population control, dowry etc.
+			We have submitted 50 aims with the registrar to cover up the maximum public problems.  We have registered our working area as all India.
+			</p>
+			<h4>Mission</h4>
+			<p>To collaborate with the undeveloped / unemployed or needy / interested people and motivate / support them to bring in main stream as per their academic qualification / Experiences for specific field as well as their financial situation. We provide them a unique platform of professional social workers to assist financially / morally, issuing the grants from organizational system (This system is a unique combination of Social activities, Business, Media and political development through social networking) for education, medical, business and other essential requirements as per the project’s rules and regulations in accordance of Social activities done by them.</p>
+		</div>
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href="http://pratyayaeduresearchlab.org/" target="_blank"><img src="../../src/img/NGOicons/Madhya/39.png" alt=" Pratyaya EduResearch Lab"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Pratyaya EduResearch Lab</p>
+				</div>
+			</div>
+			<h3>Pratyaya EduResearch Lab</h3>
+			<h4>ABOUT</h4>
+			<p>Pratyaya EduResearch Lab is a not-for-profit organization (registered as a Section 25 of the companies Act, 1956), established in 2014 with a vision to contribute to society that facilitates a meaningful, innovative and high quality education affordable and reachable to all. We are based in Pandhurna , a small town of Chhindawara District, Madhya Pradesh. Our approach has been to focus all our resource, effort and research on systemic improvement in quality of education in rural areas such that it will empower marginalized community and help to build an equitable and sustainable Society.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href=" http://www.kssraisen.org" target="_blank"><img src="../../src/img/NGOicons/Madhya/40.png" alt="KRISHAK SAHYOG SANSTHAN"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>KRISHAK SAHYOG SANSTHAN</p>
+				</div>
+			</div>
+			<h3>KRISHAK SAHYOG SANSTHAN</h3>
+			
+			<h4>Vision</h4>
+			<p>Management of natural resources in perpetuity and establishment of an independent, equitable and just society beyond the caste,  religion, race and gender.</p>
+			<h4>Mission</h4>
+			<p>To enable the capacity of the last  individual of the society – scheduled caste, scheduled tribes, marginalized farmers and rural women to determine their own development direction and prudent management of resources.</p>
+		</div>	
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

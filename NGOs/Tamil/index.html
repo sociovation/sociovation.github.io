@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> TamilNadu</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a>Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="children">CHILDREN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all","health,"environment"]'>
+			<div class="thumb-img">
+				<a href="http://vijaygurutrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/1.png" alt="Vijayguru  Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Vijayguru  Trust</p>
+				</div>
+			</div>
+			<h3>Vijayguru  Trust</h3>
+			<h4>ABOUT</h4>
+			<p>To contribute towards the improvement of the quality of life and health, hygienic, clean environments and sanitation of people, and their families.Mr. Sivakumar and Mr. Thirupathi raj, we are two persons self interested in social work and voluntary services, we didn’t need any govt fund or others funds, it a first time we need fund from NACO. We are first time to go to SAARC friendship countries for awareness and creating hard work people development, and myself i Sivakumar, had interest in social service when I was a B.Sc Hotel management college  student. So I engaged with lions club in 2000-2003 and I started the branch of lion club’s LEO Club and served a lot of social services. But in 2005 I got registration to my service and I gave up “free computer education”. I run my own local free Newspaper name of “Vijay guru news” govt. register no. TNBIL/2011/35647, At the same I am directing and producing a lot of documentary and short films and I have joined with the Indian Government’s youth development department of Nehru yuva kendra and took over a lot of social services. The important thing is, I had an interest to share the culture qualities and gave my services to the youngsters. I am also interested in women economic development of self help group motivation, naturopathy food, historical exploration research, mountaineering and trekking in HIMALAYAS. I have a sweet and bakery shop in the name of RAJAPALAYAM RAJA SWEETS since 1965</p>
+			<h4>Vision</h4>
+			<p>Volunteer trip it is a recognized international model that sets the standards for comprehensive HIV/AIDS awareness and knowledge. Because of our work, people are empowered with HIV/AIDS in a supportive community with access to the best care and open communication research for a cure.</p>
+			<h4>Mission</h4>
+			<p>We transform lives through HIV/AIDS training care, community awareness by road show and rural meetings in SAARC countries of India, Pakistan, Nepal, Bhutan and Bangladesh. An AIDS protest road show, signature campaign, and car shows were to be held in the city in support in SAARC countries.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.stjohnsociety.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/2.png" alt="St.John Society for Development Services"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>St.John Society for Development Services</p>
+				</div>
+			</div>
+			<h3>St.John Society for Development Services</h3>
+			<h4>ABOUT</h4>
+			<p>St.John Society for Development Services"-Established in the year of 1989(Regd No:46/1989).Since that time it is working for the Deprived, Downtrodden and Disabled (Differentially Abled Person with Disabilities) in lacking of economical and educational status, as the coordinating bridge and guide too</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="https://spectmugaiyur.webs.com" target="_blank"><img src="../../src/img/NGOicons/Tamil/4.jpg" alt=". St.Peter Paul Educational and Cultural Trust (SPECT) "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>. St.Peter Paul Educational and Cultural Trust (SPECT) </p>
+				</div>
+			</div>
+			<h3>. St.Peter Paul Educational and Cultural Trust (SPECT) </h3>
+			<h4>ABOUT</h4>
+			<p>St.Peter Paul Educational and Cultural Trust (SPECT) is a pioneer Non Governmental Organization in Villupuram District, Tamilnadu, India. The trust started in 1991 when a group of energetic young teachers, academics and social scientists joined together and implemented solutions for children with disabilities and Dalit children.
+			St. Peter Paul Elementary School for Dalit Children
+
+			In the 1980s, the village of Puravadai had a government school for Dalit children, which got destroyed by natural disaster and was never rebuilt. As this was the opportunity for high caste people to take advantage of the situation (e.g. with bonded labour system), SPECT decided to establish the school for Dalit Children. As a result of this effort, the forced bondage labor system suffered by the Dalit has been eliminated in the village. 
+			Computer Training Centre for the the Disabled Children
+
+			In order to achieve provide computer training to the students, a well-equipped Information Technology program is offered. A computer room opened in 2008 within the campus of SPECT. In the future, the children who are taught computer literacy can find a adequate employment in the job market.
+
+			Play Center for the Disabled Children
+
+			In the year 2013, SPECT established a play centre at its campus for the disabled children. The major aim of this project is to provide the opportunity to the disabled children to play with toys and games which develops their skills and ability. More over pleasure of play is the most important one during their childhood for every children. We follow the ESAR methodology which enables the children to free play with the support of trained animators in play and disability
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.hebrontrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/5.png" alt="Hebron Education and Charitable Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Hebron Education and Charitable Trust </p>
+				</div>
+			</div>
+			<h3>Hebron Education and Charitable Trust </h3>
+			<h4>ABOUT</h4>
+			<p>Hebron Education and Charitable Trust is educating rural village children of India. Through Hebron Metric. Hr.Sec. School in Tamilnadu State of India. We provide education to nearly 1100 children. This facility is needed for more children in grass root level. To educate more children we need support to create necessary facilities to educate more children. you may sponsor a child's educational expense of $25 Per month.
+			If we educate and empower the women the whole family will be safe and self sustained. Hebron Education and Charitable Trust is giving self Employment Training Life Tailoring, Computer Education, etc. through It's Technical Training Institute in India. You may sponsor a women by donating one time sponsorship of $50
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://helptrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/6.png" alt="Help Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Help Trust</p>
+				</div>
+			</div>
+			<h3>Help Trust</h3>
+			<h4>Vission</h4>
+			<p>To provide underprivileged children with an opportunity to have access to basic education and skills in order to make them self reliant thereby contributing towards the productivity and growth of the nation.
+			We Believe That
+			Every child deserves a childhood
+			There is a great potential in every person
+			There is a great potential in every person
+			Education should be given freely
+			Education drives sustainable change
+			Together we can make this world better for these children and make a positive difference in their lives
+			</p>
+			<h4>Mission</h4>
+			<p>Our mission is to provide basic education and skills to underprivileged children to identify and develop inner latent talents and skills through our Evening School & Child Development initiatives</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.navajeevantrustktm.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/7.png" alt="Navajeevan Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Navajeevan Trust</p>
+				</div>
+			</div>
+			<h3>Navajeevan Trust</h3>
+			<h4>ABOUT</h4>
+			<p>For the record, Navajeevan is registered as a trust—not a very pleasant word for Thomas. “It has been formed as a trust only for practical purposes: It is a body of Christian love and prayer rather than a trust,” he insists. For his associates, Navajeevan is Thomas. “His love and trust in God keep Navajeevan running. We are all here because of Thomas,” says Rejimon, one of the first to team up with him.
+			It is a round-the-clock mission for Thomas and his family is fully behind him in his Endeavour to make the world kinder for them mentally ill. “We are proud of his work. It is God working through him. He would rather we go without food than his children at Navajeevan,”says his wife Laisamma.They have five children: the light of the Thomas household is the youngest, a mentally retarded child, born paralyzed. Thomas believes that God gifted him this child only because he had the trust in him. “I thank God for this child,” he smiles. ((Quoted in The Week dated Apr. 23, 1995).
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "environment","education","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.sivatrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/9.jpg" alt="SIVA Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SIVA Trust </p>
+				</div>
+			</div>
+			<h3>SIVA Trust </h3>
+			<h4>ABOUT</h4>
+			<p>SIVA Trust is a registered non government organisation (NGO) based at Tirunelveli district in Tamilnadu, India. SIVA Trust works for the welfare of the marginalised poor and downtrodden people. SIVA Trust works in the areas of health, education, environment protection and overall community development through direct program outreach activities with the dedicated and trained staff team. </p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.skga.co.in" target="_blank"><img src="../../src/img/NGOicons/Tamil/10.png" alt="SKGA (Sri Kanyakumari Gurukula Ashram) "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SKGA (Sri Kanyakumari Gurukula Ashram)</p>
+				</div>
+			</div>
+			<h3>SKGA (Sri Kanyakumari Gurukula Ashram)</h3>
+			<h4>ABOUT</h4>
+			<p>Children First! That is our main priority here at Sri Kanyakumari Gurukula Ashram, referred to as SKGA.
+
+			SKGA is a non-profit organisation selflessly fulfilling a vital social responsibility of servering abandoned infants, children who have lost either one or both of their parent, destitute and neglected children - all of them needing love, care and protection.
+			</p>
+			<h4>MIssion and Vision</h4>
+			<p>The aim is to freely provide to orphans and destitute children, happy shelter, food, loving care and maintenance, good education and help to settle happily in life.
+
+			SKGA’s Vision is Children are loved, brought up healthy in safe, happy environment, their uniqueness is recognized and respected, are educated well, have faith in God, trust in people and Society, develop dignity, self-image, self-confidence, and self-respect, have health, happiness, and hope.
+
+			SKGA’s Mission is to Give to orphans and destitute poor children free, long term shelter, food, loving care and maintenance, education and habilitation support.
+
+			Sri - Is a Sanskrit word meaning ‘auspicious’. It is also used as a word or address of respect
+			Kanyakumari - Is the name of the Virgin Goddess in the historic and most famous Temple called by Her name in the Kanyakumari, Tamil Nadu district, South India. There is a famous Gayatri Mantra in Her name in very old spiritual texts containing teachings of great value. They speak about the Soul or ‘Atman’ of Man.
+
+			Gurukula - Is a Sanskrit word. The Guru is a mentor, a guide or a teacher who teaches and guides his students or disciples. ‘Kula’ means the house, family or tradition of the Guru. The students stay with the Guru in his house till the completion of their studies. From ancient times, a gurukula has been a place where children go to live and study under a guru (mentor).
+
+			Ashram - Translates to a house of peace and abundance. It is the place where people seeking spiritual enlightenment could gather to meditate and lead peaceful lives and seek knowledge
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="https://tnfusa.org/anbalayam/" target="_blank"><img src="../../src/img/NGOicons/Tamil/11.png" alt="Anbalayam"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Anbalayam</p>
+				</div>
+			</div>
+			<h3>Anbalayam</h3>
+			<h4>ABOUT</h4>
+			<p>Anbalayam, in English, means loving home. Anbalayam, located in the rural town of Sirkali is the home for 55 special-needs children. The home was founded in a rundown rental building by Ms. Meerabai Ekambaram, a local resident with a heart as big as it can be. There are more than 10 million special-needs children in India. Most of the children were abandoned by their parents in public places like bus stands, railroad stations and local markets, with the hope that somehow their children will be taken care of. When Mrs. Meerabai founded Anbalayam in 1998 she had picked the children wandering around in the bus stand at Sirkali. Anbalayam’s children have the typical maladies of special-needs children, mental retardation, cerebral palsy, Downs Syndrome, autism and multiple disabilities. Genetic consanguinity (marrying close relations) is one of the significant causes of offspring that are diagnosed with special-needs. Genetic consanguinity is not un-common, even in highly educated communities in Tamil Nadu.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.cstrichy.org " target="_blank"><img src="../../src/img/NGOicons/Tamil/12.jpg" alt="Care and Share Charitable Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Care and Share Charitable Trust</p>
+				</div>
+			</div>
+			<h3>Care and Share Charitable Trust</h3>
+			<h4>ABOUT</h4>
+			<p>Care and Share Charitable Trust located at Tiruchirappalli, Tamil Nadu is the endeavour of the Franciscan Missionary Brothers (CMSF), St.John De Britto Province (Tamil Nadu), established in 2004. It plans, initiates and executes the social projects in the state of Tamil Nadu to provide a better, systematic and scientific approach to social service and developmental projects of the Franciscan Missionary Brothers.
+			</p>
+			<h4>Vision</h4>
+			<p>We envision a world where the poor will have equal opportunities to improve their quality of life to end hunger and poverty .</p>
+			<h4>Mission</h4>
+			<p>Care and Share is a non-profit organization that enables impoverished families and communities especially women and children to overcome hunger, sickness and poverty by identifying key needs and provide the tools necessary for empowerment to lead self-sustaining and fulfilling lives.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.dpwa.in" target="_blank"><img src="../../src/img/NGOicons/Tamil/13.png" alt=" DEPRESSED PEOPLE'S WELFARE ASSOCIATION  "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>DEPRESSED PEOPLE'S WELFARE ASSOCIATION</p>
+				</div>
+			</div>
+			<h3>DEPRESSED PEOPLE'S WELFARE ASSOCIATION</h3>
+			<h4>ABOUT</h4>
+			<p>DPWA owes its origin to the grass root level dedicated social activist and a native Roman Catholic Priest of Trichy District Father S.Dhanapragasam. Having served as a catholic priest for eight years, he resigned his ministry during the process of his treatment to the near fatal injuries he sustained in a road accident on 28th February '85. First as a priest and later as a social worker for all, irrespective of caste/creed, he dedicated himself for the uplift and emancipation of the rural poor. This he had intended to accomplish by liberating these people from their ignorance, unorganized state of affairs, social oppression and from the clutches of poverty.
+
+			All along his dedication, his mind and heart in unison had nurtured a strong concern for the poor children of the area. Their needs and necessities attracted his prime attention. Through trial and error process, he had come to the firm conviction that if his vision to acquire a clear shape, he needed to ORGANISE various activities to benefit the target group in an orderly fashion.
+
+			Born out of this firm conviction was the formation of the Society under the name of DEPRESSED PEOPLE'S WELFARE ASSOCIATION. This non-profit and non-communal rural development society was founded by him in 1985. This society enjoyed the support and the blessings of the local elders of Tiruchirapalli District and was registered under the Society's Act vide No. Sl 29/1985. The administrative office of D.P.W.A. is operating from 25, Annai Nagar, Pitchandarkoil Post, Trichy 621 216, Tamil Nadu. This society is registered under section 10A, 80G of income tax department. This society also has the registration under Foreign Contribution Regulation(FCRA), Home Ministry, Govt. of India under no. 07604099.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://intactindia.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/14.gif" alt="Intact (Integrated Action trust)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Intact (Integrated Action trust)</p>
+				</div>
+			</div>
+			<h3>Intact (Integrated Action trust)</h3>
+			<h4>ABOUT</h4>
+			<p>Intact works to empower marginalised individuals in society by creating opportunities for independent living. We want to achieve a society where everyone, regardless of caste, ethnicity, gender, religion, colour and ability is accepted and given equal opportunities – without discrimination. 
+
+			Intact is a non-profit, charity organisation that endeavors to connect people across the world to attain a new order of life by sharing and caring. You can join us to make a difference in the lives of individuals with intellectual disabilities, mountain tribes and poor women.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://samugam.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/16.jpg" alt="Samugam"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Samugam</p>
+				</div>
+			</div>
+			<h3>Samugam</h3>
+			<h4>ABOUT</h4>
+			<p>Samugam is a non-profit, community-based organization that was founded on 9 May, 1991 by Mr. C. Jesudhasan Savio. His mission has been continued and broadened by his son, Bruno Savio; currently the director of Samugam.Rita Vandenberghe and her daughter Nele Degryse from Belgium are the roots for Samugam and its all activities.Their energy is still traveling in all our charity projects.The Degryse family is a home away home for Samugam family in India</p>
+		</div>
+		<div class="box" data-groups='["all", "health","environment","education"]'>
+			<div class="thumb-img">
+				<a href=" http://www.peacetrust.in" target="_blank"><img src="../../src/img/NGOicons/Tamil/17.jpg" alt="Peace Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Peace Trust </p>
+				</div>
+			</div>
+			<h3>Peace Trust </h3>
+			<h4>ABOUT</h4>
+			<p>Peace Trust is a non-partisan, non-political, secular and non-governmental organisation engaged in promoting eradication of child labour, welfare of migrant labour, protection of environment and awareness of health and hygiene. It believes in sustainable development with equitable distribution of the fruits of development and equal opportunities for all citizens.
+			Genesis
+			Peace Trust was established in 1984 at Dindigul in Tamil Nadu state. It was founded by Joseph Paul Baskar who had been engaged in social work for several years, helping the child labourers to get released from hazardous industries like tanneries and cotton mills. At present the area of operation of the Trust spans six districts of TamilNadu, viz., Dindigul, Karur, Siva Gangai, Coimbatore, Chennai and Nagapattinam
+			</p>
+		</div>
+		<div class="box" data-groups='["all","employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.anawimtrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/18.gif" alt="ANAWIM TRUST "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ANAWIM TRUST </p>
+				</div>
+			</div>
+			<h3>ANAWIM TRUST </h3>
+			<h4>ABOUT</h4>
+			<p>ANAWIM TRUST (ANAWIM in Hebrew means Poor) was initiated in 1993 by a group of concerned individuals from Tuticorin District in the southeastern coast of Tamil Nadu.  
+			ANAWIM works with the rural communities of Tiruchendur Taluk, Tuticorin District facing severe marginalisation in social, economic and cultural terms.  Most of the village people survive by providing unskilled labour for daily wages. 
+			Support the empowerment of rural communities in the exercising of their rights and increased access to natural resources in order to have greater control over their lives, livelihoods and environment.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.anbuullangal.com" target="_blank"><img src="../../src/img/NGOicons/Tamil/19.jpg" alt="Anbu Ullangal "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Anbu Ullangal </p>
+				</div>
+			</div>
+			<h3>Anbu Ullangal </h3>
+			<h4>ABOUT</h4>
+			<p>Anbu Ullangal in the regional language means loving hearts-is the name of our home which gives shelter to the needed. Anbu Ullangal is registered under the trust act of 1961 in the year 1962 and is protecting orphans, deserted women, old people, physically handicapped and the mentally retorted for the past eighteen years.It was started by Mr.Sathya Samuel who had a broader vision and for those were deserted by the society and were not recognized by the society.In the beginning he started Anbu Ullangal with four or five old people who deserted by their families at Satankulam, a village near Tirunelveli district, Tamilnadu, India.
+
+			Then he found that there were orphan children too, who needed care and concern. Mr.Sathya Samuel who was basically a school teacher understood the need of children.Out of his own earnings he bought 1 acre and 75 cent of land in Kootampuli, a small village in Tuticorin district, Tamilnadu, India and started building the home with the help of local philanthropists. The home started growing slowly and has grown much now. It has 137 intimates at present. The home is run with the help of local people. As the home situated in rural area and run with local funds, the home is not receiving any government funds from the state or central government.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.calvarychapelindia.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/20.png" alt="Calvary Chapel Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Calvary Chapel Trust </p>
+				</div>
+			</div>
+			<h3>Calvary Chapel Trust </h3>
+			<h4>ABOUT</h4>
+			<p>Calvary Chapel Trust is a registered organization which was founded in the year 1989 with five children at Koramangala slum in Bengaluru by Bro. L. Gunasekaran. Today it caters to more than 5000 children. Calvary Chapel Trust is committed to child protection by keeping children safe from risk or perceived risk to their childhood. Calvary chapel Trust further recognizes that children are vulnerable; hence protection from harmful situation is our prime focus. Calvary Chapel Trust endeavours to provide that security net for appropriate care and protection.
+			</p>
+			<h4>Mission</h4>
+			<p>We at Calvary Chapel Trust are committed to serve orphaned, destitute and underprivileged children. We provide compassionate and holistic care to the marginalized in our society especially the children. We nurture, care, educate and train children to realize their potential to become contributing member of the society / nation.</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://vasanthamcharitabletrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/23.png" alt="Vasantham Charitable Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Vasantham Charitable Trust</p>
+				</div>
+			</div>
+			<h3>Vasantham Charitable Trust</h3>
+			<h4>ABOUT</h4>
+			<p>THIS DEED OF DECLARATION OF TRUST is executed at Chennai on this the K.Karuthapandi aged around 43 years and residing at No 1/246 Second Street Rajiv Gandhi Nagar Vengambakkam (Via) Vandalur Chennai – 600127
+
+			HEREINAFTER CALLED THE AUTHOR OF THE TRUST
+			WHERAS the AUTHOR of the Trust has set apart a sum of Rs.1000/-(Rupees One Thousand Only) for public charitable purposes and objects of general public utility for the benefit of the public.
+
+			The office of the Trust shall be situated at such place or places as may be decided by the Trustees, from time to time.
+			</p>
+		</div>
+			<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.deepamglobal.com" target="_blank"><img src="../../src/img/NGOicons/Tamil/24.png" alt="Deepam Global Charitable Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Deepam Global Charitable Trust </p>
+				</div>
+			</div>
+			<h3>Deepam Global Charitable Trust </h3>
+			<h4>ABOUT</h4>
+			<p>DEEPAM Global is one of the Chennai best NGO Management models revolves around the Donor(primary contributor of financial/emotional needs), a Service provider(existing infrastructure to support the Beneficiary) and the Beneficiary(final recipient of support). DEEPAM also realizes that many donors currently do not have the direct knowledge of the beneficiary and do not feel the real cause and need of said service done. At the same time, most of the beneficiary look up to the Donor not only for financial assistance but more for emotional and personalized support Chennai best NGO.
+			Deepam Global Charitable Trust through its primary research understands that there are many service providers with basic infrastructure but not so organized in terms of database, systems, and resource to deliver the required service to the beneficiary in a sustainable way. Most of the Service Provider have to run day to day for their financial needs and do not spend quality time on service.
+			Deepam Global Charitable Trust in Chennai model facilitates Organ Donation and Adoption (pre-qualifying the child (data registered in portal after all approvals), registering and qualifying the adoptee for perfect matching). This model of DEEPAM ensures one child is taken care through its life.
+
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.ransomtrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/25.jpg" alt="Ransom Educational and Social Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ransom Educational and Social Trust</p>
+				</div>
+			</div>
+			<h3>Ransom Educational and Social Trust</h3>
+			<h4>ABOUT</h4>
+			<p>REST-RANSOM EDUCATIONAL AND SOCIAL TRUST is a well known non-profit & non-govt. organization in Tiruvallur, Tamil nadu State, India. It aims at facilitating a process to establish a just and healthy society in which the poorest of the slums poor gets the power to maintain a better and qualitative life with equal access and control over the education and resources.
+
+			And this is possible with opportunities to knowledge, information, resources & participation in decision making process. It also committed to the implementation of socio-economic development of marginalized sections of society since its inception in 2010. At present our development initiative covers more than hundred poor, vulnerable and weaker section population including women, children, elderly, disabled, destitute, small & marginal farmers, rural artisans and other such underprivileged. It has developed an integrated strategy by combining direct service delivery approach and development support activities like research, advocacy, networking etc.
+
+			Considering the primary objectives & aims of organization at the very broad level the programs undertaken during the year 2011-2012 can be divided into various areas. By having skilled and professional staffs, REST runs a number of programs like sustainable socio-economic development of slums communities, taking special care of child education, environment education, sexual & reproductive health education, non-formal education to girl children, ensuring basic health needs, SHG empowerment through & income generation programs etc. It's intervention area also extended with elderly care, support to people with disability and HIV/ AIDS, with local knowledge and resources.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://sevalay.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/26.jpg" alt="Sevalaya"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Sevalaya</p>
+				</div>
+			</div>
+			<h3>Sevalaya</h3>
+			<h4>ABOUT</h4>
+			<p>Sevalaya is a not for profit, non governmental organization for kids with HIV AIDS. It is a Dream Ravi Bapatle turned to reality, a home for these kids.
+
+			It is based on a farmland donated by a generous farmer “Manmatappa Mukta” near the village of Hasegaon in Latur District of State of Maharashtra in India.
+
+			It has around 60-70 children of different age groups. They follow a routine as any other kid of their age of going to school, playing and studying, forgetting all their health and other problems. This is one of the major goals of Sevalaya, to give them a normal life.
+			</p>
+			<h4>Mission</h4>
+			<p>Providing a “Home” for children with HIV AIDS and taking care of their food clothing shelter education healthcare and overall development.
+			It is not their fault that they have HIV AIDS they are born with it. So it is Sevalaya’s Mission to give them a happy and complete life in every possible way.</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://taprishngo.com" target="_blank"><img src="../../src/img/NGOicons/Tamil/27.png" alt=" Taprish"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> Taprish</p>
+				</div>
+			</div>
+			<h3> Taprish</h3>
+			<h4>ABOUT</h4>
+			<p>Taprish is a National and Global synergy working to stimulate the under privileged people in driving them into providing equal opportunities. By participating in this process we drive our mentors to use their knowledge and rich experience for a possibility to build counter-cyclical strategies using People, Process & Technology to deal with the conjuncture.
+			The access to experiences will accelerate the process of growth, thereby helping us achieve the impossible feats in record time.
+			“Thousands of counter-cycles make growth happen while hundreds are some and dozens are few.”
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://unislcf.cfsites.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/28.png" alt="Universal Smile Life Charitable Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Universal Smile Life Charitable Foundation</p>
+				</div>
+			</div>
+			<h3>Universal Smile Life Charitable Foundation</h3>
+			<h4>Vision</h4>
+			<p>To promote and interests and over all welfare of socially, educationally and economically down trodden people of India. “Quality education for all children.”</p>
+			<h4>Mission</h4>
+			<p>To evolve and implement educational, economic and health oriented programs for under privileged and weaker sections of society including women, youth, handicapped, working children, gypsies, urban and rural poor to enhance their social and economic well being. To establish institution care for children, youth, and orphans and to create self employment for men & women in rural areas all other needy.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.readscpt.org.in" target="_blank"><img src="../../src/img/NGOicons/Tamil/29.jpg" alt="READS Rural Education And Development Society "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>READS Rural Education And Development Society </p>
+				</div>
+			</div>
+			<h3>READS Rural Education And Development Society </h3>
+			<h4>ABOUT</h4>
+			<p>READS Rural Education And Development Society is a registered voluntary organization involved in the Education,Health,Skill training,MR residential Special school,Micro Financial lending to SHG members and rural development activities in Thiruvannamalai district 7 young professional and like-minded people joined together and started this organization since 1992. It is registered under Tamil Nadu societies Registration Act. It is mainly focusing on ‘empowerment of the people in remote rural villages of Thiruvannamalai Dt the poorest of the development.’ It believes in people’s ability to respond their own situations by creating awareness on their needs and the resources available to satisfy the needs through collective efforts.</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="https://sppdonline.org// " target="_blank"><img src="../../src/img/NGOicons/Tamil/31.png" alt="Society For Poor People Development"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Society For Poor People Development</p>
+				</div>
+			</div>
+			<h3>Society For Poor People Development</h3>
+			<h4>ABOUT</h4>
+			<p>SPPD is a Non Profit, Charity and Community Development organization that envisions a secured & sustainable community with focus on developing sections of society that are at risk and most deserving under five thematic areas. Education and skill development focuses on providing Quality education towards wholesome development for the under privileged children and Vocational skill training for rewarding careers to the rural youth. This is aimed at ensuring fundamental rights of the deprived children and youth.
+
+			Similarly providing nutritious food supplements to the child victims of HIV/AIDS from pathetically poor families forms an important initiative of our organization. The intervention among women aims at developing women especially those from the resource poor and marginalized communities through building their capacity to become self reliant.
+
+			SPPD promotes the organic farming methods for sustainable agriculture among the small dry land farmers in Tamilnadu. Similarly SPPD while extending relief and rehabilitation for the victims of disasters like flood, cyclones, earthquake, makes it a point to keep the poor communities disaster prepared, through continuous sensitization and training. Our target communities belong to the central districts of Trichy, Namkkal and Karur and the northern districts of Chennai, Trivellore and Kancheepuram of Tamilnadu state in South India.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.sspct.org " target="_blank"><img src="../../src/img/NGOicons/Tamil/32.png" alt="The Sarswati Shanmugam Public Charitable Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Sarswati Shanmugam Public Charitable Trust</p>
+				</div>
+			</div>
+			<h3>The Sarswati Shanmugam Public Charitable Trust</h3>
+			<h4>ABOUT</h4>
+			<p>The Trust was officially a registered as Charitable Trust under the India 1857 Act at the District Registrar office. Thiruvannamalai on the 13th Dec 1996.
+
+			The members of the trust were having a plan to create this trust about 3 years ago to offer a meaningful social services to the needy persons identified as beneficiaries of their programmes on completion of the following tasks ie.
+
+			To seek sufficient knowledge, skill and experience to handle creation bona-fide development program at the respective project areas.
+			To select the project area and identify the target groups according to their criteria.
+			To Identify the problems of the target group and design suitable remedies to rehabilitate their life.
+			To create partnership for development with the Government Departments, Banks NGOS, Schools, Womens federations and resource persons to promote the infra structure of the NGO.
+			To organize and conduct various IEC programmes in the project area with the team of experts to make the target group to become eligible to rehabilitate their life.
+			</p>
+			<h4>Vision</h4>
+			<p>Vision of the SSPCT is the Integrated Development and creation of a Just Society based on the Global values of Justice, Peace, Love and Unity where equality prevails at all levels and human values are respected.</p>
+			<h4>Mission</h4>
+			<p>The World peace and prosperity are threatened by the disparity between the poor and the rich. This unequal distribution of wealth paves the way for unrest and strife. Hence it is our endeavor to improve the economic condition of the common man, especially those who live in the rural areas, through development based on maximum utilization of natures’ generous supply of physical and human resources.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.avstrust.org " target="_blank"><img src="../../src/img/NGOicons/Tamil/33.jpg" alt="AVS Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AVS Trust</p>
+				</div>
+			</div>
+			<h3>AVS Trust</h3>
+			<h4>Mission</h4>
+			<p>Love, trust and respect are the fundamental values of the education we provide. We foster creativity and common understanding for each other and the environment, we strive for empathy and harmony in all we do and we share the responsibility to care for what we build together: a learning community for children and people of the surrounding villages to create a bright future.</p>
+			<h4>Vision</h4>
+			<p>Our declared goal is not only to give each of our children the very best primary school education they can attain, but also to teach them to love each other, respect each other, and help each other wherever they can. We foster our children's creativity and common understanding of each other and of the environment, and we strive for empathy and harmony in all we do - always keeping in mind that through our students we reach the villages' people, and therefore make a change in society.</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "environment","education","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.globalwatchtrust.com" target="_blank"><img src="../../src/img/NGOicons/Tamil/35.jpg" alt="The Global Watch Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Global Watch Trust</p>
+				</div>
+			</div>
+			<h3>The Global Watch Trust</h3>
+			<h4>ABOUT</h4>
+			<p>Based in Thiruvannamalai South India, the Global Watch Trust was founded to help local women and children through education and training.Plastic disposal is the main focus of this creative organization. In fact we are working towards a PLASTIC FREE ARUNACHALA. Our goal is to clean up Thiruvannamalai both of solid waste and noise pollution. With a strong focus on education we are working with the community to promote awareness and responsibility in these matters. Educating women and children in computers, women’s rights and environmental well being is vital   to  our success. Helping people to help themselves. Working to clean up the holy city of Arunachala is the commitment of the Trust. Global Watch Trust or WATCHE is an organization dedicated to bringing about a positive change both locally and in the world.
+
+			WATCHE stands for Global Women Awareness Training and Children Education Development and was founded by Mr. Sathyan VS, Mr. Thirunavukarasu and other successful businessmen in Thiruvannamalai.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "health","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.harikshatrust.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/37.png" alt="Hariksha Peoples Welfare Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Hariksha Peoples Welfare Trust </p>
+				</div>
+			</div>
+			<h3>Hariksha Peoples Welfare Trust </h3>
+			<h4>ABOUT</h4>
+			<p>Hariksha Peoples Welfare Trust serving for more than 8 years, we are assisting individuals, families & Communities - poor, orphan, abandoned, physically challenged, differently abled, socially deprived, diseased.
+			At Hariksha we completely believe in and invest in ethics, we organize the standard based service to the needy, neglected, deprived people.
+			By understanding the needs of the underprivileged people we were able explore & gather the support in and around, to provide the best service to the beneficiaries.
+			The quality of service is evident in the implementation and the results of our activities / projects... 
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.anbalaya.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/38.png" alt=". Development Education Centre is a social service organization "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>. Development Education Centre is a social service organization </p>
+				</div>
+			</div>
+			<h3>. Development Education Centre is a social service organization </h3>
+			<h4>ABOUT</h4>
+			<p>Development Education Centre is a social service organization working for differently abled, children and women in Northern Chennai and Tiruvallur District. The founder of the organization who is service oriented has seen that there is lack of services to educate and to train the differently abled especially intellectually challenged. Due to the ignorance and lack of awareness among the parents, children are socially neglected. Hence Development Education Centre is established in the year 1996, to guide and counsel the disabled persons in the community, to enable the economically backward children and to empower the self-help group. The dedicative work is strongly based on the self less service of the staffs, volunteers and supporters. They are the pillars of DEC – AnbalayA</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://namcoindia.org.in" target="_blank"><img src="../../src/img/NGOicons/Tamil/40.png" alt="National Mother and Child Welfare Org "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>National Mother and Child Welfare Org</p>
+				</div>
+			</div>
+			<h3>National Mother and Child Welfare Org</h3>
+			<h4>Vision and Mission</h4>
+			<p>To make a dignity living for rural poor and protecting their basic rights.	 
+			To create enabling environment for protecting child rights and ensuring sustainable livelihood for marginalized community
+			</p>
+		</div>
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.palamngo.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/41.png" alt="People's Awareness and Legal and Movement "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>People's Awareness and Legal and Movement </p>
+				</div>
+			</div>
+			<h3>People's Awareness and Legal and Movement </h3>
+			<h4>ABOUT</h4>
+			<p>
+			PALAM is a not-for-profit organization in the country working since 2004, well known in Tamilnadu, India, for its commitment to work with marginalized sections of the society and empower them to attain dignified quality life. Over the last ten years, PALAM has been working relentlessly to bring about qualitative behavioral change and impact on basic life of over fifty thousand people. Its bottom-up approach of inclusive development has changed basic needs and status of many poor and has led the path in sustainable development. Under various programs, many poor have benefitted including of around 200 women through women empowerment program (Tailoring), 1000 villagers through environmental interventions and 500 families through family and community counseling programs. Apart from this, PALAM has a full-fledged Skill Upgradation Program which has converted hundreds of youth into skilled and productive members of society through Computer and other self employed training and workshops.
+			PALAM had been worked effectively in national disasters such as Tsunami in 2004. There were 92 houses, 64 temporary shelters and
+			15 temporary community centres have been constructed in Nagapattinam District in Tamilnadu.   Our organization has also been worked in another disaster NISHA cyclone flood in Tamilnadu. We are being conducted shelf employment awareness programmes in various villages and we are being encouraged the people to start self supporting groups in their villages. We have effectively involved in “SAVE THE GIRL CHILD” Programmes in various districts in Tamilnadu. We are keen to organize various empowerment and entrepreneurship programmes and workshops in Tamilnadu.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://charityhelpinghands.com " target="_blank"><img src="../../src/img/NGOicons/Tamil/42.png" alt="Helping Hands Charitable Trust "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Helping Hands Charitable Trust </p>
+				</div>
+			</div>
+			<h3>Helping Hands Charitable Trust </h3>
+			<h4>ABOUT</h4>
+			<p>Helping Hands Charitable Trust is a voluntary charitable organization operating for more than 23 years from Calicut with all Kerala spheres of activities. It is a unique venture in the field of social services, which has been instrumental in delivering social services to the poor, needy and downtrodden with only pure innocent intentions seeking pleasure.  It has been successful in implanting new ideas in medical care for the terminally ill and cancer patients.  Began with free distribution of medicines and food to the poor patients in Calicut medical college and Beach hospital,  We later started free distribution of medical equipment like  Oxygen Concentrator, Wheelchair, Walker, Water bed, Airbed, NIV etc.. to poor patients under medical advice.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="https://www.srdps.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/43.jpg" alt="Society of Rural Devlopment Promotion Servies "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Society of Rural Devlopment Promotion Servies</p>
+				</div>
+			</div>
+			<h3>Society of Rural Devlopment Promotion Servies</h3>
+			<h4>ABOUT</h4>
+			<p>SRDPS works for promotion and development of women and children under needs in the society. Through the schemes UJJAWALA and SWADHAR, we rescue, care and protect, provide medical aids, counsel, rehabilitate and reintegrate abandoned, destitute, trafficked and sexually exploited women and children. We rescue and care abandoned and surrendered babies and provide them good life through legal adoption by which the childless family and adopted child lives happily.</p>
+			<h4>Vision</h4>
+			<p>To provide care and protection for women and children under social distress and to work for promotion and development of women’s life in society</p>
+			<h4>Mission</h4>
+			<p>To provide care and protection for women and children under social distress and to work for promotion and development of women’s life in society</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.ullamfoundation.in  " target="_blank"><img src="../../src/img/NGOicons/Tamil/44.png" alt="Ullam foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ullam</p>
+				</div>
+			</div>
+			<h3>Ullam</h3>
+			<h4>ABOUT</h4>
+			<p>Identify deficiency in public educational institutions and enhance the quality of amenities and the faculty.
+			To bring about a significant positive change in the quality of education delivered.
+			To efficiently link the deserving institutions/students with donors willing to aid.
+			To identify and gather a group of capable individuals volunteering the task of imparting and ensuring quality education and amenities to the deserving students.
+			To supports activities that develop quality medical/health care services for needy people and to improve the living condition of community.
+			To conduct General Medical/Health Camps, Blood Donation Camps, etc.
+			To promote/support the use of sustainable natural resources to save our environment for the future generations.
+			</p>
+			<h4>Vision</h4>
+			<p>To become a service organization of international reach and repute for charity endeavors, work for gainful education, adept health and conducive living conditions of the pretermitted.</p>
+			<h4>Mission</h4>
+			<p>The Mission of the Trust is to involve in non-profit, charitable activities in the area of education, environment, medical and human services by providing a support system to improve the education and safeguard of the environment.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.elohimbible.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/45.jpg" alt="Bethel Institute of Basic Level Education"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bethel Institute of Basic Level Education</p>
+				</div>
+			</div>
+			<h3>Bethel Institute of Basic Level Education</h3>
+			<h4>Vision</h4>
+			<p>"I will do all I have promised" (from Bible), Enriching the disabled, Encouraging the mentally challenged.</p>
+			<h4>Mission</h4>
+			<p>Maximizing the abilities and minimizing disabilities.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.motherteresacharities.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/46.png" alt="Mother Teresa Charitable Trust (MTCT)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Mother Teresa Charitable Trust (MTCT)</p>
+				</div>
+			</div>
+			<h3>Mother Teresa Charitable Trust (MTCT)</h3>
+			<h4>ABOUT</h4>
+			<p>Mother Teresa Charitable Trust (MTCT)'s history starts with the story of compassion. The mammoth crowd that followed the adieu procession of the legend Mother Teresa, Dr.G.K.Dhas, a kind hearted social activist took up the challenge of being and working for the poor. From this simple, yet heart breaking incident, brought the determination that, to take the mantle of Mother Teresa, that "Service to Mankind is Service to God". The inspiration which helped to create "Mother Teresa Charitable Trust" is being carried out all these years. We took the initiative with the vision that "No one shall be deprived of the basic needs". The overwhelming response from the general public is the impetus for the growth of Mother Teresa Charitable Trust. Now Mother Teresa Charitable Trust functions as a social relief NGO striving for the upliftment of poor, sick, downtrodden and the under privileged. The vision of the Mother Teresa Charitable Trust is to spread the ideals of Mother Teresa and motivate the younger generation to render service to the less fortunate. Its sub unit "Mother Teresa Forum" enrolls members and forms committees at national state, district, taluk and village levels. Mother Teresa Charitable Trust serves with the motto of "Service to Humanity". With the partnership of Government & various State governments, as well as the generosity of thousands of our supporters, we have grown from a small endeavor to a mammoth force that stretches across the wide chemesphere . All these years MTCT serve the under privileged and the needy to transform a vision into a reality. Our fight will continue till the last breath of a suffering mass.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.vetngo.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/47.png" alt="VET (Vallalar Educational Trust) "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>VET (Vallalar Educational Trust) </p>
+				</div>
+			</div>
+			<h3>VET (Vallalar Educational Trust) </h3>
+			<h4>ABOUT</h4>
+			<p>VET (Vallalar Educational Trust) is an NGO (Non Govermental Organization) registered in the year 2004 with the N0-17/2004 in Trust Act. The functionary place is Kanjanur Village, Villupuram district, Tamilnadu, India.VET is dedicated to empower the people in the villages through social, economical and children's educational development for creating a sustainable village atmosphere. VET initially started the activities working in a primary school and has continued to grow and educate the local community. VET aims at Rural Welfare Reforms for the Indian Woman and Girl Child, Social welfare and Health Welfare. We assist women by forming self-help groups, leadership training, income generation programme, immunisation and family planning advice, and mother and child nutrition programmes. 
+			Vallalar Educational Trust is dedicated to support the weaker sections of the society with a holistic, sustainable and diversified approach.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://anugrahahome.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/48.png" alt="ANUGRAHA CHARITABLE TRUST "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ANUGRAHA CHARITABLE TRUST </p>
+				</div>
+			</div>
+			<h3>ANUGRAHA CHARITABLE TRUST </h3>
+			<h4>Vision</h4>
+			<p>To provide care, confidence and a comfortable meaningful living to special children
+			To provide a happy, healthy and serene atmosphere to old people to lead their life in pride and dignity.
+			To make Life worth Living.
+			ACT focuses on Possibilities and not on the Limitations.
+			</p>
+			<h4>Mission</h4>
+			<p>ANUGRAHA CHARITABLE TRUST strives to achieve their vision through:
+			Top Level commitment to achieve these special goals.
+			State of art infrastructure and trained team of dedicated personnel to provide Quality Care in Life with Happy, Hygienic and Healthy surroundings.
+			Education, Training and Vocational Guidance to children with developmental difficulties to overcome deficiencies and to empower to lead a meaningful life.
+			Nurture lasting partnership between special children, their families and society.
+			Conduct lectures, seminars and discourses on proactive ageing and mental peace for senior citizens to lead a healthy, dignified and purposeful life.
+			Network on behalf of special children and old people with relevant Government and private institutions and orgonisations.<</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.atmasanga.com " target="_blank"><img src="../../src/img/NGOicons/Tamil/49.png" alt=" ATMASANGA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> ATMASANGA</p>
+				</div>
+			</div>
+			<h3> ATMASANGA</h3>
+			<h4>ABOUT</h4>
+			<p>ATMASANGA literally means the ‘coming together of souls’. Humans have chosen to ignore the fact that this beautiful world will remain so only if we decide to preserve and protect her. We cannot afford to exploit and plunder our natural resources and defile the environment indefinitely. We have reached a point in time when we should STOP, THINK and ACT!
+			Atmasanga Environment Alliance is a modest organization that hopes to create a mighty change in the way people think. We are motivated by the ideals of our parent organization AUROVILLE; its greater goal of working towards peace, harmony and human unity.We invite people from all walks of life to JOIN this campaign to help make a difference by CREATING AWARENESS and by infusing a SENSE OF RESPONSIBILITY in our society. It is imperative that we remind ourselves and our fellow beings that THE EARTH DOES NOT BELONG TO US.. WE BELONG TO THE EARTH!
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://karunaii.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/50.jpg" alt="The Tamil Word Karunaii Encompasses Empathy"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Tamil Word Karunaii Encompasses Empathy</p>
+				</div>
+			</div>
+			<h3>The Tamil Word Karunaii Encompasses Empathy</h3>
+			
+			<h4>ABOUT</h4>
+			<p>The Tamil word Karunaii encompasses empathy, love and a helping hand. These are the concepts that guide the Karunaii Trust set up to address the urgent need for specialized care of mentally retarded children, particularly those from underpriviliged sections of society.Condemned and ostracized by the mainstream, these children are victims of physical, sexual and psychological abuse.From a small building in Saidapet, Chennai, in southern India, Karunaii's small but dedicated team help these children help themselves through education and day care. True to its name, Karunaii's commitment does not stop with the emotional and educational needs of special children through workshops and awareness campaigns.The Karunaii Trust believes that through intensive care, greater social awareness and networking of resources, these special children can become valuable members of the larger community.</p>
+		</div>
+			<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="https://karunalaya.ngo" target="_blank"><img src="../../src/img/NGOicons/Tamil/51.png" alt="Karunalaya Social Service Society "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Karunalaya Social Service Society </p>
+				</div>
+			</div>
+			<h3>Karunalaya Social Service Society </h3>
+			
+			<h4>Vision</h4>
+			<p>Karunalaya Social Service Society is a secular, non-profit voluntary organisation working for the protection and development of street and working children in Chennai City since 1995. It was started as a grass roots organisation for the care, protection and rehabilitation of runaway, destitute street children, children working in the fishing industry, street youth and empowerment of women in the fishing community, street and pavement dwelling communities
+			Karunalaya has branched into many areas of work in the last years, yet, its central programme continues to be the rescue, shelter home care, food, clothing, health care, formal and non formal education for runaway street and working children (boys and girls), and offers counselling, and family tracing and reunification.
+			Karunalaya’s mission is the protection of the rights of the most vulnerable and disadvantaged children and women, and the promotion of a just and loveable society.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="https://realvpm.org" target="_blank"><img src="../../src/img/NGOicons/Tamil/52.png" alt="Rural Education and Action for Liberation (REAL) "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Rural Education and Action for Liberation (REAL) </p>
+				</div>
+			</div>
+			<h3>Rural Education and Action for Liberation (REAL) </h3>
+			<h4>ABOUT</h4>
+			<p>REAL was initiated in the year 1989 by a handful of enthusiastic and committed youth in and around Ennayiram Village in Villupuram district in Tamil Nadu. It was founded and led by Mr. A. Lawrence along with the young companions who were involved in providing services to the neglected, marginalized, exploited and illiterate rural poor people, in order to free them from the clutches of poverty, ignorance, ill health and social suppression.</p>
+			<h4>Vision</h4>
+			<p>The vision of Rural Education and Action for Liberation (REAL) is a transformed society that has control over the resources and exercises their rights and power in socio-economic and political decision making process to ensure social justice, equal opportunity and equitable sharing of resources for sustainable development which ultimately reflects in quality of life.
+			</p>
+			<h4>Mission</h4>
+			<p>To establish and strengthen community-based organizations at village level and federating the community based organizations (CBO’s) at area level to form a mass movement to implement, manage and advocate socioeconomic development of the target area and function as a pressure group to influence the micro and macro level political decision making process in favour of CBO’s and poor communities.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

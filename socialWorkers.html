@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, Shubhangi Goyal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Inspirations</title>
+	<link rel="stylesheet" href="src/css/TypeB.css">
+	<link rel="stylesheet" href="src/css/slideshow.css">
+	<link rel="stylesheet" href="src/css/socialWorkers.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="src/img/csi.png">
+	<style>
+		.headerMenu	a {
+			color: #1964b9;
+			padding: 1.2vw 0;
+		}
+		.headerMenu a {
+			width: 16.6%;
+		}
+		.footer a:hover	{
+			color:#1964b9
+		}
+	</style>
+	<script src="src/js/jquery.min.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #1964b9"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="About.html"><i class="fas fa-user-alt"></i> About</a>
+			<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="Blog/"><i class="fas fa-bold"></i> Blog</a>
+			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a class="activeLink"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (winScroll > 100 || winScroll > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(22,115,200,0.95)">
+<div class="smallScreenHeader" style="background-color: #1672cc"><span style="float:right" onclick="closeNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="About.html"><i class="fas fa-users"></i> About</a>
+		<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="#" onclick="closeNav()"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #1672cc"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('src/img/bg/bg7.jpg')"id="top" ><p>Our Inspirations</p></div>
+
+<div class="row">
+	<div class="leftcolum">
+		<div class="swcontainer">
+			<div id="swleft">
+				<ul class="swnames">
+					<p><i class="far fa-hand-point-right"></i> <u>WELL-KNOWN</u> <u>ACTIVISTS</u></p>
+					<li class="cur"><a href="#Baba" id="OL" onclick="socialWorkerSW('baba')">Baba Amte</a></li>
+					<li class="cur"><a href="#Vinoba" onclick="socialWorkerSW('vinoba')">Vinoba Bhave</a></li>
+					<li class="cur"><a href="#Jyotiba" onclick="socialWorkerSW('jyotiba')">Jyotiba Phule</a></li>
+					<li class="cur"><a href="#Medha" onclick="socialWorkerSW('medha')">Medha Patkar</a></li>
+					<li class="cur"><a href="#Anna" onclick="socialWorkerSW('anna')">Anna Hazare</a></li>
+				</ul>
+				<ul class="swnames">
+					<a href="socialWorkers2.html"><i class="far fa-hand-point-right"></i> <u>SOME</u> <u>LESSER-KNOWN</u> <u>ACTIVISTS</u></a>
+				</ul>
+			</div>
+
+			<div id="swright">
+				<div class="socialWorker" data-sw="baba">
+					<div class="card fadingg">
+						<img id="img" src="https://www.thefamouspeople.com/profiles/thumbs/baba-amte-1.jpg" alt="Baba Amte">
+						<h2>Baba Amte</h2>
+						<p><i>Environmental Activist</i></p>
+						<p>26 Dec 1914 - 9 Feb 2008</p>
+						<p>Baba Amte was an Indian social worker who dedicated his life to the noble cause of social service, particularly to make life better for the sufferers of leprosy. When he first witnessed the misery and ostracization faced by leprosy patients, his conscience was shaken and he was determined to do something to empower these people. He founded several ashrams and hospitals for these patients. Born into a wealthy family, he lived an enviable life. As a youngster he owned a gun and loved hunting! An avid movie fan, he corresponded with the likes of Norma Shearer and Greta Garbo. But as he matured with age he realized that there was too much injustice and suffering around him. This made him ditch his luxurious life and dedicate himself to the cause of betterment of the world. Fortunately, he met a kindred spirit in Sadhana who shared his passion for social work and he married her. He was a Gandhian and lived a very austere life. A firm believer in the virtue of hard work, he encouraged the leprosy patients to be self-sufficient and worked for their rehabilitation. He also spread awareness about ecological balance and wildlife preservation.</p>
+
+						<h4>Major Works</h4>
+						<p>He established the Anandwan ashram, a community rehabilitation center for leprosy patients and disabled people. It is a self-sufficient community primarily dependent on agriculture where everyone learns a skill and earns their livelihood through hard work.</p>
+
+						<h4>Awards & Achievements</h4>
+						<ul style="margin-left:-20px">
+							<li>He was given the Ramon Magsaysay Award in 1985 in recognition of his selfless service to the people.</li>
+							<li>He received a number of awards from the Government of India, the highest of them being the Padma Vibhushan in 1986. He used to give all the proceeds from his awards to Anandwan.</li>
+						</ul>
+						<!--p><button class="button">Contact</button></p-->
+					</div>
+				</div>
+
+				<div class="socialWorker" data-sw="medha">
+					<div class="card fadingg">
+						<img id="img" src="https://www.thefamouspeople.com/profiles/thumbs/medha-patkar-1.jpg" alt="Medha Patkar">
+						<h2>Medha Patkar</h2>
+						<p><i>Environmental Activist</i></p>
+						<p>1 Dec 1954 - now</p>
+						<p>Medha Patkar is a well-known Indian social activist, working towards several political and economic issues of the farmers, Dalits, tribals, labourers and women. Having dedicated her life to social welfare from a young age, she initiated and formulated several national policies to fight against land acquisition, unorganized public sector workers, etc. She initiated the Narmada Bachao Andolan (NBA) that has been in operation for the last 32 years. The NBA movement fights for the rights of people, affected by the Sardar Sarovar Dam project, which aims at building dams across the Narmada River. She was also a member of the World Commission on Dams, which worked towards finding the social, political and economic impacts of large dams globally. Over the years, she has voiced against casteism, communalism and other forms of discrimination. She founded the National Alliance of People’s Movement (NAPM) along with other activists and filed public interest litigations against private real estate builders like Hindustan Construction Corporation, Adarsh Society and Hiranandani. An alumnus of Tata Institute of Social Sciences, Medha Patkar is a fearless social worker who has been considered as the commoner’s leader for many years now.</p>
+
+						<h4>Major Works</h4>
+						<p>Medha Patkar is well-known for the Narmada Bachao Andolan through which she fought for the rights of people living along the Narmada valley. The construction of Sardar Sarovar Dam risked the habitation of thousands of people. Since 1992, the NBA has been running Jeevanshalas, a number of schools set up in the Narmada valley. As many as 5,000 students have already passed out of the schools. Over the last 30 years, the NBA has been working consistently in several sectors like health, environment protection, employment, etc.</p>
+
+						<h4>Awards & Achievements</h4>
+						<ul style="margin-left:-20px">
+							<li>Medha Patkar has been honoured with several awards for her relentless services towards the well-being of people. In 1991, she bagged the Right Livelihood Award. In 1992, she was honoured with the Goldman Environmental Prize.</li>
+							<li>She has been bestowed with other honours like the Green Ribbon Award for Best International Political Campaigner by BBC, England (1995), Human Rights Defenders Award from Amnesty International, Germany (1999) and M.A. Thomas National Human Rights Award from Vigil India Movement (1999).</li>
+							<li>Some of her other awards include Person of The Year, BBC (1999), Deenanath Mangeshkar Award (1999), Kundal Lal Award for peace (1999), Mahatma Phule Award (1999), Bhimabai Ambedkar Award (2013) and Mother Teresa Award for Social Justice (2014).</li>
+						</ul>
+						<!--p><button class="button">Contact</button></p-->
+					</div>
+				</div>
+
+				<div class="socialWorker" data-sw="vinoba">
+					<div class="card fadingg">
+						<img id="img" src="https://www.thefamouspeople.com/profiles/thumbs/vinoba-bhave-1.jpg" alt="Vinoba Bhave">
+						<h2>Vinoba Bhave</h2>
+						<p><i>Social ResocialWorker</i></p>
+						<p>11 Sep 1895 - 15 Nov 1982</p>
+						<p>Vinoba Bhave was a spiritual successor of Mahatma Gandhi who all through his life advocated non-violence and human rights. He constantly fought against evil through non-violent measures and instilled in people a religious and spiritual outlook towards life. Interestingly, though Bhave gave up on the mundane daily life at an early stage to join Mahatama Gandhi in the struggle for India’s independence, he was not known in public until 1940. In 1940, Bhave was chosen by Gandhi as the first individual satyagrahi. The incident put the nation’s spotlight on Bhave who until then enjoyed an obscure religious and social work career. He introduced several programmes for the welfare of the people including his famous Bhoodan-Gramdan movement, through which he collected more than thousand acres of land. Bhave was a deeply learned and brilliantly endowed scholar and thus, is still considered as the National Teacher of India. For his involvement in the independence movement, he was jailed several times. Bhave used his imprisonment time for reading and writing. Several of his highly accomplished works were written during his jail terms. Bhave’s life was one of commitment where he yearned for the highest level of spirituality through human faith, love and respect. He committedly served people all through his life.</p>
+
+						<h4>Major Works</h4>
+						<p>Bhave gave his life working on the path led by Gandhi, advocating non-violence and human rights all through. A learned scholar and a spiritual visionary, he continuously worked for creating a just and equitable society. Though Bhave worked all his life, he first came into prominence by being the first individual satyagarhi. In his lifetime, he initiated various movements for the betterment of the people but one such movement that gained considerable attention was Bhoodan-Gramdan. Through it, he helped millions of landless and helpless people to cultivate and prosper. He walked on foot for ten years, spreading the message of Bhoodan and in turn helping homeless. It is said that Bhave obtained more than 1000 villages through donation.</p>
+
+						<h4>Awards & Achievements</h4>
+						<ul  style="margin-left:-20px">
+							<li>In 1958, Bhave became the first person to receive the international Ramon Magsaysay Award for Community Leadership.</li>
+							<li>Posthumously, he was awarded India’s highest civilian award, Bharat Ratna, in 1983.</li>
+						</ul>
+						<!--p><button class="button">Contact</button></p-->
+					</div>
+				</div>
+
+				<div class="socialWorker" data-sw="jyotiba">
+					<div class="card fadingg">
+						<img id="img" src="https://www.thefamouspeople.com/profiles/thumbs/jyotiba-phule-2.jpg" alt="Jyotiba Phule">
+						<h2>Jyotiba Phule</h2>
+						<p><i>Philanthropist, Social ResocialWorker</i></p>
+						<p>11 Apr 1827 - 28 Nov 1890</p>
+						<p>In the 19th century India no one would have dreamt of educating their girls. But Mahatma Jyotiba Phule was a visionary much ahead of his times. A pioneer in the field of women’s education, he is the one who opened the first ever girls’ school in India. He was also much pained by the atrocities meted out on the people in the name of caste. Since he had been born into a so-called lower caste family, he had experienced the tortures and injustices rooting out of the caste system first hand. An intelligent and idealistic man, he refused to tolerate any unjustified behavior from others and set his mind on reforming the society for the better. He realized the importance of education; married at a young age, he began teaching his wife how to read and write. Fortunately, his wife Savitribai, was a like-minded soul who supported and helped her husband whole-heartedly in his social endeavors. Highly distressed by the malpractices prevalent due to the caste system, he formed the Satya Shodhak Samaj with the aim of protecting the so-called lower castes from exploitation and injustices. His unrelenting efforts to eradicate social inequalities earned him the title of “Father of Indian Social Revolution”.</p>
+
+						<h4>Major Works</h4>
+						<p>He was a pioneer in the field of women’s education. At a time when women were among the most downtrodden sections of the society, Jyotiba’s endeavor to educate them came as a shock to everyone. But he persisted and built many schools for girls from different backgrounds.</p>
+						<!--p><button class="button">Contact</button></p-->
+					</div>
+				</div>
+
+				<div class="socialWorker" data-sw="anna">
+					<div class="card fadingg">
+						<img id="img" src="https://www.thefamouspeople.com/profiles/thumbs/anna-hazare-2.jpg" alt="Anna Hazare">
+						<h2>Anna Hazare</h2>
+						<p><i>Anti Corruption Activist</i></p>
+						<p>15 Dec 1937 - now</p>
+						<p>The man who spurred the indifferent youth of India to voice their opinions against rampant corruption, Anna Hazare is one of the country’s most respected social activists. Hazare, a proponent of the non-violence movement frequently conducts hunger strikes to bring social issues of concern into limelight so that the political parties take action. Well into his seventies, the elderly gentleman has dedicated the major part of his life to making his village and country a better place. Born as the eldest son into a poor family in rural Maharshtra, he witnessed very difficult times during his childhood. He went on to work in the army where he survived a road crash and was the lone survivor when the underground Naga rebels attacked his army post. These incidents made him realize that his life was spared for a specific purpose and dedicated the rest of his life to service. Back home, at the village of Ralegan Siddhi in Maharashtra, he was pained to see how under developed the place was. He organized a group of like-minded people and transformed the place into a model village within years. Taking forward his social work, he began conducting hunger strikes to make political parties take note of burning social issues.</p>
+
+						<h4>Major Works</h4>
+						<p>He was the major force behind the transformation of the village Ralegan Siddhi from a poverty ridden, hopeless place with a huge population of alcoholics and drug addicts to a “Model Village” based on sustainable development.
+							<br>
+						Hazare played a key role in persuading the Government of India to pass the The Lokpal and Lokayuktas Act, 2013. He had been campaigning for years, often going on indefinite fasts in his bid to make the government take action towards creating a strong anti-corruption act.</p>
+
+						<h4>Awards & Achievements</h4>
+						<ul style="margin-left:-20px">
+							<li>He was awarded the Padma Shri, the fourth highest civilian award in India, in 1990 in recognition of his social work. He had threatened to return the award during many of his protests.</li>
+							<li>In 1992, he was presented with the Padma Bhushan, the third highest civilian award in India, for his relentless contributions towards the betterment of society.</li>
+						</ul>
+						<!--p><button class="button">Contact</button></p-->
+					</div>
+				</div>
+
+				<button id="more1" onclick="more(2)">MORE</button>
+				<button id="more2" onclick="more(3)">MORE</button>
+				<button id="more3" onclick="more(4)">MORE</button>
+				<button id="more4" onclick="more(5)">MORE</button>
+			</div>
+			<script>
+				var socialWorkers = document.getElementsByClassName("socialWorker");
+				for (var i = 0; i < socialWorkers.length; i++) {
+					socialWorkers[i].style.display = "none";
+				}
+				function socialWorkerSW(name) {
+					for (var i = 0; i < socialWorkers.length; i++) {
+						if(socialWorkers[i].dataset.sw==name)
+							socialWorkers[i].style.display="inline-block";
+						else
+							socialWorkers[i].style.display = "none";
+					}
+				}
+				document.getElementById("OL").click();
+				function more(i)	{
+					if(i==2)
+					{
+						document.getElementById("more1").style.display = "none";
+						document.getElementById("more2").style.display = "inline";
+						document.getElementById("medha-patkar").style.display = "inline";
+					}
+					else if(i==3)
+					{
+						document.getElementById("more2").style.display = "none";
+						document.getElementById("more3").style.display = "inline";
+						document.getElementById("vinoba-bhave").style.display = "inline";
+					}
+					else if(i==4)
+					{
+						document.getElementById("more3").style.display = "none";
+						document.getElementById("more4").style.display = "inline";
+						document.getElementById("jyotiba-phule").style.display = "inline";
+					}
+					else if(i==5)
+					{
+						document.getElementById("more4").style.display = "none";
+						document.getElementById("anna-hazare").style.display = "inline";
+					}
+				}
+			</script>
+		</div>
+	</div>
+
+	<div class="rightcolum" style="margin-bottom:20px">
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog/index.html#organicManure">
+				<img src="src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog/index.html#water">
+				<img src="src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog/Page-2.html#innovation">
+				<img src="src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color:#1964b9;margin-top: 0">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="1000" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #1964b9"></i> Quick Links</h3>
+		<a href="index.html"><h4>HOME</h4></a>
+		<a href="About.html"><h4>ABOUT</h4></a>
+		<a href="Blog/"><h4>BLOG</h4></a>
+		<a href="Gallery.html"><h4>GALLERY</h4></a>
+		<a href="NGOs/"><h4>OUR PARTNERS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="About.html#top"><h4>Profile and Working</h4></a>
+		<a href="About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="About.html#na"><h4>Fields of work</h4></a>
+		<a href="team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><a><i class="fas fa-home"style="color: #1964b9"></i>Ramanujan College, Kalkaji, New Delhi</a></h4>
+		<h4><a><i class="fas fa-mobile-alt"style="color: #1964b9"></i>+91 97606 20788, +91 97175 83595</a></h4>
+		<h4><a><i class="fas fa-envelope"style="color: #1964b9"></i>sociovation@gmail.com</a></h4>
+		<h4><a><i class="fas fa-link"style="color: #1964b9"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

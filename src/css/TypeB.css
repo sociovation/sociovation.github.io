@@ -92,10 +92,6 @@ body	{
 	transition: 0.5s;
 }
 
-.overlaMenu-content {
-	margin-top: 20px
-}
-
 .overlaMenu-content a {
 	position: relative;
 	top: 1%;

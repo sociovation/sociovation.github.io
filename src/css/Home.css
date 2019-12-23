@@ -37,7 +37,7 @@ body	{
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	width:16.66%;
+	width:14.28%;
 	color: #119;
 	background-color: rgba(240, 240, 250, 0.7);
 	padding: 0.5vw 0;
@@ -206,11 +206,9 @@ body	{
 
 .animate {
 	animation: faisalsZoom 1s;
-	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	-webkit-animation: faisalsZoom 1s;
-	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-iteration-count: 1;
 }

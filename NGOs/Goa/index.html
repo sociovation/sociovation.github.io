@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Goa</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a>Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<div id="grid">
+		<div class="box">
+			<div class="thumb-img">
+				<a href="https://childrescue.net" target="_blank"><img src="../../src/img/NGOicons/Goa/ElShaddai.png" alt="El Shaddai Charitable Trust-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>El Shaddai Charitable Trust</p>
+				</div>
+			</div>
+			<h3>El Shaddai Charitable Trust</h3>
+			<p>El Shaddai Charitable Trust is an ISO certiﬁed NGO in Goa, with several projects in the areas of education, child protection, women empowerment and advocacy for the rights of children, especially the marginalised and those from the streets and orphans in Goa.</p>
+			<p>As part of our work, we run formal and non-formal schools across Goa, and outreach programmes in slum schools. Here we focus on adult literacy (especially for women) and remedial coaching for dropouts and dilenquent children.</p>
+			<p>Our outreach is also designed to empower women in areas of reproductive health, family planning, the dangers of child marriage and the rights of the girl child. We work with families in slums and underprivileged communities in Goa, including Mapusa, Calangute, Vasco, Margao and Chimbel to create awareness and bring about change in the lives of the families. Our work also includes vocational training for youth and women in these communities to enable them to gain financial stability and through that empower them.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.jkhf.in/" target="_blank"><img src="../../src/img/NGOicons/Goa/Sangath.png" alt="Sangath Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Sangath Foundation</p>
+				</div>
+			</div>
+			<h3>Sangath Foundation</h3>
+			<p>Sangath is a non-governmental, not-for-profit organisation committed to improving health across the lifespan by empowering existing community resources to provide appropriate physical, psychological and social therapies. Its primary focus areas include child development, adolescent and youth health, and mental health and chronic disease.</p>
+			<p>A key element of our philosophy, therefore, is to strengthen state and private sector services by integrating affordable and effective interventions to ultimately scale up through sustainable health systems. We empower low-cost human resources with knowledge and supervision to improve access to healthcare for children with developmental disabilities, adolescents and young people, or people with any form of mental disorder.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.scan-goa.in" target="_blank"><img src="../../src/img/NGOicons/Goa/SCAN.png" alt="SCAN- Stop Child Abuse Now-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SCAN- Stop Child Abuse Now</p>
+				</div>
+			</div>
+			<h3>SCAN- Stop Child Abuse Now</h3>
+			<p>Stop Child Abuse Now (SCAN-Goa) is a registered voluntary organization (NGO) having its head office at Panaji, Goa-India. The organization looks into cases of children in need of care and protection as well as children in conflict with law.</p>
+			<p>SCAN-Goa Works closely with the Government Departments specifically with Goa police in cases of child abuse. The team works closely with the child welfare committees and the Juvenile Justice Boards in Goa and undertakes social reintegration of children back to society, by enrolling that in schools, vocational courses, trainings and job placements.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://dishatrust.org" target="_blank"><img src="../../src/img/NGOicons/Goa/Disha.png" alt="Disha Charitable Trust-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Disha Charitable Trust</p>
+				</div>
+			</div>
+			<h3>Disha Charitable Trust</h3>
+			<p>DISHA CHARITABLE TRUST is a voluntary organization based in Panaji (Goa, India.) The trust was formed in 1994 when a group of parents of mentally disadvantaged children, felt the urgent necessity to initiate an awareness programme in the field of mental retardation, and to have a permanent institution which would provide the emotional, educational, and conducive environmental needs, which play a key role in the rehabilitation and social integration of the mentally impaired individuals.</p>
+			<p>Disha Charitable Trust aims at teaching adaptive living skills necessary to decrease dependence of the mentally challenged individuals by incorporating motor, sensory, communication, social, personal and self help skills into activities of everyday life of the child. Disha began with just two students, but at present care for 56 mentally challenged students who are ably supervised by a team of 13 staff members . Assessment is done at the beginning and at the end of each academic year and accordingly, in consultation with the respective parents, an Individualized Educational Programme is prepared so that goals are easily achievable.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://gangazuari.org" target="_blank"><img src="../../src/img/NGOicons/Goa/Ganga.png" alt="Ganga Zuari Acadamy-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ganga Zuari Acadamy</p>
+				</div>
+			</div>
+			<h3>Ganga Zuari Acadamy</h3>
+			<p>The Ganga Zuari Academy is a not-for-profit cultural organization. It aims to encourage social harmony through inclusive cultural growth. A host of intellectuals that include scientists, academicians, company managing directors, writers, dancers, art directors, teachers, and top civil servants have formed this Academy (Registration No. 320/GOA/2007, PAN card No AABAG1117). The then Governor of Goa formally launched this Academy on 24 May 2007. The Academy has General Council (i.e., General Body) and 9 member Governing Presidium (i.e., Executive Committee).</p>
+			<p>The Academy has three Wings, looking after specialized activities :</p>
+			<p>Unmesh - Literature, Language, and Philosophy</p>
+			<p>Chhandovani - Performing Arts</p>
+			<p>Aakar - Fine Arts & Festivals</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.pressforpeace.org.uk/" target="_blank"><img src="../../src/img/NGOicons/Goa/GTS.png" alt="Green Triangle Society-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Green Triangle Society</p>
+				</div>
+			</div>
+			<h3>Green Triangle Society</h3>
+			<p>Green Triangle Society (GTS), a non-government organization based in Goa, is committed to the promotion of Occupational Safety, Health & Environment within the industrial community since year 2000.  It has a wide membership base of Corporate, Medium, Small Industries, representatives of Government Departments besides professionals from Occupational Safety Health & Environment, Personnel/HR, etc. As on date, membership of GTS is over 350 members.  Chief Inspector of Factories & Boilers, Government of Goa is the Ex-officio Hon. Secretary of the Society. Over and above, Green Triangle Society in association with Inspectorate of Factories & Boilers, Government of Goa organizes ?Continual Education Programs (CEP)? on various topics on monthly basis. Further, with a view to encourage and promote corporate social responsibility amongst the industrial community and also to motivate industries to adopt Safe Work Practices, GTS also organizes ?Corporate Social Responsibility Awards? and ?Safety Awards? respectively.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.donboscokds.com" target="_blank"><img src="../../src/img/NGOicons/Goa/Konkan.png" alt="Konkan Development Society-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Konkan Development Society</p>
+				</div>
+			</div>
+			<h3>Konkan Development Society</h3>
+			<p>Konkan Development Society (KDS), the Province Development Office (PDO) of the Province of Panaji (INP), covers the Konkan region of 3 states viz. Goa, 8 Districts of Maharashtra and 4 Districts of Karnataka. Established in 2005, KDS has been working in outreach programmes for the marginalized, the underserved and the needy. Children, youth, women and socially disadvantaged people are the focus of the KDS’s goal: ‘Transforming Lives for a Better Tomorrow.’</p>
+			<p>A dedicated and motivated Team of leaders, workers and donors strive to achieve this goal through Projects in Education, Skill Training, Women’s Empowerment, Child Care and Protection and Capacity Building. In the course of our eventful journey of joyful giving, we have had many partners who share our vision and mission to “Transform Lives for a Better Tomorrow.”It is due to their spirit of generosity that we have been able to impact the lives of so many human beings and to enable and empower them to aspire to a better standard of life, for themselves and their families.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://adamwelfare.org/" target="_blank"><img src="../../src/img/NGOicons/Goa/DRAG.png" alt="Disability Rights Association of Goa-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Disability Rights Association of Goa</p>
+				</div>
+			</div>
+			<h3>Disability Rights Association of Goa</h3>
+			<p>Disability Rights Association of Goa is a registered charitable society recognized by the Directorate of Social Welfare, Government Of Goa. It was started in October 2003 by persons with disability with the main objective of bringing persons with disability into the mainstream society.</p>
+			<h4>AIMS AND OBJECTIVES</h4>
+			<p>• To advocate and lobby on the issues of persons with disability</p>
+			<p>• To create awareness on disability issues</p>
+			<p>• To share information with persons with disability</p>
+			<p>• To network with like minded organizations for the welfare of the persons with disability in Goa</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://adamwelfare.org/" target="_blank"><img src="../../src/img/NGOicons/Goa/Positive.png" alt="Positive People-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Positive People</p>
+				</div>
+			</div>
+			<h3>Positive People</h3>
+			<p>Positive People has grown to the largest operational NGO in Goa, addressing various issues related to HIV prevention, care and support, advocacy, training and research. The mission of Positive People is to empower People living with HIV (PLHIVs) with their rights, individually and collectively, through care and support, treatment, intervention and advocacy. To achieve this mission, Positive People reaches out to the most at risk population through programs on awareness, prevention, care and support, training, research and documentation.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> TamilNadu</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a>Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="children">CHILDREN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all","health,"environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.ankushwelfaresociety.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Ankush.png" alt="Ankush Welfare Society-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ankush Welfare Society</p>
+				</div>
+			</div>
+			<h3>Ankush Welfare Society</h3>
+			<p>Ankush Welfare Society has a very strong goal of improving the Educational awareness among the rural people, child labour elimination & mainstreaming, non formal education for the above school ages. Identification of drop outs-establishing the bridge course center for their mainstreaming. Women welfare & child development activities. Old age persons welfare activities. Widows & orphans women care & support. Handicapped welfare. Income generating training for the youth through providing education, giving care, love and support, Strive to provide opportunities and made them self reliant. Additionally, it promotes empowerment of rural community people in various areas affecting humanity.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://permacultureindia.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Aranya.png" alt="ARANYA  Agriculture  Alternatives"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ARANYA  Agriculture  Alternatives</p>
+				</div>
+			</div>
+			<h3>ARANYA  Agriculture  Alternatives</h3>
+			<p>“ARANYA” aims to provide alternative solutions to the present conventional and chemical agricultural practices.  Since forest is the mother of agriculture, ARANYA is committed to follow the philosophy of natural agricultural practices with focus on forest farming so as to take up production without causing destruction to planet earth, enabling all life forms to coexist. To achieve sustainable development on our Earth, mankind must act only in accordance with nature.  ARANYA strongly  believes that there is only one law i.e., Nature’s Law and  human beings should not extract anything beyond their needs  from the nature and also should  return whatever that remains unused   back to nature, a law which can be stated as LAW OF RETURNS to increase the ability of sustainable production.</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="https://swas.webs.com" target="_blank"><img src="../../src/img/NGOicons/Telangana/SWAS.png" alt="Service with a Smile"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Service with a Smile</p>
+				</div>
+			</div>
+			<h3>Service with a Smile</h3>
+			<h4>Main mottos include:</h4>
+			<p>--> To cause real happiness in the minds of ailing patients.. And to extend at most compassion to the BLINDNESS by giving the eyes of ailing patients who are about to die..thus, the life of blind person would Stand in day-to-day life and they would feel natural happiness and the person who is about to die (donated person) being human virtues he will gain the perfect contentment in his next birth...</p>
+			<p>--> To feed the people who have been left uncared of the society.. Spread Love wherever you go.</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="https://www.aadarana.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Adarana.png" alt="Adarana- Home for underprivileged and needy children"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Adarana- Home for underprivileged and needy children</p>
+				</div>
+			</div>
+			<h3>Adarana- Home for underprivileged and needy children</h3>
+			<p>Today millions of children are deprived of their childhood rights- right to live, right to education. Their childhood dreams are shattered because of their poverty.</p>
+			<p>These hapless children are forced to child labour. The environment in which they work prompts them to nurse a grudge against the cruelty of their masters and the unkind society at large. Slowly they take to vices and finally are driven to the world of crime. This is the unfortunate scourge of our society.</p>
+			<p>These children of circumstances should be lifted from the gutters and hugged with much love and care. Thus AADARANA founded by Sri.Jadi Madhava Rao who had been nursing a sincere desire to help these poor souls to become respectable citizens in future.</h4>
+			<p>AADARANA picks these unlucky kids up, free them from child labor, and also the children rotting in gutters and undesirable environments. They are given love and protection, food and shelter, education and careers and ushered into respectable lives.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://abhayango.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Abhaya.png" alt="Abhaya Association for Empowerment of Women"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Abhaya Association for Empowerment of Women</p>
+				</div>
+			</div>
+			<h3>Abhaya Association for Empowerment of Women</h3>
+			<p>Registered under The society act 1956, Abhaya, was formed as a non-profit organization with the aim to do their best for the needy in the society. Abhaya innovates and evolves, trying out novel concepts that are continuously refined and scaled up to cover larger groups of disadvantaged populations.</p>
+			<p>Abhaya provides help to people without prejudice to caste, creed, sex, race or religion or economic status with major emphasis on educating to empower women for earning a decent income through vocational skills.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.actseveninternational.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/ACT.png" alt="ACT seven international"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ACT seven international</p>
+				</div>
+			</div>
+			<h3>ACT seven international</h3>
+			<h4>VISION & MISSION</h4>
+			<p>The quality of life of every person with disabilities is equal to other citizens in the world; in that they live independently to the maximum extent possible</p>
+			<h4>VALUE STATEMENT</h4>
+			<p>ACT values equal oppurtunity, protection of rights and full participation for persons with disability. ACT beleives participation of persons with disability, parents, proffessionals, employees and other stakeholders in the rehabilliation programs.</p>
+			<h4>COMMITMENT</h4>
+			<p>1. Transparency<br>2. Honesty<br>3. To involve experts to know the root cause of problems with disabilities of globe.<br>4. To engage experts to obtain right soltutions.</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "environment","education","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.afpro.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/AFPRO.png" alt="Action for Food Production"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Action for Food Production</p>
+				</div>
+			</div>
+			<h3>Action for Food Production</h3>
+			<p>The Aim of the Society is development of weaker sections of rural community and to move towards sustainable development through overall increase in their knowledge and skills, in the areas which directly affect their standard and quality of life</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.skga.co.in" target="_blank"><img src="../../src/img/NGOicons/Telangana/APMAS.png" alt="Andhra Pradesh Mahila Abhivruthi Society "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Andhra Pradesh Mahila Abhivruthi Society</p>
+				</div>
+			</div>
+			<h3>Andhra Pradesh Mahila Abhivruthi Society</h3>
+			<p>The first step in our 17 years of journey was supporting women SHG movement in the erstwhile Andhra Pradesh in 2001 and across several states in the country. The credibility gained in terms of building social capital through strengthening of rural and urban SHGs provided an impetus to empower the poor and marginalized communities through promotion of livelihoods, natural resources management, integrated farming systems, farmer producer organizations, and model villages besides reaching out to a few developing countries (Bangladesh, Ethiopia, Thailand, Myanmar and Vietnam).</p>
+			<p>Currently we have direct field presence in the states of Telangana, Andhra Pradesh and Bihar and through SHPIs (self-help promoting institutions) in Rajasthan, Uttar Pradesh and Maharashtra. Whereas, the focus of our capacity building initiatives and Research & Advocacy is in several states across and outside the country. The programmes that are currently being implemented could be categorized into three major streams</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.ankuram.in" target="_blank"><img src="../../src/img/NGOicons/Telangana/Ankuram.png" alt="Ankuram- Women and Child-Development Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ankuram- Women and Child-Development Society</p>
+				</div>
+			</div>
+			<h3>Ankuram- Women and Child-Development Society</h3>
+			<ol>
+				<li>Prevents child and woman trafficking; \rehabilitate and reintegrate those children & women who are subjected to various forms of abuse, exploitation and violence and trafficking.</li>
+				<li>Assisting organisations to Establish transit \shelter home \ resource centres for girls and women, ensuring care and support.</li>
+				<li>Create awareness among communities especially girls,women and vulnerable sections ; build their capacities and provided skills trainings to assert their rights, and to become self-reliant individuals.</li>
+			</ol>
+		</div>
+		<div class="box" data-groups='["all", "education","women"]'>
+			<div class="thumb-img">
+				<a href="http://shaheencollective.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Shaheen.png" alt="Shaheen Women’s Resource and Welfare Association "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Shaheen Women’s Resource and Welfare Association</p>
+				</div>
+			</div>
+			<h3>Shaheen Women’s Resource and Welfare Association</h3>
+			<p>The Mission of Shaheen is to create greater consciousness of the gender and socio-religious oppression in the society. In particular, looking at how these issues have developed in our history and how they are affecting our politics today.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.anuraaghumanservice.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Anurag.png" alt="Anuraag Human Services"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Anuraag Human Services</p>
+				</div>
+			</div>
+			<h3>Anuraag Human Services</h3>
+			<p>In The History of social service activities saw the beginning of a small effort by a group of professionals who together floated an organization to serve needy Destitute Disabled, Women, Children and Aged persons. This small effort which began with rehabilitation service for 3 Disabled persons in small shed has grown in leaps and bound, with a great deal of support from many well-wishers to the present status. The unending guidance and support of all the welfare oriented persons who are associated with us, has been the back bone which neither bent nor broke, over these years of hurdles and pit falls faced by the management and executed team. We are extremely thankful to God and the dedicated persons associated in helping the organization grow and shine in all its radiant colours as a well-established non-profit service organization. The ensuing paragraphs give a gist of all service programs of the organization.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://www.anveshi.org.in" target="_blank"><img src="../../src/img/NGOicons/Telangana/Anveshi.png" alt="Anveshi Research Centre for Women’s Studies"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Anveshi Research Centre for Women’s Studies</p>
+				</div>
+			</div>
+			<h3>Anveshi Research Centre for Women’s Studies</h3>
+			<p>Anveshi was set up in 1985 in Hyderabad by a small group of activist-scholars to provide resources to research and develop a feminist theory relevant to women’s lives in contemporary India. Today we are one of the foremost non-university research centers in India. Our work focuses on six research initiatives: education; health and health care systems; law and critical legal theory; dalits and minorities; development; and public domain. Projects in these initiatives examine the shifts in development theory; the crisis of medicine in the Indian context; hegemonic perspectives in school textbooks; the question of secularism and minority in Indian politics; the problematic nature of law and rights in domestic violence; and thinking about what it entails to be a ‘Dalit woman’ in modern India.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://aware-group.com" target="_blank"><img src="../../src/img/NGOicons/Telangana/Aware.png" alt="Aware- Action For Welfare And Awakening In Rural Environment"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aware- Action For Welfare And Awakening In Rural Environment</p>
+				</div>
+			</div>
+			<h3>Aware- Action For Welfare And Awakening In Rural Environment</h3>
+			<p>One unique nature of AWARE’s program is that it does not work in a particular area for more than 8-10 years. It initially motivates the people in process of development by :</p>
+			<ul>
+				<li>Helping them to organize themselves by promoting and protecting human rights and gender justice.</li>
+				<li>Educating people to understand their rights and responsibilities.</li>
+				<li>Providing training in leadership, skills development, agriculture, animal husbandry.</li>
+				<li>Assisting in growing more food.</li>
+				<li>Generating employment and better income realization.</li>
+				<li>Offering Health support,  Legal support and Environment education.</li>
+			</ul>
+		</div>
+		<div class="box" data-groups='["all", "health","environment","education"]'>
+			<div class="thumb-img">
+				<a href=" http://ashrayakruti.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Ashray.png" alt="Ashray Akruti"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ashray Akruti</p>
+				</div>
+			</div>
+			<h3>Ashray Akruti</h3>
+			<p>Ashray Akruti’s project ‘Cochlear Implant Surgery’ is mainstreaming many hearing impaired children by the gift of hearing through free Cochlear Implant surgery. Ashray Akruti has executed this project with the help of Max foundation, Hans foundation, Vijaya Diagnostics-Hyderabad, AYJNIHH- Mumbai and Ministry Of Social Justice and Empowerment.</p>
+			<p>The younger the kid receives an implant the easier for him or her to listen and speak. Till Now, Ashray Akruti supported 20 cochlear Implants. The cochlear implant enables the sound to be transferred to hearing nerves and enables to hear. It helps the children to gain hearing and develop speech and language.</p>
+		</div>
+		<div class="box" data-groups='["all","employment"]'>
+			<div class="thumb-img">
+				<a href="http://ashritabiofoundation.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Ashrita.png" alt="Ashrita Bio Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ashrita Bio Foundation</p>
+				</div>
+			</div>
+			<h3>Ashrita Bio Foundation</h3>
+			<p>Ashrita Bio Foundation was established in the year 2010 initially as a help desk supporting Academic students & scholars in various activities like projects, training programs, awareness programs & extended services to Corporate and Government sector through Industry facilitating the skills & knowledge with a concept of Advocacy, Consultancy, Training, Awareness & Project Management in the domain of Life Sciences, Environment, Science & Technology to meet the existing challenges and latest technological trends to fill in the skill gaps & knowledge gaps.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.sidurindia.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/SIDUR.png" alt="Society for integrated development urban and rural areas (SIDUR)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Society for integrated development urban and rural areas (SIDUR)</p>
+				</div>
+			</div>
+			<h3>Society for integrated development urban and rural areas (SIDUR)</h3>
+			<p>SIDUR came into existence in the year 1990 to address the problems plaguing Street Children, Urban and Rural Poor and Dalits.</p>
+			<p>Major projects include :</p>
+			<ul>
+				<li>HIV/AIDS Prevention and control</li>
+				<li>Childline Programme</li>
+				<li>Street Children Rehabilitation</li>
+				<li>Slum Development Programme</li>
+				<li>Water and Sanitation</li>
+				<li>Dalit Empowerment Programme</li>
+				<li>Community Based Rehabilitation</li>
+				<li>Braille Book Production</li>
+				<li>Housing for weaker sections in 5 coastal districts</li>
+				<li>NGO Facilitation</li>
+			</ul>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://bloodcrosssociety.com" target="_blank"><img src="../../src/img/NGOicons/Telangana/BCS.png" alt="Blood Cross society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Blood Cross society</p>
+				</div>
+			</div>
+			<h3>Blood Cross society</h3>
+			<p>"Blood Cross Society" Services play a critical role all over the World's Blood, Education, Orphans, Old age and Health care systems.</p>
+			<p>The "BLOOD CROSS SOCIETY" empowers ordinary people to perform extraordinary acts of service. They share one thing – a generous spirit, a desire to give back to their community and help others. They play an integral role in the delivery of modern healthcare; we call them "Gods”.</p>
+			<p>The "BLOOD CROSS SOCIETY" relies on its proud blood donors and those, whose lives were changed by receiving donated blood, to help inspire those around them to join this cause by making blood donation a regular part of their lives. The "BLOOD CROSS SOCIETY" provides blood donors.</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="https://www.byrrajufoundation.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/Byrraju.png" alt="Byrraju Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Byrraju Foundation</p>
+				</div>
+			</div>
+			<h3>Byrraju Foundation</h3>
+			<p>To realize our responsibility towards the rural underprivileged and constantly strive to enable them to achieve self reliance.</p>
+			<p>The Foundation has adopted Six Sigma as its core management framework as it :</p>
+			<p>»	Is the best of the frameworks for designing new processes and making breakthrough improvements to existing processes.</p>
+			<p>»	Ensures robustness of processes and reduces variation, cycle time and defects.</p>
+			<p>»	Helps in innovating, predicting and consistently delivering what the customer (beneficiary) expects.</p>
+		</div>
+			<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.cadreindia.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/CADRE.png" alt="CADRE- centre for action on disabled rights and empowerment"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>CADRE- centre for action on disabled rights and empowerment</p>
+				</div>
+			</div>
+			<h3>CADRE- centre for action on disabled rights and empowerment</h3>
+			<h4>Mission :</h4>
+			<p>To play a catalyst role in creating development opportunities for the most marginalized and deprived communities by building their capacities to assert their Constitutional rights and entitlements.</p>
+			<h4>Aim :</h4>
+			<p>The aim of the organization is to empower the poor and the most deprived communities through the initiatives on access to quality education, promoting child rights, health, nutrition, skills & livelihood development, women empowerment and creating awareness and facilitating linkages to the rights and entitlements.</p>
+			<h4>Our Approach :</h4>
+			<ul>
+				<li>Ascertaining Community Ownership.</li>
+				<li>Ensuring Equal opportunities.</li>
+				<li>Participatory approach in decision making.</li>
+				<li>Ensure Accountable and Transparent Practices.</li>
+			</ul>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.peacewelfaresociety.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/PWS.png" alt="Peace welfare society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Peace Welfare Society</p>
+				</div>
+			</div>
+			<h3>Peace Welfare Society</h3>
+			<p>The Peace welfare Society has its specific approach in undertaking development programmes for the poor and rural People. It may be recalled that the rural and remote area people were culturally strong and they repose highest confidence on their cultural practices.In the contemporary situation of Information Technology and Faster Growth perspectives, one has to understand the value system prevailing in rural areas and then understand the current situation through that perspective.Then, it provides an opportunity to chalk safe path for development to the rural people.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://causeaneffect.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/CAEF.png" alt="Cause an effect foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Cause an effect foundation</p>
+				</div>
+			</div>
+			<h3>Cause an effect foundation</h3>
+			<p>Cause an Effect Foundation is an award winning Not-for-Profit organization with international repute focusing on Health & Nutrition, Childcare & Education, Sustainable Livelihood, Agriculture, Disability and Animal Care. The Foundation operates by harnessing the potential of ICT (Information & Communication Technology) for sustainable & equitable development, to enable the poor and the marginalized communities to transform their lives. The Charter of the Foundation is a 360 degree addressal of their socio-economic needs. Cause an Effect works with its strong partner base to have a wider reach and access at the grass root level.</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.ceedeer.org" target="_blank"><img src="../../src/img/NGOicons/Telangana/CDR.png" alt="Centre for development and research"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Centre for development and research</p>
+				</div>
+			</div>
+			<h3>Centre for development and research</h3>
+			<p>Centre for Development and Research (CDR) is a registered, not for profit organisation working for the development of tribal communities in the State of Andhra Pradesh, since 1983.</p>
+			<p>CDR started its work in 1983 by assisting the tribal communities in 41 villages of Jainoor and Sirpur (U) mandals in Adilabad District in identifying and executing drought relief works. CDR also was instrumental in preparation of people centered village development documents that were presented to the government. The government, perhaps for the first time, had the opportunity to participate in a programme designed and implemented by the people. The programme was drawn up in all the 41 villages as per the priorities decided by the community. This decentralized people owned village development experience was influential later in formulation of the community centered Janma Bhoomi programme implemented by the then Government of Andhra Pradesh, during the years 1994 - 2003.
+			</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

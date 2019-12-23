@@ -12,7 +12,7 @@
 
     // making variables public
     slider.vars = $.extend({}, $.flexslider.defaults, options);
-  
+	
     var namespace = slider.vars.namespace,
         msGesture = window.navigator && window.navigator.msPointerEnabled && window.MSGesture,
         touch = (( "ontouchstart" in window ) || msGesture || window.DocumentTouch && document instanceof DocumentTouch) && slider.vars.touch,
@@ -564,10 +564,10 @@
             // slider.slides.width(slider.computedW);
             // slider.update(slider.pagingCount);
             // slider.setProps();
-       
+			 
             slider.update(slider.pagingCount);
             slider.setProps();
-      slider.slides.width(slider.computedW);
+			slider.slides.width(slider.computedW);
           }
           else if (vertical) { //VERTICAL:
             slider.viewport.height(slider.h);
@@ -876,8 +876,8 @@
           // clear out old clones
           if (type !== "init") slider.container.find('.clone').remove();
           // slider.container.append(slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true')).prepend(slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true'));
-          methods.uniqueID( slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true') ).appendTo( slider.container );
-          methods.uniqueID( slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true') ).prependTo( slider.container );
+		      methods.uniqueID( slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true') ).appendTo( slider.container );
+		      methods.uniqueID( slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true') ).prependTo( slider.container );
         }
         slider.newSlides = $(slider.vars.selector, slider);
 
@@ -1068,7 +1068,7 @@
     // Usability features
     pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
     pauseOnHover: false,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-    pauseInvisible: true,       //{NEW} Boolean: Pause the slideshow when tab is invisible, resume when visible. Provides better UX, lower CPU usage.
+    pauseInvisible: true,   		//{NEW} Boolean: Pause the slideshow when tab is invisible, resume when visible. Provides better UX, lower CPU usage.
     useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
     touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
     video: false,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches

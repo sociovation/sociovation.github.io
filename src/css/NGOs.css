@@ -1,3 +1,7 @@
+body	{
+	font-size: 90%;
+}
+
 .z	{
 	padding: 50px;
 }
@@ -16,7 +20,13 @@
 		display: none;
 	}
 }
-
+.headerMenu	a {
+	color: #e00;
+	padding: 1.2vw 0;
+}
+.footer	a:hover {
+	color: #e00;
+}
 ul#filterOptions{
 	margin: 0;
 	padding: 0;
@@ -49,12 +59,11 @@ ul#filterOptions li a:hover{
 	cursor: default;
 }
 
-.cur	{
-	cursor: pointer;
-}
-
 .box p,li	{
 	font-size: 125%;
+}
+.box h3	{
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px)	{
@@ -141,4 +150,140 @@ i.scroll {
 
 i.scroll:hover {
 	color:#fff;
+}
+
+.leftcolum	{
+	display: flex;
+}
+
+#leftleft	{
+	display: inline;
+	flex: 0.25;
+	float: left;
+	color: #fff;
+	background: #A70323;
+	width: 25%;
+	padding: 25px;
+	transition: 0.5s;
+	margin-bottom: -20px;
+}
+
+#leftright	{
+	flex: 0.75;
+}
+
+@media screen and (max-width: 700px)	{
+	#leftleft	{
+		display: none;
+		position: absolute;
+		z-index: 1;
+		width: 0%;
+		height: auto;
+		margin-top: -500px;
+		background-color: rgba(167,3,35,0.99);
+	}
+	#leftright	{
+		flex: 1;
+	}
+}
+
+ul#swnames {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table; 
+	transition: 1s ease;
+}
+
+ul#swnames a	{
+	color: inherit;
+	text-decoration: none;
+}
+
+.cur {
+	cursor: pointer;
+	padding: 25px 0;
+}
+
+ul#swnames li.cur a:hover	{
+	color:#00a;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.fadingg {
+	-webkit-animation: faisalsFading 1s;
+	animation: faisalsFading 1s;
+}
+
+@-webkit-keyframes faisalsFading {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes faisalsFading {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.formdiv	{
+	display: none;
+}
+
+#hid {
+	color: #fff;
+}
+
+@media screen and (max-width: 450px)	{
+	ul#filterOptions li{
+		float:none;
+	}
+	#hid {
+		margin: -25px 0
+	}
+}
+
+#x	{
+	display: none;
+}
+
+@media screen and (max-width: 700px)	{
+	#x	{
+		display: inline;
+	}
+}
+
+ul#pages {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table; 
+	font-size: 125%;
+	transition: 1s ease;
+}
+
+ul#pages a	{
+	color: inherit;
+	text-decoration: none;
+}
+
+ul#pages li	{
+	float:left;
+	margin-top: 100px;
+	margin-right: 10px;
+	padding: 12.5px 20px;
+}
+
+ul#pages li#selected	{
+	color: #333;
+	border-radius: 50%;
+	background-color: #eee;
+}
+
+ul#pages li:hover	{
+	color:#333;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #eee;
 }

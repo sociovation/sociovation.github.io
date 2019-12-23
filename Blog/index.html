@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, Shubhangi Goyal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Innovative Blogs</title>
+	<link rel="stylesheet" href="../src/css/TypeB.css">
+	<link rel="stylesheet" href="../src/css/Blog.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../src/img/favicon.png">
+	<style>
+		.headerMenu	a, .footer a:hover {
+			color: rgb(225,80,80);
+		}
+	</style>
+</head>
+
+<body>
+<div class="headerr">
+	<div class="headerLeftCol">
+		<a href="#top"><img src="../src/img/csi.png" style="max-width:100px; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../"><i class="fas fa-home"></i> Home</a>
+			<a href="../About.html"><i class="fas fa-user"></i> About</a>
+			<a href="../NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+			<a><i class="fas fa-bold"></i> Blog</a>
+			<a href="../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #e15050"></div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+				document.getElementById("logo").style.maxWidth = "50px";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "100px";
+				document.getElementById("c").style.display = "block";
+			}
+			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+				document.getElementById("blogleft").style.top = "50px";
+				document.getElementById("pages").style.marginTop = "50px";
+			}
+			else	{
+				document.getElementById("blogleft").style.top = "100px";
+				document.getElementById("pages").style.marginTop = "10px";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(225,80,80,0.95);">
+	<div onclick="closeNav()" class="smallScreenHeader" style="background-color: #e15050"><span style="float:right">&#9932; BLOGS</span> <img src="../src/img/csi.jpg"> SOCIOVATION</div>
+	<div id="blogSmall">
+		<div class="indiceBoxSmal">
+			<ul class="topics fadingg">
+				<li class="cur"><a href="#water">ULTA CHHATA</a></li>
+				<li class="cur"><a href="#RenewIT">RENEW-IT</a></li>
+				<li class="cur"><a href="#Adister">ADISTER</a></li>
+				<li class="cur"><a href="#FIN">FIN</a></li>
+				<li class="cur"><a href="#SolarBike">SOLAR BIKE</a></li>
+				<li class="cur"><a href="#Sanfe">SANFE</a></li>
+			</ul>
+		</div>
+		<div class="indiceBoxSmal" style="display:none;">
+			<ul class="topics fadingg">
+				<li class="cur"><a href="#organicManure">ORGANIC MANURE</a></li>
+				<li class="cur"><a href="#Rainergy">RAINERGY</a></li>
+				<li class="cur"><a href="#innovation">SMALLEST SATELLITE</a></li>
+				<li class="cur"><a href="#environment">EDIBLE BAGS</a></li>
+				<li class="cur"><a href="#Eyescribe">EYESCRIBE</a></li>
+				<li class="cur"><a href="#Naman">NAMAN TIWARI</a></li>
+			</ul>
+		</div>
+		<div class="indiceBoxSmal" style="display:none;">
+			<ul class="topics fadingg">
+				<li class="cur"><a href="#Kalyani">THE CHEAPEST AC</a></li>
+				<li class="cur"><a href="#CleanseBot">CLEANSEBOT</a></li>
+				<li class="cur"><a href="#HyAlfa">HYALFA</a></li>
+				<li class="cur"><a href="#Urinergy">ENERGY FROM URINE</a></li>
+				<li class="cur"><a href="#UTEC">UTEC</a></li>
+				<li class="cur"><a href="#EcoBricks">ECO FRIENDLY BRICKS</a></li>
+			</ul>
+		</div>
+		<div class="indiceBoxSmal" style="display:none;">
+			<ul class="topics fadingg">
+				<li class="cur"><a href="#DriverlessBus">DRIVERLESS BUS</a></li>
+				<li class="cur"><a href="#SolarTent">SOLAR POWERED TENT</a></li>
+				<li class="cur"><a href="#LifeStraw">LIFESTRAW</a></li>
+				<li class="cur"><a href="#MiniPower">MINI CARDBOARD BATTERIES</a></li>
+				<li class="cur"><a href="#WasteBins">WASTE DISPOSAL BINS</a></li>
+				<li class="cur"><a href="#MosquitoKiller">SOLAR MOSQUITO KILLER</a></li>
+			</ul>
+		</div>
+		<div class="indiceBoxSmal" style="display:none;">
+			<ul class="topics fadingg">
+				<li class="cur"><a href="#Milking">MILKING MACHINE</a></li>
+				<li class="cur"><a href="#NIFTYcup">THE NIFTY CUP</a></li>
+				<li class="cur"><a href="#Cancer">THE GENE THERAPY</a></li>
+				<li class="cur"><a href="#SolarTree">SOLAR POWER TREE</a></li>
+				<li class="cur"><a href="#Read">THE READ READ™</a></li>
+				<li class="cur"><a href="#Peri">SPECS FOR DEAF</a></li>
+			</ul>
+		</div>
+	</div>
+	<div style="bottom:25px;left:20px;width:50%;position:absolute;color:white;font-size:25px">
+		<a href="../"><i class="fas fa-home"></i><span style="font-size:50%"> HOME</span></a>
+	</div>
+	<div style="bottom:25px;right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+
+<div onclick="openNav()" class="smallScreenHeader" style="background-color: #e15050"><span style="float:right">&#9776; BLOGS</span> <img src="../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div id="blogleft">
+	<div class="indiceBox">
+		<ul class="topics fadingg">
+			<li class="cur"><a href="#water">ULTA CHHATA</a></li>
+			<li class="cur"><a href="#RenewIT">RENEW-IT</a></li>
+			<li class="cur"><a href="#Adister">ADISTER</a></li>
+			<li class="cur"><a href="#FIN">FIN</a></li>
+			<li class="cur"><a href="#SolarBike">SOLAR BIKE</a></li>
+			<li class="cur"><a href="#Sanfe">SANFE</a></li>
+		</ul>
+	</div>
+	<div class="indiceBox" style="display:none;">
+		<ul class="topics fadingg">
+			<li class="cur"><a href="#organicManure">ORGANIC MANURE</a></li>
+			<li class="cur"><a href="#Rainergy">RAINERGY</a></li>
+			<li class="cur"><a href="#innovation">SMALLEST SATELLITE</a></li>
+			<li class="cur"><a href="#environment">EDIBLE BAGS</a></li>
+			<li class="cur"><a href="#Eyescribe">EYESCRIBE</a></li>
+			<li class="cur"><a href="#Naman">NAMAN TIWARI</a></li>
+		</ul>
+	</div>
+	<div class="indiceBox" style="display:none;">
+		<ul class="topics fadingg">
+			<li class="cur"><a href="#Kalyani">THE CHEAPEST AC</a></li>
+			<li class="cur"><a href="#CleanseBot">CLEANSEBOT</a></li>
+			<li class="cur"><a href="#HyAlfa">HYALFA</a></li>
+			<li class="cur"><a href="#Urinergy">ENERGY FROM URINE</a></li>
+			<li class="cur"><a href="#UTEC">UTEC</a></li>
+			<li class="cur"><a href="#EcoBricks">ECO FRIENDLY BRICKS</a></li>
+		</ul>
+	</div>
+	<div class="indiceBox" style="display:none;">
+		<ul class="topics fadingg">
+			<li class="cur"><a href="#DriverlessBus">DRIVERLESS BUS</a></li>
+			<li class="cur"><a href="#SolarTent">SOLAR POWERED TENT</a></li>
+			<li class="cur"><a href="#LifeStraw">LIFESTRAW</a></li>
+			<li class="cur"><a href="#MiniPower">MINI CARDBOARD BATTERIES</a></li>
+			<li class="cur"><a href="#WasteBins">WASTE DISPOSAL BINS</a></li>
+			<li class="cur"><a href="#MosquitoKiller">SOLAR MOSQUITO KILLER</a></li>
+		</ul>
+	</div>
+	<div class="indiceBox" style="display:none;">
+		<ul class="topics fadingg">
+			<li class="cur"><a href="#Milking">MILKING MACHINE</a></li>
+			<li class="cur"><a href="#NIFTYcup">THE NIFTY CUP</a></li>
+			<li class="cur"><a href="#Cancer">THE GENE THERAPY</a></li>
+			<li class="cur"><a href="#SolarTree">SOLAR POWER TREE</a></li>
+			<li class="cur"><a href="#Read">THE READ READ™</a></li>
+			<li class="cur"><a href="#Peri">SPECS FOR DEAF</a></li>
+		</ul>
+	</div>
+	<ul id="pages">
+		<a onclick="page(1)" id="curr">
+			<li class="selected">1</li>
+		</a>
+		<a onclick="page(2)">
+			<li class="nun">2</li>
+		</a>
+		<a onclick="page(3)">
+			<li class="nun">3</li>
+		</a>
+		<a onclick="page(4)">
+			<li class="nun">4</li>
+		</a>
+		<a onclick="page(5)">
+			<li class="nun">5</li>
+		</a>
+	</ul>
+</div>
+
+<div id="onSmal">
+	<ul id="onSmalPages">
+		<a onclick="page(5)">
+			<li class="non">5</li>
+		</a>
+		<a onclick="page(4)">
+			<li class="non">4</li>
+		</a>
+		<a onclick="page(3)">
+			<li class="non">3</li>
+		</a>
+		<a onclick="page(2)">
+			<li class="non">2</li>
+		</a>
+		<a onclick="page(1)">
+			<li class="sel">1</li>
+		</a>
+	</ul>
+</div>
+
+<div id="blogright">
+	<div class="gridBox" data-page="A">
+		<div id="grid">
+			<div class="card fadingg" id="water">
+				<h2>ULTA CHHATA HARVESTER</h2>
+				<h5>Water Harvesting, June 28, 2017</h5>
+				<img src="../src/img/innovations/ultaChhata.png" id="smal" style="float:left;">
+				<p>ThinkPhi’s flagship product called Ulta Chaata converts rain water into potable drinking water during monsoons, and produces energy with the help of solar panels in the dry seasons.
+				<br>
+				One unit of Ulta Chaata can collect 8-10 lakh quintal of water annually and capture energy with maximum peak power of 1.5 Kw. It is currently being used at over 50 locations across the country.
+				<br>
+				Ulta Chaata, Hindi for inverted umbrella, is a device that looks exactly like it is named. During monsoons, Ulta Chaata’s concave canopy captures rain water, which then trickles down to reach a filter. The water is filtered using active carbon filtration – a method that uses a bed of activated carbon to remove impurities. The filter reduces the turbidity of water flowing through it, thereby making it potable.</p>
+				<h4>“According to WHO, water below 5 Nephelometric Turbidity Unit (NTU) is potable water,” says Samit.</h4>
+				<p>A cluster of 15 Chaatas are connected to a Phi box with another fine filtration layer to remove bacteria, after which the water becomes usable.
+				</p>
+				The Chaatas cost between Rs. 4.5 and 5 lakh and are warrantied for 10 years. But according to ThinkPhi, the amount of water and energy generated helps users get their returns in about a year.</p>
+				<h4>“For people to believe in such a system we didn’t want to come up with another purification device that sits in your backyard and no one sees it. We wanted to make it look good to instil a sense of curiosity among people. That’s why aesthetics was an important part for us and Ulta Chaata looks like a well-designed piece,” says Samit</h4>
+				<p>The Phi box has sensors for the Chaata clusters to interact with the company and the users. The first one is to detect whenever the filter is about to clog due to dust and dirt and needs cleaning. It sends a message to ThinkPhi informing which device needs servicing.
+				<br>
+				The second sensor is meant to calculate the amount of energy and water collected. This further helps bring about behavioural change among people by showing them inspiring numbers. The other sensors measure water purity and also inform the company in case the lights on any of the Chaatas are out. Additionally, users can interact with ThinkPhi about using an app on their phones to register complaints, ask questions in case of any problems, etc.
+				<br>
+				Ulta Chaata is being used on campuses of large organizations in Bombay and Pune. The company is gearing up to set up devices in Gujarat and Bangalore too.</p>
+			</div>
+
+			<div class="card fadingg" id="RenewIT">
+				<h2>RENEW IT</h2>
+				<h5>Environment, Dec 20, 2017</h5>
+				<img src="../src/img/innovations/RenewIT.png" width="100%">
+				<p>A graduate in Electronics Engineering from REC Surat, Mukund B.S has done his Post-Graduation in management studies from the Indian Institute of Management, Calcutta. Mukund worked in the Marketing team of Aashirvaad in ITC Foods, and was a part of the core team being instrumental in Aashirvaad Atta becoming the undisputed market leader in most geographies across the country. During his stint at ITC, he was inspired by the “Triple Bottom Line” philosophy and was keen to start off a venture which could create a Triple Bottom Line impact.</p>
+				<p>Mukund is also the Secretary-Treasurer of the IIM-Calcutta Alumni – Bangalore chapter and actively manages the Alumni e-group. Apart from this, Mukund is actively involved with social causes and works very closely with AMBA CEEIC, an organization established to holistically empower the intellectually challenged community through Economic Empowerment. He is keen to enhance learning through
+				technology in education to bridge the digital divide in rural schools.</p>
+				<p>Raghav is a graduate from Western Michigan University and MBA from Manchester Business School. Equipped with the foreign exposure, Raghav wanted to build a successful business in India. He returned to India and successfully grew a pharmaceutical CMO for a couple of years.</p>
+				<p>During his stint, when he was upgrading his IT infrastructure, he saw that the way the computers were being disposed could be vastly improved and ended up co-founding <u>ReNew-IT</u> with Mukund.</p>
+				<p>Raghav is a keen Networker. He is the founding member and has been on the leadership role of BNI – Ultimate Chapter. He actively mentors and contributes to the growth of the entrepreneurs of the Chapter. In this exclusive conversation with Life Beyond Numbers, Mukund shares his journey with ReNew IT, their mission, challenges they faced, their learning and much more…</p>
+			</div>
+
+			<div class="card fadingg" id="Adister">
+				<h2>ADISTER</h2>
+				<h5>Social, Jan 5, 2018</h5>
+				<img src="../src/img/innovations/Adister.png" id="smal" style="float:left;">
+				<p>India has a huge potential as a market. With over 60% of the population under the age of 25 years, a big part of our population is still in schools and colleges. Access to education is one part but giving them cheap stationary is often another neglected part of the equation. To solve this problem, Shubham Aggarwal and Anubhav Goyal started Adister during their stay at IIT Roorkee. Here is what we wrote about them earlier.</p>
+				<p>They bring the cost of notebooks down by placing advertisements on them.  They have managed to bring the costs down by 50% and in some cases over 50%; and it is still a profitable model. Shubham Aggarwal, Co-founder of Adister, said, "In our first edition, we could have given Rs.3 with every free notebook and we would have still earned a profit."
+				When they started, they had to face a lot of challenges, but they had their own ways of navigating through them. Shubham talks to us about some of those challenges.</p>
+				<p>"In the earlier days, the quotation for notebook manufacturing was very high and we thought of going to where the paper mills were located to get better quotes. It worked, and we were able to get much better prices.  The other challenge was people did not take us seriously, so we pretended that we were just young recruits who had a ‘big boss’ in the office! Yet another challenge was telling parents about this. We never told them until we got DISCO(Disciplinary committee) threatening notice from DOSW (Dean Of Students Welfare). Later we told them that it’s a “project”."</p>
+				<p>Initially funded by B Plan competitions, Adister got seed funding from Mrs. Nupur Panjabi in July 2013 to start their operations. They are also raising money via crowd funding for the current edition of the notebook which is priced at Rs.18, while other notebooks of the same type (125 pages, spiral bind) come for around Rs. 30 to Rs. 50 in the market.  Initially, they gave the first version of the notebooks for free.</p>
+			</div>
+
+			<div class="card fadingg" id="FIN">
+				<h2>FIN</h2>
+				<h5>Technology, Jan 23, 2018</h5>
+				<img src="../src/img/innovations/FIN.png" id="smal" style="float:right;">
+				<p>Rohildev.N has created a gesture control ring that uses interactions between the thumb and fingers to manage smart devices.</p>
+				<p>Different thumb and finger combinations can be used to control different devices through a Bluetooth connection. As the internet of things becomes more prevalent in our lives Fin is another option we will have for eliminating remote controls.</p>
+				<p>When Fin is being used screens are one hundred percent visible, and when security is a concern Fin can control devices discreetly from inside a pocket or jacket. When driving a user can control automotive devices or smartphones without taking their eyes off of the road.</p>
+				<p>Operations work through an optical sensor in the ring. Fin detects the swipes and taps across your hand and sends the signals to a devices that takes in the output signal. Future plans call for biometrics to delineate between different parts of the finger, adding more controls to the mix.</p>
+				<p>Rohildev and his company, RHL Vision, were showcased at the TechCrunch Hardware Battlefield at the 2014 Consumer Electronics Show. Fin was successfully crowdfunded through  indiegogo in early 2014 and preorders are being taken through the website at a $120 price.</p>
+				<p>The indiegogo video and website video share a lot of footage, and the examples come rapid fire. Joggers, drivers, gamers and head mounted device users are all shown using the Fin. Giving a presentation is shown with the Fin acting as the remote control, and the uses for physically challenged people are explored.</p>
+				<p>The Fin device is amazing, and the company looks to be full of engineers, makers and entrepreneurs who will bring the company's products to market. Based in Karala, India the company also operates out of Fin Robotics Inc in Palo Alto, California. The website doesn't have an official release date beyond "coming soon" but September 2014 is the date given on the indiegogo page for production of the first units.</p>
+			</div>
+
+			<div class="card fadingg" id="SolarBike">
+				<h2>SOLAR BIKE</h2>
+				<h5>Innovation, Feb 4, 2018</h5>
+				<img src="../src/img/innovations/SolarBike.png" id="smal" style="float:right;">
+				<p>This 13-year-old from Haryana has proved that age is just a number by building a solar bike. While the country is struggling with ever-increasing air pollution and the Supreme Court has laid guidelines for its prevention, Avneet has designed a fully-functional solar bike that works entirely on solar energy.</p>
+				<p>With the multitude of problems originating due to air pollution, the time has come to forego conventional sources of energy such as fuel and move towards renewable sources of energy. The renewable solar energy is being touted as the alternative source. Many scientists and researchers are working towards utilising solar energy to the maximum, and many of them have also been successful.
+				<p>The solar bike designed by this young boy runs at 20 kilometres per hour. Avneet reiterates the eco-friendly aspect of the solar bike as it does not emit smoke, and, therefore, will not cause pollution. This emission-free innovation can give a tough competition to battery-driven vehicles.
+				<p>Avneet used a bicycle for kids to build this solar bike by installing a solar panel on it which derives power to push the bike forward. In its nascent stage at present, the bike is a one-seater. However, as it utilises solar energy, it will also prove to be economical as one will not have to spend on fuel such as petrol on a regular basis.</p>
+				<p>Avneet dreams to build a solar car in the future, which he believes will be less expensive when compared to even a Tata Nano car. Meanwhile, it is said that scientists have also developed a bike which runs on solar energy and will soon be available in the markets.</p>
+			</div>
+
+			<div class="card fadingg" id="Sanfe">
+				<h2>SANFE</h2>
+				<h5>Innovation, Apr 11, 2018</h5>
+				<img src="../src/img/innovations/Sanfe.png" id="smal" style="float:left;">
+				<p>Sanitation has always been a prime concern in India. According to a report by WaterAid, 732 million people in India do not have access to basic sanitation. In urban India despite having public toilets facility, a whopping 71 percent of the public washrooms are unusable. The worst affected, as one can imagine, are the women, especially those who travel a lot. To get a clearer picture, check out these statistics: 62 percent of pregnant women find it painful to urinate in a semi-squat position, 50 percent suffer from UTIs (urinary tract infections) and 48 percent hold their urine to avoid using public restrooms.</p>
+				<p>To mitigate UTIs arising out of using public washrooms, Sanfe (Sanitation for Female) has come up with a product, that allows women to use the loo without sitting on it. Sanfe is a startup that was founded by Archit Agarwal and Harry Sherawat, both third-year textile engineering students at IIT-Delhi.</p>
+				<p>The equipment costs only Rs 10 and is available at all pharmacies in AIIMS, Apollo Hospital. The duo has also filed a patent for their equipment, which they claim is biodegradable and easy to dispose of. The design of the product remained an issue as neither knew what could be used by all women. To address the dilemma they approached Prof Srinivasan Venkatraman at the Dept of Design, IIT-Delhi.</p>
+				<p>It is compact enough to be carried in a purse and can be disposed of easily after one use. Among various other advantages, the surface area of the apparatus has smooth curves to avoid paper cuts. As the product was ready, the duo asked their friends and others to use and give them feedback on which the design in the future will be altered. The duo are now getting orders and looking at getting their product out beyond Delhi.</p>
+			</div>
+		</div>
+	</div>
+	<div class="gridBox" data-page="B" style="display:none">
+		<div id="grid">
+			<div class="card fadingg" id="organicManure">
+				<h2>TEMPLE FLOWERS INTO ORGANIC MANURE</h2>
+				<h5>Environment, Nov 27, 2017</h5>
+				<img src="../src/img/innovations/organicManure.png" id="smal" style="float:right">
+				<p>Yash Bhatt and Arjun Thakkar, from the city-based Silver Oak Engineering College, have developed a machine that can process flowers and leaves into organic manure in 15 days.</p>
+				<p>The duo has kickstarted a pilot project, in association with the Ahmedabad Municipal Corporation, to collect over 300 kg of organic waste from temples and churn it into 100 kg of manure every day. Yash Bhatt revealed how a lecture they attended at the Gujarat Technological University (GTU) Innovation Council helped them think innovatively</p>
+				<p>It was during the discussions there that they realized that disposal of flowers, leaves and coconut offerings was a major problem because of religious sentiments attached to them.</p>
+				<h4>“We used several compressing machines available but later developed our own machine,” he said.</h4>
+				<p>The project was funded by the GTU innovation council with a grant of Rs 95,000.</p>
+				<p>He added how they sent a proposal to the Ahmedabad Municipal Corporation for carrying out the project and were happy to find support from the authorities including the mayor, Bijal Patel.</p>
+				<p>They are now running a pilot in the following wards – Bodakdev, Thatlej, Ghatlodia, Naranpura and Navrangpura. They have partnered with 22 temples and have provided them with individual bins to collect the flowers, coconuts and leaves.</p>
+				<p>The duo has started selling the fertilizer at Rs 60 per kg. They are also considering involving Sakhi mandals for the sale of the products.</p>
+				<p>Once the project extends to the entire city, they plan to make incense sticks and rose water, and turn coconuts into cocopits, and sell them under a registered brand name.</p>
+				<h4>Who would’ve thought that a simple innovation could help new fruits and flowers bloom through waste flowers?</h4>
+			</div>
+
+			<div class="card fadingg" id="Rainergy">
+				<h2>ELECTRICITY FROM RAIN</h2>
+				<h5>Innovation, Jan 11, 2017</h5>
+				<img src="../src/img/innovations/Rainergy.png" style="width:25%;float:left;">
+				<p>The idea for Rainergy (as Jamalova has named her device) came to the 9th grade student after her father wondered aloud, “If you can make energy from wind, why not from rain?” Prodded into thinking about the answer to this question, she paired up with her friend, Zahra Gasimzade, to build a device that could harvest energy from rainwater.</p>
+				<p>The duo were assisted by their physics tutors during their four months of designing and calculations, with the government of Azerbaijan providing the seed money.</p>
+				<p>Simply put, Rainergy is a 9-meter-high device with four main parts: a rainwater collector, a water tank, an electric generator and a battery. Once the tank fills up with the help of the collector, the rainwater is allowed to flow through the generator at high speed. The electricity generated by this process is stored in the battery and can be used for household purposes.</p>
+				<p>Unsurprisingly, Jamalova’s innovation has attracted interest from countries that receive heavy rainfall and have several underprivileged communities that lack access to electricity, such as Philippines, India, Malaysia and Indonesia.</p>
+				<h4>In India especially, it garnered much appreciation when it was first presented at the Global Summit of Entrepreneurship in November 2017. In fact, Jamalova also received a special mention in Ivanka Trump’s speech on the occasion.</h4>
+			</div>
+			<div class="card fadingg" id="innovation">
+				<h2>NASA LAUNCHES WORLD'S LIGHTEST SATELLITE DESIGNED BY 18-YEAR-OLD TAMIL NADU STUDENT</h2>
+				<h5>Innovation, Dec 7, 2017</h5>
+				<img src="../src/img/innovations/SmallestSattelite.jpg" id="smal" style="float:right;">
+				<h2>Smallest 3D-printed satellite</h2>
+				<p>On Thursday, India once again broke a global space record by launching the world's lightest satellite weighing a mere 64 grams, called Kalamsat, designed and developed not by professional space scientists and engineers, but by 18-year-old Tamil Nadu student Rifath Sharook and his team.</p>
+				<h4>Named after Abdul Kalam</h4>
+				<p>The tiny satellite, named after Abdul Kalam, was flown by a Nasa sounding rocket and the lift-off was from the space agency's Wallop Island facility around 3pm (IST). Kalamsat was the only Indian payload in the mission.</p>
+				<h4>A satellite made at home</h4>
+				<p>Mission director Srimathy Kesan told Times of India that the total flight time of the rocket was 240 minutes. The satellite, assembled at her T.Nagar residence in Chennai, separated from the rocket after spending 125 minutes in the space's micro-gravity environment.</p>
+				<h4>"Kalamsat fell into the sea. It will be recovered and Nasa will be sending it back to us for decoding the data," she said.</h4>
+				<h4>Specs of the smallest satellite</h4>
+				<p>The satellite, weighing a mere 64 grams, can be held in one's palm is a 3.8cm cube and its structure is fully 3D-printed with reinforced carbon fiber polymer. It is equipped with a nano Geiger Muller counter which will measure radiation in space.</p>
+			</div>
+
+			<div class="card fadingg" id="environment">
+				<h2>ENVIGREEN EDIBLE BAGS</h2>
+				<h5>Environment, Sep 2, 2017</h5>
+				<img src="../src/img/innovations/EnviGreen.png" style="width:100%">
+				<p>The partial or total ban on plastic bags in several Indian cities is often lauded as a welcome move by most people. As it should be! But if you ask those who cannot afford alternatives like cloth bags (or forget to bring them to the market) – using just hands to carry eggs and vegetables home can be a juggling act. It was this problem faced by ordinary citizens that disturbed Ashwath Hegde, a Mangalore-born but now Qatar-based NRI entrepreneur.</p>
+				<h4>“The Mangalore City Corporation implemented a ban on the manufacture, sale, and distribution of plastic bags in the year 2012. But the decision was taken without preparations for alternatives. People were concerned about how they would carry products from the market now. Everyone cannot afford a bag worth Rs. 5 or Rs. 15 to carry a kilogram of sugar. I decided to come up with alternatives after hearing about these problems in my hometown,” says the 25-year-old.</h4>
+				<p>After researching the problem for about four years, Ashwath founded EnviGreen – a company that produces 100% organic, biodegradable, and eco-friendly bags.
+				<br>
+				They look like plastic bags but are made of materials like natural starch and vegetable oil derivatives. If placed in a glass of water at normal temperature, an EnviGreen bag dissolves in a day. And when placed in a glass of boiling water, it dissolved in just 15 seconds! These bags take less than 180 days to biodegrade naturally once discarded. So users can throw them away without worrying about harming the environment. The bags are even edible and will cause no harm to animals if ingested.
+				<br>
+				Ashwath, who has patented EnviGreen, claims the manufacturing process for these bags is entirely different from that of plastic, cloth, or paper bags. The company uses 12 ingredients, including potato, tapioca, corn, natural starch, vegetable oil, banana, and flower oil.
+				All raw materials are first converted into liquid form and then taken through a six-step procedure before the end product is ready.</p>
+				<h4>“We don’t use any chemicals at all. Even the paint used for printing on the bags is natural and organic,” says Ashwath. He adds that the cost of one EnviGreen bag is about 35% more than that of a plastic bag, but 500% less than that of a cloth bag. “To give you a rough idea, an EnviGreen bag measuring 13 inches by 16 inches costs Rs. 3, while a plastic bag with the same dimensions will cost Rs. 2”.</h4>
+				<p>The Karnataka State Pollution Control Board (KSPCB), which has approved the use of these bags, conducted several tests to ensure there were no plastic elements in them. The tests included placing a hot iron on a small piece of EnviGreen sheet. The sheet neither melts nor sticks to the hot iron surface. The bags also don’t melt, drip, or release any toxic fumes when burnt, unlike conventional plastic bags. They have been tested by the Central Institute of Plastic Engineering and Sriram Institute for Industrial Research as well.To prove his point, Ashwath has even consumed a bag after boiling it in water to show that it is edible.
+				<br>
+				With his team of 60 people, Ashwath has now set up a factory in Bangalore that produces 1,000 metric tonnes of bags every month. “We had this unique idea of empowering farmers in rural Karnataka by sourcing all our raw materials from them. We are also planning to distribute seeds to help them produce the amount of materials required to make the bags,” he says.
+				<br>
+				Currently, the company has not started sales in India, but the bags are already available in Qatar and Abu Dhabi.</p>
+				<h4>“Just the city of Bangalore consumes over 30,000 metric tonnes of plastic bags every month. So we want to set up enough manufacturing facilities before we start distributing to individual customers and local kirana shop owners. We have started supplying to corporate retail chains like Metro and Reliance, which will start using the bags from December this year,” says Ashwath.
+				According to the Minister of State for Environment, Forest and Climate Change, 15,000 tonnes of plastic waste is generated in India every day, out of which 9,000 tonnes is collected and processed, while 6,000 tonnes is not collected.</h4>
+				<p>Once available for use, EnviGreen bags will not just help ease this problem but also help many consumers struggling to find a balance between their concern for the environment and ways of making things more comfortable in their daily lives.</p>
+			</div>
+
+			<div class="card fadingg" id="Eyescribe">
+				<h2>EYESCRIBE</h2>
+				<h5>Innovation, Mar 3, 2018</h5>
+				<img src="../src/img/innovations/Eyescribe.png" id="smal" style="float:right;">
+				<p>Gursimran Singh, a 16-year-old class 12 student from Gurugram, has introduced the concept of ‘imagine or visualise’ in the lives of the sightless.</p>
+				<p>Sight. A one-syllable word, but a sense that perceives 80 percent of all impressions. We interpret the world, its beauty, its dangers, with our eyes. Close them and we are in a world of endless darkness. It is true that the blind do not miss what they never had. This doesn't mean we accept their state or our inability to help them. After all, nothing can exceed the joy and sense of fulfilment one experiences by giving someone something they never had.</p>
+				<h4>Conception</h4>
+				<p>Sixteen-year-old Gursimran Singh is the inventor of EyeScribe, an assistive device that helps the visually impaired experience the joy of reading. For Gursimran, the concept of EyeScribe evolved over a period of time—“I had a relative who was visually impaired. Seeing him struggle every day led me to an open-ended question: “If we can, why can't they?” and “if we can, then what should we?” he says. Gursimran started to work on his device in August 2016 and it took him almost three months to showcase it. It was first screened at the Atal Tinkering Lab Innovation Challenge by NITI Ayog in the FICCI Auditorium on November 5, 2016.</p>
+			</div>
+
+			<div class="card fadingg" id="Naman">
+				<h2>NAMAN TIWARI</h2>
+				<h5>Innovation, Jan 31, 2018</h5>
+				<img src="../src/img/innovations/Naman.png" id="smal" style="float:left;">
+				<p>Contrary to what you may think, a genius isn’t always the product of the availability of world-class education, state-of-the-art equipment and rigorous training – more often than not, he or she may be born out of circumstances that exhibit a dearth and banality, and pose an opportunity to build and overcome. That is the story of Naman Tiwari, the 14-year-old self-learned app developer from the small UP city of Shahjahanpur, who has coded 22 apps of a mind-boggling range.</p>
+				<p>“I started learning about development technology about three years ago. No one knows about Android development here, so I work alone and find it a bit difficult.”Naman doesn't have access to any fancy devices, in fact, here’s some trivia on the young whiz kid  he does not even own a mobile phone!“I just have a laptop and internet.I haven’t joined any tuitions or classes. I have coined a saying, ‘Don't ask for more until you make the best use of the things you have.’"</p>
+				<p>A student of Takshashila Public School, Naman started coding when he was in the 7th standard, aged 11. “I picked it as a hobby because I thought it is the only way through which I can solve real world problems without a multi-billion dollar startup. I made many entertainment apps, but after seeing the problems in the medical industry in our country, I shifted from entertainment to social awareness apps.”</p>
+				<p>Besides the internet, his uncle mentors him through his journey of self-exploration. Patiently and relentlessly, he kept at it   creating apps that were entertaining and useful all the same - and that range is mind-boggling. Straight from his brewery are apps like the AiO Converter that converts units in seconds with a few clicks, or the app that helps one swiftly calculate tips at a hotel. One is a trivia app loaded with fun facts, and another’s a tool that helps measure the frequency of your voice in decibels. There’s one to help children with their cognition of colours or even learn state capitals in the United States. Or, how about the one that provides sample interview questions to aspiring developers to make them job ready?</p>
+				<p>He even whipped up some educational apps, like “HTML Cool Learn” that helps developers learn HTML language with examples of webpages, or the one that helps kids learn all about the solar system. Another one of his concoctions helps Spanish connoisseurs learn the language, or Audiophiles learn any song by looping or selecting any part of it, and one that helps toddlers learn alphabets. Another app facilitates education, by helping school children organise the notes they make on their subjects.</p>
+				<p>The little genius also combined his imagination with his skill to code some games, like Man Pong Fight, Maths Quiz, Tic Tac Toe (Classic), Vector War – or Shahrukh Man Pro, a guilty pleasure for SRK fans.</p>
+			</div>
+		</div>
+	</div>
+	<div class="gridBox" data-page="C" style="display:none">
+		<div id="grid">
+			<div class="card fadingg" id="Kalyani">
+				<h2>CHEAPEST AC @ ₹1800</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/Kalyani.png" id="smal" style="float:left;">
+				<p>These days it is not uncommon to see children nurturing their passion and fulfilling their dreams. This story is about 16-year-old Kalyani Shrivastava from Jhansi, who recently built an air conditioner for just Rs 1,800. She is studying in 12th standard at Lokamanya Tilak Inter College in Jhansi. Her father Dinesh Shrivastava is a teacher in the Department of Basic Educatio n and her mother Divya Shrivastava is also a teacher.</p>
+				<p>Desi AC built by Kalyani has an ice box made of thermocol where air is released from a 12 volt DC fan. Cool air is then released from the elbow, which results in a drop in temperature by 4-5 degrees if the AC is used for an hour. This AC has been constructed in such a way that it causes no pollution.</p>
+				<p>Kalyani's AC has been selected by Indian Institute of Delhi (IIT-D) for the National Level Model Competition. Last year, she was honoured as part of the initiative 'Naari Samman' launched by the Uttar Pradesh government in partnership with Hindi newspaper Amar Ujala. She was felicitated along with other women who had excelled in sports, education, art, and social work. After looking at her work, she also received an invitation from the government of Japan for a seminar.</p>
+				<p>Along with excelling at science, she is also a really good singer. She has participated in the television reality show Indian Idol, reaching the third round. She has won more than 50 prizes in competitions held in Lucknow, Agra, and Kanpur.</p>
+				<p>This low-cost AC comes as a relief to the poverty-stricken population. Since the AC works on solar energy, it will not cause electricity bills to soar. The 16-year-old's invention is not harmful to the environment, either.</p>
+			</div>
+
+			<div class="card fadingg" id="CleanseBot">
+				<h2>CLEANSEBOT</h2>
+				<h5>Innovation, Apr 6, 2018</h5>
+				<img src="../src/img/innovations/CleanseBot.png" id="smal" style="float:right;">
+				<p>Much like how a Roomba will automatically vacuum your floors, the WinBot will automatically clean your windows, the Solar Breeze will automatically clean your pool, and the GrillBot will automatically clean your grill, the Cleansebot is a new robot that will automatically clean your sheets and kill the bacteria hiding in them.</p>
+				<p>Perfect for traveling and staying in hotels and AirBnBs, the Cleansebot will ensure the beds you sleep in are bacteria free before you hop in and inside of it for 8 hours. Often times people get sick from the bacteria in dirty beds and pillows that they stay in while traveling. No longer will this be the case if you use this unique bed cleaning robot.</p>
+				<p>How it works is, the Cleansebot will disinfect and sanitize all hotel surfaces and the UV-C lights on the robot will help prevent the spread of airborne viruses. The robot is filled with 18 sensors, and uses 4 UV-C lamps to blast away 99.9% of germs and bacteria on any surface, but most importantly on your hotel bed.</p>
+				<p>To use it, just place the bed cleaning robot on your bed, and turn it on. It will then run around on your bed like a Roomba, and clean and sanitize for either 30 or 60 minutes (depending on settings). You can set it and forget it while it does its job under and over your sheets and bedspread.</p>
+				<p>The Cleansebot is super tiny so it easily fits into a bag, purse, or piece of luggage to use and bring with you when you need it the most. The bed Roomba has an internal 3700 mAh rechargeable battery that can run for 3 hours per charge, and takes 4 hours to fully recharge.</p>
+			</div>
+
+			<div class="card fadingg" id="HyAlfa">
+				<h2>HYALFA</h2>
+				<h5>Innovation, Apr 6, 2018</h5>
+				<img src="../src/img/innovations/HyAlfa.png" id="smal" style="float:left;">
+				<p>The world's first hydrogen-powered three-wheeler, 'HyAlfa', was launched at the Pragati Maidan on 9th January 2012. United Nations Industrial Development Organization (UNIDO) funded this project to a consortia consisting of IIT Delhi, Mahindra and Air Products (USA). Exhaustive lab tests were carried out on the vehicular engine in the Engines and Unconventional Fuels Lab of Centre for Energy Studies under varying operating conditions.</p>
+				<p>The technical expertise was provided by Prof L.M.Das of Centre for Energy Studies. The test results provided the technical guidelines and thus the existing designs of engines were converted to run on hydrogen. Based on IIT Delhi recommendations, Mahindra had developed hydrogen operated three wheelers for passenger and cargo versions vehicles which were launched at Pragati Maidan during Auto expo 2012, where a hydrogen refueling station has also been set up by Air products.</p>
+				<p>These vehicles are still on road trials in Pragati Maidan after the Auto Expo. Limited field trials in Pragati Maidan show that the hydrogen fueled three wheelers are giving around 85 km per kg of hydrogen consumption.</p>
+			</div>
+
+			<div class="card fadingg" id="Urinergy">
+				<h2>ENERGY FROM URINE</h2>
+				<h5>Innovation, Apr 6, 2018</h5>
+				<img src="../src/img/innovations/Urinergy.png" id="smal" style="float:left;">
+				<p><i>Did you ever think someone could use urine as fuel?</i> These four African students did their best to prove their theory right and discover something incredible from their intelligence.</p>
+				<p>This is surely going to be of interest to each and every individual – four teenage girls found a way to use one liter of urine as fuel. They used urine in their generator and noticed electricity for six hours. To your surprise, three of them are only fourteen years old and their names are Duro-Aina Adebola, Akindele Abiola, and Faleke Oluwatoyin; the fourth one is the fifteen years old Bello Eniola. All the four girls proudly displayed their invention at Maker Faire Africa in Lagos, Nigeria; this is an annual event hosted for all those with creative brains.</p>
+				<h4>Here is how the generator words :</h4>
+				<p>Urine is poured into an electrolytic cell that forces the separation of hydrogen, which goes into a filter for the sake of purification. The purified hydrogen reaches the gas cylinder that has liquid borax; this removes the moisture from the collected gas. Pure hydrogen is pushed into the generator, which then gives birth to electricity.</p>
+				<h4>Is this a new idea ?</h4>
+				<p>The thought of using urine as an electricity producer is not new; however, the girls have put the thoughts into reality. The most wonderful thing about the process invented by them is that they have used all stuff that can be found easily at home.</p>
+				<p>Urine waste is too much on a daily basis, since it is natural. The thought and creation of the four girls is quite splendid for it is an elegant way to use the urine waste. Of course you have to put more energy to get the process working, but their idea can be used on a larger scale someday.</p>
+			</div>
+
+			<div class="card fadingg" id="UTEC">
+				<h2>UTEC</h2>
+				<h5>Innovation, Apr 6, 2018</h5>
+				<img src="../src/img/innovations/UTEC.png" id="smal" style="float:right;">
+				<p>Researchers at the Universidad de Ingeniería y Tecnología(UTEC) have developed a technique for capturing the electricity emitted from plants. Actually, to be fair, it’s Geobacter— a genus of bacteria that live in the soil — that do the grunt work. Robby Berman at Slate explains the process: <br><b>“[N]utrients in plants encounter microorganisms called ‘geobacters’ in the dirt, and that process releases electrons that electrodes in the dirt can capture. A grid of these electrodes can transfer the electrons into a standard battery.”</b></p>
+				<p>UTEC has partnered with global ad agency FCB to produce 10 prototypes and distribute them to houses in the rainforest village of Nuevo Saposoa. Each contains an electrode grid buried in dirt, in which a single plant grows. The grid connects to a battery, which powers a large LED lamp attached to an adjustable arm on the outside of the box. For Nuevo Saposoa and other underserved communities, this is more than just a crackerjack bit of biological engineering. Electricity, and lighting in particular, are a very real need.</p>
+				<p>If the “plant lamps” (that’s UTEC’s name, not mine) are successful, their appeal isn’t going to be limited to rainforest communities. Who wouldn’t want a houseplant that cut back on their electric bill? Add a bit of green to your bank account and your bedroom. It’s worth noting that UTEC’s researchers are hardly the first to make use of Geobacter — they’re some of biotech’s most talented microbes. In 2009 Time named the “electric microbe” one of its 50 best inventions of the year. Recent research confirms they’re electrically conductive to boot, which means in theory they can act like nanowires for transmitting electricity. In addition to power generation, Geobacter have also garnered attention for their ability to metabolize pollution like radioactive material.</p>
+			</div>
+
+			<div class="card fadingg" id="EcoBricks">
+				<h2>ECO FRIENDLY BRICKS</h2>
+				<h5>Innovation, Apr 11, 2018</h5>
+				<img src="../src/img/innovations/EcoBricks.png" style="width:100%;">
+				<p>The Aligarh Municipal Corporation and a waste management company is making 'eco-friendly' bricks, made from garbage, concrete and cement. These bricks are prepared in Meerut.</p>
+				<p>This idea of the 'eco-friendly' bricks was presented to Uttar Pradesh Chief Minister Yogi Adityanath last year by a private waste management firm.</p>
+				<h4>"Bricks prepared in our plant in Meerut have been used in Lucknow and Gurgaon, with the recent passing of the proposal in the municipal board, this magic bricks will be used in more areas now. A single brick weighs 17 kilogram and is worth Rs. 35," project head Sam Singh told ANI.</h4>
+				<p>The authorities are looking at ways to decrease the weight of the bricks for better results.</p>
+				<h4>"These bricks are eco-friendly. We are utilising the waste100 per cent to make them. For our efforts, we have been chosen for an award at Swachh Survekshan 2018 Awards," Municipal Commissioner Satya Prakash Patel said.</h4>
+			</div>
+		</div>
+	</div>
+	<div class="gridBox" data-page="D" style="display:none">
+		<div id="grid">
+			<div class="card fadingg" id="DriverlessBus">
+				<h2>DRIVERLESS BUS</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/DriverlessBus.png" id="smal" style="float:right;">
+				<p>Engineering Students at Lovely Professional University (LPU) have designed and created a unique solar-powered driverless bus.</p>
+				<p>The design and creation of the bus has been made keeping in mind the Indian conditions, and the cost of the bus is approximately Rs six lakhs. As the bus-engine is powered by both battery and solar-cells, so the running cost is almost negligible. With a maximum speed of 30 km per hour, it has a seating capacity of 10-30 people, as per needs. Over 300 students from mechanical, electrical, and computer engineering departments of the university collaborated under the guidance of LPU professors and experts to design and fabricate the vehicle. The fabrication is being done at the LPU Project Studio where other such R&D and product commercialization also takes place.</p>
+				<p>The bus is completely pollution free and uses only renewable energy in the form of electric motor and solar power for propulsion. Vehicle-to-Vehicle (V2V) communication technology has been used to make the bus driverless. The bus also uses GPS and Bluetooth for navigation and could be controlled within a radius of 10 metres. The technology works by using wireless signals detected through ultra-sonic & Infra-red sensors.</p>
+			</div>
+
+			<div class="card fadingg" id="SolarTent">
+				<h2>SOLAR-POWERED TENT</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/SolarTent.png" id="smal" style="float:left;">
+				<p>An all-girls science club from San Fernando Senior High School near Los Angeles has designed a solar-powered tent meant to help homeless and displaced people around the world.</p>
+				<p>The tent — designed by a group of 12 high schoolers with the help of an organization called DIYgirls — uses solar power to charge electronic devices, provide light and sanitize itself via a system of antibacterial UV lights. And it folds into a backpack for easy travel.</p>
+				<p>The electronics cost about $40. The tent itself is made out of highly durable and water-resistant material. The idea for the tent came after some members of the team saw increased homelessness in their neighborhood.</p>
+				<p>"These girls saw a problem in their community," Evelyn Gomez, an engineer and the executive director of DIYgirls, tells NPR's Morning Edition. The group aims to get young girls from under-resourced areas interested in the fields of science, technology, engineering, art and math.</p>
+				<p>"If we have more young women and more people of color and more people from low-income communities that are able to identify a problem within our communities, then we're going to be better equipped to solve those problems because we've lived through them," Gomez says.</p>
+			</div>
+
+			<div class="card fadingg" id="LifeStraw">
+				<h2>LIFESTRAW</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/LifeStraw.png" id="smal" style="float:right;">
+				<p>The LifeStraw filters out virtually all microbiological contaminants to make water safe to drink. The invention was designed to help people in developing countries who don’t have access to safe water and in emergency scenarios following natural disasters when water is contaminated.</p>
+				<p>All LifeStraw products use a hollow fiber membrane. These membranes have microscopic pores that trap contaminants. </p>
+				<p>Some LifeStraw products use a two-stage filtration process. In addition to the hollow fiber membrane, a carbon capsule absorbs chemicals like chlorine and pesticides.</p>
+				<p>More advanced carbon filters, like the LifeStraw Flex, also reduce heavy metals, like lead.</p>
+				<img src="../src/img/innovations/LifeStraw2.png" id="smal" style="float:left;">
+				<p>LifeStraw® water filters convert contaminated water into clean, safe drinking water. The easy-to-use filters are a vital tool for some of the 780 million people who don’t have ready access to safe drinking water. This leaves them at risk for diarrheal disease, which kills more than 1.5 million people every year. Safe drinking water is especially important for vulnerable groups, such as children under five, pregnant women and people living with HIV. LifeStraw® water filters also prevent cryptosporidiosis, a major cause of diarrheal illness in people living with HIV and children under five1. LifeStraw® water filters comply with US Environmental Protection (EPA) 1987 Guide Standard and Protocol for Testing Microbiological Water Purifiers. Each product in the LifeStraw® portfolio is designed for a specific situation where safe water is needed but not readily available. LifeStraw offers specific products for international health and development as well as products sold to consumers for outdoor recreation, travel and daily hydration.</p>
+			</div>
+
+			<div class="card fadingg" id="MiniPower">
+				<h2>MINI CARDBOARD BATTERIES</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/MiniPower.png" id="smal" style="float:right;">
+				<p>Designer Tsung Chih-Hsien has created a Red Dot Design Award-winning concept for a tiny cardboard capsule that could juice up your phone. It’s called the Mini Power. You just choose how much battery time you need–two, four, or six hours–plug it in, then recycle it later.</p>
+				<p>Tsung’s biodegradable design, which he also envisions being purchased at convenience stores, eschews the plastic of most disposable batteries, which not only makes the case a little more environmentally friendly, but also saves on packaging. Since each Mini Power battery can just be broken off a perforated sheet, you could potentially buy them in bulk that way.</p>
+				<p>Disposable smartphone batteries aren’t a new idea. They’re especially prominent in Asia. Japanese convenience stores, for example, have been selling disposable batteries by the truckload for years. But these batteries tend to be environmentally unfriendly, not just because of the lithium ion batteries inside them, but because they come in plastic casings.</p>
+				<p>There’s still the problem of the tiny battery inside each capsule, but Tsung imagines it would be recycled at the same convenience store you bought your Mini Power from. Drop one off, pick up a new one; rinse and repeat.</p>
+				<p>Disposable smartphone batteries are never going to be as good of an option as an external, rechargeable battery pack, but as Tsung’s elegant concept shows, good design can do a lot to strip many of their evils away, while making them more attractive to consumers to boot.</p>
+			</div>
+
+			<div class="card fadingg" id="WasteBins">
+				<h2>UNIQUE WASTE DISPOSAL BINS</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/WasteBins.png" id="smal" style="float:left;">
+				<p>Ganga Narayan Ghosh, an 87-year-old mechanical engineer, has designed some innovative waste disposal bins to tackle the problem of waste management in India in an organised way. He visited 192 cities in India and 80 cities of six continents to explore other systems and finally designed three unique bins – one for homes, another for housing complexes and schools and the largest one for markets and entire localities.</p>
+				<p>Every bin is covered, which prevents birds and animals from grabbing the waste content inside. Each bin is elevated so the bottom does not get submerged in water and is not corroded. The third and perhaps most unique feature is that the bottom portion of every bin is sloping. The slope creates an ‘angle of slide’ that helps in emptying waste once the front hatch is opened. The garbage automatically comes out of the opening due to gravity.</p>
+				<p>Specially designed handcarts or regular open-top trucks can be strategically placed in front of the bins to collect waste. This is a huge relief for garbage handlers as they hardly have to touch anything. Even the top surface of each bin is has a slope so rain water cannot accumulate and corrode it. People also cannot leave bags of trash on it.</p>
+			</div>
+
+			<div class="card fadingg" id="MosquitoKiller">
+				<h2>THE SOLAR MOSQUITO DESTROYER</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/MosquitoKiller.png" id="smal" style="float:right;">
+				<p>The official announcement on the National Innovation Foundation website says that this device makes use of the smell from septic tanks to attract mosquitoes. Once the mosquitoes get trapped, the heat built up inside the device as a result of direct sunlight kills them. It can be installed near septic tanks which will then trap and kill mosquitoes directly at their breeding grounds. It measures 25 cm × 20 cm × 25 cm and weighs about 1.5 kg.</p>
+				<p>Mathews hails from a plantation family, with his ancestors having cultivated rubber, coffee, coconut, pepper, and other cash crops. During his childhood days, he spent a large amount of time capturing and playing with rodents and flies. Soon after his graduation, he spent over a decade developing a product that traps and kills mosquitoes. He also holds an important designation at Kine Technologies and Research India, based out of Kottayam, the first city in India to be selected by the Ministry of Environment and Forests, Government of India for transformation into an eco-city.</p>
+			</div>
+		</div>
+	</div>
+	<div class="gridBox" data-page="E" style="display:none">
+		<div id="grid">
+			<div class="card fadingg" id="Milking">
+				<h2>THE MILKING MACHINE</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/Milking.png" id="smal" style="float:right;">
+				<p>Milking is a tiring task. The dairy owners have to wake up at five in the morning, and start milking the cows, one by one, so that they can provide fresh milk to the customers. Apart from that, finding the personnel to do the job for you is no easy task either. Using machines is an option, but it is very expensive, something only large, successful dairy can afford. So, Gowda came up with a simple solution – his very own milking machine. Affordable and effective, the machine uses suctions that can milk as much as 1.5 litres of milk per minute – much more than a person can manage. Furthermore, the cow does not feel any pain either, making it a win-win situation overall.</p>
+				<p>The milking system is divided into the milking side and the pulsator side.  When the system is turned on, vacuum is created everywhere by a vacuum pump that removes air from the system.  When the cows are not attached to the milking system,  the vacuum created will be the same on both the milking side and the pulsator side of the system.  When the cows are attached to the milking system by the milking claws, milk and vacuum are present on the milking side.</p>
+			</div>
+
+			<div class="card fadingg" id="NIFTYcup">
+				<h2>THE $1 FEEDING CUP THAT IS SAVING INFANTS' LIVES</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/NIFTYcup.png" id="smal" style="float:left;">
+				<p>When babies in poor countries can’t breast-feed, the results can be deadly, but a trio of Seattle researchers has found an innovative way to help.</p>
+				<p>Experts at the University of Washington, Seattle Children’s and the nonprofit global health organization PATH have spent the past five years developing a small, spouted feeding cup aimed at preventing millions of high-risk infants in the developing world from starving.</p>
+				<p>“We had this idea and we’ve been waiting for this opportunity,” said Patricia Coffey, an expert in neonatal health technologies at PATH.</p>
+				<p>Inventors of the NIFTY cup announced at the Women Deliver conference in Copenhagen this month that they will collaborate with Laerdal Global Health, a nonprofit manufacturer, to put the cups in the hands of hospital workers in Africa by later this year.
+				<p>The partnership is the next step in what’s expected to be widespread use of the NIFTY cup — formally known as the Neonatal Intuitive Feeding Technology — a soft, silicone bowl with a tiny reservoir and spout aimed at helping premature infants and those born with problems such as cleft palate.</p>
+			</div>
+
+			<div class="card fadingg" id="Cancer">
+				<h2>THE GENE THERAPY</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/Cancer.png" id="smal" style="float:right;">
+				<p>A groundbreaking new treatment that actually alters the immune system of someone with cancer has been given FDA approval in the US.</p>
+				<p>Known as gene therapy, the treatment involves removing immune cells called T cells from the patient’s blood and then genetically altering them in a lab.</p>
+				<p>They insert a gene for a protein called a chimeric antigen receptor which is effectively a set of instructions for it to start attacking leukaemia cells.</p>
+				<p>The modified cells are then transfused back into the patient.</p>
+				<p>Called Kymriah, the treatment has been designed to attack a very specific type of blood and bone marrow cancer that effects children and young adults.</p>
+				<p>Novartis, the pharmaceutical company behind the treatment, saw complete remission in 83% of 63 patients who had B cell acute lymphoblastic leukemia.</p>
+				<p>Gene therapy has been heralded as a powerful new weapon in the fight against cancer with some experts even claiming that eventually it could signal the end of the disease.</p>
+				<p>That’s a long way off however, and for now the treatment isn’t without its risks.</p>
+			</div>
+
+			<div class="card fadingg" id="SolarTree">
+				<h2>SOLAR POWER TREE</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/SolarTree.png" id="smal" style="float:left;">
+				<p>Union Minister for Science & Technology and Earth Sciences, Dr. Harsh Vardhan, launched the ‘Solar Power Tree’ today in New Delhi. It has been developed by the CSIR-Central Mechanical Engineering Research Institute (CSIR-CMERI), a constituent laboratory of Council of Scientific and Industrial Research (CSIR).</p>
+				<p>The Solar Power Tree harnesses solar energy for producing electricity with an innovative vertical arrangement of solar cells. It thus reduces the requirement of land as compared to conventional Solar Photovoltaic layout, on one hand, while keeping the land character intact on the other. Even the cultivable land can be utilized for solar energy harnessing along with farming at the same time. The innovation finds its viability both in rural and urban areas.</p>
+				<p>Dr. Girish Sahni, DG, CSIR, also present on the occasion, informed that the device has been functioning effectively at three places in West Bengal as a pilot project. As a future prospect, the Solar Power Tree would be developed in a rotatable module, which would have a motorized mechanism to align itself with the movement of the Sun during the day. Hence, it would be possible to harness 10-15% more power over and above the current capacity.</p>
+				<p>The Salient Features of the Solar Power Tree are:</p>
+				<ul>
+				<li>It takes only 4 square feet of land for a 5 KW Solar Power tree, whereas in a conventional layout, it requires 400 square feet of land.</li>
+				<li>By holding the photovoltaic panels at a higher height, on an average it gets more sunrays for one hour in a day. As a result, it is possible to harness 10-15% more power in comparison to a conventional layout on ground.</li>
+				<li>It has a battery back-up of 2 hours on full load, hence giving light even after sunset.</li>
+				<li>It is facilitated with water sprinkler at the top for self-cleaning of panels, that increases the efficiency of the solar panels.</li>
+				<li>The estimated cost of the device is around Rs. 5 Lakh for a 5 KW specification</li>
+				</ul>
+			</div>
+
+			<div class="card fadingg" id="Read">
+				<h2>THE READ READ™</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/Read.png" id="smal" style="float:right;">
+				<p>A breakthrough technology developed at the Harvard Innovation Labs and piloted at the Perkins School for the Blind is now available on Kickstarter.</p>
+				<p>The device allows people who are visually impaired or blind to learn and practice literacy skills independently, using the same best-practice techniques used by Teachers of Students with Visual impairments and Blindness (TVIs).</p>
+				<p>The Read Read™, a patent pending physical learning platform, allows learners to interact with physical manipulatives that have large print and braille. Unlike traditional manipulatives, which require constant guidance from an expert, The Read Read™ provides students with immediate audio feedback that allows them to learn and practice foundational reading and/or braille skills independently.</p>
+				<p>A user places a letter tile on the conductive, magnetic grid, and then touches the conductive strip under each large print letter. When touching the strip, The Read Read™ can articulate the letter’s name, or the sound that the letter makes, depending on the mode. The conductive strip contains sturdy braille, so that users can learn and practice braille and braille literacy independently, in school or at home. The Read Read™ uses high-quality audio recorded by a professional voice actress, instead of synthesized computer speech. Students and teachers love the high-quality audio.</p>
+				<p>Classroom teachers who have never taught visually impaired students can use The Read Read™ to effectively teach visually impaired students because its interface aligns with existing best-practice phonics instruction. Teachers immediately understand the value of the Read Read and how it can be used to help blind and visually impaired students learn to read in a way that wasn't previously possible.</p>
+			</div>
+
+			<div class="card fadingg" id="Peri">
+				<h2>PERI - SPECS FOR DEAF</h2>
+				<h5>Innovation, Mar 11, 2018</h5>
+				<img src="../src/img/innovations/Peri.png" id="smal" style="float:left;">
+				<p>For the hard of hearing, getting around without audio cues can be a challenge. Sudden noises can alert you to things happening in that direction, and allow you to react faster to them.</p>
+				<p>A new design idea translates these audio cues to visual ones, via a set of eyeglasses.</p>
+				<p>Inspired by shoot-em-up video games, which typically show a red glow in the direction from which an enemy is shooting at you, these glasses will light up at the edges when they detect sound in that direction.
+				<p>The light accessory, called Peri, can be clipped onto existing glasses, and comes from a group of students at the Singapore University of Technology and Design (SUTD).</p>
+				<p>While it's still in a rough prototype phase, Peri's design was so good it won the engineering design James Dyson Award at the national level, and will represent Singapore for the international shortlist in October.</p>
+				<p>Pavithren Pakianathan, the team's leader, told Mashable the design took about four months from inception to the current build. They decided to make it a clip-on for spectacles, in order to keep costs low for users. The accessory includes four microphones to be attached at the corners of the eyeglasses, and can be tuned for sensitivity to noise volume. The lights will correspond with the direction that the loudest noise comes from.</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		window.onload = function() {
+			document.getElementById("curr").click();
+		};
+		var pages = document.getElementsByClassName("gridBox");
+		var indices = document.getElementsByClassName("indiceBox");
+		var indice = document.getElementsByClassName("indiceBoxSmal");
+		for (var j = 0; j < pages.length; j++) {
+			pages[j].style.display = "none";
+			indices[j].style.display = "none";
+		}
+		function page(i) {
+			document.getElementsByClassName("selected")[0].className = "nun";
+			document.getElementsByClassName("sel")[0].className = "non";
+			if(i==1)	{
+				for (var j = 0; j < pages.length; j++) {
+					if(pages[j].dataset.page=="A")	{
+						pages[j].style.display = "inline-block";
+						indices[j].style.display = "inline-block";
+						indice[j].style.display = "inline-block";
+					}
+					else {
+						pages[j].style.display = "none";
+						indices[j].style.display = "none";
+						indice[j].style.display = "none";
+					}
+				}
+				document.getElementsByClassName("nun")[0].className = "selected";
+				document.getElementsByClassName("non")[4].className = "sel";
+			}
+			if(i==2)	{
+				for (var j = 0; j < pages.length; j++) {
+					if(pages[j].dataset.page=="B")	{
+						pages[j].style.display = "inline-block";
+						indices[j].style.display = "inline-block";
+						indice[j].style.display = "inline-block";
+					}
+					else {
+						pages[j].style.display = "none";
+						indices[j].style.display = "none";
+						indice[j].style.display = "none";
+					}
+				}
+				document.getElementsByClassName("nun")[1].className = "selected";
+				document.getElementsByClassName("non")[3].className = "sel";
+			}
+			if(i==3)	{
+				for (var j = 0; j < pages.length; j++) {
+					if(pages[j].dataset.page=="C")	{
+						pages[j].style.display = "inline-block";
+						indices[j].style.display = "inline-block";
+						indice[j].style.display = "inline-block";
+					}
+					else {
+						pages[j].style.display = "none";
+						indices[j].style.display = "none";
+						indice[j].style.display = "none";
+					}
+				}
+				document.getElementsByClassName("nun")[2].className = "selected";
+				document.getElementsByClassName("non")[2].className = "sel";
+			}
+			if(i==4)	{
+				for (var j = 0; j < pages.length; j++) {
+					if(pages[j].dataset.page=="D")	{
+						pages[j].style.display = "inline-block";
+						indices[j].style.display = "inline-block";
+						indice[j].style.display = "inline-block";
+					}
+					else {
+						pages[j].style.display = "none";
+						indices[j].style.display = "none";
+						indice[j].style.display = "none";
+					}
+				}
+				document.getElementsByClassName("nun")[3].className = "selected";
+				document.getElementsByClassName("non")[1].className = "sel";
+			}
+			if(i==5)	{
+				for (var j = 0; j < pages.length; j++) {
+					if(pages[j].dataset.page=="E")	{
+						pages[j].style.display = "inline-block";
+						indices[j].style.display = "inline-block";
+						indice[j].style.display = "inline-block";
+					}
+					else {
+						pages[j].style.display = "none";
+						indices[j].style.display = "none";
+						indice[j].style.display = "none";
+					}
+				}
+				document.getElementsByClassName("nun")[4].className = "selected";
+				document.getElementsByClassName("non")[0].className = "sel";
+			}
+			window.scrollTo(0,0);
+		}
+	</script>
+</div>
+
+<div class="footer" style="background-color:#e15050;">
+	<div class="footerMenu animate">
+		<h4 style="font-weight:bold"><i class="fas fa-link" style="color:#e15050"></i> Quick Links</h4>
+		<a href="../"><h4>HOME</h4></a>
+		<a href="../About.html"><h4>ABOUT</h4></a>
+		<a href="../NGOs/"><h4>OUR PARTNERS</h4></a>
+		<a><h4>BLOG</h4></a>
+		<a href="../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h4 style="font-weight:bold;letter-spacing:1px">CENTRE FOR SOCIAL INNOVATION</h4>
+		<h4><a><i class="fas fa-home" style="color:#e15050"></i> Ramanujan College, Kalkaji, New Delhi</a></h4>
+		<h4><a><i class="fas fa-mobile-alt" style="color:#e15050"></i> +91 97606 20788</a></h4>
+		<h4><a><i class="fas fa-mobile-alt" style="color:#e15050"></i> +91 97175 83595</a></h4>
+		<h4><a><i class="fas fa-envelope" style="color:#e15050"></i> sociovation@gmail.com</a></h4>
+		<h4><a><i class="fas fa-link" style="color:#e15050"></i> Sociovation</a></h4>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar, Shubhangi Goyal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Inspirations</title>
+	<link rel="stylesheet" href="src/css/TypeB.css">
+	<link rel="stylesheet" href="src/css/slideshow.css">
+	<link rel="stylesheet" href="src/css/socialWorkers.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="src/img/csi.png">
+	<style>
+		.headerMenu	a {
+			color: #1964b9;
+			padding: 1.2vw 0;
+		}
+		.headerMenu a {
+			width: 16.6%;
+		}
+		.footer a:hover	{
+			color:#1964b9
+		}
+	</style>
+	<script src="src/js/jquery.min.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #1964b9"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="About.html"><i class="fas fa-user-alt"></i> About</a>
+			<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a class="activeLink"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (winScroll > 100 || winScroll > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(22,115,200,0.95)">
+<div class="smallScreenHeader" style="background-color: #1672cc"><span style="float:right" onclick="closeNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="About.html"><i class="fas fa-users"></i> About</a>
+		<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="#" onclick="closeNav()"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #1672cc"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('src/img/bg/bg7.jpg')"id="top" ><p>Our Inspirations</p></div>
+
+<div class="row">
+	<div class="leftcolum">
+		<div class="swcontainer">
+			<div id="swleft">
+				<ul class="swnames">
+					<a href="socialWorkers.html"><i class="far fa-hand-point-right"></i> <u>SOME</u> <u>WELL-KNOWN</u> <u>ACTIVISTS</u></a>
+				</ul>
+				<ul class="swnames">
+					<p><i class="far fa-hand-point-right"></i> <u>LESSER-KNOWN</u> <u>ACTIVISTS</u></p>
+					<li class="cur"><a href="#meera">Meera Sharma</a></li>
+					<li class="cur"><a href="#anjali">Anjali Chandrashekhar</a></li>
+					<li class="cur"><a href="#avani">Avani Singh</a></li>
+					<li class="cur"><a href="#rashi">Rashi Anand</a></li>
+					<li class="cur"><a href="#prakash">Dr. Prakash</a></li>
+					<li class="cur"><a href="#ravi">Ravi Kalra</a></li>
+					<li class="cur"><a href="#runa">Runa Benerjee</a></li>
+					<li class="cur"><a href="#joe">Joe Kort</a></li>
+				</ul>
+			</div>
+
+			<div id="swright">
+				<div id="meera">
+					<div class="card fadingg">
+						<img id="img" src="http://www.thebetterindia.com/wp-content/uploads/2016/10/1919426_716735515127319_5998364536681248092_n.jpg" alt="Meera Sharma">
+						<h2>Meera Sharma – Off with their tresses, for cancer!</h2>
+						<p>Meera Sharma runs Tangled, an organisation that provides organic wigs to women fighting cancer. It all started when Meera found out that real hair wigs for cancer patients were prohibitively expensive (as high as Rs. 30,000) and that synthetic wigs were itchy and extremely uncomfortable. As the chairperson of the Rotaract Club of Women’s Christian College, Chennai, Meera decided to do something about this.</p>
+						<p>Along with her dedicated team at the club, Meera started by donating her own hair for the cause. Next, they partnered with the salon chain, Green Trends, and a wig-maker, Raj Hair Intl. Pvt. Ltd, who agreed to make natural hair wigs for them at a price of Rs. 4,500 per wig. These wigs are then distributed for free to the underprivileged cancer patients of the Cancer Institute. The cost of wig-making is borne by the sponsors whose generous contributions make this possible. Today, Tangled is working across India to provide free, organic wigs to cancer patients and boost their self-confidence.</p>
+					</div>
+				</div>
+
+				<div id="anjali">
+					<div class="card fadingg">
+						<img id="img" src="http://www.thebetterindia.com/wp-content/uploads/2016/10/Anjali_Flickr.jpg" alt="Anjali Chandrashekhar">
+						<h2>Anjali Chandrashekhar – When a brush is mightier than the sword!</h2>
+						<p>An aspiring industrial designer with passion for painting and sculpture, Anjali Chandrashekhar was just 16 when she raised funds for causes such as natural calamities, child abuse, and rehabilitation of underprivileged children through her artistic creations. In 2008, she used her artwork to raise around 3 lakh rupees at an International Diabetes Charity and used that money to provide insulin and medication to many poor diabetic children. She also won the third prize at the United Nations Poster for Peace Contest for her disarmament posters, Break Free and Cutting a Peace Deal.</p>
+						<p>A firm believer in the philosophy that art transcends barriers of age, language and literacy, 22-year-old Anjali has been working silently on her global social project, Picture It, for over a decade. Through it, she has been using her art to raise funds for various health, humanitarian and environmental causes.</p>
+					</div>
+				</div>
+
+				<div id="avani">
+					<div class="card fadingg">
+						<img id="img" src="http://www.thebetterindia.com/wp-content/uploads/2016/10/avani_blogheader1.jpg" alt="Avani Singh">
+						<h2>Avani Singh – A rickshaw of hope!</h2>
+						<p>A Delhi girl, Avani founded Ummeed, a program that trains women from the slums of Delhi to become taxi and rickshaw (electric rickshaws) drivers, when she was just 17. She started this initiative with a single electric rickshaw, donated by the local manufacturer, Green Wheels. To find a driver, Avani collaborated with the Delhi-based NGO CEQUIN to put out a call for volunteers in the Jamia area of the city. Soon, she had her first e-rickshaw driver, Kohinoor, who was delighted by the opportunity.</p>
+						<p>Today, Ummeed is giving many women a way to earn both a living and a level of physical and social mobility that was previously nearly impossible. Other than training underprivileged women to drive, it also provides and maintains the e-rickshaws.</p>
+					</div>
+				</div>
+
+				<div id="rashi">
+					<div class="card fadingg">
+						<img id="img" src="http://www.thebetterindia.com/wp-content/uploads/2016/10/1-22.jpg" alt="Anjali Chandrashekhar">
+						<h2>Rashi Anand – A better childhood for street kids!</h2>
+						<p>Worried about how vulnerable street kids were to exploitation, Rashi set up Lakshyam, an NGO working for street and underprivileged children in Delhi when she was just 18. Her next step was to set up a Toy Library programme that provided pictorial books and educational toys to street kids. Till date, this programme has donated books and toys to over two lakh underprivileged children in India.</p>
+						<p>Today, Lakshyam has established several schools (called Sakshyam) for street kids in the slum areas of Delhi. The organization also conducts workshops with street children under flyovers, in red light areas and at railway stations to provide basic education and create awareness about issues like drug addiction. Thanks to Rashi’s efforts, Lakshyam has also expanded its work to states like Jharkhand, Uttarakhand, Tamil Nadu and Karnataka.</p>
+						<p>Most of us nurture a passion but few translate it into action. These 5 young women didn’t just dream about making a difference, they also built an effective social venture around a cause they were passionate about. Old or young, these go-getters are an inspiration to us all!</p>
+					</div>
+				</div>
+
+				<div id="prakash">
+					<div class="card fadingg">
+						<img id="img" src="https://s4.scoopwhoop.com/anj/sw/5ff6e70d-e69e-4eea-81be-3b88b6c25734.jpg" alt="Anjali Chandrashekhar">
+						<h2>Meet Dr. Prakash, The Man Who Has Dedicated His Life To Being A Father To Orphaned Animals</h2>
+						<p>Dr. Prakash Amte's family lives in complete harmony with wild animals at their home in Hemalkasa, Maharashtra. So much so that his grandson playing with a python is not even a shocking sight for their neighbours.</p>
+						<p>These animals were brought home for proper care and upbringing by Dr. Prakash as their parents were killed by the tribal people in the region</p>
+						<p>The orphanage, which started with a rescued baby monkey, has been a house to several jackals, jungle cats, leopards, deers, snakes, giant squirrels, Indian pythons, sloth bears, hyenas, crocodiles, birds and owls, over the years.</p>
+						<p>Handling wild animals can be dangerous, but the animals at this orphanage are very friendly. </p>
+						<p>Prakash is the son of respected social worker Baba Amte who dedicated his life to rehabilitating and empowering people suffering from leprosy.</p>
+					</div>
+				</div>
+
+				<div id="ravi">
+					<div class="card fadingg">
+						<img id="img" src="https://images.yourstory.com/2018/10/Untitled-design-108.png?fm=png&auto=format" alt="Ravi Kalra">
+						<h2>Ravi Kalra</h2>
+						<p>On the streets of Delhi, an unclaimed dead body attracts attention. Apart from a few whispers and looks, no one steps into help.</p>
+						<p>Social activist Ravi Kalra is the only person to step into the picture, and make arrangements for the last rites for a life, he knew nothing of, until that moment.</p>
+						<p>This, however, was not a one-off case of help rendered, The founder of the non-profit The Earth Saviours Foundation (TESF) Ravi has made arrangements for the last rites of 6,000 unclaimed dead bodies, so far. His internationally recognised NGO provides shelter and care to citizens (children and adults) left on the streets, senior citizens abandoned by their family and those suffering from physical and mental disabilities.</p>
+						<p>Based in Gurugram, TSEF is home to 500 such senior citizens.</p>
+						<p>Apart from the elderly, TESF accommodates a rehabilitation school for underprivileged children, and offers medical and material care for the physical and mental challenged, and even HIV-AIDs patients abandoned by society.</p>
+					</div>
+				</div>
+
+				<div id="runa">
+					<div class="card fadingg">
+						<img id="img" src="http://wikipeacewomen.org/wpworg/en/wp-content/uploads/sites/2/2015/09/2321-300x201.jpg alt="Runa Benerjee">
+						<h2>Runa Benerjee</h2>
+						<p>Runa Banerjee’s involvement with chikankari handicraft artists began with a Unicef-supported study on the lives of artisans in India. Discovering that the chikankari craft in Lucknow was highly exploitative, especially for women and children, she decided to remain and work for them. Her interaction with the women convinced her that self-reliance was the only real solution to the privations. So, in 1984, she set up the Sewa in Lucknow, setting about obtaining training in the craft and then extending the expertise to other women. Runa, who works in Lucknow and ten other districts of Uttar Pradesh, focuses on the social and economic empowerment of deprived and exploited women. Over the years, Runa’s work has reached out directly to over 10,000 women. About 8000 women have been trained in the difficult craft of chikankari, which is today a nationwide fashion rage and has spawned thousands of imitations. Chikankari had gone into sharp decline after independence, but Sewa’s efforts revived it. Now many previously very poor women are able to live from their earnings. Initially, there was such dogged resistance from their families that a number of the women were physically assaulted when they joined Sewa. Contractors, business houses, and middlepersons saw Sewa activities in Lucknow as a trade threat. Runa, who has been consistently devoted to the cause of secularism, harmony, sisterhood, and peace, has also undertaken some interstate interventions in this context, most recently in Gujarat, where the victims of the 2002 pogrom are being rehabilitated under her guidance.</p>
+					</div>
+				</div>
+
+				<div id="joe">
+					<div class="card fadingg">
+						<img id="img" src="https://www.socialworkdegreeguide.com/wp-content/uploads/2014/10/joe-kort-e1412714028311.jpg" alt="Anjali Chandrashekhar">
+						<h2>Joe Kort</h2>
+						<p>Joe Kort Known for his devoted career in advancing social acceptance, Joe Kort is an openly gay clinical social worker and author of four books and numerous journal publications. Kort received his undergraduate degree in social work from Michigan State University and two master’s degrees from Wayne State University. Kort completed his doctorate from the American Academy of Clinical Sexologists. He works as a clinical sexologist and facilitator of couples workshops and counseling. Kort is active in online appearances and in the media. He has appeared on a variety of television and radio shows, including the Tyra Banks Show and Oprah.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="rightcolum" style="margin-bottom:20px">
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog/index.html#organicManure">
+				<img src="src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog/index.html#water">
+				<img src="src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog/Page-2.html#innovation">
+				<img src="src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color:#1964b9;margin-top: 0">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="50" height="1000" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #1964b9"></i> Quick Links</h3>
+		<a href="index.html"><h4>HOME</h4></a>
+		<a href="About.html"><h4>ABOUT</h4></a>
+		<a href="NGOs/"><h4>OUR PARTNERS</h4></a>
+		<a href="Blog/"><h4>BLOG</h4></a>
+		<a href="Gallery.html"><h4>GALLERY</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="About.html#top"><h4>Profile and Working</h4></a>
+		<a href="About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="About.html#na"><h4>Fields of work</h4></a>
+		<a href="team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h4 style="font-weight:bold;letter-spacing:1px">CENTRE FOR SOCIAL INNOVATION</h4>
+		<h4><a><i class="fas fa-home" style="color:#1964b9"></i> Ramanujan College, Kalkaji, New Delhi</a></h4>
+		<h4><a><i class="fas fa-mobile-alt" style="color:#1964b9"></i> +91 97606 20788, +91 97175 83595</a></h4>
+		<h4><a><i class="fas fa-envelope" style="color:#1964b9"></i> sociovation@gmail.com</a></h4>
+		<h4><a><i class="fas fa-link" style="color:#1964b9"></i> Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

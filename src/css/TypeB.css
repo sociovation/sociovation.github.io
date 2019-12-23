@@ -1,6 +1,11 @@
 html	{
 	scroll-behavior: smooth;
 }
+@media screen and (max-width: 700px) {
+	html	{
+		scroll-behavior: auto;
+	}
+}
 body	{
 	margin:0;
 	background-color:rgba(250,250,250,0.8);
@@ -50,7 +55,7 @@ body	{
 	text-align: center;
 	text-decoration: none;
 	font-size: small;
-	width:20%;
+	width:16.66%;
 	font-weight: bold;
 /*padding values :top, right, bottom, left*/
 	padding: 1.4vw 0;
@@ -85,6 +90,10 @@ body	{
 	left: 0;
 	overflow-y: hidden;
 	transition: 0.5s;
+}
+
+.overlaMenu-content {
+	margin-top: 20px
 }
 
 .overlaMenu-content a {
@@ -231,8 +240,8 @@ body	{
 	}
 
 .animate {
-	-webkit-animation: faisalsZoomButton 1s;
-	animation: faisalsZoomButton 1s
+	-webkit-animation: faisalsZoomButton 0.5s;
+	animation: faisalsZoomButton 0.5s;
 }
 
 @-webkit-keyframes faisalsZoomButton {
@@ -473,6 +482,11 @@ body	{
 .footerFB i	{
 	color: #070;
 	margin-right: 10px
+}
+
+.footer a:hover	{
+	transition-duration: 0.5s;
+	cursor: pointer;
 }
 
 #copyRight	{

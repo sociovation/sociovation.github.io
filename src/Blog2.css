@@ -1,0 +1,209 @@
+body	{
+	margin:0;
+	background-color:#eee;
+	color:grey;
+	font-family:"Raleway";
+	text-align: justify;
+}
+
+*{box-sizing: border-box;}
+.headerr {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	background-color: white;
+	text-align: center;
+}
+/*Left Column*/
+.headerLeftCol a {
+	-ms-flex: 30%; /* IE10 */
+	flex: 30%;
+	padding: 1vw 5vw 0 0;
+}
+/*Right Column A and B*/
+.headerRightCol {
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	padding: 0 5vw 0 30vw;
+}
+
+.headerMenu	{
+	font-family:"Raleway",sans-serif;
+	position: relative;
+	width: 100%;
+	z-index:1;
+	display: block;
+	background-color: none;
+	top: 4vw;
+}
+.headerMenu a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: small;
+	width:16.66%;
+/*padding values :top, right, bottom, left*/
+	padding: 1.4vw 0;
+}
+.activeLink, .headerMenu a:hover	{
+	background-color: #eee;
+	color: black;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+	@media screen and (max-width: 650px) {
+		.headerRightCol {
+			display: none;
+		}
+		.headerLeftCol a {
+			display: inline-block;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.headerRightCol {
+			padding: 0 2vw 0 10vw;
+		}
+		.headerMenu	{
+			top: 25px;
+		}
+	}
+
+#navbarr {
+	background-color: white;
+	position: fixed;
+	top: -20vw;
+	width: 100%;
+	display:block;
+	transition: top 0.3s;
+	overflow: hidden;
+	z-index: 1;
+}
+#navbarr a {
+	float: left;
+	display: block;
+	color: grey;
+	text-align: center;
+	padding: 0;
+	width: 14.28%;
+	text-decoration: none;
+	font-size: small;
+}
+#navbarr a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+	@media screen and (max-width: 650px) {
+		.header {
+			display: none;
+		}
+		.headerB {
+			display: block;
+		}
+		#navbarr a {
+			font-size: xx-small;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.headerRightCol {
+			padding: 0 2vw 0 10vw;
+		}
+		.headerMenu	{
+			top: 20px;
+		}
+	}
+/************************************************		HeaderText		**************************************************/
+.headerText	{
+	font-size: 100px;
+	text-align:center;
+	color:white;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+/*padding values :top, right, bottom, left*/
+	padding: 1vw;
+	margin-top: 5px;
+}
+	@media screen and (max-width: 650px) {
+		.headerText {
+			padding: 0;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.headerText	{
+			font-size: 80px;
+			padding: 10vw 5vw 5vw;
+		}
+	}
+
+/************************************************		The Rest Page		**************************************************/
+/* Create two unequal columns that floats next to each other */
+/* Right column */
+.rightcolumn {
+	float: right;
+	width: 75%;
+}
+
+/* Left column */
+.leftcolumn {
+	float: right;
+	width: 25%;
+	padding-right: 20px;
+}
+
+.rightcolum {
+	float: right;
+	width: 50%;
+}
+
+.posts {
+	float: right;
+	width: 100%;
+	padding: 5px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0.4vw 0.8vw 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn, .rightcolum {   
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
+/*************************************************			ReadMoreButtons			**********************************************/
+#readMoreButton1 #readMoreButton2 #readMoreButton3	{
+	float: right;
+	color:white;
+	font-size:1.25vw;
+	background-color:#eee;
+/*padding values :top, right, bottom, left*/
+	padding: 0 0.5vw;
+	margin-right: 1vw;
+}

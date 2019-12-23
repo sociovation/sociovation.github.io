@@ -18,18 +18,12 @@
 	position: fixed;
 	width: 25%;
 	height: 100%;
-	padding: 50px;
+	padding: 25px;
 	top:100px;
 	transition: 0.5s;
 }
 
-@media screen and (max-width: 900px) {
-	#blogleft {
-		padding: 20px;
-	}
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 	#blogleft {
 		font-size: 0;
 		color: transparent;
@@ -69,18 +63,18 @@
 	transition: 1s ease;
 }
 
-ul#onSmalPages li#sel	{
+ul#onSmalPages li.sel	{
 	color: white;
 	background-color: #e15050;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 	#onSmal {
 		display: inline;
 	}
 }
 
-ul#topics, ul#pages {
+ul.topics, ul#pages {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -89,7 +83,7 @@ ul#topics, ul#pages {
 	transition: 1s ease;
 }
 
-ul#topics a,
+ul.topics a,
 ul#pages a	{
 	color: inherit;
 	text-decoration: none;
@@ -97,23 +91,23 @@ ul#pages a	{
 
 ul#pages li	{
 	float:left;
-	margin-top: 100px;
-	margin-right: 10px;
+	margin-top: 50px;
 	padding: 12.5px 20px;
 }
 
-ul#pages li#selected	{
+ul#pages li.selected	{
 	color: #333;
 	border-radius: 50%;
 	background-color: #eee;
 }
 
 .cur {
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
-ul#topics li.cur a:hover	{
+ul.topics li.cur a:hover	{
 	color:#00a;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -124,30 +118,13 @@ ul#pages li:hover	{
 	border-radius: 50%;
 	background-color: #eee;
 }
-
-.x	{
-	display: none;
-}
-
-@media screen and (max-width: 700px) {
-	.x 	{
-		display: inline;
-		height: 100%;
-		width: 100%;
-		position: fixed;
-		background-color: rgba(0,0,0,0.9);
-		z-index: 1;
-	}
-	.x p	{
-		font-family: "Handlee", sans-serif;
+@media screen and (max-width: 768px) {
+	.indiceBoxSmal {
 		color: #fff;
-		width: 100%;
-		text-align: center;
-		font-size: 150%;
-		top: 50%;
+		font-size: 75%;
+		padding: 0 25px;
 	}
 }
-
 .footer	{
 	float: right;
 	width: 75%
@@ -173,15 +150,30 @@ ul#pages li:hover	{
 .overlaMenu-content	{
 	height: 50%;
 }
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 768px) {
 		.footer	{
 			width: 100%
 		}
 		#smal	{
 			width: 100%
 		}
-		ul#pages li#selected	{
+		ul#pages li.selected	{
 			font-size: 0;
 			padding: 0;
 		}
 	}
+
+.fadingg {
+	-webkit-animation: faisalsFading 0.25s;
+	animation: faisalsFading 0.25s;
+}
+
+@-webkit-keyframes faisalsFading {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes faisalsFading {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}

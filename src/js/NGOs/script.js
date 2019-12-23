@@ -3,31 +3,31 @@
 
 $('.navbar-brand, .top-scroll a').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-	|| location.hostname == this.hostname) {
+  || location.hostname == this.hostname) {
 
-	var target = $(this.hash);
-	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	if (target.length) {
-	  $('html,body').animate({
-		scrollTop: target.offset().top
-	  }, 2000);
-	  return false;
-	}
+  var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  if (target.length) {
+    $('html,body').animate({
+    scrollTop: target.offset().top
+    }, 2000);
+    return false;
+  }
   }
 });
 var navbarHeight = $('.main-nav').height();
 $('a.btnAbout, a.hire').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-	|| location.hostname == this.hostname) {
+  || location.hostname == this.hostname) {
 
-	var target = $(this.hash);
-	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	if (target.length) {
-	  $('html,body').animate({
-		scrollTop: target.offset().top - navbarHeight
-	  }, 2000);
-	  return false;
-	}
+  var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  if (target.length) {
+    $('html,body').animate({
+    scrollTop: target.offset().top - navbarHeight
+    }, 2000);
+    return false;
+  }
   }
 });    
 //=======================flexslider==============================================
@@ -38,11 +38,11 @@ $('a.btnAbout, a.hire').click(function() {
 //=================================menu scroll==========================================
 $('.navbar-nav').onePageNav({
        scrollOffset: navbarHeight,
-	   scrollSpeed:1000,
+     scrollSpeed:1000,
         scrollThreshold: 0.25
-	});
-//========================================= portfolio filter =========================================	
-	
+  });
+//========================================= portfolio filter =========================================  
+  
 
  //============================ function =========================================
 
@@ -79,14 +79,14 @@ $('#filterOptions a').click(function (e) {
  
     // reshuffle grid
     $grid.shuffle('shuffle', groupName );
-	});
+  });
     /* initialize shuffle plugin */
     var $grid = $('#grid'),
-	$sizer = $grid.find('.shuffle__sizer');
+  $sizer = $grid.find('.shuffle__sizer');
  
     $grid.shuffle({
         itemSelector: '.box', // the selector for the items in the grid
-		sizer: $sizer
+    sizer: $sizer
     });
 });
 
@@ -103,8 +103,8 @@ navScroll();
 function imgHover(){
  $('.thumb-img').hover(function(){
      $(this).find('.link-search, .link-chain').fadeIn();
-	 $('.link-search').removeClass('fadeOutLeft').addClass('fadeInLeft');
-	 $('.link-chain').removeClass('fadeOutRight').addClass('fadeInRight');
+   $('.link-search').removeClass('fadeOutLeft').addClass('fadeInLeft');
+   $('.link-chain').removeClass('fadeOutRight').addClass('fadeInRight');
     $(this).children('.folio-caption').animate({
     bottom:'0px'
     });
@@ -112,7 +112,7 @@ function imgHover(){
  }, function(){
  $(this).find('.link-search, .link-chain').fadeOut();
   $('.link-search').removeClass('fadeInLeft').addClass('fadeOutLeft');
-	 $('.link-chain').removeClass('fadeInRight').addClass('fadeOutRight');
+   $('.link-chain').removeClass('fadeInRight').addClass('fadeOutRight');
     $(this).children('.folio-caption').animate({
     bottom:'-58px'
     });

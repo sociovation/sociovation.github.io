@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i>Karnataka</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a>Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="employment">EMPLOYMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="health">HEALTH</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all","health,"environment","environment","women"]'>
+			<div class="thumb-img">
+				<a href="http://www.birds.org.in/  " target="_blank"><img src="../../src/img/NGOicons/Madhya/1.png" alt="Bijapur Integrated Rural Development Society (R)- BIRDS "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bijapur Integrated Rural Development Society (R)- BIRDS</p>
+				</div>
+			</div>
+			<h3>Bijapur Integrated Rural Development Society (R)- BIRDS</h3>
+			<h4>ABOUT</h4>
+			<p>Bijapur Integrated Rural Development Society is a registered Voluntary Organization under Karnataka Societies Registration Act 1960 and committed for integrated rural development since 1989. BIRDS have been working in selected backward Taluks of Bijapur, Bagalkot, Dharwad, Kodagu, Gulbarga, Haveri , Belgaum, Yadgiri & Belagav Districts of Karnataka State. BIRDS has been working with the vulnerable target group families especially, landless, Scheduled Castes and Scheduled Tribes (SC/STs), small and marginal farmers, women on socioe conomic issues and development of rural poor through diversified developmental activities.</p>
+			<h4>Vision</h4>
+			<p>An equal and equitable society for all men and women. Social Justice for all. Economic & Political Freedom. Gender equity with focus on empowerment of weaker section to ensure dignity & respect. Social values and concern with special focus and commitment to secure economic and human rights for the poor.</p>
+			<h4>Mission</h4>
+			<p>An action group dedicated for bringing self reliant and social changes through Livelyhood opportunities with Equity, Social Justice and Empowerment of Weaker section of the Society.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="www.mectindia.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/2.png" alt="  MECT "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> MECT </p>
+				</div>
+			</div>
+			<h3> MECT </h3>
+			<h4>ABOUT</h4>
+			<p>The main objective of MECT is the educational, social, economical, vocational and cultural up-lift of rural economically backward community in India. It is a secular organisation with a firm belief in the India polity. Women's education is our main priority in rural areas as they are unfortunately neglected in remote villages. We lay stress on the education of women so that arising out of noble education, they posr.es a true queenly power, not in their household merely, but over all within their sphere.
+			</p>
+			<h4>Goals</h4>
+			<p>	To Spread qualitative education to the poor, middle in special and higher class in general
+			To develop the personalities and other group of people for national integration social and educational development
+			To produce the trained man power to fulfill the needs of the changing society
+			To encourage the backward and minority communities for higher and quality oriented professional education
+			To introduce the professional, Vocational, technical and medical to fulfill the needs of the changing industrial and technological society</p>
+		</div>
+		
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.aapatsahaaya.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/3.png" alt="Aapatsahaaya Foundation (AFN)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aapatsahaaya Foundation (AFN) </p>
+				</div>
+			</div>
+			<h3>Aapatsahaaya Foundation (AFN) </h3>
+			<h4>ABOUT</h4>
+			<p>Aapatsahaaya Foundation (AFN) is a public registered charitable trust under the Indian Trust Act, 1882 that is formed by a group of genuine,selfless,like-minded and enthusiastic individuals hailing from different professional backgrounds with a common desire to nurture social consciousness in each of us.
+			The Trust was registered on 18th October 2008 and has been actively involved in the noble endeavor of doing Sahaaya (Assistance) for Aapat (Needy).
+			To move ahead and stretch our helping hands we need your help. Let us walk together, hand in hand, to make a difference.
+			Remember Saint Thyagaraja’s keerthana :
+			Dorukunaa ituvanti seva (Can we find the opportunity for this kind of service).
+			</p>
+			<h4>Mission</h4>
+			<p>	To work in areas of Education & Career
+			To unite like minded people for a social cause
+			To enhance social consciousness in today’s youth
+			To identify specific needs of various social organizations and synergize resources to meet those needs.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href=" http://www.aashayeinfoundation.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/4.png" alt="Aashayein Foundation "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aashayein Foundation </p>
+				</div>
+			</div>
+			<h3>Aashayein Foundation </h3>
+			<h4>Vision</h4>
+			<p>Aashayein Foundation recognizes the vitality of quality education in the growth and development of every individual, community, country, and even the world. Education is a key element in constituting the society, which keeps it healthy and well nourished. The various activities of the foundation are directly aimed at achieving this – access to quality education.
+			Although there are numerous challenges in the path for quality education, we have identified 3 major areas as our primary focus:
+			Access to education
+			Environment for learning
+			Quality of education
+			</p>
+		</div>
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.abilashrayam.com" target="_blank"><img src="../../src/img/NGOicons/Karnataka/5.png" alt="Abilashrayam"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Abilashrayam</p>
+				</div>
+			</div>
+			<h3>Abilashrayam</h3>
+			<h4>AbOUT</h4>
+			<p>Abilashrayam (Desire to care), ngo in Bangalore was founded and established in the year 2009 by Mr. Kalyan Krishna. We started our first project as "Little Pencils" orphanage in Bangalore by taking care of five children. We slowly expanded our support to close to twenty children. Thus it all began by taking care of five children. 
+			In the due course of time, a legion of likeminded individuals joined the cause and motivated Mr. Kalyan Krishna to undertake many more such initiatives. During this period, the organization started providing educational support to the underprivileged children belonging to the rural areas. Thus i-educate project was launched and supported Two Hundred and Fifty children in its inaugural launch itself. In the following year we supported more than 1500 children under i-educate project. 
+			Today, we can proudly say we are supporting thousands of children across the country through our various programs and initiatives. The organization is also supporting senior citizens (through senior citizen home & other ways), women and youth in rural areas of India.
+			</p>
+			<h4>Vision</h4>
+			<p>To promote ability among all the orphaned/abandoned/underprivileged children, senior citizens within and outside the support system, by educating, guiding and giving them the love and care which they deserve. We act as a transition for these children to lead a life with complete social dignity and also make them able, to help the society in return.</p>
+			<h4>Mission</h4>
+			<p> To continue doing our work with social responsibility, so that we can restore the bright future of these innocent lives. </p>
+		</div>
+		<div class="box" data-groups='["all", "health","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.ashaforautism.com" target="_blank"><img src="../../src/img/NGOicons/Karnataka/6.png" alt="ASHA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ASHA</p>
+				</div>
+			</div>
+			<h3>ASHA</h3>
+			<h4>ABOUT</h4>
+			<p>Established in 1995, Academy for Severe Handicaps and Autism provides education along with a comprehensive set of therapies to individuals with autism spectrum disorders. In over two decades, ASHA has evolved and developed capabilities and expertise to address the different needs of over 500 individuals and their families.  
+			</p>
+			<h4>Mission</h4>
+			<p>We endeavour to render exceptional love, care, hope and educational assistance to children with special needs to help them develop and utilise their potential.</p>
+		</div>
+		
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.actionaidindia.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/7.png" alt="ActionAid"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ActionAid</p>
+				</div>
+			</div>
+			<h3>ActionAid</h3>
+			<h4>Vision and Mission</h4>
+			<p>ActionAid India is part of a global federation and a full affiliate of ActionAid International that has presence in over 40 countries worldwide. Since 1972, the poor and the excluded have been at the centre of our discourse and actions in India. In 2006, we got registered as an Indian organisation called ActionAid Association. We are governed by an independent General Assembly and a Governing Board.
+			We reiterate our values and stress on ‘praxis’ in our work, in our effort to deepen our commitment to transform our organisational culture.
+			Solidarity, camaraderie and sisterhood with the poor, the powerless and excluded women, girls, boys and men will be at the core of our struggle against poverty and injustice.
+			‘Personal is political’: without contradiction in the practice in private and public sphere.
+			Courage of conviction, requiring us to be creative and progressive, bold and innovative – without fear of failure.
+			Equality, justice and diversity, requiring us to work to ensure equal opportunity to every person, irrespective of caste, class, race, age, gender, sexual orientation, colour, class, ethnicity, disability, location, and religion.
+			Humility and modesty in our conduct and behaviour.
+			Transparency and accountability.
+			Independence and neutrality from any religious or party-political affiliation.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.ashaf.org " target="_blank"><img src="../../src/img/NGOicons/Karnataka/8.png" alt="ASHA Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ASHA Foundation</p>
+				</div>
+			</div>
+			<h3>ASHA Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>Decades ago, an American who had come to India fell ill and was admitted to a hospital in Bangalore. Within 48 hours, his condition deteriorated. Dr. Glory Alexander was by his side when he breathed his last. She didn't know much about the man other than the fact that he died of AIDS. That encounter was the catalyst for the birth of ASHA Foundation, Bangalore – a vision and a dream that soon became a reality.
+			ASHA Foundation, which was established in 1998 by Dr. Glory Alexander and a number of like-minded people, stands for Action, Service and Hope for AIDS. It is a charitable and voluntary Trust helping HIV/AIDS infected people, their families and society. The range of services include: advocacy; capacity building; research; preventive services; awareness; treatment, care, support and rehabilitation of HIV-infected and affected persons with a special focus on women and children.</p>
+		</div>
+		<div class="box" data-groups='["all","women"]'>
+			<div class="thumb-img">
+				<a href=" http://www.afpro.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/9.png" alt="AFPRO"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AFPRO</p>
+				</div>
+			</div>
+			<h3>AFPRO</h3>
+			<h4>Vision</h4>
+			<p>AFPRO as a secular socio-technical development organization with Christian inspiration visualizes itself as working to enable the rural poor – including women and men belonging to small and marginal farmers and the landless, dalits, tribal people, fisher folk and unemployed youth – to move towards sustainable development, through and overall increase in their knowledge and skills in areas that directly affect their standard and quality of life. It visualizes itself as an organization which over the next decade will enable the marginalized rural groups to achieve enhanced socioeconomic and personal status in society through appropriate technologies for the management of natural resources.
+			</p>
+			<h4>Mission</h4>
+			<p>AFPRO dedicates itself to its mission of alleviating rural poverty by promoting and working through voluntary organizations; with a focus on enabling the marginalized and weaker sections of rural society to participate in the process of rural development by strengthening their resource base and capabilities through improved knowledge and skills, both in the technical and socioeconomic development areas.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.agastya.org " target="_blank"><img src="../../src/img/NGOicons/Karnataka/10.png" alt="Agastya"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Agastya</p>
+				</div>
+			</div>
+			<h3>Agastya</h3>
+			<h4>ABOUT</h4>
+			<p>Agastya was not born fully formed, but grew out of the conversations and lively debates of its founders, and the influential and supportive friends who were there in the early days. They were there when its purpose was defined. They were there when it was named. And they were there when the first teacher was hired – the teacher who would set the standard for all of the others who followed. 
+			The primary goal of augmenting government school curricula helps children grasp complex concepts through Agastya’s hands-on methods. Communities with few resources are uplifted and exposed to scientific realities, while superstitions are dispelled, and new opportunities are brought within the reach of India’s poor.
+			</p>
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="www.ahp.org.in" target="_blank"><img src="../../src/img/NGOicons/Karnataka/11.png" alt=" AHP – Action on Hunger and Poverty Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AHP – Action on Hunger and Poverty Foundation</p>
+				</div>
+			</div>
+			<h3>AHP – Action on Hunger and Poverty Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>Action on Hunger & Poverty Foundation, is a National Organisation that supports, develops and strengthens people’s organisations at the community level to support themselves through capacity building, fellowships and small grants . The organisation is committed to improving the lives of the poor and marginalised people by strengthening and empowering them, their families and the communities they live in to address their concerns, raise themselves out of poverty and hunger, to claim their rights and access programmes and services designed for them.
+			AHP works with local partners and Community Based Organisations to learn and strengthen locally appropriate responses, with the belief that it is the local people who can identify the best solutions to address their own issues. AHP facilitates such solutions.</p>
+			<h4>Vision</h4>
+			<p>A society that has adequate food for everyone and equal opportunities for all, where people come forward to address hunger, poverty and inequity.</p>
+			<h4>Mission</h4>
+			<p>Build and enhance local human potential to remove hunger, poverty and inequity.</p>
+		</div>
+		
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.aksharafoundation.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/13.png" alt="Akshara Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Akshara Foundation</p>
+				</div>
+			</div>
+			<h3>Akshara Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>Akshara believes that the best leverage in improving the quality of and access to education is in working with and within government delivery systems. We keep in close touch with the education department and the school administrations. In fact, our cooperation with government distinguishes us from non-governmental organizations.
+			All Akshara’s programs are child-centric and designed to ensure that
+			Enrollment in schools increases
+			Dropouts from schools decrease and
+			Children’s Learning Outcomes and Overall Development improves.
+			All our program models are simple to implement, cost-effective and easily replicable.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","education"]'>
+			<div class="thumb-img">
+				<a href="http://www.ankurafoundation.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/15.png" alt="Ankura Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ankura Foundation</p>
+				</div>
+			</div>
+			<h3>Ankura Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>A set of like-minded people came together to start Ankura foundation, Bangalore in 2001. The foundation was started with an objective of working in the area of education, care and research for children by way of an innovative and alternate method of teaching to children who are normal, special and underprivileged.Our Vision is to foster holistic human excellence imbued with integrity, loyalty and the spirit of service to mankind through a scientific method.
+			</p>
+		</div>
+		<div class="box" data-groups='["all","employment","women"]'>
+			<div class="thumb-img">
+				<a href="www.awakeindia.org.in " target="_blank"><img src="../../src/img/NGOicons/Karnataka/16.png" alt="AWAKE"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AWAKE</p>
+				</div>
+			</div>
+			<h3>AWAKE</h3>
+			<h4>Mission & Vision</h4>
+			<p>AWAKE – Association of Women Entrepreneurs of Karnataka is a not-for-profit, Non-Governmental Organization (NGO) based in Bangalore, India, working towards ' Empowerment of women through entrepreneurship development to improve their economic condition '.
+			Purpose
+			AWAKE strives to promote entrepreneurship among women as a means to achieve self reliance and socio-economic independence. AWAKE provides support and guidance to aspiring women from rural, urban, national and international arenas to be successful entrepreneurs, irrespective of their age, academic, social, economic background. AWAKE’s services are extended to women Self Help Groups (SHGs), NGOs and other development agencies engaged in Income Generation Activities and Entrepreneurship Development.
+			Process
+			AWAKE’s process in entrepreneurship development involves awareness programs, business counseling, trainings, skill development, mentoring, business incubation, information sharing and networking, marketing assistance, credit referral and policy advocacy. The organization comprises of women entrepreneurs from various sectors as its members. Members of AWAKE contribute their time and expertise to support women entrepreneurs, based on the approach 'Entrepreneur guiding Entrepreneur'. AWAKE has built up a strong support network with Government, non-government, corporate, developmental agencies, funding and finance agencies, working with them to provide the expertise in entrepreneurship development for both rural and urban women.
+
+			AWAKE collaborates as a resource organization in institutional competence building, training, policy making and enabling technology transfers for state, national and international agencies. AWAKE fosters an entrepreneurial culture in women such that their contribution to the global economy is recognized. 
+			</p>
+		</div>
+		<div class="box" data-groups='["all","environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.atree.org " target="_blank"><img src="../../src/img/NGOicons/Karnataka/17.png" alt="Ashoka Trust for Research in Ecology and the Environment (ATREE)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ashoka Trust for Research in Ecology and the Environment (ATREE)</p>
+				</div>
+			</div>
+			<h3>Ashoka Trust for Research in Ecology and the Environment (ATREE)</h3>
+			<h4>ABOUT</h4>
+			<p>Ashoka Trust for Research in Ecology and the Environment (ATREE) is a global non-profit organisation which generates interdisciplinary knowledge to inform policy and practice towards conservation and sustainability.
+			For over two decades, ATREE has worked on social-environmental issues from local to global policy levels. ATREE envisions a society committed to environmental conservation and sustainable and socially just development.
+			Our mission is to generate rigorous interdisciplinary knowledge for achieving environmental conservation and sustainable development, to enable the use of this knowledge by policy makers and society, and to train the next generation of environmental leaders.
+			To deliver on our mission, we work across issues like biodiversity and conservation, climate change mitigation and development, land and water resources, forests and governance and ecosystem services and human well-being.
+			Structure
+			ATREE's organisational structure is designed to promote creative interdisciplinary approaches that integrate research with policy and action in addressing critical environmental problems. Two research
+			centres, the Centre for Biodiversity and Conservation and the Centre for Environment and Development, together with the Academy of Conservation Science and Sustainability Studies, provide the structure to conduct insightful research that fuels our thought leadership on policy issues and drives our capacity building activities.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://www.baalemane.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/19.png" alt="Baale Mane "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Baale Mane </p>
+				</div>
+			</div>
+			<h3>Baale Mane </h3>
+			<h4>Vision</h4>
+			<p>The Baale Mane (‘Girl’s Home’ in Kannada, the local language in Bangalore) is a home situated on the outskirts of the city of Bangalore, India, for up to 50 girls between the ages of 7 and 18. We welcome and support girls of all faiths and we do not discriminate on the grounds of caste or creed.
+			Where possible, the aim of our home is to reunite the girls with their family but where this is neither possible nor desirable, the girls are given long term care and protection at the Baale. Our ambition is to nurture and resource the girls for an independent and self-sustaining adult life.
+			Baale Mane focusses on teaching their girls how to productively challenge the rigid norms dictating gender structures, power inequities and oppressive socially accepted roles and expectations of women in their communities. Baale Mane helps the girls make educated, informed choices surrounding their careers, sexuality and well-being, aiming is to equip each girl with the necessary skills to lead an independent life. 
+			-Kim Burnett, President and CEO, Shadhika Foundation
+			Education is at the heart of our approach. All of our girls attend local government or state aided schools as well as receiving extra tuition at the Baale. Girls in 7th standard and above attend English medium school if they come to the Baale early enough and are judged to have the ability to thrive in this environment.
+			We place great emphasis on the all-round development of our girls and have a strong focus on the arts as a means of self-expression. Dance, drama and other forms of creative expression are also an important part of life at Baale.
+			</p>
+		</div>
+		
+		<div class="box" data-groups='["all","health","environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.karunashraya.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/20.png" alt="Karunashraya"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Karunashraya</p>
+				</div>
+			</div>
+			<h3>Karunashraya</h3>
+			<h4>ABOUT</h4>
+			<p>Karunashraya, meaning ‘an abode of compassion’ is a five-acre haven of lush greenery, bird  song and peace, in the midst of the hustle and bustle of a densely populated, prime location on Old Airport – Varthur Main Road, just prior to the Kundalahalli Junction. The building that houses the hospice with its stone exterior is impressive and has won acclaim as one of the most well-designed hospice buildings in “20th Century World Architecture – The Phaidon Atlas Buildings Completed between 1900 and 1999”.
+
+			PALLIATIVE CARE & KARUNASHRAYA: Cancer is a leading cause of death in India with nearly 3 million suffering from it. WHO predicts that 700,000 people will succumb to the disease on an annual basis by 2015. Nearly 80% of cancer patients in India access medical help when there is no hope for cure! The need for palliative care has never been more critical, especially in Bangalore – the ‘Cancer Capital of India’.
+			The building architected by M/s Chandavarkar & Thacker is a green marvel. Both the architectural team and the Karunashraya team were ahead of their times in thinking green.
+			</p>
+		</div>
+			<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.boscoban.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/21.png" alt="Bangalore Oniyavara Seva Coota (BOSCO)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bangalore Oniyavara Seva Coota (BOSCO)</p>
+				</div>
+			</div>
+			<h3>Bangalore Oniyavara Seva Coota (BOSCO)</h3>
+			<h4>ABOUT</h4>
+			<p>Bangalore Oniyavara Seva Coota (BOSCO), more commonly known as BOSCO is a project of the Salesians of Don BOSCO (SDB). BOSCO is a registered Non Profitable Charitable Organization under the Society's registration Act of 1960 (No.184/86-87). Constituted in 1980, we offer service to the Young at Risk like - children living on the streets, child labourers, abandoned / orphaned children, victims of drug abuse, victims of child abuse, begging children, rag pickers etc. Now, BOSCO has spread its wings across the city of Bangalore through 7 rehabilitation centres & 6 street presence locations 
+			</p>
+			<h4>Vision</h4>
+			<p>To build a community that will unreservedly care for its children through a preventive and promotional approach which supports children and activates forces in the society that favour them. </p>
+			<h4>Mission</h4>
+			<p>To encourage the young at risk to join the mainstream of society as educated and productive citizens by partnering with the children in their daily struggle to grow off the streets</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.childfundindia.org " target="_blank"><img src="../../src/img/NGOicons/Karnataka/22.png" alt="ChildFund "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>ChildFund </p>
+				</div>
+			</div>
+			<h3>ChildFund </h3>
+			<h4>ABOUT</h4>
+			<p>ChildFund strives to ensure that deprived, excluded, and vulnerable children have the capacity to improve their lives and become young adults, parents, and leaders who inspire lasting and positive change in their communities. ChildFund promotes communities whose individuals and institutions participate in valuing, protecting, and advancing the worth and rights of children.
+			</p>
+			<h4>Mission</h4>
+			<p>To help deprived, excluded and vulnerable children living in poverty, have the capacity to become young adults, parents and leaders who bring lasting and positive change to their communities.
+			We promote societies whose individuals and institutes participate in valuing, protecting and advancing the worth and right of children.</p>
+
+		</div>
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.cbps.in " target="_blank"><img src="../../src/img/NGOicons/Karnataka/23.png" alt="Centre for Budget and Policy Studies (CBPS) "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Centre for Budget and Policy Studies (CBPS) </p>
+				</div>
+			</div>
+			<h3>Centre for Budget and Policy Studies (CBPS) </h3>
+			<h4>ABOUT</h4>
+			<p>Centre for Budget and Policy Studies (CBPS) is a research based institution that was established in Bangalore, India, in February 1998, as an independent, non-partisan, not-for-profit society, registered under the Societies Registration Act. It was formed as an off-shoot from a research programme in the Development Research Foundation (DRF), a part of Technology Informatics Design Endeavour (TIDE), also a non-profit society in Bangalore.
+
+			Our registration number is 777 of 1997-98, the year of establishment being 1998. CBPS is also registered under the Foreign Contributions (Regulation) Act (FCRA) with the Ministry of Home Affairs, Government of India and also under Section 12A(a) and Section 80 G of the Indian Income Tax Act (1961), as a Charitable Trust.
+			</p>
+			<h4>Vision</h4>
+			<p>Create and share knowledge towards an empowered, equitable, just and democratic society.</p>
+			<h4>Mission</h4>
+			<p>Research, evaluation and capacity enhancement in the areas of policy, budget, governance, and public service delivery,
+			Evidence based policy advocacy and
+			Dissemination of research findings through a variety of approaches.</p>
+		</div>
+		<div class="box" data-groups='["all","education","health"]'>
+			<div class="thumb-img">
+				<a href=" http://www.cry.org" target="_blank"><img src="../../src/img/NGOicons/Karnataka/24.png" alt="Child Relief and You"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Child Relief and You</p>
+				</div>
+			</div>
+			<h3>Child Relief and You</h3>
+			<h4>Vision</h4>
+			<p>A happy, healthy and creative child whose rights are protected and honoured in a society that is built on respect for dignity, justice and equity for all. 
+			</p>
+			<h4>Mission</h4>
+			<p>To enable people to take responsibility for the situation of the deprived Indian child and so motivate them to seek resolution through individual and collective action thereby enabling children to realise their full potential
+			To make people discover their potential for action and change
+			To enable peoples’ collectives and movements encompassing diverse segments, to pledge their particular strengths, working in partnership to secure, protect and honour the rights of India’s children.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

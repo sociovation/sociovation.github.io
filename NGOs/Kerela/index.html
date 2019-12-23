@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Kerela</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a>Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" style="font-size:90%" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="health">HEALTH</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="employment">EMPLOYMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="education">EDUCATION</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all", "women","education","employment","environment"]'>
+			<div class="thumb-img">
+				<a href="https://www.seedsindia.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/seed.jpg" alt="SEED "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SEED</p>
+				</div>
+			</div>
+			<h3>SEED</h3>
+			<h4>Vision</h4>
+			<p>A Value Based Participatory Society having socio-economic equitability leading towards gender equitable society with Justice, peace and beauty aiming at a dignified quality of life for an environmentally sustainable society.</p>
+			<h4>Mission</h4>
+			<p>1. Inclusion of those who have been excluded through the socio-economic extinguished process from the Development Scenario.
+			2.To germinate the process of representation of all sections of the community in decision making and to make accessible of the inputs of development to the people aiming at good governance.
+			3.To promote livelihood enhancement entrepreneurship based on sound, environmental values to build an appropriate institutions having qualitative essence and strong financial mechanism for continuation and sustenance for better life living.
+			4.To be a good service provider for the poor, marginalized and backward sections of people, the SC, ST, OBC and Minority including women and children. 
+			5.To impart 4 Es: Equality, Education, Empowerment, Environment among the target groups for enhancing good governance among them through capacity building for their empowerment in participation of the developmental process to be managed by themselves.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.hrpmindia.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/human.jpg" alt="Human Rights Protection Mission"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Human Rights Protection Mission</p>
+				</div>
+			</div>
+			<h3>Human Rights Protection Mission</h3>
+			<h4>ABOUT</h4>
+			<p>Human Rights Protection Mission is an organization registered under the Society Act vide Reg No .302/2012 Act1860 (Societies and Companies Registration Act 21,govt.oF India) and is actively involved actively in working and fighting for the Welfare and Developement of the Citizens of India. Our aim is to make the communities of the present scenario, aware about their right and enjoy the same. We do work with the people for their welfare. Our slogan is, " For the People, With the People, By the People". We work for the people and we do believe in motivating the people to know their rights and get the works done by themselves for their own development. We do assist them in the entire possible manner. Our ultimate aim is the welfare of the communities. </p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.winsociety.com/" target="_blank"><img src="../../src/img/NGOicons/Kerela/win.png" alt="Women’s Initiative Network Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Women’s Initiative Network Society</p>
+				</div>
+			</div>
+			<h3>Women’s Initiative Network Society</h3>
+			<h4>ABOUT</h4>
+			<p>Women’s Initiatives Network (WIN) was conceived out of the need to make the women of the fisheries sector in Kerela more visible, to make their voices heard, and to involve them in interventions aimed at their community.
+			Since 1991 WIN has worked in participation with local women to form Self Help Groups of women in two coastal districts of Kerela – Ernakulam and Alappuzha. We are now reaching out to 13000 households in the area through our SHGs. Through these groups WIN fosters and encourages community ownership in all development initiatives.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.bwngo.org/bwngo/" target="_blank"><img src="../../src/img/NGOicons/Kerela/better.png" alt="Better World Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Better World Foundation</p>
+				</div>
+			</div>
+			<h3>Better World Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>Provide accredited training courses in technology, world-languages and other career enhancing skills to public university students and recent graduates.Teach students to be aware of environmental and social issues directly impacting their communities and providing opportunities for them to reach out to their communities on these issues.Integrate young people from different backgrounds and cultures through specialized international programs.Optimize resources by fostering relationships of cooperation between the Better World Foundation, the private and public sectors, and other domestic and international institutions.</p>
+			<h4>Vision</h4>
+			<p>For Egypt's youth to have a competitive advantage, making them active and equally valuable members in today's global community of professionals.</p>
+			<h4>Mission</h4>
+			<p>Empowering lives through Education that empowers the for a better futureBetter World aims to prepare the young people of Egypt for success in the modern professional world through the development of technological literacy, life and occupational skills, and by providing ongoing employment support.</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="https://www.cppr.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/centre.png" alt="Centre for Public Policy Research"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Centre for Public Policy Research</p>
+				</div>
+			</div>
+			<h3>Centre for Public Policy Research</h3>
+			<h4>ABOUT</h4>
+			<p>CPPR is committed to the following goals :
+			Promote research entrepreneurship and establish the centre as a knowledge based resource storehouse.Work as a policy think tank that develops and promotes alternative solutions to issues concerned with the society.Focus on information dissemination, capacity building and technology exposure by organizing seminars, workshops and dialogues.Strengthen democratic institutions to enable coherent, reasoned and consistent policy formulation leading to better quality of life of every citizen.
+
+			Popularize liberal values, promote civil liberties and protect human rights.Empower women and youth through sustainable community development programs.Provide platform for every citizen to engage in political dialogue and democratic process.Conduit the emergence of young leaders.Work towards achieving global peace, harmony and cooperation through collaborating with like minded individuals, groups and organizations at the national and international levels.</p>
+			<h4>Vision</h4>
+			<p>CPPR aims to be a thought leader which is able to design and execute practical strategies that lead to changes in public policy and governance. The Centre is dedicated to the principles of liberal thought, democracy, rule of law and economic freedom with a focus on equity, efficiency and effectiveness.</p>
+			<h4>Mission</h4>
+			<p>CPPR’s mission is to conduct and promote high-quality evidence based research and training; provide government bodies, private organizations, and academic institutions with practical and innovative recommendations; and influence decision-making.</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="https://cevaindia.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/ceva.png" alt="CEVA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>CEVA – Cyriac Elias Voluntary Association</p>
+				</div>
+			</div>
+			<h3>CEVA – Cyriac Elias Voluntary Association</h3>
+			<h4>ABOUT</h4>
+			<p>Cyriac Elias Voluntary Association (CEVA) is a registered Voluntary Organization established in 1987 by a group of socially committed CMI’s with the objective of promoting programmers and projects to improve the quality of life of  the marginalized. CEVA the term itself underscores the fact that it always upholds the motto of Development and Progress of the marginalized section of the society regardless of caste, creed, colour or religion.
+			CEVA entering the threshold of the 30th year of its meritorious, relentless, philanthropic pursuits aimed solely at the welfare and upliftment of the economically weaker sections of the society through different welfare projects.
+			All the projects of have exclusively the stamp and signature of CEVA and the indelible impression of its relentless pursuit for the welfare of the poor and the untiring efforts taken for bringing the neglected sections into the mainstream of the society. The theme of CEVA that is “Involve, Evolve and Sustain” has always remained exceptionally tall and would continue to be so forever.
+</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.khra.in//" target="_blank"><img src="../../src/img/NGOicons/Kerela/khra.png" alt="Kerela Hotel & Restaurant Association"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Kerela Hotel & Restaurant Association</p>
+				</div>
+			</div>
+			<h3>Kerela Hotel & Restaurant Association</h3>
+			<h4>ABOUT</h4>
+			<p>Established in 1964, the Kerela Hotel and Restaurant Association (KHRA) is the apex organization of the Kerela Hospitality industry. With its membership extending from the major hotel groups, boutique hotels, heritage hotels, large, medium sized and smaller hotels, it represents the entire spectrum of the industry.
+			Its Executive Committee is a potent combination of the commitment of hotel owners on one hand and hard-core professionalism of hotel managers on the other.From Industry veterans to budding hoteliers, the committee is charged with experience and fresh ideas in its determination to shape a bright future for the Hotel Industry in Kerela.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="https://okfn.org/about/" target="_blank"><img src="../../src/img/NGOicons/Kerela/open.png" alt="Open Knowledge Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Open Knowledge Society</p>
+				</div>
+			</div>
+			<h3>Open Knowledge Society</h3>
+			<h4>ABOUT</h4>
+			<p>Open Knowledge International is a global non-profit organisation focused on realising open data’s value to society by helping civil society groups access and use data to take action on social problems. Open Knowledge International does this in three ways:
+			1.) We show the value of open data for the work of civil society organizations
+			2.) We provide organisations with the tools and skills to effectively use open data
+			3.) We make government information systems responsive to civil society
+			Open Knowledge International is a worldwide network of people passionate about openness, using advocacy, technology and training to unlock information and enable people to work with it to create and share knowledge.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://planatearth.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/planet.png" alt="Plan Earth"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Plan Earth</p>
+				</div>
+			</div>
+			<h3>Plan Earth</h3>
+			<h4>ABOUT</h4>
+			<p>Plan@Earth is a Voluntary Organisation based in Kerela, India. We are a non-profitable organisation registered as a Charitable Trust. “Plan @ Earth” has been registered under the Travancore – Cochin Literary Scientific and Charitable Societies Registration Act, XII of 1955 as Register No. ER-313/2009 on 13.05.2009. With the intention of spreading awareness and creating concern about the need to preserve and protect our environment we started operations in the year 2009. Over the years we surged ahead from simply taking awareness classes to offering services in waste management as a means to reduce carbon emissions and thus help mitigate Climate Change. Currently we offer waste management and recycling services in 5 municipalities and 6 panchayaths, catering to nearly 28000 households.</p>
+		</div>
+		<div class="box" data-groups='["all", "employment"]'>
+			<div class="thumb-img">
+				<a href="https://safp.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/save.png" alt="Save A Family Plan, "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Save A Family Plan, </p>
+				</div>
+			</div>
+			<h3>Save A Family Plan, </h3>
+			<h4>ABOUT</h4>
+			<p>Save A Family Plan is a Canadian-based international non-governmental organization founded by Monsignor Augustine Kandathil in 1965. SAFP encourages those from developed countries to work for justice and social change by assisting poor families and communities in India. SAFP uses two main programs that work to teach families how to support themselves and build a better future for their communities. SAFP’s volunteer base is one of its greatest strengths. More than 10,000 volunteers provide a committed network to ensure that aid reaches those who need it most at the grassroots level.</p>
+		</div>
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://thanal.co.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/thanal.png" alt="Thanal Grama Sevavedi"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Thanal Grama Sevavedi</p>
+				</div>
+			</div>
+			<h3>Thanal Grama Sevavedi</h3>
+			<h4>ABOUT</h4>
+			<p>We started in 1986 as a small group of nature enthusiasts to bring environmental awareness to the people.  Our aim was to raise an environmentally conscious generation by conducting studies on natural history and bringing environmental education to schools and colleges.
+			Our transformation from nature enthusiasts to serious environmental activists was triggered by the rise in pesticide use and pesticide related illness, increasing deforestation, improper handling of urban waste and other alarming issues.
+			From the 1970s to the 2000s over 50000 villagers in the district of Kasargod were plagued by convulsions, physical deformities, congenital anomalies and cancer.  These maladies were traced to the pesticide Endosulfan sprayed over the cashew plantations.
+			In 1998, along with the local community, e launched a highly vocal and public campaign, which resulted in the State Government putting a ban on Endosulfan use.  Later following up with studies, national debates, petitions and advocacy, India banned Endosulfan in 2011.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.kbss.org/aboutus.php " target="_blank"><img src="../../src/img/NGOicons/Kerela/blind.png" alt="The Kerela Blind School Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Kerela Blind School Society</p>
+				</div>
+			</div>
+			<h3>The Kerela Blind School Society</h3>
+			<h4>ABOUT</h4>
+			<p>It is estimated that there are 40 million blind people in the world. Over 12 million of them live in India. Of these more than three million are incurably blind. According to the 2001 Indian census, there are 334,662 incurably blind people in the state of Kerela and at least 40,000 are children and adolescents. Only about 1500 of them are receiving any kind of education or rehabilitation service. 
+		    The Kerela Blind School Society (KBSS) endeavors to serve those not yet reached. It is our aim to help them earn a living by providing them with education as well as other necessary skills.
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.ashraya-Kerela.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/ashraya.jpg" alt=" Ashraya  "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p> Ashraya </p>
+				</div>
+			</div>
+			<h3> Ashraya </h3>
+			<h4>ABOUT</h4>
+			<p>Ashraya Charitable Society is registered under the Travancore Cochin Literary, Scientific and Charitable Societies Registration Act XII of 1955 and has been functioning as a Voluntary Development Support Organisation since its inception in 1994 with clear vision, mission and a set of organizational goals / objectives. 
+
+			Ashraya was started on 7th April 1994 and later it was registered as a Charitable Society with No. Q 537/96 under the Charitable Societies Act. The activities Ashraya and its sister concerns are led by a 125 member General Body, a 25 member Executive Committee and various Subordinate Committees in different centers 
+
+			The last twenty two years since its inception witnessed the humble growth of the institution. Ashraya now has seven rehabilitation units all over the state of Kerela. The major among those is Sanketham at Kalayapuram, Kottarakara. More than thousand people are being taken care of at different homes of Ashraya by a dedicated team led by Kalayapuram Jose, the Founder and General Secretary of Ashraya. 
+			</p>
+		</div>
+		<div class="box" data-groups='["all", "health","education"]'>
+			<div class="thumb-img">
+				<a href=" https://gandhibhavan.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/gandhi.png" alt="Gandhi Bhavan International Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gandhi Bhavan International Trust</p>
+				</div>
+			</div>
+			<h3>Gandhi Bhavan International Trust</h3>
+			<h4>ABOUT</h4>
+			<p>Gandhibhavan is situated on the banks of Kallada River in Kundyam, near Pathanapuram of Kollam District. This great institution is well designed; deeply devoted and dedicated to the destitute ranges from months old kids to well-aged senior citizens. They are left high and dry by the very people they count on; the deranged who move about aimlessly or without any destinations the paraplegic and the bedridden; the deaf and dumb; orphaned kids, the physically and mentally challenged and the persons who just came back from the brink of suicide; the visually challenged; the HIV affected and the cancer patients and so on in who had drifted from the set of courses of mainstream have created a world of their own and are leading a peaceful life.</p>
+		</div>
+		<div class="box" data-groups='["all", "health","education"]'>
+			<div class="thumb-img">
+				<a href="http://manovikasKerela.com/index.php/en/" target="_blank"><img src="../../src/img/NGOicons/Kerela/manovikas.jpg" alt="Mano Vikas"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Mano Vikas</p>
+				</div>
+			</div>
+			<h3>Mano Vikas</h3>
+			<h4>ABOUT</h4>
+			<p>The founder of Manovikas was Mr.D.Jacob, whose younger brother and another brother's only daughter are intelectually disabled. In 1993, Mr.Jacob and his family members conducted a survey in Sasthamcotta village and found out 13 more such other children, below the age of 15. After a detailed study and guidence from National Institute for Mentally Handicapped (NIMH), Secundarabad, they started a small centre for the training and rehabilitation of these children in 1994. But within a month the number of children raised to 35. More and more parents came with their children and in 1996, Manovikas was registered as a charity of the parents and sibblings of the intellectually disabled. Duing 1998-1999, they started Community Based Rehabilitation(CBR) programmes for these children. CBR seems to be the only option available to meet the needs of the disabled especially in rural India. The CBR strategy is not a charity centered approach but one of meeting the special needs with in the community using community resources. This approach strengthens the community, supports the family to meet the needs of disabled and empowers the disabled to live as a contributive, participative member of the family.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="https://www.seireiashabhavan.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/seirie.jpg" alt="Seirei Asha Bhavan "></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Seirei Asha Bhavan</p>
+				</div>
+			</div>
+			<h3>Seirei Asha Bhavan</h3>
+			<h4>ABOUT</h4>
+			<p>Seirei Asha Bhavan is a registered voluntary social service organization functioning under the management of the Seirei Asha Bhavan Social Service Community, established in 1989. It is an NGO (Non Government Organization) recognized by the State Government, offering variety of programs and services under its flagship that aim to the welfare, total development and mainstreaming of the mentally challenged persons through systematic special education, training, rehabilitation processes and thereby help to enhance the standard and dignity of their life in the society.</p>
+		</div>
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href=" http://iiems.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/indian.jpg" alt="Indian Institute of Emergency Medical Services"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>) Indian Institute of Emergency Medical Services</p>
+				</div>
+			</div>
+			<h3>) Indian Institute of Emergency Medical Services</h3>
+			<h4>ABOUT</h4>
+			<p>Indian Institute of Emergency Medical Services (IIEMS) is a premier Emergency Medicine, Trauma Care, Emergency Medical Services and Disaster Management training institute in India having its headquarters in Kerela-India also popularly known as ‘God’s Own Country’. Our international operation is managed by the Executive Office in Troy, Pennsylvania, USA. We are a group of dedicated Healthcare Consultants, Instructors, and Specialists from USA, Europe, and India working together for the advancement of Emergency Medicine, Emergency Medical Services, and Disaster Management for the people of India.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","women","employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.ksss.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/mission.png" alt="Social Work Mission"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Social Work Mission</p>
+				</div>
+			</div>
+			<h3>Social Work Mission</h3>
+			<h4>ABOUT</h4>
+			<p>Kottayam Social Service Society (KSSS) is a registered charitable organization (Reg. K-15/1964) under the Travancore-Cochin Literary, Scientific and Charitable Societies’ Registration Act XII of 1955. The activities of KSSS are spread mainly in the five districts of Kottayam, Idukki, Ernakulam, Alappuzha and Pathanamthitta covering 80 rural villages (57 Panchayaths) in Kerela. The main focus of the organization is the empowerment and improvement in the quality of the poor and other vulnerable sections in society like women, widows, elder persons, disabled, rural children and farmers through the formation of Self-Help Groups (SHGs). The Thematic areas of Intervention of KSSS include Human & Institutional Development; Gender and Development; Community Health Programmes; Natural Resource Management; Entrepreneurship Development Programme & Rural Marketing; Community Based Rehabilitation of Differently-abled; Child and Youth Development; Savings and Micro credit and Action Research & Documentation.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.shrsed.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/society.png" alt="Society for Human Resources & Socio Economic Development"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Society for Human Resources & Socio Economic Development</p>
+				</div>
+			</div>
+			<h3>Society for Human Resources & Socio Economic Development</h3>
+			<h4>ABOUT</h4>
+			<p>SHRSED (Society for Human Resources & Socio-Economic Development) is a Non-Governmental organization committed to social development through individual's growth. The objectives of the organization are to develop and implement socio-economic projects which includes Community Development through empowerment of youths. Since its inception, the organization is striving to achieve the basic targeted goals through the rural mass by implementing innovative programmes. The organization, through its well designed programmes tries to groom individuals and the rural community to be self sufficient by all means.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://ties.org.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/tropical.png" alt="Tropical Institute of Ecological Sciences"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Tropical Institute of Ecological Sciences</p>
+				</div>
+			</div>
+			<h3>Tropical Institute of Ecological Sciences</h3>
+			<h4>ABOUT</h4>
+			<p>TIES is established mainly to promote education and research in the field of science, to diffuse useful knowledge and also for initiating charitable works. The broad objectives of the centre are research, training, application of science and extension of the knowledge to the needy sections of the society. 
+			The specific objectives of the institution are to:
+			•	Impart higher education in ecological sciences and related frontier science areas among rural masses, through state-of-the-art techniques utilising modern teaching and learning modes
+			 
+			•	Co-ordinate or conduct different courses in ecology and related subjects offered at various national and international universities by providing essential infrastructure
+			 
+			•	Conduct research programmes on ecological subjects like biodiversity, agriculture, pollution control, waste management, health and diseases of human beings, other wild and domestic animals, plant systematic and their application etc.
+			 
+			•	Arrange training courses in different subjects for the benefit of participants at different levels such as teachers and students, farmers, agricultural officers and scientists, public health workers, people’s representatives to local bodies, layman etc.
+			 
+			•	Take up studies and investigations for various organisations or for individuals in order to generate required scientific knowledge
+			 
+			•	Arrange lectures, seminars, symposium and conferences with a view to promote the study of ecological sciences
+			 
+			•	Maintain research institutions, laboratories, experimental farms, field stations, animal houses, containment facilities, reference library and other research and experimental facilities
+			 
+			•	Establish community extension centre for publishing and disseminating knowledge generated through research, such as printing and publishing facility and audio-visual production centres
+			</p>
+		</div>
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://www.awhonline.com/" target="_blank"><img src="../../src/img/NGOicons/Kerela/handicap.jpg" alt="Association for Welfare of the Handicapped"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Association for Welfare of the Handicapped</p>
+				</div>
+			</div>
+			<h3>Association for Welfare of the Handicapped</h3>
+			<h4>ABOUT</h4>
+			<p>The Association for Welfare of the Handicapped was set up in 1973 and was registered under the Societies Registration Act of 1860 with Regn. No. 26/75 dt 29/03/1975. The registered office of the AWH is functioning at 17/194 M' Square Complex, Pavamani Road, Kozhikode 673001. The AWH is registered with the Ministry of Home Affairs, Govt. of India under Foreign Contribution (Regulation) Act of 1976 with Registration No. FC No. 052880056 dt 10.04.198</p>
+		</div>
+		<div class="box" data-groups='["all","education","employment"]'>
+			<div class="thumb-img">
+				<a href="http://codtsy.org/ " target="_blank"><img src="../../src/img/NGOicons/Kerela/cod.png" alt="Cod- Centre For Overall Development"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Cod- Centre For Overall Development</p>
+				</div>
+			</div>
+			<h3>Cod- Centre For Overall Development</h3>
+			<h4>ABOUT</h4>
+			<p>Center for Overall Development (COD) the social work division of Catholic Diocese of Thamarassery was established in the year 1989.COD initiated its activities with the objective of giving a helping hand to the people in need particularly marginalized vulnerable communities irrespective of their caste, creed and religion. The organization was registered as a society under the Societies Registration Act of 1860. (Reg No. 507/89) The management of the Organization is done by a governing body and the administrative powers are vested with the Director. Now we are working with rural poor in two districts of Kerela i.e. Kozhikode and Malappuram. The entire operational area of COD is divided in to three regions and further in to nineteen units (Grama Vikasana Samithi) as part of our decentralization process.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.sept.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/sport.png" alt="Sports & Education Promotion Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Sports & Education Promotion Trust</p>
+				</div>
+			</div>
+			<h3>Sports & Education Promotion Trust</h3>
+			<h4>ABOUT</h4>
+			<p>Sports & Education Promotion Trust (SEPT) was established to promote sports development in India with focus on football. Started in 2004 and based in Calicut, the trust has set up football training centres called “football nurseries” spread across 13 districts and Mahe. Majority of these centres are located in rural areas, one is in a tribal region. Given the huge potential in the tribal areas of Kerela which largely goes untapped due to financial constraints and lack of adequate sports infrastructure for the people of such area to pursue the game, the thrust of the initiative is on spotting and nurturing talent in rural parts of the country. Currently, SEPT has soccer nurseries in 51 centres . These include rural region, urban region, a tribal region and coastal region.</p>
+		</div>
+			<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="https://starscalicut.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/stars.png" alt="STARS"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>STARS</p>
+				</div>
+			</div>
+			<h3>STARS</h3>
+			<h4>ABOUT</h4>
+			<p>STARS – A St Thomas Association for Rural Services, the official social work organization of CMI St. Thomas province Calicut established in 1991. The goal of the organization is the inclusion of the socially and economically excluded sections of the society to the mainstream. The organization worked for last 22 years in Kozhikode, Kannur, Wayanad and Kasargod districts of Kerela, Chamaranjnagar districts of Karnataka, Nilgrils of Thamilnadu, Poonch, Noushra, Rajori of Jammu and Kashmir. We work with people with mental disabilities, women, children and the environment.</p>
+		</div>
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.vicharakendram.org/" target="_blank"><img src="../../src/img/NGOicons/Kerela/bharat.jpg" alt="Bharatheeya Vichara Kendram Research Centre"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bharatheeya Vichara Kendram Research Centre</p>
+				</div>
+			</div>
+			<h3>Bharatheeya Vichara Kendram Research Centre</h3>
+			<h4>ABOUT</h4>
+			<p>We are living in a fast-changing world. The tide of globalisation is sweeping across the continents, upsetting and uprooting longstanding cultures and traditions, values and attitudes and forcing radical changes whose consequences are unpredictable. Countries like India whose cultural vitality has withstood the shocks of untold foreign invasions and alien cultural onslaughts are now facing serious problems of survival. Cultural diversity, varied lifestyles, Bio-diversity and dignity of individuals and groups are under threat by the onrush of a consumeristic and materialistic civilization,which has no foundation of a wholesome philosophy,or integral vision of life. For the sake of humanity’s futre well being, this threat has to be squarely faced at all levels. Bharatheeya Vichara Kendram has been visualized as an intellectual forum which can take up such challenges effectively, through in-depth studies, research and propagation of ideas among the elite and the common masses. It was founded in the year 1982 and has at present, thirty functioning units in academically important centers of Kerela.</p>
+		</div>
+		<div class="box" data-groups='["all", "education","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.arpan.org.in/" target="_blank"><img src="../../src/img/NGOicons/Kerela/arpan.jpg" alt="Arpan"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Arpan</p>
+				</div>
+			</div>
+			<h3>Arpan</h3>
+			<h4>ABOUT</h4>
+			<p>At Arpan, we believe every child matters. Every child has a right to be safe and protected from sexual abuse and heal from its ill effects. As the largest NGO addressing the phenomenon of Child Sexual Abuse (CSA) in the country, we provide prevention and intervention services to children and adults. Arpan provides direct services to children, adolescents and adults to prevent Child Sexual Abuse and appropriately deal with disclosures of children and adolescents through our flagship programme – Personal Safety Education. This programme caters to children and adolescents in schools, communities, NGOs, and institutions.</p>
+		</div>
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.akbda.org/contact.php" target="_blank"><img src="../../src/img/NGOicons/Kerela/blood.png" alt="All Kerela Blood Donors Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>All Kerela Blood Donors Society</p>
+				</div>
+			</div>
+			<h3>All Kerela Blood Donors Society</h3>
+			<h4>ABOUT</h4>
+			<p>All Kerela Blood Donors Association is a voluntary organization from the Indian state of Kerela which endeavors to make blood available in urgent situations. The organization keeps a list of voluntary blood donors from all parts of the state and arranges donation when the need arises. They are involved in organization of blood donation camps and awareness programs as well. The organization started functioning in 2012 and has branches in all districts of Kerela. Even though it had to suspend activities for a period due to financial troubles, in 2014, the association restarted operations. It has initiated the process of being registered as a charitable trust.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

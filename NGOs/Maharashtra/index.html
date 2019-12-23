@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Maharashtra</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a>Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="children">CHILDREN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.aaicaretaker.in/" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/AAI.png" alt="AAI-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AAI Caretaker</p>
+				</div>
+			</div>
+			<h3>AAI CARETAKER</h3>
+			<p>AAI Caretaker is a Non – Government Organization registered under the Societies Registration Act 1860 & Bombay Public Trust Act 1950. Whose mandate is to protect and promote Environment, Health & Education. It was established in 2009 and located at Chembur, Mumbai.</p>
+			<p>Green Responsibility:- We work actively to protect the environment and our surrounding by developing non-contaminating technologies and processes. Our daily operations are efficient use of resources and a culture focused on continuously improving care of the environment under the applicable regulations. We adopt only the best knowledge which permits us to reduce or remove pollution.</p>
+			<p>Our forecasts are to plant hundreds of Trees in our area and continue to plant trees and take care of them throughout the year & to invent, innovate and develop eco-friendly appropriate indigenous technologies.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "children"]'>
+			<div class="thumb-img">
+				<a href="https://aasaapulakisanghmumbai.justdial.com" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/AAS.png" alt="AAS – Aapulaki Sangh"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AAS – Aapulaki Sangh</p>
+				</div>
+			</div>
+			<h3>AAS – AAPULAKI SANGH</h3>
+			<p>We, Aas - Aapulaki Sangh - Mumbai, situated at Kajupada, Mumbai, Maharashtra, are a non-profit organisation with a mission to provide children and individuals from low-income communities with high-quality education, enabling them to maximize their potential and transform their lives completely.</p>
+			<p>We work in the field of education by collecting funds from influential and financially well-aided people and provide a supplemental education to the needy. We are also actively engaged in the areas of rural and urban development and women empowerment through advocacy, direct program interventions and capacity building of the community to access the benefits of the state programs.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.dharaviproject.org" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/ACORN.png" alt="Acorn Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Acorn Foundation</p>
+				</div>
+			</div>
+			<h3>ACORN FOUNDATION</h3>
+			<p>ACORN Foundation is a registered charitable Trust currently working in Mumbai, Delhi and Bengaluru. ACORN (India) is affiliated with ACORN International, working in 12 countries around the world. Operations in India were set up in 2005, at the time the campaign focused on protecting livelihoods of hawkers and small traders. We are hoping to start work in Chennai and Kolkata soon.</p>
+			<p>ACORN Foundation India stands strong and proud on four R's. Reduce, Recycle, Reuse and Respect. The ACORN Foundation India Trust organizes ragpickers and train them in scientific methods of waste handling, segregation and recycling. "We want to highlight their work in protection of the environment," says Vinod Shetty of the Acorn Foundation. "We want the government to set up a board whereby polluters pay a cess of about one per cent which can go towards giving these ragpickers a proper income with safe equipment like gloves and other amenities. We want them to be trained in how to handle toxic waste and expertise in recycling goods in a non-hazardous way."</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="https://www.aiesec.in/" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/AIESEC.png" alt="AIESEC"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>AIESEC</p>
+				</div>
+			</div>
+			<h3>AIESEC</h3>
+			<p>We are a non-political, independent, not-for-profit organisation run by students and recent graduates of institutions of higher education. Since we were founded in 1948, we have engaged and developed over 1,000,000 young people who have been through an AIESEC experience. The impact of our organisation can be seen through our alumni who represent business, NGO and world leaders.</p>
+			<p>Are you a young person looking for opportunities to develop yourself while in college? We are young leaders present in 122 countries striving to create and facilitate opportunities for young people. We recruit twice in a year (February and August) to join our 2500 members across 27 local offices in India.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "children", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.akanksha.org" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/Akansha.png" alt="Akanksha Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Akanksha Foundation</p>
+				</div>
+			</div>
+			<h3>AKANKSHA FOUNDATION</h3>
+			<p>The Akanksha Foundation was started in 1991 with a simple idea - To deliver a high quality education to each child, no matter his or her background.</p>
+			<p>At the age of 18, when she was in college, Shaheen Mistri realized that there were thousands of children who didn’t have access to quality education. She and a few of her classmates came together to address this issue by volunteering their time teaching these children. Shaheen started the first Akanksha Centre at a classroom donated at the Holy Name High School in Colaba. The Centre started with 15 students and one teacher. In the next 16 years, Akanksha set up 60 after-school centres in under-utilized spaces, each staffed with professional teachers, volunteers, and social workers at the service of more than 3,000 underprivileged children. Recognizing the need to work with government schools to achieve impact at greater scale, Akanksha began the School Project in 2007 in collaboration with the Municipal Corporations of Mumbai and Pune. The project aims to create a scalable school model within the government system that drives wider systemic reform in education. Today, Akanksha’s network has grown to 20 schools in Mumbai and Pune. Since 1991, Akanksha has grown from an organisation of student volunteers to a professional institution with over 700 staff, teachers and volunteers with a mission to provide educational opportunities to less privileged children.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.apnalaya.org/" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/Apnalaya.png" alt="APNALAYA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>APNALAYA</p>
+				</div>
+			</div>
+			<h3>APNALAYA</h3>
+			<p>Apnalaya, Our Space in English, is a non-profit organization, founded in 1973. We work with the most marginalized people living in highly under-served slums of Mumbai.</p>
+			<p>To realize a sustainable change in an under-served community where socio-economic issues are complex and interconnected, we employ an Integrated Community Development Approach.</p>
+			<p>Mitigating the immediate and urgent issues entails addressing issues of ill health, poor living conditions, inadequate skill-sets required for gainful employment, and lack of access to educational, medical and legal services.</p>
+			<p>The second methodology is about a transition from being people to becoming citizens. It seeks to enable people and their communities to develop a Community Based Management system to discover their own potential, learn their entitlements, respond to civic and social issues, and engage with government institutions to improve their lives.</p>
+			<p>In the long term, this dual approach would affect a qualitative improvement in (1) basic health infrastructure, (2) access to secondary education, and (3) opportunities for sustainable livelihood.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "children"]'>
+			<div class="thumb-img">
+				<a href="http://aseema.org" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/Aseema.png" alt="Aseema Charitable Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aseema Charitable Trust</p>
+				</div>
+			</div>
+			<h3>ASEEMA CHARITABLE TRUST</h3>
+			<p>Aseema Charitable Trust is a Mumbai based non-governmental organization with a mission to equip children from marginalized communities with high quality, value based education enabling development of their limitless potential. Over the past 19 years, Aseema has worked extensively with children living in slum communities in Mumbai and remote tribal communities in Igatpuri.</p>
+			<p>In Mumbai, Aseema works in partnership with the Municipal Corporation of Greater Mumbai(MCGM) to create centres of excellence within the public education system. We have adopted the English medium sections of the Pali Chimbai Municipal School, Santacruz (W) Municipal School and Kherwadi Municipal School. In each of these schools, Aseema supports the MCGM by providing teachers who are oriented to Aseema’s child friendly approach, making the learning environment stimulating and safe and creating a culture that respects the child and promotes learning.</p>
+			<p>In Igatpuri (Maharashtra), we have set up an Education Centre for Tribal Children in the remote village of Awalkheda. The Centre currently has a Pre Primary Section and reaches out to children from the village and eight neighbouring hamlets.</p>
+			<p>Over the past few years, Aseema has been invited to offer training and support to other organizations working in the field of education. Through these and other initiatives, Aseema reaches out to over 4000 children annually.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.gidf.org/" target="_blank"><img src="../../src/img/NGOicons/Maharashtra/GIDF.png" alt="GIDF"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aurobindo Chaudhuri Memorial Great Indian Dream Foundation</p>
+				</div>
+			</div>
+			<h3>AUROBINDO CHAUDHURI MEMORIAL GREAT INDIAN DREAM FOUNDATION</h3>
+			<h3>Vision</h3>
+			<p>Let us together dream of a country where poor are not just merely reduced to statistics but where there are no poor at all. Let there be a day when small children are taken to a poverty museum like science museum, where they shiver at the plight of the way people used to live in the last millennium. Let this dream take the form of a revolution and as long as our dreams keep outweighing our memories, India would remain a young and dynamic nation on its path to global equality. And for this, let the wait not be for eternity. Let us together achieve this in the next 25 years.</p>
+			<h3>Mission</h3>
+			<p>We aim at doing everything possible in order to achieve the great Indian dream of making India an educated and healthy nation, free of poverty and its inhuman indignities.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

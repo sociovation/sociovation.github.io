@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Himachal Pradesh</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a>Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" style="font-size:90%" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="health">HEALTH</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="employment">EMPLOYMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="education">EDUCATION</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://wastewarriors.org/" target="_blank"><img src="../../src/img/NGOicons/Himachal/WasteWarriors.png" alt="Waste Warriors"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Waste Warriors</p>
+				</div>
+			</div>
+			<h3>WASTE WARRIORS</h3>
+			<p>A clean India which has systems in place to ensure that every citizen disposes of their waste correctly and feels a sense of civic responsibility and national pride regarding cleanliness. A healthier India with improved living standards and a better quality of life where waste workers are valued and respected for their work.</p>
+			<p>We run waste collections in Dehradun, Dharamsala and Corbett and work in accordance with the Municipal Solid Waste Rules 2000. Ensuring waste is segregated at source is essential if we are to maximise on recycling. We have different bags for recyclable and non recyclable waste and request that food waste is kept separate. We separate the recyclables into different categories so it can be sold to the kabaddiwala and only send non recyclable waste to the trenching grounds. Food and garden waste is composted and turned into fertiliser.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.piramalswasthya.org/" target="_blank"><img src="../../src/img/NGOicons/Himachal/PiramalSwasthy.png" alt="Piramal Swasthy"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Piramal Swasthy</p>
+				</div>
+			</div>
+			<h3>PIRAMAL SWASTHY</h3>
+			<p>Piramal Swasthya is a registered not for profit organization supported by Piramal Foundation and believes in “Democratizing Healthcare” – making Healthcare Accessible, Affordable and Available to all segments of the population, especially those most vulnerable. In order to achieve this goal, we leverage cutting edge information and communication technologies to cut costs without compromising quality as well as Public Private Partnerships to scale its solutions throughout India.</p>
+			<p>Piramal Swasthya envisions a future in which all vulnerable groups have the necessary information to make informed decisions regarding their health and Accessible, Affordable and Available high quality health infrastructure to support the realisation of those decisions.</p>
+			<p>We are present across India in 16 states with a 4000+ strong employee team comprising of 490+ Doctors and specialists. Our innovative technology based solutions have helped State Governments to address the issue of Availability and Accessibility of quality Healthcare to vulnerable sections of society.</p>
+			<p>Piramal Swasthya is bridging the last mile gap in Primary Healthcare service delivery and it is technology and innovation that enables and makes this possible to reach the most remote and vulnerable population. Our service delivery channels – Remote Health Advisory & Intervention Service, Community Outreach Program – Mobile Health Services and Tele-Health Services are all conceptualized around technology.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://gunjanindia.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/Gunjan.png" alt="Gunjan"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gunjan - Organisation for Community Development</p>
+				</div>
+			</div>
+			<h3>GUNJAN - ORGANISATION FOR COMMUNITY DEVELOPMENT</h3>
+			<p>GUNJAN Organisation for Community Development – established in the year 2003 and actively providing community services in the domain of Public Health i.e. HIV/AIDS Prevention, Care, Support & Treatment, Drug and Alcohol Prevention, Treatment and Rehabilitation of people addicted to drugs; aging and services to senior citizens, Empowering Women; and Education of Women and Children.</p>
+			<p>The organisation is designated as Regional Resource and Training Centre North Zone – II by Ministry of Social Justice and Empowerment, Government of India under the Scheme of Prevention of Alcoholism and Substance(Drugs) Abuse for the states of Himachal Pradesh, Chandigarh , Jammu and Kashmir.</p>
+			<p>The key strength of the organization is the hands-on experience of working at grass root level in the region. The organization has been implementing targeted interventions projects for high risk population groups and also providing services through community support centers for care, support and treatment for PLHIV.</p>
+			<p>We are in constant touch with the affected individuals and their families through these services. The advocacy and personal intervention at different levels has been observed to be one of the best tools to alleviate the stigma and discrimination being faced by PLHIV and their family members at different occasions. The organization has been instrumental in supporting the cause of the people in distress.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.ruchi.org.in/" target="_blank"><img src="../../src/img/NGOicons/Himachal/Ruchi.png" alt="Ruchi-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ruchi NGO</p>
+				</div>
+			</div>
+			<h3>RUCHI NGO</h3>
+			<p>RUCHI is a non-political, non-profit organisation committed to the development of rural India. RUCHI began in October 1980 in a remote village in Chopal in the Shimla District. It was registered under The Societies Registration Act of 1860 in 1983, and its headquarters are now located at Bandh, a small village in the Himalayan foothills of Himachal Pradesh State, Northern India. RUCHI is now working in over 100 villages in the steep mountainous terrain of the Sirmour and Solan districts.</p>
+			<p>RUCHI is partnered with international non-government organisations (NGO’s), such as RNZWCS in New Zealand, Rotary International, Charities Aid Foundation, HelpAge International, U.K., MISEREOR in Germany and CCIVS in France.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://navchetna.ngo" target="_blank"><img src="../../src/img/NGOicons/Himachal/NavChetna.png" alt="NAV CHETNA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Nav Chetna</p>
+				</div>
+			</div>
+			<h3>NAV CHETNA</h3>
+			<p>The Nav Chetna is a not-for-profit organisation headquartered in Shimla (Himachal Pradesh), India.</p>
+			<p>It’s a multipurpose organisation that strives to fight issues like hunger and malnutrition, human rights, health, disability, vocational and educational training in India. Nav Chetna works with a competent team of professionals at all its locations. We undertake projects and schemes for promoting the social and economic development for communities in India. These development initiatives are in line with the needs of people, in partnership with them and in close collaborations with likeminded NGOs and the Government.</p>
+			<p>In partnership with the Government of India and various State Governments, and inestimable support from many businesses, philanthropic donors and well-wishers; we have grown from our humble beginnings in the year 2005.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.humanhopefoundation.ngo/" target="_blank"><img src="../../src/img/NGOicons/Himachal/HumanHope.png" alt="Human Hope Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Human Hope Foundation</p>
+				</div>
+			</div>
+			<h3>HUMAN HOPE FOUNDATION</h3>
+			<p>Human Hope Foundation is a professionally run Non Government Organisation (NGO) which aims to adopt a comprehensive approach to address the various issues faced by the underprivileged. Our comprehensive approach includes Remedial Education, Livelihood opportunities to the underprivileged. In future we would like to provide the underprivileged access to Financial Instruments, Better Healthcare, Sanitation and also plan to have chapters on Water conservation, Environmental and Youth related issues.</p>
+			<p>Our comprehensive approach includes Remedial Education, Livelihood opportunities to the underprivileged.</p>
+			<p>In future we would like to provide the underprivileged access to Financial Instruments, Better Healthcare, Sanitation and also plan to have chapters on Water conservation, Environmental and Youth related issues.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.hpvha.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/HPVA.png" alt="Himachal Pradesh Voluntary Health Association"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Himachal Pradesh Voluntary Health Association</p>
+				</div>
+			</div>
+			<h3>HIMACHAL PRADESH VOLUNTARY HEALTH ASSOCIATION</h3>
+			<p>With the objective of ‘Making Health a Reality for the people of Himachal Pradesh’, Himachal Pradesh Voluntary Health Association (HPVHA), a state chapter of Voluntary Health Association of India (VHAI) is working on various issues and concerns in health and sustainable development since 1987. HPVHA strongly advocates the necessity of Health Promotion and targeted interventions which not only involves the prevention of diseases, but creates an appreciation with regard to the importance of health as an end in itself.</p>
+			<p>Today, the organization works in the field of community health and helps the grass root level voluntary organizations to plan, implement and evaluate their developmental programmes. HPVHA is committed to promoting social justice by ensuring provision of health services and assuring access to same in Himachal Pradesh. HPVHA strongly advocates that enlightened people respond responsibly to health needs of their families and larger communities. As a voluntary organization which in itself is an important component of civil society, HPVHA has evolved as a model in HP for effective formulation and implementation of sustainable development programmes</p>
+		</div>
+
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://graminsewaashram.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/Shramban.png" alt="Gramin Sewa Ashram “Shramban”"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gramin Sewa Ashram “Shramban”</p>
+				</div>
+			</div>
+			<h3>GRAMIN SEWA ASHRAM “SHRAMBAN”</h3>
+			<p>Gramin Sewa Ashram “Shramban” is a non Profitable organization which works on non-profitable work for beneficial of peoples. Which is registered under section Act 1860 sub-section 21.This organization is working from 19 year in the backward area of district. Kangra of Himachal Pradesh.The main motive of the organization is to develop socio-economic and other resources of the Dalit Park of the rural mass community. Making people competent and powerful to join the rate of development by making people aware of their problems.</p>
+			<p>The institution has been working in the ten development blocks of the district headquarter of Himachal Pradesh. Registered office of the institution was in “Pichhda Varg Aayog” of District Kangra, in a village of lambagaon, Bairghatta. This time is located in Bhawarna. Organizations also expect guidance from other partner organizations for achieving their goal.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="https://www.jagorigrameen.org/" target="_blank"><img src="../../src/img/NGOicons/Himachal/Jagori.png" alt="Jagori Rural Charitable Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Jagori Rural Charitable Trust</p>
+				</div>
+			</div>
+			<h3>JAGORI RURAL CHARITABLE TRUST</h3>
+			<p>Our mission is to create a just and equal society for all. We address discrimination on gender, caste, religion, disability, and sexual identities. We want to strengthen the voices of women and girls and ensure their right to life and safety. Our engagement with the community addresses all forms of discrimination based on gender, class, caste, religion, disability and all other forms of social exclusion. We seek to protect the individual and collective dignity of the most marginalized. A society like this may be far away but with every campaign, every class and every meeting, we take one step closer to our goal. It will take decades to reach the society we wish to create however, we hope to push society there quicker. Nothing will change without education and education takes time.</p>
+			<p>Our program has been operating for 12 years and, since we've started, we've made progress. This progress, however, is not enough and we won't stop until women have their voices and are completely equal to men. We won't stop until everyone has the opportunity to have their voice heard and has the ability to fulfill their goals.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://www.sutrahp.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/SUTRA.png" alt="SUTRA"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Social Uplift Through Rural Action</p>
+				</div>
+			</div>
+			<h3>SOCIAL UPLIFT THROUGH RURAL ACTION</h3>
+			<p>Social Uplift Through Rural Action (SUTRA), a non-governmental voluntary organisation, was established with the support from Social Work Resource Centre (SWRC), Tilonia.</p>
+			<p>SUTRA has been working in Himachal Pradesh since 1977 and was registered in 1985. From service provision, the organisation moved towards transformational change to address the problems emerging from their erstwhile beneficiaries. These included alcoholism, domestic and social violence, land encroachment, child marriages, health, girls’ education and declining sex ratios. Women’s collectives were formed and various training programs were conducted to empower these groups.</p>
+			<p>SUTRA’s goal is to enable the establishment of Gender Just Governance. It continues to work with several national and international organisations on the issue of decentralized governance, reproductive health, issues of single women and gender-just development.</p>
+			<p>SUTRA, through its network of small voluntary organizations, works with village based Mahila Mandals and women representatives of Gram Panchayats spread across 7 districts of Himachal Pradesh. SUTRA also works on policy and advocacy of various issues at the state and national level.</p>
+			<p>SUTRA is registered under Societies Act 1860 and with Ministry of Home Affairs, Government of India to receive foreign funds.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "women", "environment", "employment"]'>
+			<div class="thumb-img">
+				<a href="http://www.ymvt.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/YMVT.png" alt="Yog Manav Vikas Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Yog Manav Vikas Trust</p>
+				</div>
+			</div>
+			<h3>YOG MANAV VIKAS TRUST</h3>
+			<p>Amidst beautiful serene atmosphere of hills & peaceful location surrounded by snow capped peaks near Dalhousie/Banikhet, Yog Manav Vikas Trust was established in the year 2001 as a social charitable non profitable organization by few officers of NHPC and their wives led by Shri & Smt Dodeja with the objective of serving the humanity in the field of Education, Social upliftment, Women empowerment, Rehabilitation, Capacity building, Environment and Spiritually since Chamba district is considered backward district of Himachal Pradesh comprising over 90% population livin in rural areas with overall literacy rate of Chamba being at 65% and SC/ST population being 20-25% and over  60% families belonging to Below Poverty Line (BPL) with agriculture being the mainstay for 70% of total population.</p>
+			<p>NHPC Engineers while working in Chamba district during various periods since 1978 had the opportunity to have insight into the hardships and suffering of rural folks and their children living in the remote areas in the vicinity of number of Hydro Electric Projects constructed by NHPC, hence determined to initiate the activities in the above fields for the cause of human development.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "health"]'>
+			<div class="thumb-img">
+				<a href="https://barusahib.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/BaruSahib.png" alt="The Kalgidhar Society – Baru Sahib"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Kalgidhar Society – Baru Sahib</p>
+				</div>
+			</div>
+			<h3>THE KALGIDHAR SOCIETY – BARU SAHIB</h3>
+			<p>The Kalgidhar Society – Baru Sahib is a non-profit charitable organisation focussed on providing quality education to fight against the alarming rise in drugs and alcohol abuse. With equal stress on Healthcare, Women Empowerment and Social Welfare, the organisation has been instrumental in the socio-economic uplift of the poor in the far-flung rural areas of North India.</p>
+			<h3>Our Mission</h3>
+			<p>Today the rural areas of Uttar Pradesh, Haryana and Rajasthan, and the backward hilly areas of Himachal Pradesh and Punjab are dotted with 129 low cost CBSE Schools, providing modern, value-based education to around 70,000 students. The students are mostly from the deprived sections of society, admitted regardless of caste, creed, region, religion and social status. The aim is to build a total of 500 low cost schools to provide value-based education to all children at the village level.</p>
+			<h3>Our Vision</h3>
+			<p>The Kalgidhar Society, Baru Sahib also runs 24 Colleges, two Private Universities, six Teachers Training Centres to empower 2000 rural girls, one Hospital with 280 beds, three De-addiction Centres, one Orphanage, one Old Age Home, and one Rehabilitation Centre for Distressed Women, apart from organising four Free Medical/Surgery Camps for the poor in the hilly areas of Sirmaur, Himachal Pradesh.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "employment", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.ecohorts.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/Ecohorts.png" alt="Ecohorts - Himalayan Eco Horticulture Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Ecohorts - Himalayan Eco Horticulture Society</p>
+				</div>
+			</div>
+			<h3>ECOHORTS - HIMALAYAN ECO HORTICULTURE SOCIETY</h3>
+			<h3>The Foundations of Ecohorts</h3>
+			<p>Ecohorts is a non-profit organisation registered in India under the "Indian Societies Registration Act XXI 1860". The vision behind the creation was to promote sustainable and eco-friendly horticultural development in the Himalayan region, environmental  conservation and socio-economic upliftment and empowerment of fellow rural folks.</p>
+			<h3>The Ecohorts Organization</h3>
+			<p>Ecohorts is a group of volunteers led by an eminent farmer, Mr. Lakshman Thakur. Its members include successful Entrepreneurs,  fruit growers, scientists, researchers and extension workers who have a commitment and desire to transform the Himalayan region into a world class environmentally responsible horticultural based industry.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health", "environment", "education"]'>
+			<div class="thumb-img">
+				<a href="http://censud.org" target="_blank"><img src="../../src/img/NGOicons/Himachal/censud.png" alt="Centre for Sustainable Development"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Centre for Sustainable Development</p>
+				</div>
+			</div>
+			<h3>CENTRE FOR SUSTAINABLE DEVELOPMENT</h3>
+			<p>To steward the use of earth’s resources in a manner that protects natural ecosystems, supports economic growth, improves public health and educates. To promote the integration of social, economic and environmental dimensions of sustainable development at regional and national levels. To encourage the wide spread adoption of integrated approaches to sustainable development in the areas of energy, agriculture, education, health and waste management. To devise and implement such solutions and strategy which maintain balance between livelihood, development and ecology.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "women", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.chinmayamission.com" target="_blank"><img src="../../src/img/NGOicons/Himachal/CORD.png" alt="Chinmaya Organisation for Rural Development"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Chinmaya Organisation for Rural Development</p>
+				</div>
+			</div>
+			<h3>Chinmaya Organisation for Rural Development</h3>
+			<p>Aim of CORD is to harness human resources and enable the poor to transform their lives through programmes driven by themselves. To facilitate participatory and integrated sustainable development for the poor. To harness human resource and enable poor and marginalized people; especially women and the disabled too, to transform their lives, their economic status and the interrelated issues through participatory, comprehensive, integrated and sustainable development process and systems in the community.</p>
+			<p>Chinmaya Mission® was established in India in 1953 by devotees of the world-renowned Vedanta teacher, His Holiness Swami Chinmayananda.  Guided by his vision, devotees all around the world formed the nucleus of a spiritual renaissance movement that now encompasses a wide range of spiritual, educational, and charitable activities, ennobling the lives of thousands in India and across its borders. Presently, headed by His Holiness Swami Swaroopananda, the Mission is administered by Central Chinmaya Mission Trust (CCMT) in Mumbai, India. Under his guidance, the Mission has continued mushrooming across the globe and stands today with over 300 centres worldwide.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "health"]'>
+			<div class="thumb-img">
+				<a href="http://samvedana.org.in" target="_blank"><img src="../../src/img/NGOicons/Himachal/Samvedana.png" alt="Samvedana"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Samvedana</p>
+				</div>
+			</div>
+			<h3>SAMVEDANA</h3>
+			<p>Founded in 2003, Samvedana is a non-profit organization registered under Bombay Public Trust Act, 1950. We work for the integrated development of slums with a focus on education, nutrition and skill development of socially and economically deprived children, youth and women. Our main projects are in more than 50 slum communities in the western periphery of the city and 4 villages in the district of Ahmedabad.</p>
+			<p>Apart from education initiatives, we have also been working for the malnourished children as a partner with the government’s ICDS project. Under this initiative, Samvedana monitors and adds value to 76 aanganwadis. Through our 4 different projects focusing on education, nutrition and skill development today we have touched lives of over 1 lac 25 thousand beneficiaries which include children, youth and women.</p>
+			<p>Driven by sole passion for development of children, we are constantly striving to fulfill our purpose of sensitizing the society and transforming lives. Samvedana has merely been an initiator. It is the relentless support of our team of volunteers, corporates, professionals which has collectively worked towards bringing about the difference.</p>
+			<p>Today the world that we live in is highly dynamic, going through radical changes. At Samvedana we are constantly striving to understand the changing needs of our community and adapt to those needs. We strongly believe that by transforming the lives of the underprivileged, our nation will attain holistic development.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

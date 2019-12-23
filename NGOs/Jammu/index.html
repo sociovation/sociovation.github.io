@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Jammu & Kashmir</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a>Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<div id="grid">
+		<div class="box">
+			<div class="thumb-img">
+				<a href="https://www.jkhfindia.org/" target="_blank"><img src="../../src/img/NGOicons/Jammu/KHF.png" alt="Kashmir Humanity Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Kashmir Humanity Foundation</p>
+				</div>
+			</div>
+			<h3>Kashmir Humanity Foundation</h3>
+			<p>Kashmir Humanity Foundation; KHF India is a non- profit organization established in 2008,and have Valid FCRA Certificate, We strongly believe and advocate in equal opportunity for all in Education, Health and Literacy. Keeping our vision and Mission alive to make a difference to the lives of underprivileged, poor and marginalized; we focus and work in the areas of Health, Education, Child Welfare, Women empowerment, disability and safe water. Located and operating in India in the state of Jammu & Kashmir India.</p>
+			<h4>Vision</h4>
+			<p>Kashmir Humanity Foundation KHF India envisions contributing significantly for providing quality education, healthcare and livelihood, Women?s Empowerment, orphan care facilities to the socially and economically disadvantaged people of India.</p>
+			<h4>Mission</h4>
+			<p>Half of Kashmir Humanity Foundation KHF mission is to educate the poor and the other half is to educate the world about the poor. Our vision is to strive for a world of leaders and citizens who have interacted with, and are truly knowledgeable about the world's poor. We believe in a "pass it on" philosophy where education is free and available for all who seek it. Those of us who have received a free education pass it on by helping others less fortunate by teaching, interacting and learning. With just a few hours a week, our volunteers, children and sponsors are changing the world we live in.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://adamwelfare.org/" target="_blank"><img src="../../src/img/NGOicons/Jammu/Adam.png" alt="Adam Welfare Organization-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Adam Welfare Organization</p>
+				</div>
+			</div>
+			<h3>Adam Welfare Organization</h3>
+			<p>Kindness is not only a virtue, its a powerful action, enough to change the whole system, this is the story of my kindness, my will and a little try to fix this system Regards Syed Muhammad Raza.</p>
+			<p>In 2009, we opened IQRA CITY GRAMMAR SCHOOL as a little act and try of kindness to change the system. Our school is a charity based foundation, which is English medium. It has 5 class rooms, 1 main office, 7 qualified teachers, 1 principle. It is located at Abul Hasan ispahani Road, main Iqra city, phase 1.</p>
+			<p>Adam Welfare Organization does not follow any rule of discrimination of Creed, cast or religion our first child was a Hindu boy. Kindness doesnot follow any rule, It follows the act of Humanity only.As Long live Humanity, long live an Educated Pakistan thats our moto. Its a charity based school, where every child is welcomed, aside of his cast, creed or religion.</p>
+			<p>Syed Muhammad Raza along with his wife Shehar Bano started his charity based free of cost English school in 2009. Ammar Rizvi , Muhammad Arsalan , Mohsin Ali and Murtuza Jaffri are also running this school with qualified teachers. This school accommodates around a 120 to 130 students</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.jkhf.in/" target="_blank"><img src="../../src/img/NGOicons/Jammu/HELP.png" alt="HELP Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>HELP Foundation</p>
+				</div>
+			</div>
+			<h3>HELP Foundation</h3>
+			<p>HELP Foundation J&K is a Civil Society Organization [CSO] (registered as a Society under the Societies Registration Act VI of 1998 (1941 A.D) on 13th November 1997 vide registration No. 2905-S having its Registered Office at 16- Gogji Bagh, Srinagar, J&K) presided over by Ms. Nighat Shafi, with the objective of providing helping hand to the people affected by violence in the strife-torn valley.</p>
+			<p>The focus has been on providing quality education, empowerment and mental health counselling to women and children, who have been the worst victims of turmoil. HELP Foundation provides relief and rehabilitation to various sections of the society who are severely challenged by physical disability and/or economic deprivation. With a well-knit team of Dedicated Trustees, Hardworking Employees & Energetic Volunteers the Foundation has extended its activities to almost all districts of Kashmir Province and some areas of Jammu province as well.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.jkdag.org/" target="_blank"><img src="../../src/img/NGOicons/Jammu/DAG.png" alt="JK DAG – Jk Developmental Action Group-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>JK DAG – JK Developmental Action Group</p>
+				</div>
+			</div>
+			<h3>JK Developmental Action Group</h3>
+			<p>We are a non-profit organisation registered as a society under J&K society’s registration act 1998.</p>
+			<p>We don’t have any political or religious affiliations and therefore we do not discriminate on the basis of Religion,Caste, Sect, Race, region or political background while working with beneficiaries. We are among the few NGOs in the state who have been granted FCRA registration by the Union Home Ministry. Besides, we have all other necessary registrations like 12 AA and 80G which are essential to operate a non-profit agency in a transparent manner. We have adequate skilled Human resource available to implement activities of different nature ranging from basic community development activities to specialized ones like Skill Development and Placements, Women and Child Issues, Sustainable Livelihood and Entrepreneurship Development and Research Projects.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://jkwws.com/" target="_blank"><img src="../../src/img/NGOicons/Jammu/JKWWS.png" alt="Jay Kay Women Welfare Society (JKWWS)-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Jay Kay Women Welfare Society (JKWWS)</p>
+				</div>
+			</div>
+			<h3>Jay Kay Women Welfare Society (JKWWS)</h3>
+			<p>Jay Kay Women Welfare Society (JKWWS) is registered as an NGO/voluntary organization which has been established in the year 1996 and the area coverage has been Jammu Distt, Kathua Distt, Rajouri Distt, Doda Distt and Kishtwar Distt. rural and remote…</p>
+			<h4>Our Mission</h4>
+			<p>To design and implement educational programmes in rural school drop-outs. We have been executing the project programme viz. EU programme of Improvement of the Educational aspects of neglected children in 2 Blocks of Doda Distt with the support of “save</p>
+			<h4>Our Vision</h4>
+			<p>Jay Kay Women Welfare Society (JKWWS) is to build healthy and economically sound society and has thus defined its mission as improvement of literacy and to ameliorate the poor healthy condition of women, children destitute by the way of Capacity</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="https://www.sukarya.org/" target="_blank"><img src="../../src/img/NGOicons/Jammu/SHE.png" alt="SHE HOPE Society-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SHE HOPE Society</p>
+				</div>
+			</div>
+			<h3>SHE HOPE Society</h3>
+			<p>SHE HOPE society is a non profit, non political, non-government, non-religious organisation. Working in Jammu and Kashmir for down trodden people, disabled and disadvantaged. People, Women SHG, Artisans,  and  other weaker sections of society. Society is a registered (NGO), registered under the Indian Societies Registration Act VI of 1998 (1941 A.D.)  vide registration No: 3711-S of 2001.Society is located beside the Sindh River in Ganderbal,  a rural district, 28  kms from  Srinagar, the summer capital of Kashmir  on sonomarg leh National Highway near Wayil Bridge. She Hope Society is having its main undertaking Viz; Hope Disability Centre  having its  registered office at Wayil Ganderbal and sub centers at Kupwara, Baramulla and Bandipor</p>
+			<h4>MISSION</h4>
+			<p>“To assist disabled/disadvantaged/Artisans in Jammu &  Kashmir to live independently and with dignity through rehabilitation programmes involving education, health, mobility aids, corrective surgery, fitting of prostheses and orthoses, skills training and employment, business development and micro-loan scheme, awareness-raising advocacy, Trade fairs, exhibitions, formation of Self help Groups,Fedrations,Clusters  and access to human rights”</h4>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.pressforpeace.org.uk/" target="_blank"><img src="../../src/img/NGOicons/Jammu/PFP.png" alt="Press for Peace (PFP)-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Press for Peace (PFP)</p>
+				</div>
+			</div>
+			<h3>Press for Peace (PFP)</h3>
+			<p>Press for Peace (PFP) is a research, media and advocacy organization that strives to promote peace, tolerance, interfaith harmony and the protection of human rights in Kashmir and more broadly in South Asia.</p>
+			<h4>Vision</h4>
+			<p>The PFP envisions a permanent peace, sustainable development and everlasting happiness for all people of the state of Jammu and Kashmir.</p>
+			<h4>Mission</h4>
+			<p>PFP’s mission is to create a favorable environment for the establishment of permanent peace, secure livelihood and sustainable development in all parts of the state of Jammu and Kashmir by equipping individuals, groups and communities with needed knowledge, advocacy, research, and training.</p>
+			<h4>Values</h4>
+			<p>The humanitarian approach toward the communities PFP serves<br>An accountable and responsible approach<br>Transparent and efficient project management<br>Continuous collaboration with all stakeholders, sponsors, and donors<br>Impartiality and equality during resource utilization and skills generation.</p>
+		</div>
+
+		<div class="box">
+			<div class="thumb-img">
+				<a href="http://www.koausa.org/YoungsIndia/" target="_blank"><img src="../../src/img/NGOicons/Jammu/Youngs.png" alt="Youngs India-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Youngs India</p>
+				</div>
+			</div>
+			<h3>Youngs India</h3>
+			<p>Sukarya is a non-profit organization, registered in 2001 under Indian Trust Act 1982 with its Trust deed registration # 7373 dated 3rd August 2000.</p>
+			<p>Youngs India is a KP organisation based in Jammu run by dedicated, young Kashmiri Pandits Vivek Raina, Chairman. His task is to get individual latrines built in several refugee camps.  It is a novel concept, where a beneficiary, primarily a refugee family having handicapped members or more girl children, pays Rs 1600 for a latrine, whereas Rs. 2400 are paid by Kashmiri Overseas Association (KOA) of USA. The idea is simple - each beneficiary takes the ownership of the latrine, and enjoys privacy. The latrines built for all the refugees by 'Sulabh' lack maintenance and basic sanitation. In first phase, as many as 25 latrines will be built at Muthi, Purkhoo, Mishriwala and Nagrota refugee camps. Donations are always welcome.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

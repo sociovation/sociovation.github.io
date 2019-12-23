@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+		<a><i class="fab fa-twitter"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Uttarakhand</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a href="../Rajasthan/">Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a>Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="health">HEALTH</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="education">EDUCATION</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a data-group="poverty">POVERTY</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all", "environment", "women"]'>
+			<div class="thumb-img">
+				<a href="http://www.sanjeevaningo.org" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/1.png" alt="Sanjeevani-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Sanjeevani NGO</p>
+				</div>
+			</div>
+			<h3>SANJEEVANI NGO</h3>
+			<p>Sanjeevani Vikas Evam Jan Kalyan Samiti is a nonprofit, rural development and voluntary organisation in India whose mission is to eliminate poverty, unemployment, poor health and illiteracy. Sanjeevani is an indigenous NGO based in Almora District in Northern India(Himalyan Rigion). It was formed in 2000 by 7 peoples group of social workers and is comprised of an energetic group of recently qualified. Sanjeevani have been providing voluntary services to women empowerment & awareness, expansion of education, development science & technology awareness in common people, and create jobs in rural areas since its beginning.</p>
+			<p>Sanjeevani has got “Nirmal Gram Puraskar” twice from the President of India for improve public health and sanitation in rural villages. The approach is now being extended into the neighbouring villages of Almora district. Our organization was also rewarded for awareness of science and technology in the promising rural students by the Department of Science and Technology, Govt. of India. We have got so many other prizes and appreciations from the state and government officials.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.cheaindia.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/CHEA.png" alt="Central Himalayan Environment Association"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Central Himalayan Environment Association</p>
+				</div>
+			</div>
+			<h3>CENTRAL HIMALAYAN ENVIRONMENT ASSOCIATION</h3>
+			<p>Our mission is to integrate rural livelihoods and sustainable conservation practices to reduce the environmental, economic, and social vulnerabilities of the mountain people. In cooperation with regional and international partners, and working with the communities, we aim to develop and provide integrated and innovative solutions that guide policy change and inspire action to directly benefit the mountain people and their environments.</p>
+			<p>The Himalayas are the principal home of glaciers and the source of water for over 1 billion people living in connected river basins. They are also extremely vulnerable to climate change. Thus, there is a critical need to guide development that incorporates and is compatible with the threat of a changing climate.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "women", "education"]'>
+			<div class="thumb-img">
+				<a href="http://abhiprernafoundation.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/Abhiprerna.png" alt="Abhiprerna Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Abhiprerna Foundation</p>
+				</div>
+			</div>
+			<h3>ABHIPRERNA FOUNDATION</h3>
+			<p>Abhiprerna Foundation, established in 2007 by Dr. Deepesh Chandra Prasad, is a registered organization deducted to economic empowerment of women and uplift of the weaker sections of society. We strive to make Uttarakhand, India, and the entire world a more inclusive place for all people regardless of ability, age, race, creed, or socioeconomic background.</p>
+			<p>Aware of the power of the individual, we believe that each one of us should have a voice in our community, access to what we need, and respect from those around us. Our projects throughout Haridwar work to make these goals possible by empowering people with disabilities through education, awareness campaigns, community training and play. As we work for the most vulnerable in our neighborhoods we know that we will make the world better for all of us.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "poverty"]'>
+			<div class="thumb-img">
+				<a href="http://www.iiews.com/index.html" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/IIEWS.png" alt="IIEWS"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Info International Education and Welfare Society</p>
+				</div>
+			</div>
+			<h3>INFO INTERNATIONAL EDUCATION AND WELFARE SOCIETY</h3>
+			<p>IIEWS(Info International Education and Welfare Society) staff and consultants provide technical support, often alongside financial support, to in-country intermediary organisations. They in their turn provide financial and/or technical support to non-governmental and community-based organisations. This means that the IIEWS builds local skills and local institutions, rather than directly planning, managing and implementing programmes.</p>
+			<p>The Organization aims at formulating a number of Projects/Schemes for the development of weaker section of the society, for the preservation and conservation of Environment and its constituents. We also organizes all types development and skill sharpener programmes and innovative schemes for the development of Human being in all the district of Uttarakhand with a view to ameliorate the living conditions of the mankind of the nation in general and the people dwelling in Uttarakhand region in Particular, and we wish to involve ourselves in such activities on national and international level in the years to come and create some milestone for others in the fields of education and social welfare.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "poverty"]'>
+			<div class="thumb-img">
+				<a href="http://www.himfoundation.in" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/HIM.png" alt="HIM"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>HIM Foundation</p>
+				</div>
+			</div>
+			<h3>HIM FOUNDATION</h3>
+			<p>Him Foundation is set up with noble objective to help individuals who require support in one form or another. Every individual has ability to help in one way or another and we take that forward by identifying those persons and providing them opportunities to help needy or poor individuals.</p>
+			<p>Our aim is to build a society of helping individuals from different walks of life and we are continuously striving for that. Anybody who wants to help others can freely walk to our center and we will discuss all the ways in which he or she can contribute to this. We want to keep growing and adding new members to our team. Thus Him Foundation is keen to do everything it can to eradicate the sufferings and provide equal opportunities to all the needy and poor individuals of society.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.sarasngo.blogsopt.com/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/SARS.png" alt="SARS"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Social Awareness in Rural Area Society (SARS)</p>
+				</div>
+			</div>
+			<h3>SOCIAL AWARENESS IN RURAL AREA SOCIETY (SARS)</h3>
+			<p>Saras is an innovation social awareness non government organisation [NGO]. Running under the aegis of Harish Chandra Sharma. At Saras, our social activities are directed at creating awareness through specialization programs such as:
+			<ul>
+			<li>Undertaking Sports Activities</li>
+			<li>Village, Community based social programs</li>
+			<li>Cultural Activity</li>
+			<li>Create ECO Friendly Programs Saras at present, has over 300 active updating members and Angan Wari, who can do field work help at the Talukdar and Regional levels.</li>
+			</ul>
+		</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "environment", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.drishtikone.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/Drishtikone.png" alt="Drishtikone"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Drishtikone</p>
+				</div>
+			</div>
+			<h3>DRISHTIKONE</h3>
+			<p>DRISHTIKONE is a registered public charitable organization working in the fields of Education, Environment and Medical Facilities—for the underprivileged since 1997 (reg.#1997/2679/IV exempt under 80G & 12A of IT Act 1961)</p>
+			<p>The beneficiaries of the trust are the local underprivileged populace, especially children.</p>
+			<p>We have a TRUST BOARD which allows a maximum strength of seven members. Further the reigning Secretary RMS Abhibhabak, Shikshak aur Karamchari Samity is a casting member in the Trust Board. Including him, currently there are 6 members only.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://savegangotri.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/SaveGangotri.png" alt="Save Gangotri"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Save Gangotri</p>
+				</div>
+			</div>
+			<h3>SAVE GANGOTRI</h3>
+			<p>Covering almost two decades of sustained efforts, our experiences can hopefully help others who are struggling to protect fragile alpine environments while balancing the benefits that religious and adventure tourism accrue to the local economy of mountain communities. Our progress in reestablishing Birch trees can be of particular assistance to those seeking information on eco-rehabilitation in dry high altitude climates.</p>
+			<p>Contemplating the ecological disturbances of the Gangotri-Gaumukh area, I decided to undertake practical eco-conservation work. Being a mountaineer, the experience of working in higher altitudes along with my research goals sustained me in my task over the long-term. As such, my first project focused on the Gangotri-Gaumukh area, which attracts the maximum number of pilgrims, trekkers, and mountaineers (Indian and foreign) in the Indian Himalayas.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://gkvs.co.in" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/GKVS.png" alt="Gramin Kshetra Vikash Samiti"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gramin Kshetra Vikash Samiti</p>
+				</div>
+			</div>
+			<h3>GRAMIN KSHETRA VIKASH SAMITI</h3>
+			<p>Our vision is to see happy women, Children & Disabled from Happy Families and Happy Communities. We are working with and for the process of progress for a society that is sympathetic to, and in keeping with the wishes of women, Children & Disabled. women, Children & Disabled have a special bond with the natural world and working towards the regeneration of a society that makes children happy will ensure a development that is in harmony with the environment. Children are more sensitive, so involving children in the development process will ensure that we adopt holistic approaches to development rather than concentrating only on economic and material advancement. A society that is committed to the needs of its children is one that is sensitive to the need of a development process that is based on the values of peace, harmony, equality, and sustainability. We want policy and action in the new state of Uttarakhand to center on the development of happy children.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "poverty"]'>
+			<div class="thumb-img">
+				<a href="http://bgsuttarakhand.org.in" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/BGS.png" alt="Bhartiya Gramotthan Sanstha"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bhartiya Gramotthan Sanstha</p>
+				</div>
+			</div>
+			<h3>BHARTIYA GRAMOTTHAN SANSTHA</h3>
+			<p>Bhartiya Gramotthan Sanstha is a registered organization working since 28 years in the field of social and rural development. Employment generation is the main objective of the organization.</p>
+			<p>For achieving its target the organization emphasizes on local raw material based employment. Apart from this, the other working areas of the organization is handicraft, handloom(wool, cotton, jute), jute carpet, giving commercial training to the women self help group (SHG) for income generation, helping SHG in marketing of their products, imparting technical knowledge, forestation, non formal education, environment related programme, cultivating medicinal plants, implementing various health programme based on Indian medical system with the participation of the mob is the major objective of the organization.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health", "poverty", "women", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="https://www.kagas.org" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/KAGAS.png" alt="Kumaon Agriculture and Greenery Advancement Society (KAGAS)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Kumaon Agriculture and Greenery Advancement Society (KAGAS)</p>
+				</div>
+			</div>
+			<h3>KUMAON AGRICULTURE AND GREENERY ADVANCEMENT SOCIETY (KAGAS)</h3>
+			<p>KAGAS, Pithoragarh is a non-governmental organization registered in 1992 under the Societies Registration Act of 1860. It is currently working with rural communities of Pithoragarh, Champawat, Udham Singh Nagar; Bageshwar and Nanital Districts of Uttarakhand State (India), Kagas is working in the field of community’s innovation, income-generation, watershed development, women empowerment, education community, health, and technology transfer.</p>
+			<p>We have been working with bilateral and international agencies like CIDA (Canadian International Development Agency), CECI (Canadian Center for International Studies and Cooperation), Action Aid, Skill share International, Room to Read, and also with State and National Governments.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health", "poverty", "women", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://himalayanstudycircle.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/HSC.png" alt="Himalayan Study Circle (HSC)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Himalayan Study Circle (HSC)</p>
+				</div>
+			</div>
+			<h3>HIMALAYAN STUDY CIRCLE (HSC)</h3>
+			<p>Himalayan Study Circle (HSC) with its basic belief in people-centered development, learning from the communities and where possible, extending support to the communities, has moved a long way since its inception in 1982. With this background, the community programs, initiated by the organization are need-based with a demand-driven approach. HSC is quite focused on its selection of the client communities, searching out those in need of support and guidance in retrieving their self -esteem. The vision statement of the organization itself is an innovating idea.</p>
+			<p>HSC is a non governmental organization established in the year 1982 at Pithoragarh registered under Registration act 1860, in 1986, HSC is also registered under the Foreign Contribution Regulation Act (FCRA), besides under the Income Tax Act one of the most backward and eco-fragile districts of the western region of Uttar Pradesh, now in the newly formed State of Uttarakhand. Dr. Dinesh Joshi, a journalist and social activist founded HSC with a vision of ‘Making the lives of Himalayan people as radiant as Himalaya itself’. The mission thus to ‘eradicate poverty, environmental degradation, disparity and social evils through People Centered Development process with understanding that the woman is the backbone of the hill economy’</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment"]'>
+			<div class="thumb-img">
+				<a href="http://www.drishtikone.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/WWOOF.png" alt="Working Weekends on Organic Farms (WWOOF)"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Working Weekends on Organic Farms (WWOOF)</p>
+				</div>
+			</div>
+			<h3>WORKING WEEKENDS ON ORGANIC FARMS</h3>
+			<p>The consultants within WWOOF India Organics Pvt Ltd , have a wide range of disciplines and experience with the ability to provide farmer, growers, processors, packers and retailers with quality and cost effective advice and technical support right across the food chain on a national and international basis. As a client you can access all of this expertise.</p>
+			<p>The strength of the WWOOF India Organics Pvt Ltd team is the wide range of skills and expertise and the extensive network of organic sector contacts. These include organic farm business management advice, food production and procurement, protected cropping, horticulture, fruit, arable and root crop production, livestock management (dairy, poultry and pork), financial analysis, continuity programming, product development, food hygiene and safety, the development of quality systems cheaper certification options and training to individuals, co-operative groups and corporate client</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "environment"]'>
+			<div class="thumb-img">
+				<a href="https://corbettvillage.in/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/CGVS.png" alt="Corbett Gram Vikas Samiti"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Corbett Gram Vikas Samiti</p>
+				</div>
+			</div>
+			<h3>Corbett Gram Vikas Samiti</h3>
+			<p>Over the last 15 years our simple community of Chhoti Haldwani has evolved into the Corbett Gram Vikas  Samiti. Our inception was as Kumaoni Sanskritik Utthan Manch 2002 to Corbett Dharohar Prabandi Samiti  to Corbett Gram Vikas Samiti in 2003. In 2004 it was registered under the societies act and has 80G & 12A certificates. Corbett Gram Vikas  Samiti is a registered Non-Government Organization, formed by the community of Chhoti Haldwani in 2002  to realize the dreams of Jim Corbett and follow his principles. It offers nature guide services,  heritage walks, bird watching, home-stays, and folk dance & music programs by its members as part of  its community based tourism programme.</p>
+			<p>An important activity of the members of the samiti who have been trained on nature and heritage walks  is to conduct the visitors on the various trails in Kaladhungi and Chhoti Haldwani. Visitors going on  these trails have to be accompanied by a guide from the samiti at a nominal charge. This fee is  distributed amongst the members of the samiti.
+			The village of Chotti Haldwani completed 100 years in 2015. The community of the village that Corbett  once owned remember him fondly till date and to realise his dreams and take his legacy forward have got  together to form the Corbett Gram Vikas Samiti(CGVS).</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education"]'>
+			<div class="thumb-img">
+				<a href="http://www.sseducational.org" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/SSES.png" alt="Sir Sayyed Educational Society"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Sir Sayyed Educational Society</p>
+				</div>
+			</div>
+			<h3>SIR SAYYED EDUCATIONAL SOCIETY</h3>
+			<p>We are happy to inform you about our society : SIR SAYYED EDUCATIONAL SOCIETY (REGD.) NO. 17558 (D). Sir Sayyed Educational Society (Regd.) is a no loss/no profit voluntary NGO which is working for the upliftment of the poor down trodden people in general and Minorities in particular by improving their Health and Economic & Educational development. The society bears its financial responsibilities by general public donations.</p>
+			<p>In view of its aims and projects the society is required huge money while the society has very limited sources of income. To fulfill its aims & projects the society is facing acute shortage of funds. Therefore, the society appeals to all well wishers, considering Sawab-e-jaria, to donate to this society generously. We pray Almighty Allah for reward you for involvement in aims & projects of the society targetted for the cause of up-liftment of poor down trodden people and for eradication of illiteracy, unemployment, mal health and mal-nutrition. It is a great pleasure for all of us that the Government has allotted us the facilities of 12 AA; 80 G and F.C.R.A. for the help for the cause of upliftment of down trodden people in the mother land.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "environment", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.pjks.in/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/PJKS.png" alt="Parvatiya Jan Kalyan Sansthan"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Parvatiya Jan Kalyan Sansthan</p>
+				</div>
+			</div>
+			<h3>PARVATIYA JAN KALYAN SANSTHAN</h3>
+			<p>Parvatiya Jan Kalyan Sansthan (PJKS) is a non-government, not for profit organization that has been working for the empowerment of the marginalized and deprived communities of Uttarakhand. Since its inception in 1990 the organization has been working for the economic and social development of people.</p>
+			<p>In PJKS we believe that when people get the opportunity to identify their needs and plan accordingly, the schemes and programmes crafted for them are optimally utilized and render the best results. Through participatory approach, PJKS always follows a bottom-up approach in all of its verticles and ensure informed participation of communities in its programmes.</p>
+			<p>Over the period, the organization has marked its presence as a committed, target oriented development agency, guided by professional values, with long-term objectives to pursue integrated community development.</p>
+			<p>In the journey of two decades, we have undertaken various interventions on the  issues like, livelihood and watershed management, value chain interventions, research & documentation, natural resource management, women empowerment, strengthening PRI, health and RCH, micro enterprise development etc.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "poverty"]'>
+			<div class="thumb-img">
+				<a href="http://sewabharat.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/SEWA.png" alt="SEWA Bharat"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>SEWA Bharat</p>
+				</div>
+			</div>
+			<h3>SEWA BHARAT</h3>
+			<p>SEWA Bharat is part of the national SEWA movement. Established in 1984, it is a national federation of SEWA organizations of women working in the informal economy. SEWA Bharat emerged out of the need to address the SEWA movement’s challenges with geographical expansion and coordination. SEWA Bharat is comprised of a family of SEWA organizations to further informal women workers’ rights, livelihoods, financial independence, education, health and social security.</p>
+			<p>SEWA Bharat is committed to strengthening the movement of women in the informal economy by highlighting their issues at the national level and building its member organizations’ capacity to empower them.The SEWA Movement has expanded strongly over the past 40 years and now has a membership of around 14 lakhs spread over 9 states. SEWA Bharat supports development programs and activities that organize women so they can aim to achieve full employment and self-reliance for all its members. Full employment means jobs that provide economic security, food security, and social security. Self-reliance refers to economic self–sufficiency and equitable roles in the decision-making process.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "education", "health"]'>
+			<div class="thumb-img">
+				<a href="http://www.gokulatdoon.com" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/Gokul.png" alt="Gokul Kendra"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gokul Kendra</p>
+				</div>
+			</div>
+			<h3>GOKUL KENDRA</h3>
+			<p>Life for the extra able gets torturous and depressive in remote as well as hilly areas of Uttarakhand due to the Physical Limitation and Tough Conditions resulting in Loss of jest for Life, cause heartache to their kinds & Loved ones. It's a gnawing pain to have a sibling, a spouse a parent or a child lost to disability. A Harsh ache of heart. This pain can be turned into happiness with positivity, care and affection of the society. The Society is so capable of the same. Everyone is doing its own effort. When the efforts of all unite, Gokul emerges with strong will and dedication to make the world a better Places for the Divyang persons residing in Tough, hilly terrain and remote posts of Uttarakhnd.</p>
+			<p>At Gokul we create an environment which inspires them to touch new heights of capabilities & success. This is the path we seek at Gokul. As a Catalyst to bring changes in the lives of extrable children and old ages people, who are not privileged, by addressing the real need at the grassroots level and also enabling the civil society to engage proactively in the change process and adopting the highest standard of governance and thereby emerging as an organization from Uttarakhand state, India.</p>
+		</div>
+
+		<div class="box" data-groups='["all"]'>
+			<div class="thumb-img">
+				<a href="http://www.drishtikone.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/HDM.png" alt="Hills Development Mission"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Hills Development Mission</p>
+				</div>
+			</div>
+			<h3>HILLS DEVELOPMENT MISSION</h3>
+			<p>Hills Development Mission (HDM) is a Secular, Non Profit and Non-Governmental Voluntary Organization working for upliftment and sustainable development of Hill communities since 2002 without discrimination of race, caste, creed, sex, community and religion. The Organization is registered under Societies Registration Act, 1860 having its registration No. 1265/2001-2002 dated 11-03-2002.</p>
+			<p>HDM is an autonomous Organisation set up by a team of experienced and eminent professionals with a view to tap various aspects of community development through participation with an objective to determine the factors hindering sustainable development and discover the hidden bottlenecks of strategies and policies. Although the original thrust of the Organization is to focus different innovative and creative development activities. Our team of professionals provides long-term as well as short-term management support services to development initiatives. The team is capable of handling and resolving various challenges so as to bring effectiveness and efficiency in the development of community.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "health"]'>
+			<div class="thumb-img">
+				<a href="https://latikaroy.org" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/LRF.png" alt="The Latika Roy Foundation"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>The Latika Roy Foundation</p>
+				</div>
+			</div>
+			<h3>THE LATIKA ROY FOUNDATION</h3>
+			<p>The Latika Roy Foundation is a voluntary organization in India working with children and adults who have developmental and other disabilities. As a resource centre for people with special needs, we provide early intervention services, livelihoods development, education, training and awareness. We believe that when we plan for the most vulnerable the world works better for everyone. Our rights-based approach challenges injustice and demonstrates how inclusion works. If you are a person with disability, a parent, a professional or someone who cares, there’s a place for you in the Latika Roy Foundation.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "farming"]'>
+			<div class="thumb-img">
+				<a href="http://www.cedarhimalaya.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/CEDAR.png" alt="Centre For Ecology Development And Research"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Centre For Ecology Development And Research</p>
+				</div>
+			</div>
+			<h3>CENTRE FOR ECOLOGY DEVELOPMENT AND RESEARCH</h3>
+			<p>CEDAR is a not-for-profit organization registered in 2006 under the Societies Act of 1860. The registered office of CEDAR is located in Delhi while the main operations office is based in Dehradun. CEDAR was established when a group of academics and development practitioners came together to bridge the gap between applied research and field based interventions or, to put it differently, ‘balance theory and practice’. The development sector has, for long, been caught in the divide between theoreticians and practitioners. This divide has set the sector back and deprived it of the opportunity to continuously assess and improve its work. This has also had implications for policy formulation whereby the lack of a right blend of lessons from the field, properly documented and analyzed, has led to information gap in policy formulation. CEDAR sees its role to straddle this divide and help fill the information gap in policy formulation.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "women"]'>
+			<div class="thumb-img">
+				<a href="http://satyadhamsamajikseva.org/" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/JKSS.png" alt="Satyadham Samajik Seva Jan kalyan Sanstha Samitii"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Satyadham Samajik Seva Jan kalyan Sanstha Samitii</p>
+				</div>
+			</div>
+			<h3>SATYADHAM SAMAJIK SEVA JAN KALYAN SANSTHA SAMITII</h3>
+			<p>Satyadham Samajik Seva Jan kalyan Sanstha Samitiis the childcare, Widows Care, oldage care charity, campaigning for quality, accessible, affordable childcare for all and raising the voices of children, parents and carers. We advise parents and carers, providers,employers, trade unions and policymakers on childcare issues.</p>
+			<p>Satyadham Samajik Seva Jan kalyan Sanstha Samitiis the childcare, Widows Care, oldage care charity, campaigning for quality, accessible, affordable childcare for all and raising the voices of children, parents and carers. We advise parents and carers, providers,employers, trade unions and policymakers on childcare issues.</p>
+		</div>
+
+		<div class="box" data-groups='["all", "poverty", "children", "health"]'>
+			<div class="thumb-img">
+				<a href="https://aasraatrust.org" target="_blank"><img src="../../src/img/NGOicons/Uttarakhand/Aasraa.png" alt="Aasraa Trust"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Aasraa Trust</p>
+				</div>
+			</div>
+			<h3>AASRAA TRUST</h3>
+			<p>Aasraa Trust was established as a social work trust focusing on education of underprivileged children in 2009, in response to a crisis for intervention for the welfare of children from the riverbed slum under the Bindal bridge. Aasraa then worked with the river bed community to promote the need for education and started an after school project to augment school education. Project Street Smart was started on the pavements of Astley Hall in 2011 with a group of 5 street children. The objective was to keep the children off the streets and provide them with basic literacy through art, craft, music and audio visual medium.</p>
+			<p>Today, Aasraa works towards empowering street and slum children through education, vocational training, nutrition, medical care and providing shelter homes. Our mission is to level the playing field for children who have neither seen books nor stepped into a school. The children we work with come from extremely impoverished backgrounds and are mostly rag pickers, beggars, addicts, runaways and orphans. We work with more than 1400 children.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A part of Centre for Social Innovation, Ramanujan College, University of Delhi">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Faisal Akhtar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Partners</title>
+	<link rel="stylesheet" href="../../src/css/TypeB.css">
+	<link rel="stylesheet" href="../../src/css/slideshow.css">
+	<link rel="stylesheet" href="../../src/css/NGOs.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
+	<link rel="icon" href="../../src/img/csi.png">
+	<script src="../../src/js/jquery.min.js"></script>
+	<script src="../../src/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="headr">
+	<div class="progress-containr">
+		<div class="progress-br" id="myBar" style="background-color: #c00"></div>
+	</div>
+</div>
+<div id="top" class="headerr">
+	<div class="headerLeftCol">
+		<a><img src="../../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+	</div>
+	<div class="headerRightCol" id="c">
+		<div class="headerMenu">
+			<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+			<a href="../../About.html"><i class="fas fa-user"></i> About</a>
+			<a class="activeLink"><i class="far fa-handshake"></i> Our Partners</a>
+			<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+			<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+			<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+		</div>
+	</div>
+</div>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+				document.getElementById("logo").style.maxWidth = "3.8vw";
+				document.getElementById("c").style.display = "none";
+			}
+			else {
+				document.getElementById("logo").style.maxWidth = "7.6vw";
+				document.getElementById("c").style.display = "block";
+			}
+		}
+	</script>
+
+<div id="myNav" class="overlaMenu" style="background-color: rgba(148,0,29,0.95)">
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+	<div class="overlaMenu-content">
+		<a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+		<a href="../../About.html"><i class="fas fa-users"></i> About</a>
+		<a href="#" onclick="closeNav()"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="http://blog.sociovation.in"><i class="fas fa-bold"></i> Blog</a>
+		<a href="../../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+		<a href="../../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	</div>
+	<div style="bottom:50%;transform:translate(0,50%);right:20px;position:absolute;color:white;font-size:25px">
+		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/sociovation"><i class="fab fa-instagram"></i></a>
+	</div>
+</div>
+<div class="smallScreenHeader" style="background-color: #A70323"><span style="float:right" onclick="openNav()">&#9776; MENU</span> <img src="../../src/img/csi.jpg"> SOCIOVATION</div>
+<script>
+	function openNav()	{	document.getElementById("myNav").style.height = "100%";	}
+	function closeNav()	{	document.getElementById("myNav").style.height = "0%";	}
+</script>
+<!-------------------------------------------------------------------------------------------------------------------->
+<div class="headerText animate" style="background-image:url('../../src/img/bg/bg6.png')"id="top" ><p>Our Partners</p></div>
+
+<div id="x">
+<div style="width:100%;background-color:#A70323;margin:-25px 0 -35px;color:#fff" onclick="statesMenu()">
+	<p style="padding:10px;"><i class="fas fa-caret-right"></i> Rajasthan</p>
+</div>
+</div>
+
+<div class="row animate">
+	<div class="leftcolum">
+	<div id="leftleft" class="fadingg">
+		<ul id="swnames">
+			<li><h3><u>NGOs in India</u></h3></li>
+			<li class="cur"><a href="../Andhra/">Andhra Pradesh</a></li>
+			<li class="cur"><a href="../Bihar/">Bihar</a></li>
+			<li class="cur"><a href="../Chhatisgarh/">Chhatisgarh</a></li>
+			<li class="cur"><a href="../../NGOs/">Delhi</a></li>
+			<li class="cur"><a href="../Goa/">Goa</a></li>
+			<li class="cur"><a href="../Gujarat/">Gujarat</a></li>
+			<li class="cur"><a href="../Haryana/">Haryana</a></li>
+			<li class="cur"><a href="../Himachal/">Himachal Pradesh</a></li>
+			<li class="cur"><a href="../Jammu/">Jammu & Kashmir</a></li>
+			<li class="cur"><a href="../Jharkhand/">Jharkhand</a></li>
+			<li class="cur"><a href="../Karnataka/">Karnataka</a></li>
+			<li class="cur"><a href="../Kerela">Kerela</a></li>
+			<li class="cur"><a href="../Madhya/">Madhya Pradesh</a></li>
+			<li class="cur"><a href="../Maharashtra/">Maharashtra</a></li>
+			<li class="cur"><a href="../_Manipur/">Manipur</a></li>
+			<li class="cur"><a href="../_Mizoram/">Mizoram</a></li>
+			<li class="cur"><a href="../Orissa/">Orissa</a></li>
+			<li class="cur"><a href="../Punjab/">Punjab</a></li>
+			<li class="cur"><a>Rajasthan</a></li>
+			<li class="cur"><a href="../Sikkim/">Sikkim</a></li>
+			<li class="cur"><a href="../Tamil/">Tamil Nadu</a></li>
+			<li class="cur"><a href="../Telangana/">Telangana</a></li>
+			<li class="cur"><a href="../Uttarakhand/">Uttarakhand</a></li>
+			<li class="cur"><a href="../Uttar Pradesh/">Uttar Pradesh</a></li>
+			<li class="cur"><a href="../Chandigarh/">Chandigarh</a></li>
+			<br>
+			<li id="x" class="cur"><a onclick="statesMenuClose()"><i style="margin-left:-10px" class="fas fa-arrow-alt-circle-left"></i> Back</a></li>
+
+		</ul>
+<script>
+	function statesMenu()	{
+		document.getElementById("leftleft").style.display = "inline";
+		document.getElementById("leftleft").style.width = "100%";
+		document.getElementById("leftright").style.display = "none";
+		document.getElementsByClassName('rightcolum')[0].style.display = "none";
+	}
+
+	function statesMenuClose()	{
+		document.getElementById("leftleft").style.display = "none";
+		document.getElementById("leftleft").style.width = "0%";
+		document.getElementById("leftright").style.display = "inline";
+		document.getElementsByClassName('rightcolum')[0].style.display = "inline";
+		window.scrollTo(0, 400);
+		var check = document.getElementById('check');
+		check.click();
+	}
+</script>
+	</div>
+	<div id="leftright">
+		<div class="card z">
+
+<!-- Portfolio -->
+	<ul id="filterOptions">
+		<li class="cur"><a id="check" style="font-size:90%" data-group="all">ALL</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="women">WOMEN</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="health">HEALTH</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="environment">ENVIRONMENT</a></li>
+		<li><span id="hid">.</span></li>
+		<li class="cur"><a style="font-size:90%" data-group="education">EDUCATION</a></li>
+	</ul>
+
+	<div id="grid">
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.rsksajmer.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/RSKS.png" alt="Rajasthan Samgrah Kalyan Sansthan-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Rajasthan Samgrah Kalyan Sansthan</p>
+				</div>
+			</div>
+			<h3>Rajasthan Samgrah Kalyan Sansthan</h3>
+			<h4>ABOUT</h4>
+			<p>Rajasthan Samgrah  Kalyan  Sansthan (RSKS) is a non governmental organization (NGO) based in Ajmer District of Rajasthan state is Largest population in India.</p>
+			<p>The organization was founded in the year 1992, by the group of young sensitive youths in the interest of the society. RSKS is a pioneer in promotion of Livelihood, microfinance & enterprise, women & child education & development, Women Empowerment, gender equality, Children Welfare, human rights and environmental and water issues  for the Marginalized & deprived sections of the Rural community.</p>
+			<p>RSKS is registered a society under the societies Registration act 1958 (Rule – 28). The Foreign Contribution Regulation Act (FCRA), 2010. 12A and 80G section of Income Tax Act, 1961.iso-9001-2008 certified  and  Also 2014 & 2015 Top Rated Great Nonprofit.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://bmsss.ketto.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/BMSSS.png" alt="Mani Singh Sewa Sansthan-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Mani Singh Sewa Sansthan</p>
+				</div>
+			</div>
+			<h3>Mani Singh Sewa Sansthan</h3>
+			<h4>ABOUT</h4>
+			<p>Mani Singh Sewa society has been established in the year 2012 with the motto of upliftment of marginalized section of Society. This include Sikligar, Lubana, Majhabi, Rai Dalits and many more. The organization has done commendable efforts to provide education , empowerment and livelihood opportunities to these ignored people of the society. MSSS has started free schools for the kids of these families and has also started an open school for adult girls under than banner of “SHE DARES”. The initiative has been started to bring in main stream those girls who have been dropped out of schools due to financial or social reasons like child marriage or ignorance for just being a girl child.</p>
+			<p>MSSS organizes many awareness programs for spreading awareness about various government schemes like old age pensions, subsidized loan for minorities for self-employment, widow pension, skill development etc . Our organization not only generate awareness but also help all those in need to avail the facilities.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://navdisha.org.in/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Navdisha.png" alt="Navdisha Sansthan-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Navdisha Sansthan</p>
+				</div>
+			</div>
+			<h3>Navdisha Sansthan</h3>
+			<p>NavDisha is non-government entity registered under society act operating since 1990. NGO is 12A & 80 G certified located at C-6 H.K.M. Nagar in Alwar district of Rajasthan.</p>
+			<h4>Our mission</h4>
+			<ul>
+				<li>Education, training, rehabilitation or any other service of persons with disabilities.</li>
+				<li>Create avenues for employment by increasing awareness amongst prospective employers and community.</li>
+				<li>Advocacy and formation of self-help groups.</li>
+				<li>Proclaiming the rights of the disabled.</li>
+				<li>Through our work, we hope to move towards a world where Divyangjans enjoy the full range of their rights and opportunities</li>
+			</ul>
+			<h4>Our vision</h4>
+			<p>Navdisha Vikas Samiti have a vision that children and young people with disability living in India are afforded every opportunity to thrive, achieve their potential and that their rights and interests as individuals, members of a family and their community are met.</p>
+			<p>Development of Persons with Disabilities so that they can lead productive, safe and Dignified lives.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://neo-vision.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/NeoVision.png" alt="Neo Vision Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Neo Vision Foundation</p>
+				</div>
+			</div>
+			<h3>Neo Vision Foundation</h3>
+			<p>Neo Vision Foundation has started With the positive approach of Mr Gajendra Ramola during his college days, a group of like minded people joined together and founded Neo Vision with vision of empowering the under privileged people of our society. Most of the guys who supported him are his college mates. Gajendra himself started this mission by providing free counselling and imparting computer education to many needy and deprived children. Inspiring with his sincere efforts some more people with similar vision joined him in this noble cause and started the never ending journey. Later on the efforts proved fruitful and his two teachers also accompnied him in strengthening his vision.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://nirvanavanfoundation.org.individuals/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Navnirman.png" alt="Nirvanavan Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Nirvanavan Foundation</p>
+				</div>
+			</div>
+			<h3>Nirvanavan Foundation</h3>
+			<p>Nirvanavan Foundation is a grassroots organization working in the remote areas of Alwar district in the State of Rajasthan, India.</p>
+			<h4>FOCUS:- </h4>
+			<p>Our work focuses on education, ecology,social issues and poverty alleviation.</p>
+			<p>Nirvanavan Foundation promotes the rights of vulnerable children (12 years and younger) through advocacy of their human rights and providing them access to education and removing caste and class barriers that leave children systematically disadvantaged.</p>
+			<p>We support children of “Nat” and “Raj Nat” communities that are migrant communities, and were traditionally dancers and entertainers. These communities have rich histories of dance and folk songs. Children from these communities have been excluded from mainstream education system due to the stigma attached to their communities, and the lack of access to education. </p>
+			<p>We help these children break the cycle of prostitution and the social stigma attached to these migrant communities</p>
+			<p>We do so by providing children from these communities holistic education so that they are able to find alternative livelihood opportunities.We have a creative and holistic approach to education with artistic, cultural and environmental elements, along with academic instruction and livelihood training.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://saathifoundation.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Saathi.png" alt="Saathi Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Saathi Foundation</p>
+				</div>
+			</div>
+			<h3>Saathi Foundation</h3>
+			<p>Our Non-Government and Non-Profit Organization, SaathiFOUNDATION is built on the Pillars of Values that are best described by these three famous personalities.</p>
+			<p>We dedicatedly and tirelessly work among Slums, Orphanages, and other Underprivileged areas to offer basic amenities and fundamental medical attention, by offering them clean water to drink, good food to eat, proper clothes to wear, appropriate medical help and enabling them to stay empowered, stay healthy.</p>
+			<p>SaathiFOUNDATION wholeheartedly tries to help people in need, and works closely with Community Centers, Primary Health Divisions and other Service Centers to empower the youth, to create general awareness in public interest, to provide timely treatment and adequate medical attention to the poor and needy, without any discrimination whatsoever of caste, creed, region or religion.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://www.spectraalwar.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Spectra.png" alt="Spectra Organisation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Spectra Organisation</p>
+				</div>
+			</div>
+			<h3>Spectra Organisation</h3>
+			<h4>ABOUT</h4>
+			<p>SPECTRA is a pro fessionally managed committed org. active in community capacity building and issue based networking. The primary focus of SPECTRA is on the problems of the poor in their struggle to obtain a life of justice and dignity. Child Rights, women development and awareness generation, Environment stabilization, food security, sanitation, education, rural industries for income generation, and empowerment of the community for self-governance are the most important components of its mission. Child and women Rights, Gender justice, natural resource management, and livelihood security are our primary areas of concern.</p>
+			<p>Spectra is a voluntary development organization involved in rural and development work in Alwar district, Rajasthan, India, since 1996-97. The area covered by the project has a predominately Mev population, with an agriculture-based economy. However, almost two thirds of the populations are land less laborers. Only 40% of males and 20% of females are literate, Programme undertaken by SPECTRA include: Installation of hand pumps for drinking water, sanitation, agricultural improvement, wastelands development, education, rural industries for income generation, development of alternative energy sources, and women development and awareness generation. There was a lot of more dialogue and discussion with the village people, and formation of village level groups to help plan and implement development programmes.</p>
+			<p>The ultimate goal of Spectra is to effect an improvement in the health of disadvantaged women in rural areas by providing gender sensitive management training to health coordinators while emphasizing self help and promoting local health tradition to empow er women, SPECTRA recognize that women have been making a valuable contribution to health care, both at the household and community level.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://www.tarunbharatsangh.in/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Tarun.png" alt="Tarun Bharat Sangh-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Tarun Bharat Sangh</p>
+				</div>
+			</div>
+			<h3>Tarun Bharat Sangh</h3>
+			<p>Established in Jaipur in 1975, Tarun Bharat Sangh was initiated by a group of professors & students of University of Rajasthan. But the real journey of TBS started on 2nd October 1985, when a battery of four youths charged to transfer it from urban to rural India. They started with a mission to move the people out of their feeling of helplessness in the face of the ravages of nature and an indifferent administration. Four youths including Rajendra Singh (present chairman) inspired by Gandhian model of rural-development went to live in a village of Alwar district of Rajasthan for rural uplift. They started a school for children but soon got very depressed seeing no response from villagers.</p>
+			<h4>Our mission</h4>
+			<p>Tarun Bharat Sangh seeks to bring dignity and prosperity to the life of a destitute section of the nation through sustainable development measures. TBS aims for the holistic development of men, women, and children, regardless of economic situation, caste or religion. TBS promotes the community-driven-decentralized-management of the natural resources.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="https://jagranjan.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/JJVS.png" alt="Jagran Jan Seva Vikas-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Jagran Jan Seva Vikas</p>
+				</div>
+			</div>
+			<h3>Jagran Jan Seva Vikas</h3>
+			<p>JJVS was founded by a group of enthusiastic individuals who, after viewing and analyzing the poor socio-economic status of tribal groups in southern Rajasthan, wanted to bring about social change in these communities. JJVS strongly believes that its efforts will uplift rural Rajasthani communities that have been neglected and denied their rightful share of societal resources for the past centuries.</p>
+			<h4>STRATEGY AND APPROACH</h4>
+			<p>JJVS aims to improve the socio-economic status of local communities by recognizing the potential of both individuals and communities and empowering them to determine development issues and solutions through the utilization of their available resources. By fostering collaboration among local tribal groups and developing latent assets and resources, JJVS works with local communities toward the betterment of their livelihoods and protection and development of the environment. Focus areas include the preservation of traditional medicine, community development, education, geriatrics, sustainability, water management, agriculture, issue based programmes and women’s empowerment.</p>
+			<p>Our impact has spread over the entire Tribal Belt of Sarada, Salumber, Girwa, Jhadol and Dhariyawad Tehsil of Udaipur, India.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.vaagdhara.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Vaagdhara.png" alt="Vaagdhara-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Vaagdhara</p>
+				</div>
+			</div>
+			<h3>Vaagdhara</h3>
+			<p>VAAGDHARA is a non-profit organization, registered under Rajasthan Societies Act 1958. The organization was founded in early 80’s and initiated its efforts at very small level. But from the year 2000 onwards it started functioning actively and professionally on a range of issues of tribal community. Thus it has completed about one and half decade of functioning. VAAGDHARA draws its name from its area of working i.e. Vaagad-the tribal area of Rajasthan adjoining Gujarat and Madhya Pradesh on banks of river and Dhara-stream of development. The core value of the organization is swaraj ‘self-reliance’ which is drawn from Gandhian philosophy, but at the same time, it believes in the use of latest technology for the development of tribal and poor.</p>
+			<p>During last decade and half, VAAGDHARA has impacted about 25000 tribal and poorest of poor families to bring change in quality of their life. It has implemented a number of interventions with support of government, national and international organizations like UNDP, UNICEF, WFP, Welthungerhilfe, NABARD, IGSSS, Save the Children, Plan India and so on. The main driver of the organizational philosophy is the ‘context and issues that tribal and poor face’ in southern Rajasthan. It has been adequately flexible in its approach and depending on the need of the situation, VAAGDHARA has played key role as activist to advocate for child rights, as facilitator in collaboration with mainstream (government) for betterment of school education and has also implemented natural resource management programs like Sustainable Integrated Farming. It has learned from its experiences and used the learning in designing new and improved interventions.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.dharasansthan.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Dhara.png" alt="Dhara Sansthan-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Dhara Sansthan</p>
+				</div>
+			</div>
+			<h3>Dhara Sansthan</h3>
+			<p>Dhara Sansthan is a registered under the Society Registration Act 1958, India in the year 1989. Dhara is not only an organization; we believe it is to be the result of few visionary minds who wanted to create difference in the society by uplifting social conditions of rural communities.</p>
+			<p>DHARA is a nonprofit developmental organization working in a Western part of the Rajasthan from last two decades. Dhara defines the great dream of Robert Chamber “The development is that needs to prove by work of efficiency”. DHARA follows the principles of resource development and productivity through efficient management practices, focusing on aspects of sustainable development incorporating. Since the beginning, Dhara is working for empowering poor and deprived community for increased access to basic requirements such as health, education, drinking water, and resource base in rural areas. Dhara has worked with more than 1, 00, 000 rural families and many funding agencies. Through its experience in various fields, it has created a leading image in developmental sector in western Rajasthan as well as National level.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://kritifoundation.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Kriti.png" alt="Kriti Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Kriti Foundation</p>
+				</div>
+			</div>
+			<h3>Kriti Foundation</h3>
+			<p>Kriti Foundation is among the prominent volunteer, non-profit, non-government, social organizations. it is registered under the Trust Registration Act and incepted in the year 2008, by a group of socially responsible persons. Kriti Foundation is functional in New Delhi and Uttar Pradesh, Madhya Pradesh, working for Women Empowerment, Health/Education/HIV/AIDS/Disaster Management, Media Research and the economical empowerment of the marginalized people. We are running an array of programs which includes women’s welfare programs, vocational training, continuing education, counseling, Health care and AIDS awareness, Disaster Management, Senior Citizen Care etc. The organization is working to bring social justice in the society by offering benefit of economical development to the people belonging to poor families, who do not have access of education or health care facilities. Our endeavor aimed at making people employable and providing economic independence by offering quality vocational training. With the support of various stake holders, we are committed to provide a healing touch to the poor and underprivileged section of the society and make socio-economical development a reality</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.lupinfoundation.in/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Lupin.png" alt="Lupin Human Welfare & Research Foundation-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Lupin Human Welfare & Research Foundation</p>
+				</div>
+			</div>
+			<h3>Lupin Human Welfare & Research Foundation</h3>
+			<h4>ABOUT</h4>
+			<p>To see Indian villages not only economically prosperous but as centres of prosperity consciousness integrating leading corporate houses, planners, technologists and development oriented people having stewardship which is spiritual in Vision, scientific in temper and humanistic in Karma.</p>
+			<h4>MISSION</h4>
+			<p>To provide an alternative model of rural development which is sustainable, replicable and ever evolving essentially empowering under privileged and marginalized sections of society and providing basic infrastructure and balanced ecological base to the villages.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://srijansansthan.com" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Srijan.png" alt="Srijan Sansthan-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Srijan Sansthan</p>
+				</div>
+			</div>
+			<h3>Srijan Sansthan</h3>
+			<h4>Vision:</h4> <p>Srijan sansthan committed to play lead role in imparting every kind of education for minority groups and want to set an example by bringing them into the main stream</p>
+			<h4>Mission :</h4> <p>Srijan Sansthan committed to produce as many as Engineers, Doctors, Manager, Administrators, Teachers, Clerical Staffs, Police Staff and many more.</p>
+			<h4>Objective:</h4> <p>It has been established with a view to bringing about improvement in the quality of education imparted to the weaker sections of the community especially the minorities, S.C., S.T., OBC and women, who are deprived of the art facilities in education. It aims to provide them coaching facilities for competitive examinations so as to enable them to quality in the said examinations and upgrade their status in the society.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://bbkvs.in/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/Badhir.png" alt="Badhir Bal Kalyan Vikas Samiti-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Badhir Bal Kalyan Vikas Samiti</p>
+				</div>
+			</div>
+			<h3>Badhir Bal Kalyan Vikas Samiti</h3>
+			<p>Badhir Bal Kalyan Vikas Samiti, Bhilwara is a Voluntary Charitable Organization registered under the Society Registration Act 1958 vide Reg. No. 3/85-86, established on 2nd Sep. 1985.</p>
+			<p>Mr. R.P. Ladha, President of the Society had a vision. He dreamt of an education institution for the Deaf and the Blind. This institution was to impart to such handicapped children formal education along with vocational training in order to make them totally independent. Dr. S. K Chatur and Mr. Shanti Lal Mundra also shared the dream, and helped Mr. R.P. Ladha realise his dream</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.bvpindia.com/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/BVP.png" alt="Bharat Vikas Parishad-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Bharat Vikas Parishad</p>
+				</div>
+			</div>
+			<h3>Bharat Vikas Parishad</h3>
+			<p>Established in 1963, Bharat Vikas Parishad is a service-cum-sanskar oriented, non-political, socio-cultural voluntary organisation. It is dedicated to the development and growth of our country in all fields of human endeavour - cultural, social, academic, moral, national and spiritual - by promoting a sense of patriotism, national unity and integrity.</p>
+			<p>On the birth centenary of Swami Vivekanand i.e. on 12th January, 1963, the Citizens Council set up by leading industrialists and social reformers like late Lala Hans Raj and Dr. Suraj Prakash, initially to mobilise citizens efforts to fight the Chinese attack, was renamed as Bharat Vikas Parishad.  It is thus motivated and guided by the ideals and teachings of Swami Vivekanand.</p>
+			<p>Bharat Vikas Parishad was registered as a Society under the Societies Registration Act 1860 on the 10th July, 1963. </p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.nirala.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/NVS.png" alt="Nirala Vikas Samiti-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Nirala Vikas Samiti</p>
+				</div>
+			</div>
+			<h3>Nirala Vikas Samiti</h3>
+			<p>Nirala Vikas Samiti, Bikaner (NVS) has been working since 1995 in Bikaner, Jaisalmer, Hanumangarh, Churu, Jodhpur, Nagaur and Barmer districts in Rajasthan.</p>
+			<p>Nirala Vikas Samiti, Bikaner is Major concerned to Rural –Urban development, Watershed Development, Social Work, Skill Development, Women & Child Welfare. Promotive, Preventive, Curative and Rehabilitive Health Issues and Serving to individuals, groups and communities. Nirala’s aim is to empower the disadvantaged to overcome the many social and economic barriers they face, and to help them access opportunities that lead to a better quality of life.</p>
+			<p>We are dedicated to the development and growth of human endeavour - cultural, social, academic, moral, national and spiritual.</p>
+		</div>
+
+		<div class="box" data-groups='["all","health"]'>
+			<div class="thumb-img">
+				<a href="http://www.gveps.org/" target="_blank"><img src="../../src/img/NGOicons/Rajasthan/GVEPS.png" alt="Gramin Vikas Evam Paryavaran Sanstha-logo"></a>
+				<div class="folio-caption">
+					<i class="fa fa-caret-up"></i>
+					<p>Gramin Vikas Evam Paryavaran Sanstha</p>
+				</div>
+			</div>
+			<h3>Gramin Vikas Evam Paryavaran Sanstha</h3>
+			<p>In response to the grim situation of natural resources and human development in the rural areas of district Dausa, some young volunteers’ along with Mr. Harishankar Sharma initiated developmental activities in one village. Initially the activities that the group had undertaken were related to welfare of the persons living at margins particularly the ST and SC population, which contributes a substantial part in the area’s population. Gradually, the group expanded the scope of its activities in the areas of women development, education, social advocacy and natural resources management under the aegis of the newly formed society named Gramin Vikas evem Paryavaran Sanstha – GVePS.</p>
+			<p>Over the years different donors including both the domestic and the international have shown keen interest in organization’s endeavors and supported the organization in multiple ways. The team has got sufficient capacity building inputs from various sources. GVePS has got a small team of committed grassroots workers along with a cadre of volunteers. GVePS as an organization strongly believes in the peoples power and democratic processes.</p>
+		</div>
+	</div><!-- end col -->
+
+<!-- /Portfolio -->
+
+<!-- JavaScript -->
+<script src="../../src/js/NGOs/jquery-1.10.2.js"></script>
+<script src="../../src/js/NGOs/jquery.sticky.js" ></script>
+<script src="../../src/js/NGOs/jquery.nav.js"></script>
+<script src="../../src/js/NGOs/jquery.flexslider.js" ></script>
+<script src="../../src/js/NGOs/jquery.shuffle.js" ></script>
+<script src="../../src/js/NGOs/script.js"></script>
+		</div>
+		</div>
+	</div>
+
+	<div class="rightcolum">
+		<div class="card">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsiramanujancollege&tabs=timeline&height=1000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width=100% height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		</div>
+		<div class="card">
+			<h3>Popular Posts</h3>
+			<a href="Blog.html#organicManure">
+				<img src="../../src/img/innovations/organicManure.png" style="width:100%;padding:1px">
+				<p>Organic Manure</p>
+			</a>
+			<a href="Blog.html#water">
+				<img src="../../src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
+				<p>Ulta Chhata</p>
+			</a>
+			<a href="Blog-2.html#innovation">
+				<img src="../../src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
+				<p>Smallest 3-D printed sattelite</p>
+			</a>
+		</div>
+		<div class="card">
+			<h2>Pathshala</h2>
+			<div class="faisalsVideo">
+				<iframe width="560" height="349" src="https://www.youtube.com/embed/547JRQM0788" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="card" style="padding: 20px">
+			<h3>Follow Us</h3>
+			<a href="https://www.facebook.com/csiramanujancollege" style="color:#000099;margin:10px;text-decoration:none;"><i class="fab fa-facebook" aria-hidden="true" style="font-size:200%"></i> Centre for Social Innovation</a>
+			<br><br>
+			<a href="https://www.instagram.com/sociovation/" style="color:#990000;margin:10px;text-decoration:none;"><i class="fab fa-instagram" aria-hidden="true" style="font-size:200%"></i> Sociovation</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer" style="background-color: #A70323">
+	<div class="footerMap animate">
+		<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+		</div>
+	</div>
+	<div class="footerMenu animate" style="margin-right: 0px">
+		<h3 style="font-weight:bold"><i class="fas fa-link"style="color: #A70323"></i> Quick Links</h3>
+		<a href="../../index.html"><h4>HOME</h4></a>
+		<a href="../../About.html"><h4>ABOUT</h4></a>
+		<a href="http://blog.sociovation.in"><h4>BLOG</h4></a>
+		<a href="../../Gallery.html"><h4>GALLERY</h4></a>
+		<a href="../../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
+	</div>
+	<div class="footerMenu animate">
+		<h3 style="font-weight:bold">About Us</h3>
+		<a href="../../About.html#top"><h4>Profile and Working</h4></a>
+		<a href="../../About.html#mission"><h4>Vision and Mission</h4></a>
+		<a href="../../About.html#na"><h4>Fields of work</h4></a>
+		<a href="../../team.html"><h4>Team Members</h4></a>
+	</div>
+	<div class="footerFB animate">
+		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
+		<h4><i class="fas fa-home"style="color: #A70323"></i>Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt"style="color: #A70323"></i>+91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope"style="color: #A70323"></i>sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link"style="color: #A70323"></i>Sociovation</a></h4>
+	</div>
+</div>
+	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>
+
+</body>
+</html>

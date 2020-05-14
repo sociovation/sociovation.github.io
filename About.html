@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Raleway|Handlee">
 	<link rel="icon" href="src/img/csi.png">
 	<style>
-		.headerMenu	a, .footer a:hover {
+		.headerMenu	a {
 			color: green;
 		}
 	</style>
@@ -29,10 +29,10 @@
 	</div>
 	<div class="headerRightCol" id="c">
 		<div class="headerMenu">
-			<a href="index.html"><i class="fas fa-home"></i> Home</a>
-			<a class="activeLink"><i class="fas fa-user"></i> About</a>
+			<a href="./"><i class="fas fa-home"></i> Home</a>
+			<a class="activeLink"><i class="fas fa-user-alt"></i> About</a>
 			<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
-			<a href="Blog/"><i class="fas fa-bold"></i> Blog</a>
+			<a href="Blog/" target="_blank"><i class="fas fa-bold"></i> Blog</a>
 			<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
 			<a href="socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
 		</div>
@@ -66,8 +66,8 @@
 <div id="myNav" class="overlaMenu" style="background-color: rgba(0,100,0,0.9);">
 <div class="smallScreenHeader" style="background-color: #070"><span style="float:right" onclick="closeNav()">&#9932; MENU</span> <img src="src/img/csi.jpg"> SOCIOVATION</div>
 	<div class="overlaMenu-content">
-		<a href="index.html"><i class="fas fa-home"></i> Home</a>
-		<a href="#" onclick="closeNav()"><i class="fas fa-users"></i> About</a>
+		<a href="./"><i class="fas fa-home"></i> Home</a>
+		<a href="#" onclick="closeNav()"><i class="fas fa-user-alt"></i> About</a>
 			<ul style="margin-left:-5vw; margin-top:-2vw; list-style-type: none;font-size:90%">
 				<li><a href="#na" onclick="closeNav()">Our field of work</a>
 					<ul>
@@ -84,9 +84,10 @@
 					</ul>
 				</li>
 			</ul>
+		<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
 		<a href="Blog/"><i class="fas fa-bold"></i> Blog</a>
 		<a href="Gallery.html"><i class="far fa-images"></i> Gallery</a>
-		<a href="NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+		<a href="socialWorkers.html" style="font-size:125%; font-weight:bold;"><i class="fas fa-users"></i> Our Inspirations</a>
 	</div>
 	<div style="bottom:25px;right:20px;position:absolute;color:white;font-size:25px">
 		<a href="https://www.facebook.com/csiramanujancollege"><i class="fab fa-facebook"></i></a>
@@ -162,6 +163,7 @@
 
 
 		<div class="aboutContent" style="background-color:rgba(245,245,245,0.8);margin:0;padding:20px">
+			<p style=font-size:small;>Click on these ovals to display more <i class="far fa-hand-point-down"></i></p>
 			<div id="na">OUR<br>FIELDS<br>OF<br>WORK</div>
 
 			<div onclick="document.getElementById('child').style.display='block'" class="contentNames">Child<br>Education</div>
@@ -237,15 +239,15 @@
 		</div>
 		<div class="card">
 			<h3>Popular Posts</h3>
-			<a href="Blog/index.html#organicManure">
+			<a href="Blog.html#organicManure">
 				<img src="src/img/innovations/organicManure.png" style="width:100%;padding:1px">
 				<p>Organic Manure</p>
 			</a>
-			<a href="Blog/index.html#water">
+			<a href="Blog.html#water">
 				<img src="src/img/innovations/ultaChhata.png" style="width:100%;padding:1px">
 				<p>Ulta Chhata</p>
 			</a>
-			<a href="Blog/Page-2.html#innovation">
+			<a href="Blog-2.html#innovation">
 				<img src="src/img/innovations/SmallestSattelite.jpg" style="width:100%;padding:1px">
 				<p>Smallest 3-D printed sattelite</p>
 			</a>
@@ -273,11 +275,11 @@
 					var i;
 					var slides = document.getElementsByClassName("mySlides");
 					for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";  
+						slides[i].style.display = "none";
 					}
 					slideIndex++;
-					if (slideIndex > slides.length) {slideIndex = 1}    
-					slides[slideIndex-1].style.display = "block";  
+					if (slideIndex > slides.length) {slideIndex = 1}
+					slides[slideIndex-1].style.display = "block";
 					setTimeout(showSlides, 2000);
 				}
 			</script>
@@ -294,23 +296,23 @@
 <div class="footer" style="background-color:#070">
 	<div class="footerMap animate">
 		<div class="map-responsive">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0256645740506!2d77.25317141455744!3d28.538948295062315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d9a24e2a8f%3A0x469bcb8c1b03b6f6!2sRamanujan+College!5e0!3m2!1sen!2sin!4v1536484631699?signed_in=false" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<div class="footerMenu animate">
 		<h3 style="font-weight:bold"><i class="fas fa-link" style="color:#070"></i> Quick Links</h3>
 		<a href="index.html"><h4>HOME</h4></a>
-		<a href="NGOs/"><h4>OUR PARTNERS</h4></a>
 		<a href="Blog/"><h4>BLOG</h4></a>
 		<a href="Gallery.html"><h4>GALLERY</h4></a>
+		<a href="NGOs/"><h4>OUR PARTNERS</h4></a>
 		<a href="socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
 	</div>
 	<div class="footerFB animate">
-		<h3 style="font-weight:bold">Centre for Social Innovation</h3>
-		<h4><i class="fas fa-home" style="color:#070"></i>Ramanujan College, Kalkaji, New Delhi</h4>
-		<h4><i class="fas fa-mobile-alt" style="color:#070"></i>+91 97606 20788, +91 97175 83595</h4>
-		<h4><i class="fas fa-envelope" style="color:#070"></i>sociovation@gmail.com</h4>
-		<h4><a><i class="fas fa-link" style="color:#070"></i>Sociovation</a></h4>
+		<h4 style="font-weight:bold;letter-spacing:1px">CENTRE FOR SOCIAL INNOVATION</h4>
+		<h4><i class="fas fa-home" style="color:#070"></i> Ramanujan College, Kalkaji, New Delhi</h4>
+		<h4><i class="fas fa-mobile-alt" style="color:#070"></i> +91 97606 20788, +91 97175 83595</h4>
+		<h4><i class="fas fa-envelope" style="color:#070"></i> sociovation@gmail.com</h4>
+		<h4><a><i class="fas fa-link" style="color:#070"></i> Sociovation</a></h4>
 	</div>
 </div>
 	<p id="copyRight"><strong>©</strong>All Rights Reserved to <strong>Centre for Social Innovation</strong></p>

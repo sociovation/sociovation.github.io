@@ -37,10 +37,11 @@ body	{
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	width:14.28%;
+	width:14.2857%;
 	color: #119;
 	background-color: rgba(240, 240, 250, 0.7);
 	padding: 0.5vw 0;
+	font-size: 18px;
 }
 .headerMenu i {
 	font-size: 110%
@@ -206,9 +207,11 @@ body	{
 
 .animate {
 	animation: faisalsZoom 1s;
+	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	-webkit-animation: faisalsZoom 1s;
+	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-iteration-count: 1;
 }
@@ -226,12 +229,12 @@ body	{
 }
 
 @-webkit-keyframes faisalsZoom {
-	0% {-webkit-transform: scale(0)} 
+	0% {-webkit-transform: scale(0)}
 	100% {-webkit-transform: scale(1)}
 }
 
 @keyframes faisalsZoom {
-	0% {transform: scale(0)} 
+	0% {transform: scale(0)}
 	100% {transform: scale(1)}
 }
 
@@ -541,8 +544,8 @@ hr.underScore	{
 		}
 	}
 
-/***************************************************	vertical	
-															and 
+/***************************************************	vertical
+															and
 														 horizontal
 														   tabs		***************************************************/
 /* Style tab links */
@@ -555,7 +558,7 @@ hr.underScore	{
 	outline: none;
 	cursor: pointer;
 	padding: 1.2vw;
-	width: 33.3%;
+	width: 33.333%;
 	font-size: 125%;
 }
 
@@ -738,7 +741,6 @@ hr.underScore	{
 	}
 	.contactt	{
 		padding: 0;
-		font-size: 125%;
 	}
 	#fullName	{
 		display: none;
@@ -753,4 +755,3 @@ hr.underScore	{
 		font-size: xx-small;
 	}
 }
-

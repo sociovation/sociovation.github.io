@@ -20,53 +20,27 @@
 </head>
 
 <body>
-<div class="headerr">
-	<div class="headerLeftCol">
-		<a href="#top"><img src="../src/img/csi.png" style="max-width:100px; transition: 0.5s ease" id="logo"></a>
-	</div>
-	<div class="headerRightCol" id="c">
-		<div class="headerMenu">
-			<a href="../"><i class="fas fa-home"></i> Home</a>
-			<a href="../About.html"><i class="fas fa-user"></i> About</a>
-			<a href="../NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
-			<a><i class="fas fa-bold"></i> Blog</a>
-			<a href="../Gallery.html"><i class="far fa-images"></i> Gallery</a>
-			<a href="../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+	<div class="headerr">
+		<div class="headerLeftCol">
+			<a href="#top"><img src="../src/img/csi.jpg" style="max-width:7.6vw; transition: 0.5s ease" id="logo"></a>
+		</div>
+		<div class="headerRightCol" id="c">
+			<div class="headerMenu">
+				<a href="../"><i class="fas fa-home"></i> Home</a>
+				<a href="../About.html"><i class="fas fa-user-alt"></i> About</a>
+				<a href="../NGOs/"><i class="far fa-handshake"></i> Our Partners</a>
+				<a class="activeLink"><i class="fas fa-bold"></i> Blog</a>
+				<a href="../Gallery.html"><i class="far fa-images"></i> Gallery</a>
+				<a href="../socialWorkers.html"><i class="fas fa-users"></i> Our Inspirations</a>
+			</div>
 		</div>
 	</div>
-</div>
 
 <div class="headr">
 	<div class="progress-containr">
 		<div class="progress-br" id="myBar" style="background-color: #e15050"></div>
 	</div>
 </div>
-
-	<script>
-		window.onscroll = function() {scrollFunction()};
-		function scrollFunction() {
-			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-			var scrolled = (winScroll / height) * 100;
-			document.getElementById("myBar").style.width = scrolled + "%";
-			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-				document.getElementById("logo").style.maxWidth = "50px";
-				document.getElementById("c").style.display = "none";
-			}
-			else {
-				document.getElementById("logo").style.maxWidth = "100px";
-				document.getElementById("c").style.display = "block";
-			}
-			if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-				document.getElementById("blogleft").style.top = "50px";
-				document.getElementById("pages").style.marginTop = "50px";
-			}
-			else	{
-				document.getElementById("blogleft").style.top = "100px";
-				document.getElementById("pages").style.marginTop = "10px";
-			}
-		}
-	</script>
 
 <div id="myNav" class="overlaMenu" style="background-color: rgba(225,80,80,0.95);">
 	<div onclick="closeNav()" class="smallScreenHeader" style="background-color: #e15050"><span style="float:right">&#9932; BLOGS</span> <img src="../src/img/csi.jpg"> SOCIOVATION</div>
@@ -106,7 +80,7 @@
 				<li class="cur"><a href="#DriverlessBus">DRIVERLESS BUS</a></li>
 				<li class="cur"><a href="#SolarTent">SOLAR POWERED TENT</a></li>
 				<li class="cur"><a href="#LifeStraw">LIFESTRAW</a></li>
-				<li class="cur"><a href="#MiniPower">MINI CARDBOARD BATTERIES</a></li>
+				<li class="cur"><a href="#MiniPower">CARDBOARD BATTERIES</a></li>
 				<li class="cur"><a href="#WasteBins">WASTE DISPOSAL BINS</a></li>
 				<li class="cur"><a href="#MosquitoKiller">SOLAR MOSQUITO KILLER</a></li>
 			</ul>
@@ -174,7 +148,7 @@
 			<li class="cur"><a href="#DriverlessBus">DRIVERLESS BUS</a></li>
 			<li class="cur"><a href="#SolarTent">SOLAR POWERED TENT</a></li>
 			<li class="cur"><a href="#LifeStraw">LIFESTRAW</a></li>
-			<li class="cur"><a href="#MiniPower">MINI CARDBOARD BATTERIES</a></li>
+			<li class="cur"><a href="#MiniPower">CARDBOARD BATTERIES</a></li>
 			<li class="cur"><a href="#WasteBins">WASTE DISPOSAL BINS</a></li>
 			<li class="cur"><a href="#MosquitoKiller">SOLAR MOSQUITO KILLER</a></li>
 		</ul>
@@ -267,7 +241,7 @@
 			<div class="card fadingg" id="Adister">
 				<h2>ADISTER</h2>
 				<h5>Social, Jan 5, 2018</h5>
-				<img src="../src/img/innovations/Adister.png" id="smal" style="float:left;">
+				<img src="../src/img/innovations/Adister.jpg" id="smal" style="float:left;">
 				<p>India has a huge potential as a market. With over 60% of the population under the age of 25 years, a big part of our population is still in schools and colleges. Access to education is one part but giving them cheap stationary is often another neglected part of the equation. To solve this problem, Shubham Aggarwal and Anubhav Goyal started Adister during their stay at IIT Roorkee. Here is what we wrote about them earlier.</p>
 				<p>They bring the cost of notebooks down by placing advertisements on them.  They have managed to bring the costs down by 50% and in some cases over 50%; and it is still a profitable model. Shubham Aggarwal, Co-founder of Adister, said, "In our first edition, we could have given Rs.3 with every free notebook and we would have still earned a profit."
 				When they started, they had to face a lot of challenges, but they had their own ways of navigating through them. Shubham talks to us about some of those challenges.</p>
@@ -291,7 +265,7 @@
 			<div class="card fadingg" id="SolarBike">
 				<h2>SOLAR BIKE</h2>
 				<h5>Innovation, Feb 4, 2018</h5>
-				<img src="../src/img/innovations/SolarBike.png" id="smal" style="float:right;">
+				<img src="../src/img/innovations/SolarBike.jpg" id="smal" style="float:right;">
 				<p>This 13-year-old from Haryana has proved that age is just a number by building a solar bike. While the country is struggling with ever-increasing air pollution and the Supreme Court has laid guidelines for its prevention, Avneet has designed a fully-functional solar bike that works entirely on solar energy.</p>
 				<p>With the multitude of problems originating due to air pollution, the time has come to forego conventional sources of energy such as fuel and move towards renewable sources of energy. The renewable solar energy is being touted as the alternative source. Many scientists and researchers are working towards utilising solar energy to the maximum, and many of them have also been successful.
 				<p>The solar bike designed by this young boy runs at 20 kilometres per hour. Avneet reiterates the eco-friendly aspect of the solar bike as it does not emit smoke, and, therefore, will not cause pollution. This emission-free innovation can give a tough competition to battery-driven vehicles.
@@ -389,7 +363,7 @@
 			<div class="card fadingg" id="Naman">
 				<h2>NAMAN TIWARI</h2>
 				<h5>Innovation, Jan 31, 2018</h5>
-				<img src="../src/img/innovations/Naman.png" id="smal" style="float:left;">
+				<img src="../src/img/innovations/Naman.jpg" id="smal" style="float:left;">
 				<p>Contrary to what you may think, a genius isn’t always the product of the availability of world-class education, state-of-the-art equipment and rigorous training – more often than not, he or she may be born out of circumstances that exhibit a dearth and banality, and pose an opportunity to build and overcome. That is the story of Naman Tiwari, the 14-year-old self-learned app developer from the small UP city of Shahjahanpur, who has coded 22 apps of a mind-boggling range.</p>
 				<p>“I started learning about development technology about three years ago. No one knows about Android development here, so I work alone and find it a bit difficult.”Naman doesn't have access to any fancy devices, in fact, here’s some trivia on the young whiz kid  he does not even own a mobile phone!“I just have a laptop and internet.I haven’t joined any tuitions or classes. I have coined a saying, ‘Don't ask for more until you make the best use of the things you have.’"</p>
 				<p>A student of Takshashila Public School, Naman started coding when he was in the 7th standard, aged 11. “I picked it as a hobby because I thought it is the only way through which I can solve real world problems without a multi-billion dollar startup. I made many entertainment apps, but after seeing the problems in the medical industry in our country, I shifted from entertainment to social awareness apps.”</p>
@@ -710,15 +684,13 @@
 		<a href="../"><h4>HOME</h4></a>
 		<a href="../About.html"><h4>ABOUT</h4></a>
 		<a href="../NGOs/"><h4>OUR PARTNERS</h4></a>
-		<a><h4>BLOG</h4></a>
 		<a href="../Gallery.html"><h4>GALLERY</h4></a>
 		<a href="../socialWorkers.html"><h4>OUR INSPIRATIONS</h4></a>
 	</div>
 	<div class="footerFB animate">
 		<h4 style="font-weight:bold;letter-spacing:1px">CENTRE FOR SOCIAL INNOVATION</h4>
 		<h4><a><i class="fas fa-home" style="color:#e15050"></i> Ramanujan College, Kalkaji, New Delhi</a></h4>
-		<h4><a><i class="fas fa-mobile-alt" style="color:#e15050"></i> +91 97606 20788</a></h4>
-		<h4><a><i class="fas fa-mobile-alt" style="color:#e15050"></i> +91 97175 83595</a></h4>
+		<h4><a><i class="fas fa-mobile-alt" style="color:#e15050"></i> +91 97606 20788, +91 97175 83595</a></h4>
 		<h4><a><i class="fas fa-envelope" style="color:#e15050"></i> sociovation@gmail.com</a></h4>
 		<h4><a><i class="fas fa-link" style="color:#e15050"></i> Sociovation</a></h4>
 	</div>

@@ -4,7 +4,7 @@
 }
 
 #blogright {
-	margin-top: 100px;
+	margin-top: 7.6vw;
 	float: right;
 	width: 75%;
 	height: auto;
@@ -17,13 +17,19 @@
 	background: rgba(225,80,80,0.9);
 	position: fixed;
 	width: 25%;
-	height: 100%;
-	padding: 25px;
-	top:100px;
+	height: calc(100% - 7.6vw);
+	padding: 50px;
+	top:7.6vw;
 	transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+	#blogleft {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
 	#blogleft {
 		font-size: 0;
 		color: transparent;
@@ -63,12 +69,12 @@
 	transition: 1s ease;
 }
 
-ul#onSmalPages li.sel	{
+ul#onSmalPages li#sel	{
 	color: white;
 	background-color: #e15050;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 	#onSmal {
 		display: inline;
 	}
@@ -78,7 +84,7 @@ ul.topics, ul#pages {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: table; 
+	display: table;
 	font-size: 125%;
 	transition: 1s ease;
 }
@@ -91,11 +97,11 @@ ul#pages a	{
 
 ul#pages li	{
 	float:left;
-	margin-top: 50px;
+	margin-top: 100px;
 	padding: 12.5px 20px;
 }
 
-ul#pages li.selected	{
+ul#pages li#selected	{
 	color: #333;
 	border-radius: 50%;
 	background-color: #eee;
@@ -103,28 +109,46 @@ ul#pages li.selected	{
 
 .cur {
 	padding: 25px 0;
+	font-size: 20px;
 }
 
 ul.topics li.cur a:hover	{
 	color:#00a;
-	font-weight: bold;
 	cursor: pointer;
 }
 
-ul#pages li:hover	{
+ul#pages li:hover,
+ul#pages li.selected	{
 	color:#333;
 	font-weight: bold;
 	cursor: pointer;
 	border-radius: 50%;
 	background-color: #eee;
 }
-@media screen and (max-width: 768px) {
-	.indiceBoxSmal {
+
+.x	{
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.x 	{
+		display: inline;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		background-color: rgba(0,0,0,0.9);
+		z-index: 1;
+	}
+	.x p	{
+		font-family: "Handlee", sans-serif;
 		color: #fff;
-		font-size: 75%;
-		padding: 0 25px;
+		width: 100%;
+		text-align: center;
+		font-size: 150%;
+		top: 50%;
 	}
 }
+
 .footer	{
 	float: right;
 	width: 75%
@@ -143,37 +167,39 @@ ul#pages li:hover	{
 }
 
 #blogSmall a	{
-	padding-top: 25px;
 	font-family: "Handlee", sans-serif;
 }
 
 .overlaMenu-content	{
 	height: 50%;
 }
-	@media screen and (max-width: 768px) {
+
+	@media screen and (max-width: 1400px) {
+		#blogleft {
+			padding: 30px;
+		}
+		.cur {
+			padding: 25px 0;
+			font-size: 16px;
+		}
+		ul#pages li	{
+			margin-top: 0;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
 		.footer	{
 			width: 100%
+		}
+		.cur {
+			padding: 20px 0;
+			font-size: 16px;
 		}
 		#smal	{
 			width: 100%
 		}
-		ul#pages li.selected	{
+		ul#pages li#selected	{
 			font-size: 0;
 			padding: 0;
 		}
 	}
-
-.fadingg {
-	-webkit-animation: faisalsFading 0.25s;
-	animation: faisalsFading 0.25s;
-}
-
-@-webkit-keyframes faisalsFading {
-	0% {opacity: 0;}
-	100% {opacity: 1;}
-}
-
-@keyframes faisalsFading {
-	0% {opacity: 0;}
-	100% {opacity: 1;}
-}

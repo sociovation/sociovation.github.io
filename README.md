@@ -27,7 +27,8 @@ We believe in creation, development, innovation, adoption and integration of new
 
 <p align="center">
   <img src="https://goyalshubhangi.github.io/img/about.jpg" alt="Shubhangi says hi" width="200"><br>
-  <a href="https://goyalshubhangi.github.io"><img src="https://img.shields.io/static/v1?label=Content+Writer&message=Shubhangi&color=yellow&style=for-the-badge"></a><br>
+  <a href="https://goyalshubhangi.github.io"><img src="https://img.shields.io/static/v1?label=Designer&message=Shubhangi&color=yellow&style=for-the-badge"></a><br>
+  <a href="https://goyalshubhangi.github.io"><img src="https://img.shields.io/static/v1?label=Content+Writer&message=Shubhangi&color=blueviolet&style=for-the-badge"></a><br>
   <a href="https://goyalshubhangi.github.io">Portfolio Link</a>
 </p>
 
